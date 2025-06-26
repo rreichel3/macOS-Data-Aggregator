@@ -2,20 +2,13 @@ name: Collect macOS Application Data
 
 on:
   schedule:
-    # Run daily at 6:00 AM UTC
     - cron: '0 6 * * *'
   workflow_dispatch:
-    # Allow manual triggering
     inputs:
       force_update:
-        description: 'F    - name: Upload data as artifact
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: macos-app-data-${{ steps.macos-version.outputs.version }}
-        path: data/
-        retention-days: 30
-        if-no-files-found: warn
+        description: 'Force update'
+        required: false
+        default: 'false'
 
 jobs:
   collect-sdef:
