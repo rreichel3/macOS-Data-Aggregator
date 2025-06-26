@@ -1,0 +1,5 @@
+# No external dependencies required - uses only Python standard library
+# The script uses only built-in modules:
+# - os, shutil, subprocess, pathlib (file system operations)
+# - xml.etree.ElementTree (XML parsing)
+# - re, typing, logging (utilities)

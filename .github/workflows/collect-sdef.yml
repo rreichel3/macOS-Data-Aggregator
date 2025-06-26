@@ -1,0 +1,161 @@
+name: Collect SDEF Files
+
+on:
+  schedule:
+    # Run daily at 6:00 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  collect-sdef:
+    runs-on: macos-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Get macOS version
+      id: macos-version
+      run: |
+        MACOS_VERSION=$(sw_vers -productVersion)
+        MACOS_NAME=$(awk '/SOFTWARE LICENSE AGREEMENT FOR macOS/' '/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/en.lproj/OSXSoftwareLicense.rtf' | awk -F 'macOS ' '{print $2}' | awk '{print $1}' | head -1 2>/dev/null || echo "Unknown")
+        if [ "$MACOS_NAME" = "Unknown" ]; then
+          # Fallback method for macOS name detection
+          case "${MACOS_VERSION%%.*}" in
+            14) MACOS_NAME="Sonoma" ;;
+            13) MACOS_NAME="Ventura" ;;
+            12) MACOS_NAME="Monterey" ;;
+            11) MACOS_NAME="Big Sur" ;;
+            10) MACOS_NAME="Catalina" ;;
+            *) MACOS_NAME="macOS" ;;
+          esac
+        fi
+        echo "version=$MACOS_VERSION" >> $GITHUB_OUTPUT
+        echo "name=$MACOS_NAME" >> $GITHUB_OUTPUT
+        echo "tag=macos-${MACOS_VERSION}" >> $GITHUB_OUTPUT
+        echo "macOS Version: $MACOS_VERSION ($MACOS_NAME)"
+    
+    - name: Remove existing data directory
+      run: |
+        if [ -d "data" ]; then
+          rm -rf data
+        fi
+    
+    - name: Run SDEF collection script
+      run: |
+        echo "Collecting SDEF files..."
+        sudo python3 collect_sdef_files.py
+        
+        # Count collected files
+        TOTAL_FILES=$(find data -name "*.sdef" | wc -l | tr -d ' ')
+        echo "Collected $TOTAL_FILES SDEF files"
+        echo "TOTAL_FILES=$TOTAL_FILES" >> $GITHUB_ENV
+    
+    - name: Check for changes
+      id: changes
+      run: |
+        git add data/
+        if git diff --cached --quiet; then
+          echo "No changes detected in SDEF files"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected in SDEF files"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Commit changes
+        git add data/
+        git commit -m "Update SDEF files for macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
+
+        - Collected ${{ env.TOTAL_FILES }} SDEF files
+        - Runner: ${{ runner.os }} ${{ steps.macos-version.outputs.version }}
+        - Date: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        
+        Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        
+        # Push to main
+        git push origin main
+    
+    - name: Create or update tag
+      if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        TAG_NAME="${{ steps.macos-version.outputs.tag }}"
+        
+        # Delete existing tag if it exists (both local and remote)
+        git tag -d "$TAG_NAME" 2>/dev/null || true
+        git push origin ":refs/tags/$TAG_NAME" 2>/dev/null || true
+        
+        # Create new tag
+        git tag -a "$TAG_NAME" -m "SDEF files for macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
+
+        Collected on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        Total files: ${{ env.TOTAL_FILES }}
+        Runner: GitHub Actions macOS runner
+        
+        This tag contains all .sdef files found on macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }}).
+        Files are organized by application in the data/ directory."
+        
+        # Push the tag
+        git push origin "$TAG_NAME"
+        
+        echo "Created tag: $TAG_NAME"
+    
+    - name: Generate summary
+      if: always()
+      run: |
+        echo "## SDEF Collection Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+        echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+        echo "| macOS Version | ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }}) |" >> $GITHUB_STEP_SUMMARY
+        echo "| Total SDEF Files | ${{ env.TOTAL_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Changes Detected | ${{ steps.changes.outputs.has_changes || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Tag Created | ${{ steps.macos-version.outputs.tag }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Timestamp | $(date -u '+%Y-%m-%d %H:%M:%S UTC') |" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -d "data" ]; then
+          echo "### Application Directories Created" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          for dir in data/*/; do
+            if [ -d "$dir" ]; then
+              app_name=$(basename "$dir")
+              file_count=$(find "$dir" -name "*.sdef" | wc -l | tr -d ' ')
+              echo "- **$app_name**: $file_count file(s)" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+        fi
+    
+    - name: Upload data as artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: sdef-files-macos-${{ steps.macos-version.outputs.version }}
+        path: data/
+        retention-days: 30
+        if-no-files-found: warn

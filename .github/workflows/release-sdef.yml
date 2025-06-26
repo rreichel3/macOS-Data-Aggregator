@@ -1,0 +1,282 @@
+name: SDEF Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: 'Create a GitHub release with collected SDEF files'
+        required: false
+        default: 'true'
+        type: boolean
+      release_type:
+        description: 'Type of release'
+        required: false
+        default: 'patch'
+        type: choice
+        options:
+        - patch
+        - minor
+        - major
+
+jobs:
+  collect-and-release:
+    runs-on: macos-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Get macOS version and system info
+      id: system-info
+      run: |
+        MACOS_VERSION=$(sw_vers -productVersion)
+        MACOS_BUILD=$(sw_vers -buildVersion)
+        HARDWARE=$(system_profiler SPHardwareDataType | grep "Model Name:" | cut -d: -f2 | xargs)
+        
+        # Determine macOS name
+        case "${MACOS_VERSION%%.*}" in
+          15) MACOS_NAME="Sequoia" ;;
+          14) MACOS_NAME="Sonoma" ;;
+          13) MACOS_NAME="Ventura" ;;
+          12) MACOS_NAME="Monterey" ;;
+          11) MACOS_NAME="Big Sur" ;;
+          10) MACOS_NAME="Catalina" ;;
+          *) MACOS_NAME="macOS" ;;
+        esac
+        
+        echo "version=$MACOS_VERSION" >> $GITHUB_OUTPUT
+        echo "build=$MACOS_BUILD" >> $GITHUB_OUTPUT
+        echo "name=$MACOS_NAME" >> $GITHUB_OUTPUT
+        echo "hardware=$HARDWARE" >> $GITHUB_OUTPUT
+        echo "tag=macos-${MACOS_VERSION}" >> $GITHUB_OUTPUT
+        
+        echo "System Info:"
+        echo "- macOS: $MACOS_VERSION ($MACOS_NAME)"
+        echo "- Build: $MACOS_BUILD"
+        echo "- Hardware: $HARDWARE"
+    
+    - name: Get next version
+      id: version
+      run: |
+        # Get the latest release version
+        LATEST_TAG=$(git tag -l "v*" --sort=-version:refname | head -n1)
+        if [ -z "$LATEST_TAG" ]; then
+          NEXT_VERSION="v1.0.0"
+        else
+          # Remove 'v' prefix for version calculation
+          CURRENT_VERSION=${LATEST_TAG#v}
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$CURRENT_VERSION"
+          
+          case "${{ github.event.inputs.release_type }}" in
+            major)
+              NEXT_VERSION="v$((MAJOR + 1)).0.0"
+              ;;
+            minor)
+              NEXT_VERSION="v${MAJOR}.$((MINOR + 1)).0"
+              ;;
+            patch|*)
+              NEXT_VERSION="v${MAJOR}.${MINOR}.$((PATCH + 1))"
+              ;;
+          esac
+        fi
+        
+        echo "version=$NEXT_VERSION" >> $GITHUB_OUTPUT
+        echo "Next version: $NEXT_VERSION"
+    
+    - name: Run SDEF collection script
+      run: |
+        echo "Collecting SDEF files..."
+        sudo python3 collect_sdef_files.py
+        
+        # Generate collection statistics
+        TOTAL_FILES=$(find data -name "*.sdef" | wc -l | tr -d ' ')
+        APP_DIRS=$(find data -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
+        LARGEST_APP=$(find data -mindepth 2 -name "*.sdef" | cut -d/ -f2 | sort | uniq -c | sort -nr | head -1 | awk '{print $2 " (" $1 " files)"}')
+        
+        echo "TOTAL_FILES=$TOTAL_FILES" >> $GITHUB_ENV
+        echo "APP_DIRS=$APP_DIRS" >> $GITHUB_ENV
+        echo "LARGEST_APP=$LARGEST_APP" >> $GITHUB_ENV
+        
+        echo "Collection Statistics:"
+        echo "- Total SDEF files: $TOTAL_FILES"
+        echo "- Application directories: $APP_DIRS"
+        echo "- Largest collection: $LARGEST_APP"
+    
+    - name: Create archive
+      run: |
+        # Create a comprehensive archive
+        tar -czf "sdef-files-${{ steps.system-info.outputs.tag }}.tar.gz" data/
+        
+        # Create a JSON manifest
+        cat > sdef-manifest.json << EOF
+        {
+          "collection_date": "$(date -u '+%Y-%m-%dT%H:%M:%SZ')",
+          "macos_version": "${{ steps.system-info.outputs.version }}",
+          "macos_name": "${{ steps.system-info.outputs.name }}",
+          "macos_build": "${{ steps.system-info.outputs.build }}",
+          "hardware": "${{ steps.system-info.outputs.hardware }}",
+          "total_files": ${{ env.TOTAL_FILES }},
+          "application_directories": ${{ env.APP_DIRS }},
+          "largest_collection": "${{ env.LARGEST_APP }}",
+          "runner": "GitHub Actions macOS runner",
+          "workflow": "SDEF Release"
+        }
+        EOF
+        
+        # Create a detailed README for the release
+        cat > RELEASE_README.md << EOF
+        # SDEF Files Collection for macOS ${{ steps.system-info.outputs.version }}
+        
+        This release contains all .sdef (Scripting Definition) files collected from macOS ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }}).
+        
+        ## Collection Details
+        
+        - **Collection Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        - **macOS Version**: ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }})
+        - **Build Number**: ${{ steps.system-info.outputs.build }}
+        - **Hardware**: ${{ steps.system-info.outputs.hardware }}
+        - **Total SDEF Files**: ${{ env.TOTAL_FILES }}
+        - **Application Directories**: ${{ env.APP_DIRS }}
+        
+        ## File Structure
+        
+        The archive contains a \`data/\` directory organized by application:
+        
+        \`\`\`
+        data/
+        ├── ApplicationName1/
+        │   ├── file1.sdef
+        │   └── file2.sdef
+        ├── ApplicationName2/
+        │   └── file.sdef
+        └── ...
+        \`\`\`
+        
+        ## Usage
+        
+        1. Download and extract \`sdef-files-${{ steps.system-info.outputs.tag }}.tar.gz\`
+        2. Browse the \`data/\` directory to find SDEF files by application
+        3. Use these files for AppleScript development, automation, or documentation
+        
+        ## Applications Included
+        
+        EOF
+        
+        # Add application list to README
+        for dir in data/*/; do
+          if [ -d "$dir" ]; then
+            app_name=$(basename "$dir")
+            file_count=$(find "$dir" -name "*.sdef" | wc -l | tr -d ' ')
+            echo "- **$app_name**: $file_count file(s)" >> RELEASE_README.md
+          fi
+        done
+        
+        cat >> RELEASE_README.md << EOF
+        
+        ## About SDEF Files
+        
+        SDEF (Scripting Definition) files are XML-based files that define the AppleScript interface for macOS applications. They specify:
+        
+        - Available objects and their properties
+        - Commands that can be executed
+        - Events that applications can respond to
+        - Enumerations and their values
+        
+        These files are essential for AppleScript development and automation on macOS.
+        EOF
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add data/ sdef-manifest.json RELEASE_README.md
+        git commit -m "Release ${{ steps.version.outputs.version }}: SDEF files for macOS ${{ steps.system-info.outputs.version }}
+
+        - Collected ${{ env.TOTAL_FILES }} SDEF files from ${{ env.APP_DIRS }} applications
+        - macOS ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }})
+        - Build: ${{ steps.system-info.outputs.build }}
+        - Hardware: ${{ steps.system-info.outputs.hardware }}
+        - Date: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        
+        Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        
+        git push origin main
+    
+    - name: Create Release
+      if: github.event.inputs.create_release == 'true'
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.version.outputs.version }}
+        release_name: "SDEF Files - macOS ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }})"
+        body: |
+          # SDEF Files Collection for macOS ${{ steps.system-info.outputs.version }}
+          
+          This release contains **${{ env.TOTAL_FILES }} SDEF files** from **${{ env.APP_DIRS }} applications** collected from macOS ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }}).
+          
+          ## 📊 Collection Summary
+          
+          - **macOS Version**: ${{ steps.system-info.outputs.version }} (${{ steps.system-info.outputs.name }})
+          - **Build Number**: ${{ steps.system-info.outputs.build }}
+          - **Hardware**: ${{ steps.system-info.outputs.hardware }}
+          - **Collection Date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          - **Total SDEF Files**: ${{ env.TOTAL_FILES }}
+          - **Application Directories**: ${{ env.APP_DIRS }}
+          - **Largest Collection**: ${{ env.LARGEST_APP }}
+          
+          ## 📦 Downloads
+          
+          - **Archive**: `sdef-files-${{ steps.system-info.outputs.tag }}.tar.gz` - Complete collection of all SDEF files
+          - **Manifest**: `sdef-manifest.json` - Collection metadata in JSON format
+          - **Documentation**: `RELEASE_README.md` - Detailed information about this collection
+          
+          ## 🔍 What's Included
+          
+          This collection includes SDEF files from system applications, third-party applications, and development tools found on a clean macOS ${{ steps.system-info.outputs.version }} installation.
+          
+          ## 📖 Usage
+          
+          These SDEF files can be used for:
+          - AppleScript development and debugging
+          - Understanding application automation capabilities
+          - Documentation and reference
+          - Building automation tools and scripts
+          
+          Extract the archive and browse the `data/` directory to find SDEF files organized by application name.
+        draft: false
+        prerelease: false
+    
+    - name: Upload Release Assets
+      if: github.event.inputs.create_release == 'true'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: sdef-files-${{ steps.system-info.outputs.tag }}.tar.gz
+        asset_name: sdef-files-${{ steps.system-info.outputs.tag }}.tar.gz
+        asset_content_type: application/gzip
+    
+    - name: Upload Manifest
+      if: github.event.inputs.create_release == 'true'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: sdef-manifest.json
+        asset_name: sdef-manifest.json
+        asset_content_type: application/json
