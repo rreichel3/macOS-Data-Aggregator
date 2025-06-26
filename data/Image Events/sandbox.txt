@@ -1,5 +1,5 @@
 Sandbox Analysis for Image Events
-Generated: 2025-06-26 16:33:57
+Generated: 2025-06-26 18:36:43
 Application Path: /System/Library/CoreServices/Image Events.app
 
 Sandboxed: Unknown

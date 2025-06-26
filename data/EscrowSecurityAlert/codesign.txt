@@ -1,5 +1,5 @@
 Code Signing Information for EscrowSecurityAlert
-Generated: 2025-06-26 16:32:33
+Generated: 2025-06-26 18:34:17
 Application Path: /System/Library/CoreServices/EscrowSecurityAlert.app
 
 Signature Status: Valid

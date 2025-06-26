@@ -1,5 +1,5 @@
 Code Signing Information for ManagedClient
-Generated: 2025-06-26 16:31:55
+Generated: 2025-06-26 18:36:43
 Application Path: /System/Library/CoreServices/ManagedClient.app
 
 Signature Status: Valid

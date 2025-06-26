@@ -1,315 +1,473 @@
-{
-  "Application-Group": [
-    "dot-mac",
-    "com.apple.coreservices.appleidauthentication.keychainaccessgroup"
-  ],
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Finder",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "Folder",
-      "CFBundleTypeOSTypes": [
-        "fold"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSDefaultShareModeCollaboration": true,
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeName": "Predefined Search",
-      "CFBundleTypeRole": "Editor",
-      "LSItemContentTypes": [
-        "com.apple.finder.predefined-search"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "savedSearch"
-      ],
-      "CFBundleTypeName": "Saved Search Query",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "atloc"
-      ],
-      "CFBundleTypeName": "AppleTalk Internet Location",
-      "CFBundleTypeOSTypes": [
-        "ilat"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "nslloc"
-      ],
-      "CFBundleTypeName": "NSL Internet Location",
-      "CFBundleTypeOSTypes": [
-        "ilns"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeName": "Volume",
-      "CFBundleTypeOSTypes": [
-        "disk"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "fpbf"
-      ],
-      "CFBundleTypeName": "Burn Folder",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.finder.burn-folder"
-      ]
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "pictClipping"
-      ],
-      "CFBundleTypeName": "Picture Clipping",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "textClipping"
-      ],
-      "CFBundleTypeName": "Text Clipping",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "sndClipping"
-      ],
-      "CFBundleTypeName": "Sound Clipping",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "Clipping"
-      ],
-      "CFBundleTypeName": "Clipping",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true
-    }
-  ],
-  "CFBundleExecutable": "Finder",
-  "CFBundleIconFile": "Finder",
-  "CFBundleIconName": "Finder",
-  "CFBundleIdentifier": "com.apple.finder",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Finder",
-  "CFBundlePackageType": "FNDR",
-  "CFBundleShortVersionString": "14.6",
-  "CFBundleSignature": "MACS",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleURLTypes": [
-    {
-      "CFBundleURLName": "AFP URL",
-      "CFBundleURLSchemes": [
-        "afp"
-      ],
-      "LSIsAppleDefaultForScheme": true
-    },
-    {
-      "CFBundleURLName": "File URL",
-      "CFBundleURLSchemes": [
-        "file"
-      ],
-      "LSIsAppleDefaultForScheme": true
-    },
-    {
-      "CFBundleURLName": "FTP URL",
-      "CFBundleURLSchemes": [
-        "ftp"
-      ],
-      "LSIsAppleDefaultForScheme": true
-    },
-    {
-      "CFBundleURLName": "SMB URL",
-      "CFBundleURLSchemes": [
-        "smb",
-        "cifs"
-      ],
-      "LSIsAppleDefaultForScheme": true
-    },
-    {
-      "CFBundleURLName": "NWNode URL",
-      "CFBundleURLSchemes": [
-        "nwnode"
-      ],
-      "LSIsAppleDefaultForScheme": true
-    }
-  ],
-  "CFBundleVersion": "1632.6.3",
-  "CSResourcesFileMapped": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "23G300t",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G300t",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSApplicationCategoryType": "public.app-category.productivity",
-  "LSLaunchDLabel": "com.apple.Finder",
-  "LSMinimumSystemVersion": "14.7",
-  "LSProcessControlValue": "None",
-  "LSRequiresNativeExecution": true,
-  "NSAppleScriptEnabled": "Yes",
-  "NSMainNibFile": "Application",
-  "NSPrincipalClass": "TApplication",
-  "NSServices": [
-    {
-      "NSForbiddenContext": {
-        "NSApplicationIdentifier": "com.apple.finder"
-      },
-      "NSMenuItem": {
-        "default": "Finder/Open"
-      },
-      "NSMessage": "open",
-      "NSPortName": "Finder",
-      "NSRestricted": true,
-      "NSSendTypes": [
-        "NSStringPboardType",
-        "NSFilenamesPboardType",
-        "NSURLPboardType",
-        "NSMultipleTextSelectionPboardType"
-      ]
-    },
-    {
-      "NSForbiddenContext": {
-        "NSApplicationIdentifier": "com.apple.finder"
-      },
-      "NSMenuItem": {
-        "default": "Finder/Reveal"
-      },
-      "NSMessage": "reveal",
-      "NSPortName": "Finder",
-      "NSRestricted": false,
-      "NSSendTypes": [
-        "NSStringPboardType",
-        "NSFilenamesPboardType",
-        "NSURLPboardType",
-        "NSMultipleTextSelectionPboardType"
-      ]
-    },
-    {
-      "NSForbiddenContext": {
-        "NSApplicationIdentifier": "com.apple.finder"
-      },
-      "NSMenuItem": {
-        "default": "Finder/Show Info"
-      },
-      "NSMessage": "showInfo",
-      "NSPortName": "Finder",
-      "NSRestricted": false,
-      "NSSendTypes": [
-        "NSStringPboardType",
-        "NSFilenamesPboardType",
-        "NSURLPboardType",
-        "NSMultipleTextSelectionPboardType"
-      ]
-    }
-  ],
-  "NSUserActivityTypes": [
-    "com.apple.clouddocs.viewing"
-  ],
-  "OSAScriptingDefinition": "Finder.sdef",
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": "public.folder",
-      "UTTypeDescription": "burn folder",
-      "UTTypeIdentifier": "com.apple.finder.burn-folder",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "fpbf"
-      }
-    },
-    {
-      "UTTypeConformsTo": "public.data",
-      "UTTypeDescription": "smart folder",
-      "UTTypeIdentifier": "com.apple.finder.smart-folder",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "savedSearch"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "com.apple.package",
-        "com.apple.localizable-name-bundle"
-      ],
-      "UTTypeDescription": "Predefined Search",
-      "UTTypeIdentifier": "com.apple.finder.predefined-search",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "cannedSearch"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.data",
-        "public.executable"
-      ],
-      "UTTypeDescription": "iOS Package Archive",
-      "UTTypeIdentifier": "com.apple.iTunes.ipa",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "ipa"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.data",
-        "public.executable"
-      ],
-      "UTTypeDescription": "Apple Device Software Update File",
-      "UTTypeIdentifier": "com.apple.iTunes.ipsw",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "ipsw"
-      }
-    }
-  ],
-  "com.apple.PreferenceSync.ExcludeSyncKeys": [
-    "BackupProgressWindowLocation",
-    "BurnProgressWindowLocation",
-    "ComputerOptions",
-    "ComputerViewSettings",
-    "CopyProgressWindowLocation",
-    "DefaultSearchViewOptions",
-    "DesktopViewOptions",
-    "EmptyTrashProgressWindowLocation",
-    "FileViewer.LastWindowLocation",
-    "FXConnectToBounds",
-    "FXConnectToLastURL",
-    "FXDefaultSearchScope",
-    "FXDesktopVolumePositions",
-    "FXPreferencesWindow.Location",
-    "FXRecentFolders",
-    "GoToField",
-    "InspectorWindow.Location",
-    "MountProgressWindowLocation",
-    "NetworkViewOptions",
-    "NetworkViewSettings",
-    "NewWindowTargetPath",
-    "ODSAskToUseProgressWindowLocation",
-    "PackageViewSettings",
-    "StandardSearchViewSettings",
-    "TrashOptions",
-    "TrashViewSettings",
-    "ViewOptionsWindow.Location",
-    "WindowState"
-  ]
-}
+<!-- Info.plist for Finder.app -->
+<!-- Extracted on: 2025-06-26 18:37:30 -->
+<!-- Source: /System/Library/CoreServices/Finder.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>Application-Group</key>
+    <array>
+      <string>dot-mac</string>
+      <string>com.apple.coreservices.appleidauthentication.keychainaccessgroup</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Finder</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Folder</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>fold</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSDefaultShareModeCollaboration</key>
+        <true />
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Predefined Search</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.finder.predefined-search</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>savedSearch</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Saved Search Query</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>atloc</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>AppleTalk Internet Location</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>ilat</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>nslloc</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>NSL Internet Location</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>ilns</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Volume</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>disk</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>fpbf</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Burn Folder</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.finder.burn-folder</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>pictClipping</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Picture Clipping</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>textClipping</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Text Clipping</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>sndClipping</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Sound Clipping</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>Clipping</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Clipping</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Finder</string>
+    <key>CFBundleIconFile</key>
+    <string>Finder</string>
+    <key>CFBundleIconName</key>
+    <string>Finder</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.finder</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Finder</string>
+    <key>CFBundlePackageType</key>
+    <string>FNDR</string>
+    <key>CFBundleShortVersionString</key>
+    <string>14.6</string>
+    <key>CFBundleSignature</key>
+    <string>MACS</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>AFP URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>afp</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>File URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>file</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>FTP URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ftp</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>SMB URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>smb</string>
+          <string>cifs</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>NWNode URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>nwnode</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1632.6.3</string>
+    <key>CSResourcesFileMapped</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23G300t</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G300t</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSLaunchDLabel</key>
+    <string>com.apple.Finder</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSProcessControlValue</key>
+    <string>None</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>NSAppleScriptEnabled</key>
+    <string>Yes</string>
+    <key>NSMainNibFile</key>
+    <string>Application</string>
+    <key>NSPrincipalClass</key>
+    <string>TApplication</string>
+    <key>NSServices</key>
+    <array>
+      <dict>
+        <key>NSForbiddenContext</key>
+        <dict>
+          <key>NSApplicationIdentifier</key>
+          <string>com.apple.finder</string>
+        </dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Finder/Open</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>open</string>
+        <key>NSPortName</key>
+        <string>Finder</string>
+        <key>NSRestricted</key>
+        <true />
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSStringPboardType</string>
+          <string>NSFilenamesPboardType</string>
+          <string>NSURLPboardType</string>
+          <string>NSMultipleTextSelectionPboardType</string>
+        </array>
+      </dict>
+      <dict>
+        <key>NSForbiddenContext</key>
+        <dict>
+          <key>NSApplicationIdentifier</key>
+          <string>com.apple.finder</string>
+        </dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Finder/Reveal</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>reveal</string>
+        <key>NSPortName</key>
+        <string>Finder</string>
+        <key>NSRestricted</key>
+        <false />
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSStringPboardType</string>
+          <string>NSFilenamesPboardType</string>
+          <string>NSURLPboardType</string>
+          <string>NSMultipleTextSelectionPboardType</string>
+        </array>
+      </dict>
+      <dict>
+        <key>NSForbiddenContext</key>
+        <dict>
+          <key>NSApplicationIdentifier</key>
+          <string>com.apple.finder</string>
+        </dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Finder/Show Info</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>showInfo</string>
+        <key>NSPortName</key>
+        <string>Finder</string>
+        <key>NSRestricted</key>
+        <false />
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSStringPboardType</string>
+          <string>NSFilenamesPboardType</string>
+          <string>NSURLPboardType</string>
+          <string>NSMultipleTextSelectionPboardType</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.apple.clouddocs.viewing</string>
+    </array>
+    <key>OSAScriptingDefinition</key>
+    <string>Finder.sdef</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.folder</string>
+        <key>UTTypeDescription</key>
+        <string>burn folder</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.finder.burn-folder</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>fpbf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.data</string>
+        <key>UTTypeDescription</key>
+        <string>smart folder</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.finder.smart-folder</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>savedSearch</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+          <string>com.apple.localizable-name-bundle</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Predefined Search</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.finder.predefined-search</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>cannedSearch</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.executable</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>iOS Package Archive</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.iTunes.ipa</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>ipa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.executable</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Apple Device Software Update File</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.iTunes.ipsw</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>ipsw</string>
+        </dict>
+      </dict>
+    </array>
+    <key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+    <array>
+      <string>BackupProgressWindowLocation</string>
+      <string>BurnProgressWindowLocation</string>
+      <string>ComputerOptions</string>
+      <string>ComputerViewSettings</string>
+      <string>CopyProgressWindowLocation</string>
+      <string>DefaultSearchViewOptions</string>
+      <string>DesktopViewOptions</string>
+      <string>EmptyTrashProgressWindowLocation</string>
+      <string>FileViewer.LastWindowLocation</string>
+      <string>FXConnectToBounds</string>
+      <string>FXConnectToLastURL</string>
+      <string>FXDefaultSearchScope</string>
+      <string>FXDesktopVolumePositions</string>
+      <string>FXPreferencesWindow.Location</string>
+      <string>FXRecentFolders</string>
+      <string>GoToField</string>
+      <string>InspectorWindow.Location</string>
+      <string>MountProgressWindowLocation</string>
+      <string>NetworkViewOptions</string>
+      <string>NetworkViewSettings</string>
+      <string>NewWindowTargetPath</string>
+      <string>ODSAskToUseProgressWindowLocation</string>
+      <string>PackageViewSettings</string>
+      <string>StandardSearchViewSettings</string>
+      <string>TrashOptions</string>
+      <string>TrashViewSettings</string>
+      <string>ViewOptionsWindow.Location</string>
+      <string>WindowState</string>
+    </array>
+  </dict>
+</plist>

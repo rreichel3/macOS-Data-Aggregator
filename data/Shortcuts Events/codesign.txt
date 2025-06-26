@@ -1,5 +1,5 @@
 Code Signing Information for Shortcuts Events
-Generated: 2025-06-26 16:32:39
+Generated: 2025-06-26 18:37:31
 Application Path: /System/Library/CoreServices/Shortcuts Events.app
 
 Signature Status: Valid

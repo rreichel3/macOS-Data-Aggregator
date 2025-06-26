@@ -1,12 +1,13 @@
 Sandbox Analysis for Captive Network Assistant
-Generated: 2025-06-26 16:31:56
+Generated: 2025-06-26 18:36:50
 Application Path: /System/Library/CoreServices/Captive Network Assistant.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 4
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
 Analysis Notes:
 - Background app (LSUIElement)
+- Uses App Transport Security

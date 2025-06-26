@@ -1,10 +1,10 @@
 Sandbox Analysis for Firefox
-Generated: 2025-06-26 16:31:59
+Generated: 2025-06-26 18:37:34
 Application Path: /Applications/Firefox.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 8
 Hardened Runtime: Yes (with exceptions)
 Library Validation: Disabled
 

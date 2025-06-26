@@ -1,1 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.locationd.authorizeapplications</key><true/><key>com.apple.locationd.effective_bundle</key><true/><key>com.apple.private.AuthorizationServices</key><array><string>com.apple.uninstalld.uninstall</string><string>system.install.app-store-software</string><string>com.apple.security.assessment.update</string></array><key>com.apple.private.DFRSystemAppModal</key><true/><key>com.apple.private.MobileContainerManager.lookup</key><dict><key>appData</key><true/></dict><key>com.apple.private.SkyLight.displaycontrol</key><true/><key>com.apple.private.SkyLight.screencapturedirect</key><true/><key>com.apple.private.aps-connection-initiate</key><true/><key>com.apple.private.coreservices.canaccessanysharedfilelist</key><string>read-write</string><key>com.apple.private.coreservices.lsuseractivityd.bestappsuggestion</key><true/><key>com.apple.private.dmd.policy</key><true/><key>com.apple.private.screen-time</key><true/><key>com.apple.private.security.storage.Safari</key><true/><key>com.apple.private.skylight.universal-owner</key><true/><key>com.apple.private.syspolicy.gatekeeper-override</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServicePostEvent</string><string>kTCCServiceAppleEvents</string><string>kTCCServiceSystemPolicyAllFiles</string><string>kTCCServiceScreenCapture</string></array><key>com.apple.private.universalcontrol</key><true/><key>com.apple.private.wallpaper</key><true/><key>com.apple.private.windowmanager</key><true/><key>com.apple.runningboard.assertions.dock</key><true/><key>com.apple.synapse.allowBacklinkIndicatorRequests</key><true/></dict></plist>
+<!-- Entitlements for Dock.app -->
+<!-- Extracted on: 2025-06-26 18:36:48 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.locationd.authorizeapplications</key>
+    <true />
+    <key>com.apple.locationd.effective_bundle</key>
+    <true />
+    <key>com.apple.private.AuthorizationServices</key>
+    <array>
+      <string>com.apple.uninstalld.uninstall</string>
+      <string>system.install.app-store-software</string>
+      <string>com.apple.security.assessment.update</string>
+    </array>
+    <key>com.apple.private.DFRSystemAppModal</key>
+    <true />
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <true />
+    </dict>
+    <key>com.apple.private.SkyLight.displaycontrol</key>
+    <true />
+    <key>com.apple.private.SkyLight.screencapturedirect</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.coreservices.canaccessanysharedfilelist</key>
+    <string>read-write</string>
+    <key>com.apple.private.coreservices.lsuseractivityd.bestappsuggestion</key>
+    <true />
+    <key>com.apple.private.dmd.policy</key>
+    <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.security.storage.Safari</key>
+    <true />
+    <key>com.apple.private.skylight.universal-owner</key>
+    <true />
+    <key>com.apple.private.syspolicy.gatekeeper-override</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServicePostEvent</string>
+      <string>kTCCServiceAppleEvents</string>
+      <string>kTCCServiceSystemPolicyAllFiles</string>
+      <string>kTCCServiceScreenCapture</string>
+    </array>
+    <key>com.apple.private.universalcontrol</key>
+    <true />
+    <key>com.apple.private.wallpaper</key>
+    <true />
+    <key>com.apple.private.windowmanager</key>
+    <true />
+    <key>com.apple.runningboard.assertions.dock</key>
+    <true />
+    <key>com.apple.synapse.allowBacklinkIndicatorRequests</key>
+    <true />
+  </dict>
+</plist>

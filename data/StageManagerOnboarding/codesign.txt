@@ -1,5 +1,5 @@
 Code Signing Information for StageManagerOnboarding
-Generated: 2025-06-26 16:32:37
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/StageManagerOnboarding.app
 
 Signature Status: Valid

@@ -1,5 +1,5 @@
 Code Signing Information for AOSUIPrefPaneLauncher
-Generated: 2025-06-26 16:35:12
+Generated: 2025-06-26 18:36:45
 Application Path: /System/Library/CoreServices/AOSUIPrefPaneLauncher.app
 
 Signature Status: Valid

@@ -1,43 +1,85 @@
-{
-  "BSServiceDomains": {
-    "com.apple.windowmanager": {
-      "MachName": "com.apple.windowmanager.server",
-      "Services": {
-        "com.apple.frontboard.system-service": {},
-        "com.apple.frontboard.workspace-service": {
-          "DefaultWorkspace": "com.apple.WindowManager"
-        },
-        "com.apple.windowmanager.workspace-service": {}
-      }
-    }
-  },
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "WindowManager",
-  "CFBundleDocumentTypes": [],
-  "CFBundleExecutable": "WindowManager",
-  "CFBundleGetInfoString": "WindowManager",
-  "CFBundleIdentifier": "com.apple.WindowManager",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "WindowManager",
-  "CFBundlePackageType": "APPL",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "175.400",
-  "CTIgnoreUserFonts": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSApplicationCategoryType": "",
-  "LSMinimumSystemVersion": "14.7",
-  "LSRequiresNativeExecution": true,
-  "LSUIElement": true,
-  "NSHumanReadableCopyright": "Copyright 2021-2022, Apple Inc.",
-  "OSAExportAdditions": false
-}
+<!-- Info.plist for WindowManager.app -->
+<!-- Extracted on: 2025-06-26 18:36:03 -->
+<!-- Source: /System/Library/CoreServices/WindowManager.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BSServiceDomains</key>
+    <dict>
+      <key>com.apple.windowmanager</key>
+      <dict>
+        <key>MachName</key>
+        <string>com.apple.windowmanager.server</string>
+        <key>Services</key>
+        <dict>
+          <key>com.apple.frontboard.system-service</key>
+          <dict />
+          <key>com.apple.frontboard.workspace-service</key>
+          <dict>
+            <key>DefaultWorkspace</key>
+            <string>com.apple.WindowManager</string>
+          </dict>
+          <key>com.apple.windowmanager.workspace-service</key>
+          <dict />
+        </dict>
+      </dict>
+    </dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>WindowManager</string>
+    <key>CFBundleDocumentTypes</key>
+    <array />
+    <key>CFBundleExecutable</key>
+    <string>WindowManager</string>
+    <key>CFBundleGetInfoString</key>
+    <string>WindowManager</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.WindowManager</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>WindowManager</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>175.400</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>LSUIElement</key>
+    <true />
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright 2021-2022, Apple Inc.</string>
+    <key>OSAExportAdditions</key>
+    <false />
+  </dict>
+</plist>

@@ -1,10 +1,10 @@
 Sandbox Analysis for Pass Viewer
-Generated: 2025-06-26 16:31:56
+Generated: 2025-06-26 18:34:18
 Application Path: /System/Library/CoreServices/Pass Viewer.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -1,10 +1,10 @@
 Sandbox Analysis for Screen Sharing
-Generated: 2025-06-26 16:32:37
+Generated: 2025-06-26 18:34:17
 Application Path: /System/Applications/Utilities/Screen Sharing.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 52
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

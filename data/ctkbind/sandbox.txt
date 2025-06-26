@@ -1,10 +1,10 @@
 Sandbox Analysis for ctkbind
-Generated: 2025-06-26 16:36:26
+Generated: 2025-06-26 18:37:30
 Application Path: /System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 4
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

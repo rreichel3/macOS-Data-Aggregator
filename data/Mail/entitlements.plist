@@ -1,1 +1,238 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.UNCUserNotification</key><true/><key>com.apple.accounts.inactive.fullaccess</key><true/><key>com.apple.application-identifier</key><string>com.apple.mail</string><key>com.apple.authkit.client.internal</key><true/><key>com.apple.authkit.client.private</key><true/><key>com.apple.coreduetd.allow</key><true/><key>com.apple.coreduetd.people</key><true/><key>com.apple.developer.icloud-container-environment</key><string>Production</string><key>com.apple.developer.icloud-container-identifiers</key><array><string>com.apple.mail</string><string>com.apple.mail.preferences</string></array><key>com.apple.developer.icloud-services</key><array><string>CloudDocuments</string><string>CloudKit</string></array><key>com.apple.developer.maps</key><true/><key>com.apple.developer.ubiquity-kvstore-identifier</key><string>com.apple.mail</string><key>com.apple.diagnosticpipeline.request</key><true/><key>com.apple.finance.private</key><true/><key>com.apple.private.MobileContainerManager.lookup</key><dict><key>appData</key><string>com.apple.mail</string></dict><key>com.apple.private.SkyLight.screencapturedirect</key><true/><key>com.apple.private.accounts.allaccounts</key><true/><key>com.apple.private.assets.accessible-asset-types</key><array><string>com.apple.MobileAsset.MailDynamicData</string></array><key>com.apple.private.calendar.allow-suggestions</key><true/><key>com.apple.private.calendar.has-adopted-modern-request-access-methods</key><true/><key>com.apple.private.cloudkit.publishAssets</key><true/><key>com.apple.private.cloudkit.serviceNameForContainerMap</key><dict><key>com.apple.mail.preferences</key><string>com.apple.mail.preferences</string></dict><key>com.apple.private.cloudkit.spi</key><true/><key>com.apple.private.cloudkit.systemService</key><true/><key>com.apple.private.communicationsfilter</key><true/><key>com.apple.private.contactsui</key><true/><key>com.apple.private.corerecents</key><true/><key>com.apple.private.dark-wake-network-reachability</key><true/><key>com.apple.private.dprivacyd.allow</key><true/><key>com.apple.private.email</key><true/><key>com.apple.private.familycontrols</key><true/><key>com.apple.private.hid.client.event-dispatch.internal</key><true/><key>com.apple.private.imcore.imagent</key><true/><key>com.apple.private.kvs.ignore-quota</key><true/><key>com.apple.private.launchservices.changedefaulthandlers</key><array><string>mailto</string></array><key>com.apple.private.mail.persistence</key><true/><key>com.apple.private.metadata.exattrs</key><true/><key>com.apple.private.network.socket-delegate</key><true/><key>com.apple.private.networkserviceproxy</key><true/><key>com.apple.private.persona.read</key><true/><key>com.apple.private.personas.propagate</key><true/><key>com.apple.private.screencapturekit.noprompt</key><true/><key>com.apple.private.security.restricted-application-groups</key><array><string>com.apple.MailPersonaStorage</string><string>group.com.apple.mail</string></array><key>com.apple.private.security.storage.Mail</key><true/><key>com.apple.private.suggestions</key><true/><key>com.apple.private.suggestions.contacts</key><true/><key>com.apple.private.suggestions.events</key><true/><key>com.apple.private.suggestions.mail</key><true/><key>com.apple.private.suggestions.reminders</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAddressBook</string><string>kTCCServiceCalendar</string><string>kTCCServiceReminders</string><string>kTCCServiceScreenCapture</string></array><key>com.apple.private.ubiquity-additional-kvstore-identifiers</key><array><string>com.apple.mail.recents</string><string>com.apple.mail.vipsenders</string><string>com.apple.mail.threadinfo</string><string>com.apple.mail.listUnsubscribeInfo</string><string>com.apple.mail.remindMe</string><string>com.apple.mail.senders</string></array><key>com.apple.proactive.eventtracker</key><true/><key>com.apple.rootless.storage.Mail</key><true/><key>com.apple.rootless.storage.coreduet_knowledge_store</key><true/><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.application-groups</key><array><string>com.apple.MailPersonaStorage</string><string>group.com.apple.mail</string></array><key>com.apple.security.exception.shared-preference.read-only</key><array><string>com.apple.applicationaccess</string></array><key>com.apple.security.files.downloads.read-write</key><true/><key>com.apple.security.files.user-selected.read-write</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.personal-information.addressbook</key><true/><key>com.apple.security.personal-information.calendars</key><true/><key>com.apple.security.print</key><true/><key>com.apple.security.temporary-exception.apple-events</key><array><string>com.apple.systempreferences</string></array><key>com.apple.security.temporary-exception.files.absolute-path.read-only</key><array><string>/Library/Managed Preferences/</string></array><key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key><array><string>/Library/Application Support/Mail/</string><string>/Documents/</string><string>/Library/Caches/com.apple.proactive.eventtracker/</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.awdd</string><string>com.apple.coreduetd</string><string>com.apple.coreduetd.people</string><string>com.apple.powerlog.plxpclogger.xpc</string><string>com.apple.symptom_diagnostics</string><string>com.apple.dprivacyd</string><string>com.apple.CrashReporterSupportHelper</string><string>com.apple.suggestd.reminders</string><string>com.apple.multimodalsearch.SearchService</string><string>com.apple.networkserviceproxy</string><string>com.apple.biome.PublicStreamAccessService</string><string>com.apple.ind.cloudfeatures</string><string>com.apple.ak.privateemail.xpc</string><string>com.apple.email.maild</string><string>com.apple.financed.service.financestore</string><string>com.apple.diagnosticpipeline.service</string><string>com.apple.spotlight.CSExattrCryptoService</string><string>com.apple.webprivacyd</string><string>com.apple.synapse.DocumentWorkflowsService</string></array><key>com.apple.security.temporary-exception.sbpl</key><array><string>(read-write-and-issue-extensions (regex (string-append &quot;^/Volumes/&quot; (uuid-regex-string) &quot;(/|$)&quot;)))</string><string>(allow distributed-notification-post)</string></array><key>com.apple.security.temporary-exception.shared-preference.read-only</key><array><string>com.apple.suggestions</string><string>com.apple.parsecd</string></array><key>com.apple.security.temporary-exception.shared-preference.read-write</key><array><string>com.apple.mail-shared</string></array><key>com.apple.spotlight.scopes</key><array><string>~/Library/Mail</string></array><key>com.apple.usermanagerd.persona.background</key><true/><key>com.apple.usermanagerd.persona.create</key><true/><key>com.apple.usermanagerd.persona.delete</key><true/><key>com.apple.usermanagerd.persona.fetch</key><true/><key>keychain-access-groups</key><array><string>com.apple.suggestions.mail-intelligence</string><string>com.apple.mail.identities</string><string>com.apple.identities</string></array></dict></plist>
+<!-- Entitlements for Mail.app -->
+<!-- Extracted on: 2025-06-26 18:36:47 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.UNCUserNotification</key>
+    <true />
+    <key>com.apple.accounts.inactive.fullaccess</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.mail</string>
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.authkit.client.private</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.people</key>
+    <true />
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Production</string>
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+      <string>com.apple.mail</string>
+      <string>com.apple.mail.preferences</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudDocuments</string>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+    <string>com.apple.mail</string>
+    <key>com.apple.diagnosticpipeline.request</key>
+    <true />
+    <key>com.apple.finance.private</key>
+    <true />
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <string>com.apple.mail</string>
+    </dict>
+    <key>com.apple.private.SkyLight.screencapturedirect</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.MailDynamicData</string>
+    </array>
+    <key>com.apple.private.calendar.allow-suggestions</key>
+    <true />
+    <key>com.apple.private.calendar.has-adopted-modern-request-access-methods</key>
+    <true />
+    <key>com.apple.private.cloudkit.publishAssets</key>
+    <true />
+    <key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+    <dict>
+      <key>com.apple.mail.preferences</key>
+      <string>com.apple.mail.preferences</string>
+    </dict>
+    <key>com.apple.private.cloudkit.spi</key>
+    <true />
+    <key>com.apple.private.cloudkit.systemService</key>
+    <true />
+    <key>com.apple.private.communicationsfilter</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.dark-wake-network-reachability</key>
+    <true />
+    <key>com.apple.private.dprivacyd.allow</key>
+    <true />
+    <key>com.apple.private.email</key>
+    <true />
+    <key>com.apple.private.familycontrols</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.imcore.imagent</key>
+    <true />
+    <key>com.apple.private.kvs.ignore-quota</key>
+    <true />
+    <key>com.apple.private.launchservices.changedefaulthandlers</key>
+    <array>
+      <string>mailto</string>
+    </array>
+    <key>com.apple.private.mail.persistence</key>
+    <true />
+    <key>com.apple.private.metadata.exattrs</key>
+    <true />
+    <key>com.apple.private.network.socket-delegate</key>
+    <true />
+    <key>com.apple.private.networkserviceproxy</key>
+    <true />
+    <key>com.apple.private.persona.read</key>
+    <true />
+    <key>com.apple.private.personas.propagate</key>
+    <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>com.apple.MailPersonaStorage</string>
+      <string>group.com.apple.mail</string>
+    </array>
+    <key>com.apple.private.security.storage.Mail</key>
+    <true />
+    <key>com.apple.private.suggestions</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.suggestions.events</key>
+    <true />
+    <key>com.apple.private.suggestions.mail</key>
+    <true />
+    <key>com.apple.private.suggestions.reminders</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServiceScreenCapture</string>
+    </array>
+    <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+    <array>
+      <string>com.apple.mail.recents</string>
+      <string>com.apple.mail.vipsenders</string>
+      <string>com.apple.mail.threadinfo</string>
+      <string>com.apple.mail.listUnsubscribeInfo</string>
+      <string>com.apple.mail.remindMe</string>
+      <string>com.apple.mail.senders</string>
+    </array>
+    <key>com.apple.proactive.eventtracker</key>
+    <true />
+    <key>com.apple.rootless.storage.Mail</key>
+    <true />
+    <key>com.apple.rootless.storage.coreduet_knowledge_store</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>com.apple.MailPersonaStorage</string>
+      <string>group.com.apple.mail</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.applicationaccess</string>
+    </array>
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.calendars</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.apple-events</key>
+    <array>
+      <string>com.apple.systempreferences</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Managed Preferences/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Application Support/Mail/</string>
+      <string>/Documents/</string>
+      <string>/Library/Caches/com.apple.proactive.eventtracker/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.awdd</string>
+      <string>com.apple.coreduetd</string>
+      <string>com.apple.coreduetd.people</string>
+      <string>com.apple.powerlog.plxpclogger.xpc</string>
+      <string>com.apple.symptom_diagnostics</string>
+      <string>com.apple.dprivacyd</string>
+      <string>com.apple.CrashReporterSupportHelper</string>
+      <string>com.apple.suggestd.reminders</string>
+      <string>com.apple.multimodalsearch.SearchService</string>
+      <string>com.apple.networkserviceproxy</string>
+      <string>com.apple.biome.PublicStreamAccessService</string>
+      <string>com.apple.ind.cloudfeatures</string>
+      <string>com.apple.ak.privateemail.xpc</string>
+      <string>com.apple.email.maild</string>
+      <string>com.apple.financed.service.financestore</string>
+      <string>com.apple.diagnosticpipeline.service</string>
+      <string>com.apple.spotlight.CSExattrCryptoService</string>
+      <string>com.apple.webprivacyd</string>
+      <string>com.apple.synapse.DocumentWorkflowsService</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(read-write-and-issue-extensions (regex (string-append "^/Volumes/" (uuid-regex-string) "(/|$)")))</string>
+      <string>(allow distributed-notification-post)</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.suggestions</string>
+      <string>com.apple.parsecd</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.mail-shared</string>
+    </array>
+    <key>com.apple.spotlight.scopes</key>
+    <array>
+      <string>~/Library/Mail</string>
+    </array>
+    <key>com.apple.usermanagerd.persona.background</key>
+    <true />
+    <key>com.apple.usermanagerd.persona.create</key>
+    <true />
+    <key>com.apple.usermanagerd.persona.delete</key>
+    <true />
+    <key>com.apple.usermanagerd.persona.fetch</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.suggestions.mail-intelligence</string>
+      <string>com.apple.mail.identities</string>
+      <string>com.apple.identities</string>
+    </array>
+  </dict>
+</plist>

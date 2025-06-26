@@ -1,5 +1,5 @@
 Code Signing Information for WorkoutAlert-Mac
-Generated: 2025-06-26 16:36:27
+Generated: 2025-06-26 18:36:43
 Application Path: /System/Library/CoreServices/WorkoutAlert-Mac.app
 
 Signature Status: Valid

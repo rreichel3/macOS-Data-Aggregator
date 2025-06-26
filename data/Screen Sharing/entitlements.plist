@@ -1,1 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.CompanionLink</key><true/><key>com.apple.FaceTime.NoPrompt</key><true/><key>com.apple.IdentityLookup.message-filter</key><array><string>query</string><string>report</string></array><key>com.apple.developer.copresence</key><true/><key>com.apple.identitylookup.classification-ui.extension-host</key><true/><key>com.apple.identitylookup.classification.extension-host</key><true/><key>com.apple.identitylookup.message-filter.extension-host</key><true/><key>com.apple.private.ac</key><true/><key>com.apple.private.aps-client-cert-access</key><true/><key>com.apple.private.aps-connection-initiate</key><true/><key>com.apple.private.audio.notification-wake-audio</key><true/><key>com.apple.private.communicationsfilter</key><true/><key>com.apple.private.contactsui</key><true/><key>com.apple.private.copresence</key><true/><key>com.apple.private.copresence.access-all-sessions</key><true/><key>com.apple.private.hid.client.event-monitor</key><true/><key>com.apple.private.hid.client.service-protected</key><true/><key>com.apple.private.icfcallserver</key><true/><key>com.apple.private.ids.identityservicesd</key><true/><key>com.apple.private.ids.idquery-cache</key><true/><key>com.apple.private.ids.idsquery</key><true/><key>com.apple.private.ids.messaging</key><array><string>com.apple.madrid</string><string>com.apple.private.alloy.screensharing</string><string>com.apple.private.alloy.safeview</string><string>com.apple.private.alloy.screensharing.qr</string></array><key>com.apple.private.ids.messaging.urgent-priority</key><array><string>com.apple.private.alloy.safeview</string><string>com.apple.private.alloy.screensharing.qr</string></array><key>com.apple.private.ids.session</key><array><string>com.apple.private.alloy.screensharing</string><string>com.apple.private.alloy.safeview</string><string>com.apple.private.alloy.screensharing.qr</string></array><key>com.apple.private.ids.session-private</key><array><string>com.apple.private.alloy.screensharing</string><string>com.apple.private.alloy.safeview</string><string>com.apple.private.alloy.screensharing.qr</string></array><key>com.apple.private.imcore.imremoteurlconnection</key><true/><key>com.apple.private.netauth.get-credentials</key><true/><key>com.apple.private.notificationcenterui.alerts</key><true/><key>com.apple.private.rfbeventhelper.xpcaccepted</key><true/><key>com.apple.private.screensharing.viewInvitation</key><true/><key>com.apple.private.suggestions</key><true/><key>com.apple.private.suggestions.contacts</key><true/><key>com.apple.private.system-keychain</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAddressBook</string></array><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.device.camera</key><true/><key>com.apple.security.device.microphone</key><true/><key>com.apple.security.exception.mach-lookup.global-name</key><array><string>com.apple.securityd.systemkeychain</string><string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string><string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string><string>com.apple.telephonyutilities.callservicesdaemon.callcapabilities</string><string>com.apple.copresence.conversationmanagerhost</string></array><key>com.apple.security.files.user-selected.read-write</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.network.server</key><true/><key>com.apple.security.personal-information.addressbook</key><true/><key>com.apple.security.temporary-exception.files.absolute-path.read-only</key><array><string>/private/var/run/RemoteDesktopTimebase</string><string>/Library/Managed Preferences/com.apple.ScreenSharing.plist</string></array><key>com.apple.security.temporary-exception.files.absolute-path.read-write</key><array><string>/private/tmp/ScreenSharing.log</string><string>/Library/Preferences/com.apple.RemoteManagement.plist</string><string>/private/tmp/SSFileCopySender.log</string><string>/private/tmp/SSFileCopyReceiver.log</string><string>/private/tmp/SSPasteboardHelper.log</string><string>/Library/Application Support/Apple/Screen Sharing/Shared Settings/</string><string>/private/var/db/mds/system/mds.lock</string></array><key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key><array><string>/Library/Preferences/com.apple.ScreenSharing.plist</string><string>/Library/Application Support/Screen Sharing/</string></array><key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key><array><string>/Library/Preferences/com.apple.ScreenSharingSharedDefaults.plist</string><string>/Library/Containers/com.apple.ScreenSharing/Data/Library/Preferences/com.apple.ScreenSharing.plist</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.securityd.systemkeychain</string><string>com.apple.analyticsd</string><string>com.apple.assertiond.processassertionconnection</string><string>com.apple.CARenderServer</string><string>com.apple.GSSCred</string><string>com.apple.logind</string><string>com.apple.RFBEventHelper</string><string>com.apple.screensharing.ViewInvitation</string><string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string><string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string><string>com.apple.telephonyutilities.callservicesdaemon.momentscontroller</string><string>com.apple.videoconference.camera</string><string>com.apple.iohideventsystem</string></array><key>com.apple.security.temporary-exception.shared-preference.read-only</key><array><string>/Library/Managed Preferences/com.apple.ScreenSharing.plist</string><string>com.apple.logging</string><string>com.apple.VideoConference</string><string>com.apple.conference</string><string>com.apple.AVConference</string><string>com.apple.TelephonyUtilities</string></array><key>com.apple.telephonyutilities.callservicesd</key><array><string>override-activity-verification</string><string>access-calls</string><string>screen-sharing-remote-control</string></array><key>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</key><true/><key>com.apple.videoconference.allow-conferencing</key><true/><key>keychain-access-groups</key><array><string>com.apple.managed.ScreenSharing</string></array></dict></plist>
+<!-- Entitlements for Screen Sharing.app -->
+<!-- Extracted on: 2025-06-26 18:34:17 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.CompanionLink</key>
+    <true />
+    <key>com.apple.FaceTime.NoPrompt</key>
+    <true />
+    <key>com.apple.IdentityLookup.message-filter</key>
+    <array>
+      <string>query</string>
+      <string>report</string>
+    </array>
+    <key>com.apple.developer.copresence</key>
+    <true />
+    <key>com.apple.identitylookup.classification-ui.extension-host</key>
+    <true />
+    <key>com.apple.identitylookup.classification.extension-host</key>
+    <true />
+    <key>com.apple.identitylookup.message-filter.extension-host</key>
+    <true />
+    <key>com.apple.private.ac</key>
+    <true />
+    <key>com.apple.private.aps-client-cert-access</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.audio.notification-wake-audio</key>
+    <true />
+    <key>com.apple.private.communicationsfilter</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.copresence</key>
+    <true />
+    <key>com.apple.private.copresence.access-all-sessions</key>
+    <true />
+    <key>com.apple.private.hid.client.event-monitor</key>
+    <true />
+    <key>com.apple.private.hid.client.service-protected</key>
+    <true />
+    <key>com.apple.private.icfcallserver</key>
+    <true />
+    <key>com.apple.private.ids.identityservicesd</key>
+    <true />
+    <key>com.apple.private.ids.idquery-cache</key>
+    <true />
+    <key>com.apple.private.ids.idsquery</key>
+    <true />
+    <key>com.apple.private.ids.messaging</key>
+    <array>
+      <string>com.apple.madrid</string>
+      <string>com.apple.private.alloy.screensharing</string>
+      <string>com.apple.private.alloy.safeview</string>
+      <string>com.apple.private.alloy.screensharing.qr</string>
+    </array>
+    <key>com.apple.private.ids.messaging.urgent-priority</key>
+    <array>
+      <string>com.apple.private.alloy.safeview</string>
+      <string>com.apple.private.alloy.screensharing.qr</string>
+    </array>
+    <key>com.apple.private.ids.session</key>
+    <array>
+      <string>com.apple.private.alloy.screensharing</string>
+      <string>com.apple.private.alloy.safeview</string>
+      <string>com.apple.private.alloy.screensharing.qr</string>
+    </array>
+    <key>com.apple.private.ids.session-private</key>
+    <array>
+      <string>com.apple.private.alloy.screensharing</string>
+      <string>com.apple.private.alloy.safeview</string>
+      <string>com.apple.private.alloy.screensharing.qr</string>
+    </array>
+    <key>com.apple.private.imcore.imremoteurlconnection</key>
+    <true />
+    <key>com.apple.private.netauth.get-credentials</key>
+    <true />
+    <key>com.apple.private.notificationcenterui.alerts</key>
+    <true />
+    <key>com.apple.private.rfbeventhelper.xpcaccepted</key>
+    <true />
+    <key>com.apple.private.screensharing.viewInvitation</key>
+    <true />
+    <key>com.apple.private.suggestions</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.system-keychain</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.device.camera</key>
+    <true />
+    <key>com.apple.security.device.microphone</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.securityd.systemkeychain</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callcapabilities</string>
+      <string>com.apple.copresence.conversationmanagerhost</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.network.server</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/private/var/run/RemoteDesktopTimebase</string>
+      <string>/Library/Managed Preferences/com.apple.ScreenSharing.plist</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+    <array>
+      <string>/private/tmp/ScreenSharing.log</string>
+      <string>/Library/Preferences/com.apple.RemoteManagement.plist</string>
+      <string>/private/tmp/SSFileCopySender.log</string>
+      <string>/private/tmp/SSFileCopyReceiver.log</string>
+      <string>/private/tmp/SSPasteboardHelper.log</string>
+      <string>/Library/Application Support/Apple/Screen Sharing/Shared Settings/</string>
+      <string>/private/var/db/mds/system/mds.lock</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+    <array>
+      <string>/Library/Preferences/com.apple.ScreenSharing.plist</string>
+      <string>/Library/Application Support/Screen Sharing/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Preferences/com.apple.ScreenSharingSharedDefaults.plist</string>
+      <string>/Library/Containers/com.apple.ScreenSharing/Data/Library/Preferences/com.apple.ScreenSharing.plist</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.securityd.systemkeychain</string>
+      <string>com.apple.analyticsd</string>
+      <string>com.apple.assertiond.processassertionconnection</string>
+      <string>com.apple.CARenderServer</string>
+      <string>com.apple.GSSCred</string>
+      <string>com.apple.logind</string>
+      <string>com.apple.RFBEventHelper</string>
+      <string>com.apple.screensharing.ViewInvitation</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.momentscontroller</string>
+      <string>com.apple.videoconference.camera</string>
+      <string>com.apple.iohideventsystem</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>/Library/Managed Preferences/com.apple.ScreenSharing.plist</string>
+      <string>com.apple.logging</string>
+      <string>com.apple.VideoConference</string>
+      <string>com.apple.conference</string>
+      <string>com.apple.AVConference</string>
+      <string>com.apple.TelephonyUtilities</string>
+    </array>
+    <key>com.apple.telephonyutilities.callservicesd</key>
+    <array>
+      <string>override-activity-verification</string>
+      <string>access-calls</string>
+      <string>screen-sharing-remote-control</string>
+    </array>
+    <key>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</key>
+    <true />
+    <key>com.apple.videoconference.allow-conferencing</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.managed.ScreenSharing</string>
+    </array>
+  </dict>
+</plist>

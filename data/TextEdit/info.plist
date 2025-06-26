@@ -1,201 +1,335 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDisplayName": "TextEdit",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "NSRTFPboardType",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.rtf"
-      ],
-      "NSDocumentClass": "Document",
-      "NSIsRelatedItemType": true,
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "NSRTFDPboardType",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.rtfd"
-      ],
-      "LSTypeIsPackage": true,
-      "NSDocumentClass": "Document",
-      "NSIsRelatedItemType": true,
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Apple HTML document",
-      "CFBundleTypeRole": "Editor",
-      "LSItemContentTypes": [
-        "public.html"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Apple Web archive",
-      "CFBundleTypeRole": "Editor",
-      "LSItemContentTypes": [
-        "com.apple.webarchive"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "OpenDocument Text document",
-      "CFBundleTypeRole": "Editor",
-      "LSItemContentTypes": [
-        "org.oasis-open.opendocument.text"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.oasis-open.opendocument.text-template",
-        "org.openoffice.text",
-        "org.openoffice.text-template"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Microsoft Word 2007 document",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSItemContentTypes": [
-        "org.openxmlformats.wordprocessingml.document"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Microsoft Word 2003 XML document",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSItemContentTypes": [
-        "com.microsoft.word.wordml"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Microsoft Word 97 document",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSItemContentTypes": [
-        "com.microsoft.word.doc"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "NSStringPboardType",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.text"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "NSStringPboardType",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.plain-text"
-      ],
-      "NSDocumentClass": "Document",
-      "NSIsRelatedItemType": true,
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Apple SimpleText document",
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.traditional-mac-plain-text"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    },
-    {
-      "CFBundleTypeName": "Unknown document",
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.data"
-      ],
-      "NSDocumentClass": "Document",
-      "NSUbiquitousDocumentUserActivityType": "com.apple.TextEdit.editing"
-    }
-  ],
-  "CFBundleExecutable": "TextEdit",
-  "CFBundleHelpBookFolder": "TextEdit.help",
-  "CFBundleHelpBookName": "com.apple.TextEdit.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.TextEdit",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "TextEdit",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.19",
-  "CFBundleSignature": "ttxt",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "404",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSApplicationCategoryType": "public.app-category.productivity",
-  "LSMinimumSystemVersion": "14.7",
-  "NSAppleScriptEnabled": true,
-  "NSHumanReadableCopyright": "Copyright \u00a9 1995\u20132023, Apple Inc.\nAll rights reserved.",
-  "NSMainNibFile": "Edit",
-  "NSPrincipalClass": "NSApplication",
-  "NSServices": [
-    {
-      "NSMenuItem": {
-        "default": "New TextEdit Window Containing Selection"
-      },
-      "NSMessage": "openSelection",
-      "NSPortName": "TextEdit",
-      "NSSendTypes": [
-        "com.apple.flat-rtfd",
-        "public.rtf",
-        "public.plain-text"
-      ]
-    },
-    {
-      "NSMenuItem": {
-        "default": "Open Selected File in TextEdit"
-      },
-      "NSMessage": "openFile",
-      "NSPortName": "TextEdit",
-      "NSRequiredContext": {
-        "NSTextContent": "FilePath"
-      },
-      "NSSendTypes": [
-        "public.plain-text"
-      ]
-    }
-  ],
-  "NSSupportsSuddenTermination": "YES",
-  "NSUbiquitousContainers": {
-    "com.apple.TextEdit": {
-      "NSUbiquitousContainerIsDocumentScopePublic": true,
-      "NSUbiquitousContainerSupportedFolderLevels": "Any"
-    }
-  }
-}
+<!-- Info.plist for TextEdit.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+<!-- Source: /System/Applications/TextEdit.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>TextEdit</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>NSRTFPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.rtf</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>NSRTFDPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.rtfd</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <true />
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Apple HTML document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.html</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Apple Web archive</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.webarchive</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>OpenDocument Text document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.oasis-open.opendocument.text</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.oasis-open.opendocument.text-template</string>
+          <string>org.openoffice.text</string>
+          <string>org.openoffice.text-template</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Microsoft Word 2007 document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.openxmlformats.wordprocessingml.document</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Microsoft Word 2003 XML document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.word.wordml</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Microsoft Word 97 document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.word.doc</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>NSStringPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.text</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>NSStringPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.plain-text</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Apple SimpleText document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.traditional-mac-plain-text</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Unknown document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>Document</string>
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.TextEdit.editing</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>TextEdit</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>TextEdit.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.TextEdit.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.TextEdit</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>TextEdit</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.19</string>
+    <key>CFBundleSignature</key>
+    <string>ttxt</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>404</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 1995–2023, Apple Inc.
+All rights reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>Edit</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSServices</key>
+    <array>
+      <dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>New TextEdit Window Containing Selection</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>openSelection</string>
+        <key>NSPortName</key>
+        <string>TextEdit</string>
+        <key>NSSendTypes</key>
+        <array>
+          <string>com.apple.flat-rtfd</string>
+          <string>public.rtf</string>
+          <string>public.plain-text</string>
+        </array>
+      </dict>
+      <dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Open Selected File in TextEdit</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>openFile</string>
+        <key>NSPortName</key>
+        <string>TextEdit</string>
+        <key>NSRequiredContext</key>
+        <dict>
+          <key>NSTextContent</key>
+          <string>FilePath</string>
+        </dict>
+        <key>NSSendTypes</key>
+        <array>
+          <string>public.plain-text</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSSupportsSuddenTermination</key>
+    <string>YES</string>
+    <key>NSUbiquitousContainers</key>
+    <dict>
+      <key>com.apple.TextEdit</key>
+      <dict>
+        <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+        <true />
+        <key>NSUbiquitousContainerSupportedFolderLevels</key>
+        <string>Any</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

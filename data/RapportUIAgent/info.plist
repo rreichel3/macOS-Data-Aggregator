@@ -1,28 +1,59 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleExecutable": "RapportUIAgent",
-  "CFBundleIdentifier": "com.apple.RapportUIAgent",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "RapportUIAgent",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "5.8.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "580.4",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "LSUIElement": true,
-  "NSMainStoryboardFile": "Main",
-  "NSPrincipalClass": "NSApplication",
-  "NSSupportsSuddenTermination": true
-}
+<!-- Info.plist for RapportUIAgent.app -->
+<!-- Extracted on: 2025-06-26 18:36:45 -->
+<!-- Source: /System/Library/CoreServices/RapportUIAgent.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>RapportUIAgent</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.RapportUIAgent</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>RapportUIAgent</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.8.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>580.4</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+  </dict>
+</plist>

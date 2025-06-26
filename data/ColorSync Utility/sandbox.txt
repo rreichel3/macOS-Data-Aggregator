@@ -1,5 +1,5 @@
 Sandbox Analysis for ColorSync Utility
-Generated: 2025-06-26 16:31:56
+Generated: 2025-06-26 18:34:18
 Application Path: /System/Applications/Utilities/ColorSync Utility.app
 
 Sandboxed: Unknown

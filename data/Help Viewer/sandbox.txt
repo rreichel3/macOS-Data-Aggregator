@@ -1,10 +1,10 @@
 Sandbox Analysis for Help Viewer
-Generated: 2025-06-26 16:33:54
+Generated: 2025-06-26 18:37:31
 Application Path: /System/Library/CoreServices/Help Viewer.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 15
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

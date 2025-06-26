@@ -1,56 +1,103 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "VoiceOver Utility",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSItemContentTypes": [
-        "com.apple.voiceover-preferences"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "VoiceOver Utility",
-  "CFBundleHelpBookName": "com.apple.VoiceOver.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.VoiceOverUtility",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "VoiceOver Utility",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "10",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "920.17",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "voiceover",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2005-2023 Apple Inc. All Rights Reserved.",
-  "NSMainStoryboardFile": "Main",
-  "NSPrincipalClass": "NSApplication",
-  "NSSupportsSuddenTermination": "YES",
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.content",
-        "com.apple.package"
-      ],
-      "UTTypeDescription": "VoiceOver Preferences",
-      "UTTypeIdentifier": "com.apple.voiceover-preferences",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "voprefs"
-      }
-    }
-  ]
-}
+<!-- Info.plist for VoiceOver Utility.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+<!-- Source: /System/Applications/Utilities/VoiceOver Utility.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>VoiceOver Utility</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.voiceover-preferences</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>VoiceOver Utility</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.VoiceOver.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.VoiceOverUtility</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>VoiceOver Utility</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>10</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>920.17</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>voiceover</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2005-2023 Apple Inc. All Rights Reserved.</string>
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <string>YES</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.content</string>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>VoiceOver Preferences</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.voiceover-preferences</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>voprefs</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

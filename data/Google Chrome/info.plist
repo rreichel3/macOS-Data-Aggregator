@@ -1,290 +1,449 @@
-{
-  "ASWebAuthenticationSessionWebBrowserSupportCapabilities": {
-    "EphemeralBrowserSessionIsSupported": true,
-    "IsSupported": true
-  },
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Google Chrome",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "GIF image",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "com.compuserve.gif"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "HTML document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.html"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "XHTML document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.xhtml"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "JavaScript script",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "com.netscape.javascript-source"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "JPEG image",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.jpeg"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "MHTML document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.ietf.mhtml"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "HTML5 Audio (Ogg)",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.xiph.ogg-audio"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "HTML5 Video (Ogg)",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.xiph.ogv"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "PNG image",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.png"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "SVG document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.svg-image"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "Plain text document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "public.text"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "HTML5 Video (WebM)",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.webmproject.webm"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "WebP image",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.webmproject.webp"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.chromium.extension"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "PDF Document",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "com.adobe.pdf"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "Chromium Shortcut",
-      "CFBundleTypeRole": "Viewer",
-      "LSItemContentTypes": [
-        "org.chromium.shortcut"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "Google Chrome",
-  "CFBundleIconFile": "app.icns",
-  "CFBundleIdentifier": "com.google.Chrome",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Chrome",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "137.0.7151.120",
-  "CFBundleSignature": "rimZ",
-  "CFBundleURLTypes": [
-    {
-      "CFBundleURLName": "Web site URL",
-      "CFBundleURLSchemes": [
-        "http",
-        "https"
-      ]
-    },
-    {
-      "CFBundleURLName": "Local file URL",
-      "CFBundleURLSchemes": [
-        "file"
-      ]
-    }
-  ],
-  "CFBundleVersion": "7151.120",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTSDKBuild": "24E241",
-  "DTSDKName": "macosx15.4",
-  "DTXcode": "1630",
-  "DTXcodeBuild": "16E140",
-  "GPUEjectPolicy": "wait",
-  "KSBrandID": "GGRO",
-  "KSChannelID": "universal",
-  "KSChannelID-full": "universal-full",
-  "KSProductID": "com.google.Chrome",
-  "KSUpdateURL": "https://tools.google.com/service/update2",
-  "KSVersion": "137.0.7151.120",
-  "LSEnvironment": {
-    "MallocNanoZone": "0"
-  },
-  "LSFileQuarantineEnabled": true,
-  "LSHasLocalizedDisplayName": "1",
-  "LSMinimumSystemVersion": "11.0",
-  "LSRequiresNativeExecution": true,
-  "NSAppTransportSecurity": {
-    "NSAllowsArbitraryLoads": true
-  },
-  "NSAppleScriptEnabled": true,
-  "NSBonjourServices": [
-    "_googlecast._tcp"
-  ],
-  "NSCameraReactionEffectGesturesEnabledDefault": false,
-  "NSPrincipalClass": "BrowserCrApplication",
-  "NSSupportsAutomaticGraphicsSwitching": true,
-  "NSUserActivityTypes": [
-    "NSUserActivityTypeBrowsingWeb"
-  ],
-  "NSUserNotificationAlertStyle": "banner",
-  "OSAScriptingDefinition": "scripting.sdef",
-  "SCMRevision": "707269b903b9d66dcfc06ea5101eec3cf7cdb12b-refs/branch-heads/7151@{#2357}",
-  "SMPrivilegedExecutables": {
-    "com.google.Chrome.UpdaterPrivilegedHelper": "identifier com.google.Chrome.UpdaterPrivilegedHelper"
-  },
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.data",
-        "public.content"
-      ],
-      "UTTypeDescription": "Chromium Extension",
-      "UTTypeIdentifier": "org.chromium.extension",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "crx"
-        ],
-        "public.mime-type": [
-          "application/x-chrome-extension"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "com.apple.web-internet-location"
-      ],
-      "UTTypeDescription": "Chromium Shortcut",
-      "UTTypeIdentifier": "org.chromium.shortcut",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "crwebloc"
-        ],
-        "public.mime-type": [
-          "application/x-chrome-shortcut"
-        ]
-      }
-    }
-  ],
-  "UTImportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.data",
-        "public.content"
-      ],
-      "UTTypeDescription": "MIME HTML document",
-      "UTTypeIconFile": "document.icns",
-      "UTTypeIdentifier": "org.ietf.mhtml",
-      "UTTypeReferenceURL": "https://www.ietf.org/rfc/rfc2557",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "MHTM",
-        "public.filename-extension": [
-          "mht",
-          "mhtml"
-        ],
-        "public.mime-type": [
-          "multipart/related",
-          "application/x-mimearchive"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.audio"
-      ],
-      "UTTypeDescription": "Ogg Audio",
-      "UTTypeIconFile": "document.icns",
-      "UTTypeIdentifier": "org.xiph.ogg-audio",
-      "UTTypeReferenceURL": "https://xiph.org/ogg/",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "ogg",
-          "oga"
-        ],
-        "public.mime-type": [
-          "audio/ogg"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.movie"
-      ],
-      "UTTypeDescription": "Ogg Video",
-      "UTTypeIconFile": "document.icns",
-      "UTTypeIdentifier": "org.xiph.ogv",
-      "UTTypeReferenceURL": "https://xiph.org/ogg/",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "ogm",
-          "ogv"
-        ],
-        "public.mime-type": [
-          "video/ogg"
-        ]
-      }
-    }
-  ]
-}
+<!-- Info.plist for Google Chrome.app -->
+<!-- Extracted on: 2025-06-26 18:37:32 -->
+<!-- Source: /Applications/Google Chrome.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>ASWebAuthenticationSessionWebBrowserSupportCapabilities</key>
+    <dict>
+      <key>EphemeralBrowserSessionIsSupported</key>
+      <true />
+      <key>IsSupported</key>
+      <true />
+    </dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Google Chrome</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>GIF image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.compuserve.gif</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>HTML document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.html</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>XHTML document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.xhtml</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>JavaScript script</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.netscape.javascript-source</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>JPEG image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>MHTML document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.ietf.mhtml</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Audio (Ogg)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.xiph.ogg-audio</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Video (Ogg)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.xiph.ogv</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>PNG image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.png</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>SVG document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.svg-image</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>Plain text document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.text</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Video (WebM)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.webmproject.webm</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>WebP image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.webmproject.webp</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.chromium.extension</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>PDF Document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.pdf</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>Chromium Shortcut</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.chromium.shortcut</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Google Chrome</string>
+    <key>CFBundleIconFile</key>
+    <string>app.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.google.Chrome</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Chrome</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>137.0.7151.120</string>
+    <key>CFBundleSignature</key>
+    <string>rimZ</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Web site URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>http</string>
+          <string>https</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Local file URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>file</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>7151.120</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTSDKBuild</key>
+    <string>24E241</string>
+    <key>DTSDKName</key>
+    <string>macosx15.4</string>
+    <key>DTXcode</key>
+    <string>1630</string>
+    <key>DTXcodeBuild</key>
+    <string>16E140</string>
+    <key>GPUEjectPolicy</key>
+    <string>wait</string>
+    <key>KSBrandID</key>
+    <string>GGRO</string>
+    <key>KSChannelID</key>
+    <string>universal</string>
+    <key>KSChannelID-full</key>
+    <string>universal-full</string>
+    <key>KSProductID</key>
+    <string>com.google.Chrome</string>
+    <key>KSUpdateURL</key>
+    <string>https://tools.google.com/service/update2</string>
+    <key>KSVersion</key>
+    <string>137.0.7151.120</string>
+    <key>LSEnvironment</key>
+    <dict>
+      <key>MallocNanoZone</key>
+      <string>0</string>
+    </dict>
+    <key>LSFileQuarantineEnabled</key>
+    <true />
+    <key>LSHasLocalizedDisplayName</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>11.0</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true />
+    </dict>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_googlecast._tcp</string>
+    </array>
+    <key>NSCameraReactionEffectGesturesEnabledDefault</key>
+    <false />
+    <key>NSPrincipalClass</key>
+    <string>BrowserCrApplication</string>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>NSUserActivityTypeBrowsingWeb</string>
+    </array>
+    <key>NSUserNotificationAlertStyle</key>
+    <string>banner</string>
+    <key>OSAScriptingDefinition</key>
+    <string>scripting.sdef</string>
+    <key>SCMRevision</key>
+    <string>707269b903b9d66dcfc06ea5101eec3cf7cdb12b-refs/branch-heads/7151@{#2357}</string>
+    <key>SMPrivilegedExecutables</key>
+    <dict>
+      <key>com.google.Chrome.UpdaterPrivilegedHelper</key>
+      <string>identifier com.google.Chrome.UpdaterPrivilegedHelper</string>
+    </dict>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.content</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Chromium Extension</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.chromium.extension</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>crx</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>application/x-chrome-extension</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.web-internet-location</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Chromium Shortcut</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.chromium.shortcut</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>crwebloc</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>application/x-chrome-shortcut</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.content</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>MIME HTML document</string>
+        <key>UTTypeIconFile</key>
+        <string>document.icns</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.ietf.mhtml</string>
+        <key>UTTypeReferenceURL</key>
+        <string>https://www.ietf.org/rfc/rfc2557</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>MHTM</string>
+          <key>public.filename-extension</key>
+          <array>
+            <string>mht</string>
+            <string>mhtml</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>multipart/related</string>
+            <string>application/x-mimearchive</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.audio</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Ogg Audio</string>
+        <key>UTTypeIconFile</key>
+        <string>document.icns</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.xiph.ogg-audio</string>
+        <key>UTTypeReferenceURL</key>
+        <string>https://xiph.org/ogg/</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>ogg</string>
+            <string>oga</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>audio/ogg</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.movie</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Ogg Video</string>
+        <key>UTTypeIconFile</key>
+        <string>document.icns</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.xiph.ogv</string>
+        <key>UTTypeReferenceURL</key>
+        <string>https://xiph.org/ogg/</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>ogm</string>
+            <string>ogv</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>video/ogg</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

@@ -1,38 +1,80 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Image Capture",
-  "CFBundleExecutable": "Image Capture",
-  "CFBundleHelpBookFolder": "ImageCapture.help",
-  "CFBundleHelpBookName": "com.apple.ImageCapture.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.Image_Capture",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Image Capture",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "8.0",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1106",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "image-capture",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSHasLocalizedDisplayName": false,
-  "LSMinimumSystemVersion": "14.7",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2000-2020 Apple Inc.\nAll rights reserved.",
-  "NSMainStoryboardFile": "Main",
-  "NSPrincipalClass": "ICApplication",
-  "NSSupportsAutomaticGraphicsSwitching": true,
-  "NSSupportsSuddenTermination": true,
-  "com.apple.PreferenceSync.ExcludeAllSyncKeys": false
-}
+<!-- Info.plist for Image Capture.app -->
+<!-- Extracted on: 2025-06-26 18:37:29 -->
+<!-- Source: /System/Applications/Image Capture.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Image Capture</string>
+    <key>CFBundleExecutable</key>
+    <string>Image Capture</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>ImageCapture.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.ImageCapture.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Image_Capture</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Image Capture</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>8.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1106</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>image-capture</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <false />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2000-2020 Apple Inc.
+All rights reserved.</string>
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSPrincipalClass</key>
+    <string>ICApplication</string>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>com.apple.PreferenceSync.ExcludeAllSyncKeys</key>
+    <false />
+  </dict>
+</plist>

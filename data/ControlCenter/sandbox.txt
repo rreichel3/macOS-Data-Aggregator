@@ -1,10 +1,10 @@
 Sandbox Analysis for ControlCenter
-Generated: 2025-06-26 16:32:36
+Generated: 2025-06-26 18:38:10
 Application Path: /System/Library/CoreServices/ControlCenter.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 105
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

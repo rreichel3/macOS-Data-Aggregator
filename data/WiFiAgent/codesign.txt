@@ -1,5 +1,5 @@
 Code Signing Information for WiFiAgent
-Generated: 2025-06-26 16:36:25
+Generated: 2025-06-26 18:37:28
 Application Path: /System/Library/CoreServices/WiFiAgent.app
 
 Signature Status: Valid

@@ -1,289 +1,445 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFAppleHelpAnchor": "csync001",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeExtensions": [
-        "icc",
-        "icm",
-        "pf",
-        "ICC",
-        "ICM"
-      ],
-      "CFBundleTypeIconFile": "profile.icns",
-      "CFBundleTypeName": "ICC Profile",
-      "CFBundleTypeOSTypes": [
-        "prof"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "NSDocumentClass": "CSProfileDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "cmm"
-      ],
-      "CFBundleTypeName": "ColorSync CMM",
-      "CFBundleTypeOSTypes": [
-        "CMM "
-      ],
-      "CFBundleTypeRole": "None",
-      "LSTypeIsPackage": true
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "pdf",
-        "PDF"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "application/pdf"
-      ],
-      "CFBundleTypeName": "PDF Document",
-      "CFBundleTypeOSTypes": [
-        "PDF "
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.adobe.pdf"
-      ],
-      "NSDocumentClass": "FilterPDFDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "jpg",
-        "jpeg",
-        "JPG",
-        "JPEG",
-        "jpe",
-        "JPE"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "image/jpeg"
-      ],
-      "CFBundleTypeName": "JPEG Image",
-      "CFBundleTypeOSTypes": [
-        "JPEG"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "public.jpeg",
-        "public.heic"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "png"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "image/png"
-      ],
-      "CFBundleTypeName": "PNG Image",
-      "CFBundleTypeOSTypes": [
-        "PNG "
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "public.png"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "gif"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "image/gif"
-      ],
-      "CFBundleTypeName": "GIF Image",
-      "CFBundleTypeOSTypes": [
-        "GIF "
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.compuserve.gif"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "TIFF",
-        "TIF",
-        "tif",
-        "tiff"
-      ],
-      "CFBundleTypeName": "TIFF Document",
-      "CFBundleTypeOSTypes": [
-        "TIFF"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "public.tiff"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "bmp"
-      ],
-      "CFBundleTypeName": "Windows Bitmap Image",
-      "CFBundleTypeOSTypes": [
-        "BMP ",
-        "BMPf"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.microsoft.bmp"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "pict",
-        "pct"
-      ],
-      "CFBundleTypeName": "PICT Image",
-      "CFBundleTypeOSTypes": [
-        "PICT"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.apple.pict"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "tga"
-      ],
-      "CFBundleTypeName": "Targa Image",
-      "CFBundleTypeOSTypes": [
-        "TPIC"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.truevision.tga-image"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "sgi"
-      ],
-      "CFBundleTypeName": "Silicon Graphics Image",
-      "CFBundleTypeOSTypes": [
-        ".SGI"
-      ],
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.sgi.sgi-image"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "psd"
-      ],
-      "CFBundleTypeName": "Adobe Photoshop Image",
-      "CFBundleTypeOSTypes": [
-        "8BPS"
-      ],
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.adobe.photoshop-image"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "jp2"
-      ],
-      "CFBundleTypeName": "JPEG 2000 Image",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Alternate",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "public.jpeg-2000"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "exr"
-      ],
-      "CFBundleTypeName": "OpenEXR",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.ilm.openexr-image"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "heic",
-        "heif"
-      ],
-      "CFBundleTypeName": "HEIC",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "public.heic",
-        "public.heif"
-      ],
-      "NSDocumentClass": "FilterImageDoc"
-    }
-  ],
-  "CFBundleExecutable": "ColorSync Utility",
-  "CFBundleHelpBookFolder": "ColorSyncUtility.help",
-  "CFBundleHelpBookName": "com.apple.colorsyncutility.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.ColorSyncUtility",
-  "CFBundleName": "ColorSync Utility",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "12.0.0",
-  "CFBundleSignature": "csut",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "425.4.1",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "colorsync-utility",
-  "LSApplicationCategoryType": "public.app-category.productivity",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2014\u20132021 Apple Inc.\nAll rights reserved.",
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "CSUtilityApp"
-}
+<!-- Info.plist for ColorSync Utility.app -->
+<!-- Extracted on: 2025-06-26 18:34:18 -->
+<!-- Source: /System/Applications/Utilities/ColorSync Utility.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFAppleHelpAnchor</key>
+    <string>csync001</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>icc</string>
+          <string>icm</string>
+          <string>pf</string>
+          <string>ICC</string>
+          <string>ICM</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>profile.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>ICC Profile</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>prof</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>NSDocumentClass</key>
+        <string>CSProfileDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>cmm</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>ColorSync CMM</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>CMM </string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>None</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>pdf</string>
+          <string>PDF</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>application/pdf</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>PDF Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>PDF </string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.pdf</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterPDFDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>jpg</string>
+          <string>jpeg</string>
+          <string>JPG</string>
+          <string>JPEG</string>
+          <string>jpe</string>
+          <string>JPE</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>image/jpeg</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>JPEG Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>JPEG</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg</string>
+          <string>public.heic</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>png</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>image/png</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>PNG Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>PNG </string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.png</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>gif</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>image/gif</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>GIF Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>GIF </string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.compuserve.gif</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>TIFF</string>
+          <string>TIF</string>
+          <string>tif</string>
+          <string>tiff</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>TIFF Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TIFF</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.tiff</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>bmp</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Windows Bitmap Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>BMP </string>
+          <string>BMPf</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.bmp</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>pict</string>
+          <string>pct</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>PICT Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>PICT</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.pict</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>tga</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Targa Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TPIC</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.truevision.tga-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>sgi</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Silicon Graphics Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>.SGI</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.sgi.sgi-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>psd</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Adobe Photoshop Image</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>8BPS</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.photoshop-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>jp2</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>JPEG 2000 Image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg-2000</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>exr</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>OpenEXR</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.ilm.openexr-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>heic</string>
+          <string>heif</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>HEIC</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.heic</string>
+          <string>public.heif</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>FilterImageDoc</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>ColorSync Utility</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>ColorSyncUtility.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.colorsyncutility.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.ColorSyncUtility</string>
+    <key>CFBundleName</key>
+    <string>ColorSync Utility</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>12.0.0</string>
+    <key>CFBundleSignature</key>
+    <string>csut</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>425.4.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>colorsync-utility</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2014–2021 Apple Inc.
+All rights reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>CSUtilityApp</string>
+  </dict>
+</plist>

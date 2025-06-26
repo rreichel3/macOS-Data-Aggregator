@@ -1,536 +1,828 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDisplayName": "Preview",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "Folder",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "None",
-      "LSItemContentTypes": [
-        "public.folder",
-        "com.apple.application-bundle",
-        "com.apple.package"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.adobe.pdf"
-      ],
-      "NSDocumentClass": "PVPDFPageContainer"
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.pdf-printer-settings"
-      ],
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeName": "PDF",
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.localized-pdf-bundle"
-      ],
-      "NSDocumentClass": "PVPDFPageContainer"
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.ofd"
-      ],
-      "NSDocumentClass": "PVPDFPageContainer"
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.adobe.illustrator.ai-image"
-      ],
-      "NSDocumentClass": "PVPDFPageContainer"
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.jpeg",
-        "com.apple.rjpeg"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.png"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.tiff"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.camera-raw-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.heif"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.heifs"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.avif"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.heic"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.heics"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.avci"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.avcs"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.pbm"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.pvr"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "org.khronos.astc"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "org.khronos.ktx"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.google.webp",
-        "org.webmproject.webp"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.microsoft.dds"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.xbitmap-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.ilm.openexr-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.microsoft.bmp"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.compuserve.gif"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.microsoft.ico"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.truevision.tga-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.sgi.sgi-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": false,
-      "LSItemContentTypes": [
-        "com.adobe.photoshop-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.macpaint-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.kodak.flashpix-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.fax"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.icns"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.jpeg-2000"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.radiance"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.mpo-image"
-      ],
-      "NSDocumentClass": "PVImageContainer",
-      "NSIsRelatedItemType": true
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.pict"
-      ],
-      "NSDocumentClass": "PVQuickLookContainer"
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "public.3d-content"
-      ],
-      "NSDocumentClass": "PVC3DContainer",
-      "NSExportableTypes": [
-        "com.apple.quicktime-movie"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.pixar.universal-scene-description",
-        "com.pixar.universal-scene-description-mobile"
-      ],
-      "NSDocumentClass": "PVHydraContainer",
-      "NSExportableTypes": [
-        "com.pixar.universal-scene-description",
-        "com.pixar.universal-scene-description-mobile"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "Preview",
-  "CFBundleHelpBookFolder": "Preview.help",
-  "CFBundleHelpBookName": "com.apple.Preview.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.Preview",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Preview",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "11.0",
-  "CFBundleSignature": "prvw",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1056.5.1",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "preview",
-  "LSApplicationCategoryType": "public.app-category.productivity",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "NSAppleScriptEnabled": true,
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "PVApplication",
-  "NSServices": [
-    {
-      "NSMenuItem": {
-        "default": "Preview/Open images"
-      },
-      "NSMessage": "serviceOpenImage",
-      "NSPortName": "Preview",
-      "NSSendTypes": [
-        "NSPasteboardTypeTIFF"
-      ]
-    }
-  ],
-  "NSSupportsSeamlessOpening": true,
-  "NSSupportsSuddenTermination": true,
-  "NSUbiquitousContainers": {
-    "com.apple.Preview": {
-      "NSUbiquitousContainerIsDocumentScopePublic": true,
-      "NSUbiquitousContainerSupportedFolderLevels": "One"
-    }
-  },
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.image",
-        "public.data"
-      ],
-      "UTTypeDescription": "Radiance",
-      "UTTypeIdentifier": "public.radiance",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "pic",
-          "PIC",
-          "hdr",
-          "HDR"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.image"
-      ],
-      "UTTypeDescription": "Portable Bitmap Format",
-      "UTTypeIdentifier": "public.pbm",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "pbm",
-          "pgm",
-          "ppm",
-          "pfm"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.image"
-      ],
-      "UTTypeDescription": "PVRTC Textures",
-      "UTTypeIdentifier": "public.pvr",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "pvr"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.image"
-      ],
-      "UTTypeDescription": "ASTC textures",
-      "UTTypeIdentifier": "org.khronos.astc",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "astc"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.image"
-      ],
-      "UTTypeDescription": "KTX textures",
-      "UTTypeIdentifier": "org.khronos.ktx",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "ktx"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.image"
-      ],
-      "UTTypeDescription": "DDS textures",
-      "UTTypeIdentifier": "com.microsoft.dds",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "dds"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.data"
-      ],
-      "UTTypeDescription": "PDF Printing Settings",
-      "UTTypeIdentifier": "com.apple.pdf-printer-settings",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "pset"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.data"
-      ],
-      "UTTypeDescription": "Blank",
-      "UTTypeIdentifier": "com.apple.preview.blank",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "blank"
-        ]
-      }
-    }
-  ]
-}
+<!-- Info.plist for Preview.app -->
+<!-- Extracted on: 2025-06-26 18:36:46 -->
+<!-- Source: /System/Applications/Preview.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Preview</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Folder</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.folder</string>
+          <string>com.apple.application-bundle</string>
+          <string>com.apple.package</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.pdf</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVPDFPageContainer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.pdf-printer-settings</string>
+        </array>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>PDF</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.localized-pdf-bundle</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVPDFPageContainer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.ofd</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVPDFPageContainer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.illustrator.ai-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVPDFPageContainer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg</string>
+          <string>com.apple.rjpeg</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.png</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.tiff</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.camera-raw-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.heif</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.heifs</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.avif</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.heic</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.heics</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.avci</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.avcs</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.pbm</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.pvr</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.khronos.astc</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.khronos.ktx</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.google.webp</string>
+          <string>org.webmproject.webp</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.dds</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.xbitmap-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.ilm.openexr-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.bmp</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.compuserve.gif</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.ico</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.truevision.tga-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.sgi.sgi-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.adobe.photoshop-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.macpaint-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.kodak.flashpix-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.fax</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.icns</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg-2000</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.radiance</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.mpo-image</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.pict</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVQuickLookContainer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.3d-content</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVC3DContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>com.apple.quicktime-movie</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.pixar.universal-scene-description</string>
+          <string>com.pixar.universal-scene-description-mobile</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>com.pixar.universal-scene-description</string>
+          <string>com.pixar.universal-scene-description-mobile</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Preview</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>Preview.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.Preview.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Preview</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Preview</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>11.0</string>
+    <key>CFBundleSignature</key>
+    <string>prvw</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1056.5.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>preview</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>PVApplication</string>
+    <key>NSServices</key>
+    <array>
+      <dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Preview/Open images</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>serviceOpenImage</string>
+        <key>NSPortName</key>
+        <string>Preview</string>
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSPasteboardTypeTIFF</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSSupportsSeamlessOpening</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUbiquitousContainers</key>
+    <dict>
+      <key>com.apple.Preview</key>
+      <dict>
+        <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+        <true />
+        <key>NSUbiquitousContainerSupportedFolderLevels</key>
+        <string>One</string>
+      </dict>
+    </dict>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Radiance</string>
+        <key>UTTypeIdentifier</key>
+        <string>public.radiance</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>pic</string>
+            <string>PIC</string>
+            <string>hdr</string>
+            <string>HDR</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Portable Bitmap Format</string>
+        <key>UTTypeIdentifier</key>
+        <string>public.pbm</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>pbm</string>
+            <string>pgm</string>
+            <string>ppm</string>
+            <string>pfm</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>PVRTC Textures</string>
+        <key>UTTypeIdentifier</key>
+        <string>public.pvr</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>pvr</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>ASTC textures</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.khronos.astc</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>astc</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>KTX textures</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.khronos.ktx</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>ktx</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.image</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>DDS textures</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.microsoft.dds</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>dds</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>PDF Printing Settings</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.pdf-printer-settings</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>pset</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Blank</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.preview.blank</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>blank</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

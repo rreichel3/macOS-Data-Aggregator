@@ -1,399 +1,606 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleAlternateNames": [
-    "Apple Music"
-  ],
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Music",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "AllFiles",
-      "CFBundleTypeOSTypes": [
-        "****",
-        "fold",
-        "disk"
-      ],
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "musiclibrary"
-      ],
-      "CFBundleTypeName": "Music Library",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.library"
-      ],
-      "LSTypeIsPackage": 1
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "musicdb"
-      ],
-      "CFBundleTypeName": "Music Database",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.database"
-      ]
-    },
-    {
-      "CFBundleTypeIconFile": "iTunes-database.icns",
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.iTunes.db"
-      ]
-    },
-    {
-      "CFBundleTypeName": "Visual Plugin",
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.visual"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.m3u-playlist",
-        "com.apple.Music.pls-playlist",
-        "public.m3u-playlist",
-        "public.pls-playlist"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": "No",
-      "LSItemContentTypes": [
-        "com.apple.Music.rmp-playlist"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "public.mp3"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.mp2",
-        "public.mp2"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "public.aiff-audio",
-        "public.aifc-audio"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.microsoft.waveform-audio"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Viewer",
-      "LSIsAppleDefaultForType": "No",
-      "LSItemContentTypes": [
-        "public.mpeg"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.cdda"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "public.mpeg-4-audio",
-        "com.apple.m4a-audio"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.protected-mpeg-4-audio"
-      ]
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": "Yes",
-      "LSItemContentTypes": [
-        "com.apple.Music.itlp"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "Music",
-  "CFBundleGetInfoString": "Music 1.4.6.32, \u00a9 2019\u20132024 Apple Inc. All rights reserved.",
-  "CFBundleHelpBookFolder": "Music.help",
-  "CFBundleHelpBookName": "com.apple.Music.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.Music",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Music",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.4.6",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleURLTypes": [
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "Remote Library URL",
-      "CFBundleURLSchemes": [
-        "daap"
-      ],
-      "LSIsAppleDefaultForType": "Yes"
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "Music URL",
-      "CFBundleURLSchemes": [
-        "itms",
-        "itmss",
-        "itunes",
-        "music",
-        "musics"
-      ],
-      "LSIsAppleDefaultForType": "Yes"
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "Live Stream URL",
-      "CFBundleURLSchemes": [
-        "itls",
-        "itlss",
-        "itals",
-        "italss"
-      ],
-      "LSIsAppleDefaultForType": "Yes"
-    },
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "Radio URL",
-      "CFBundleURLSchemes": [
-        "itunesradio",
-        "itsradio"
-      ],
-      "LSIsAppleDefaultForType": "Yes"
-    }
-  ],
-  "CFBundleVersion": "1.4.6",
-  "CPGroupActivities": [
-    {
-      "CPGroupActivityContext": "CPGroupActivityListenTogetherContext",
-      "CPGroupActivityIdentifier": "com.apple.music.listenTogether"
-    }
-  ],
-  "CSResourcesFileMapped": true,
-  "CTIgnoreUserFonts": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "FullVersion": "1.4.6.32",
-  "HPDHelpProjectIdentifier": "music",
-  "LSApplicationCategoryType": "public.app-category.music",
-  "LSMinimumSystemVersion": "14.7",
-  "LSRequiresNativeExecution": true,
-  "MDItemKeywords": "Music, Radio, Apple Music, Apple Radio, iTunes Radio, Beats 1, Beats One, B1, Cloud Music Library, My Music, iTunes",
-  "NSAccentColorName": "KeyColor",
-  "NSAppleScriptEnabled": true,
-  "NSHumanReadableCopyright": "\u00a9 2019\u20132024 Apple Inc. All rights reserved.",
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "ITNSApplication",
-  "NSSupportsAutomaticGraphicsSwitching": true,
-  "OSAScriptingDefinition": "com.apple.Music.sdef",
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "com.apple.package"
-      ],
-      "UTTypeDescription": "Music Library",
-      "UTTypeIcons": {
-        "UTTypeIconBadgeName": "AppIcon",
-        "UTTypeIconText": "LIBRARY"
-      },
-      "UTTypeIdentifier": "com.apple.Music.library",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": [
-          "MuLb"
-        ],
-        "public.filename-extension": [
-          "musiclibrary"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.database",
-        "public.data"
-      ],
-      "UTTypeDescription": "Music Database",
-      "UTTypeIcons": {
-        "UTTypeIconBadgeName": "AppIcon"
-      },
-      "UTTypeIdentifier": "com.apple.Music.database",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "musicdb"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.audio"
-      ],
-      "UTTypeDescription": "CD Track",
-      "UTTypeIdentifier": "com.apple.Music.cdda",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "AIFC",
-        "public.filename-extension": "cdda"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.url"
-      ],
-      "UTTypeDescription": "iTunes Store URL",
-      "UTTypeIdentifier": "com.apple.Music.itms",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "itms",
-        "public.filename-extension": "itms"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "com.apple.package",
-        "public.html"
-      ],
-      "UTTypeDescription": "iTunes LP",
-      "UTTypeIdentifier": "com.apple.Music.itlp",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "itlp",
-        "public.filename-extension": "itlp"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "com.apple.plugin"
-      ],
-      "UTTypeDescription": "Visual Plugin",
-      "UTTypeIdentifier": "com.apple.Music.visual",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "hvpl",
-        "public.filename-extension": "hvpl"
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.text",
-        "public.playlist"
-      ],
-      "UTTypeDescription": "M3U Playlist",
-      "UTTypeIdentifier": "com.apple.Music.m3u-playlist",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "MP3U",
-        "public.filename-extension": [
-          "m3u",
-          "m3u8"
-        ],
-        "public.mime-type": [
-          "audio/x-mpegurl",
-          "audio/mpegurl"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.text",
-        "public.playlist"
-      ],
-      "UTTypeDescription": "PLS Playlist",
-      "UTTypeIdentifier": "com.apple.Music.pls-playlist",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "pls",
-        "public.mime-type": [
-          "audio/x-scpls"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": "public.audio",
-      "UTTypeDescription": "MP2 audio",
-      "UTTypeIdentifier": "com.apple.Music.mp2",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "MPG2",
-        "public.filename-extension": "mp2",
-        "public.mime-type": [
-          "audio/mpeg",
-          "audio/x-mpeg"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": "public.xml",
-      "UTTypeDescription": "Metadata",
-      "UTTypeIdentifier": "com.apple.Music.metadata",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "itun"
-      }
-    },
-    {
-      "UTTypeConformsTo": "public.file-url",
-      "UTTypeDescription": "iApp Compatibility",
-      "UTTypeIdentifier": "com.apple.Music.iappurl",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "HUfl"
-      }
-    }
-  ],
-  "UTImportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.text",
-        "public.playlist"
-      ],
-      "UTTypeDescription": "RMP Playlist",
-      "UTTypeIdentifier": "com.apple.Music.rmp-playlist",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": "rmp",
-        "public.mime-type": [
-          "application/vnd.rn-rn_music_package"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.database",
-        "public.data"
-      ],
-      "UTTypeDescription": "iTunes Database File",
-      "UTTypeIdentifier": "com.apple.iTunes.db",
-      "UTTypeTagSpecification": {
-        "com.apple.ostype": "hkdb",
-        "public.filename-extension": "itl"
-      }
-    }
-  ]
-}
+<!-- Info.plist for Music.app -->
+<!-- Extracted on: 2025-06-26 18:37:29 -->
+<!-- Source: /System/Applications/Music.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleAlternateNames</key>
+    <array>
+      <string>Apple Music</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Music</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>AllFiles</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>****</string>
+          <string>fold</string>
+          <string>disk</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>musiclibrary</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Music Library</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.library</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>musicdb</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Music Database</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.database</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>iTunes-database.icns</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.iTunes.db</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Visual Plugin</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.visual</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.m3u-playlist</string>
+          <string>com.apple.Music.pls-playlist</string>
+          <string>public.m3u-playlist</string>
+          <string>public.pls-playlist</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>No</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.rmp-playlist</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.mp3</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.mp2</string>
+          <string>public.mp2</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.aiff-audio</string>
+          <string>public.aifc-audio</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.microsoft.waveform-audio</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>No</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.mpeg</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.cdda</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.mpeg-4-audio</string>
+          <string>com.apple.m4a-audio</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.protected-mpeg-4-audio</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.Music.itlp</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Music</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Music 1.4.6.32, © 2019–2024 Apple Inc. All rights reserved.</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>Music.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.Music.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Music</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Music</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.4.6</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Remote Library URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>daap</string>
+        </array>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Music URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>itms</string>
+          <string>itmss</string>
+          <string>itunes</string>
+          <string>music</string>
+          <string>musics</string>
+        </array>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Live Stream URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>itls</string>
+          <string>itlss</string>
+          <string>itals</string>
+          <string>italss</string>
+        </array>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Radio URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>itunesradio</string>
+          <string>itsradio</string>
+        </array>
+        <key>LSIsAppleDefaultForType</key>
+        <string>Yes</string>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1.4.6</string>
+    <key>CPGroupActivities</key>
+    <array>
+      <dict>
+        <key>CPGroupActivityContext</key>
+        <string>CPGroupActivityListenTogetherContext</string>
+        <key>CPGroupActivityIdentifier</key>
+        <string>com.apple.music.listenTogether</string>
+      </dict>
+    </array>
+    <key>CSResourcesFileMapped</key>
+    <true />
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>FullVersion</key>
+    <string>1.4.6.32</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>music</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.music</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>MDItemKeywords</key>
+    <string>Music, Radio, Apple Music, Apple Radio, iTunes Radio, Beats 1, Beats One, B1, Cloud Music Library, My Music, iTunes</string>
+    <key>NSAccentColorName</key>
+    <string>KeyColor</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2019–2024 Apple Inc. All rights reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>ITNSApplication</string>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true />
+    <key>OSAScriptingDefinition</key>
+    <string>com.apple.Music.sdef</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Music Library</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBadgeName</key>
+          <string>AppIcon</string>
+          <key>UTTypeIconText</key>
+          <string>LIBRARY</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.library</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <array>
+            <string>MuLb</string>
+          </array>
+          <key>public.filename-extension</key>
+          <array>
+            <string>musiclibrary</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.database</string>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Music Database</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBadgeName</key>
+          <string>AppIcon</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.database</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>musicdb</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.audio</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>CD Track</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.cdda</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>AIFC</string>
+          <key>public.filename-extension</key>
+          <string>cdda</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.url</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>iTunes Store URL</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.itms</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>itms</string>
+          <key>public.filename-extension</key>
+          <string>itms</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+          <string>public.html</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>iTunes LP</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.itlp</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>itlp</string>
+          <key>public.filename-extension</key>
+          <string>itlp</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.plugin</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Visual Plugin</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.visual</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>hvpl</string>
+          <key>public.filename-extension</key>
+          <string>hvpl</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.text</string>
+          <string>public.playlist</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>M3U Playlist</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.m3u-playlist</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>MP3U</string>
+          <key>public.filename-extension</key>
+          <array>
+            <string>m3u</string>
+            <string>m3u8</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>audio/x-mpegurl</string>
+            <string>audio/mpegurl</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.text</string>
+          <string>public.playlist</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>PLS Playlist</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.pls-playlist</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>pls</string>
+          <key>public.mime-type</key>
+          <array>
+            <string>audio/x-scpls</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.audio</string>
+        <key>UTTypeDescription</key>
+        <string>MP2 audio</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.mp2</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>MPG2</string>
+          <key>public.filename-extension</key>
+          <string>mp2</string>
+          <key>public.mime-type</key>
+          <array>
+            <string>audio/mpeg</string>
+            <string>audio/x-mpeg</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.xml</string>
+        <key>UTTypeDescription</key>
+        <string>Metadata</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.metadata</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>itun</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.file-url</string>
+        <key>UTTypeDescription</key>
+        <string>iApp Compatibility</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.iappurl</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>HUfl</string>
+        </dict>
+      </dict>
+    </array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.text</string>
+          <string>public.playlist</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>RMP Playlist</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Music.rmp-playlist</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>rmp</string>
+          <key>public.mime-type</key>
+          <array>
+            <string>application/vnd.rn-rn_music_package</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.database</string>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>iTunes Database File</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.iTunes.db</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>hkdb</string>
+          <key>public.filename-extension</key>
+          <string>itl</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

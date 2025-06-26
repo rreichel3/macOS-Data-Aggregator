@@ -1,5 +1,5 @@
 Code Signing Information for Weather
-Generated: 2025-06-26 16:36:26
+Generated: 2025-06-26 18:37:33
 Application Path: /System/Applications/Weather.app
 
 Signature Status: Valid

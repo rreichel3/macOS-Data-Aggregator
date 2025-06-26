@@ -1,10 +1,10 @@
 Sandbox Analysis for UniversalAccessControl
-Generated: 2025-06-26 16:35:13
+Generated: 2025-06-26 18:37:35
 Application Path: /System/Library/CoreServices/UniversalAccessControl.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 6
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

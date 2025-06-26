@@ -1,5 +1,5 @@
 Code Signing Information for SSMenuAgent
-Generated: 2025-06-26 16:33:56
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app
 
 Signature Status: Valid

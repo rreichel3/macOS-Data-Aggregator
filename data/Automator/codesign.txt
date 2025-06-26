@@ -1,5 +1,5 @@
 Code Signing Information for Automator
-Generated: 2025-06-26 16:33:59
+Generated: 2025-06-26 18:37:35
 Application Path: /System/Applications/Automator.app
 
 Signature Status: Valid

@@ -1,5 +1,5 @@
 Code Signing Information for Finder
-Generated: 2025-06-26 16:35:11
+Generated: 2025-06-26 18:37:30
 Application Path: /System/Library/CoreServices/Finder.app
 
 Signature Status: Valid

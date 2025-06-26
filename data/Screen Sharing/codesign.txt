@@ -1,5 +1,5 @@
 Code Signing Information for Screen Sharing
-Generated: 2025-06-26 16:32:37
+Generated: 2025-06-26 18:34:17
 Application Path: /System/Applications/Utilities/Screen Sharing.app
 
 Signature Status: Valid

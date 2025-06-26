@@ -1,184 +1,278 @@
-{
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeExtensions": [
-        "html",
-        "htm",
-        "shtml",
-        "xht",
-        "xhtml"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "HTML Document",
-      "CFBundleTypeOSTypes": [
-        "HTML"
-      ],
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "json"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "application/json"
-      ],
-      "CFBundleTypeName": "JSON File",
-      "CFBundleTypeOSTypes": [
-        "TEXT"
-      ],
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "pdf"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "application/pdf"
-      ],
-      "CFBundleTypeName": "PDF document",
-      "CFBundleTypeOSTypes": [
-        "TEXT"
-      ],
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Alternate"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "svg"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "image/svg+xml"
-      ],
-      "CFBundleTypeName": "SVG document",
-      "CFBundleTypeOSTypes": [
-        "TEXT"
-      ],
-      "CFBundleTypeRole": "Viewer",
-      "NSDocumentClass": "BrowserDocument"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "text",
-        "txt",
-        "js",
-        "log",
-        "css",
-        "xul",
-        "rdf"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeName": "Text Document",
-      "CFBundleTypeOSTypes": [
-        "TEXT",
-        "utxt"
-      ],
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "jpeg",
-        "jpg",
-        "png",
-        "gif"
-      ],
-      "CFBundleTypeIconFile": "fileBookmark.icns",
-      "CFBundleTypeName": "document.icns",
-      "CFBundleTypeOSTypes": [
-        "GIFf",
-        "JPEG",
-        "PNGf"
-      ],
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "oga",
-        "ogg"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "audio/ogg"
-      ],
-      "CFBundleTypeName": "HTML5 Audio (Ogg)",
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "ogv"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "video/ogg"
-      ],
-      "CFBundleTypeName": "HTML5 Video (Ogg)",
-      "CFBundleTypeRole": "Viewer"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "webm"
-      ],
-      "CFBundleTypeIconFile": "document.icns",
-      "CFBundleTypeMIMETypes": [
-        "video/webm"
-      ],
-      "CFBundleTypeName": "HTML5 Video (WebM)",
-      "CFBundleTypeRole": "Viewer"
-    }
-  ],
-  "CFBundleExecutable": "firefox",
-  "CFBundleGetInfoString": "Firefox 139.0.4",
-  "CFBundleIconFile": "firefox.icns",
-  "CFBundleIdentifier": "org.mozilla.firefox",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Firefox",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "139.0.4",
-  "CFBundleSignature": "MOZB",
-  "CFBundleURLTypes": [
-    {
-      "CFBundleURLIconFile": "document.icns",
-      "CFBundleURLName": "http URL",
-      "CFBundleURLSchemes": [
-        "http"
-      ]
-    },
-    {
-      "CFBundleURLIconFile": "document.icns",
-      "CFBundleURLName": "https URL",
-      "CFBundleURLSchemes": [
-        "https"
-      ]
-    },
-    {
-      "CFBundleURLName": "file URL",
-      "CFBundleURLSchemes": [
-        "file"
-      ]
-    }
-  ],
-  "CFBundleVersion": "13925.6.9",
-  "NSUserActivityTypes": [
-    "NSUserActivityTypeBrowsingWeb"
-  ],
-  "NSAppleScriptEnabled": true,
-  "LSApplicationCategoryType": "public.app-category.productivity",
-  "LSEnvironment": {
-    "MallocNanoZone": "0",
-    "SYSTEM_VERSION_COMPAT": "0"
-  },
-  "LSFileQuarantineEnabled": true,
-  "LSMinimumSystemVersion": "10.15.0",
-  "NSSupportsAutomaticGraphicsSwitching": true,
-  "NSRequiresAquaSystemAppearance": false,
-  "NSPrincipalClass": "GeckoNSApplication",
-  "SMPrivilegedExecutables": {
-    "org.mozilla.updater": "identifier \"org.mozilla.updater\" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = \"43AQ936H96\""
-  },
-  "NSCameraUsageDescription": "Only sites you allow within Firefox will be able to use the camera.",
-  "NSMicrophoneUsageDescription": "Only sites you allow within Firefox will be able to use the microphone.",
-  "NSCameraReactionEffectGesturesEnabledDefault": false
-}
+<!-- Info.plist for Firefox.app -->
+<!-- Extracted on: 2025-06-26 18:37:34 -->
+<!-- Source: /Applications/Firefox.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>html</string>
+          <string>htm</string>
+          <string>shtml</string>
+          <string>xht</string>
+          <string>xhtml</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>HTML Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>HTML</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>json</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>application/json</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>JSON File</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TEXT</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>pdf</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>application/pdf</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>PDF document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TEXT</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Alternate</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>svg</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>image/svg+xml</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>SVG document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TEXT</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>NSDocumentClass</key>
+        <string>BrowserDocument</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>text</string>
+          <string>txt</string>
+          <string>js</string>
+          <string>log</string>
+          <string>css</string>
+          <string>xul</string>
+          <string>rdf</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>Text Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>TEXT</string>
+          <string>utxt</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>jpeg</string>
+          <string>jpg</string>
+          <string>png</string>
+          <string>gif</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>fileBookmark.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>GIFf</string>
+          <string>JPEG</string>
+          <string>PNGf</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>oga</string>
+          <string>ogg</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>audio/ogg</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Audio (Ogg)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>ogv</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>video/ogg</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Video (Ogg)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>webm</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>video/webm</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>HTML5 Video (WebM)</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>firefox</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Firefox 139.0.4</string>
+    <key>CFBundleIconFile</key>
+    <string>firefox.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>org.mozilla.firefox</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Firefox</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>139.0.4</string>
+    <key>CFBundleSignature</key>
+    <string>MOZB</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleURLName</key>
+        <string>http URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>http</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLIconFile</key>
+        <string>document.icns</string>
+        <key>CFBundleURLName</key>
+        <string>https URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>https</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>file URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>file</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>13925.6.9</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSEnvironment</key>
+    <dict>
+      <key>MallocNanoZone</key>
+      <string>0</string>
+      <key>SYSTEM_VERSION_COMPAT</key>
+      <string>0</string>
+    </dict>
+    <key>LSFileQuarantineEnabled</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>10.15.0</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSCameraReactionEffectGesturesEnabledDefault</key>
+    <false />
+    <key>NSCameraUsageDescription</key>
+    <string>Only sites you allow within Firefox will be able to use the camera.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Only sites you allow within Firefox will be able to use the microphone.</string>
+    <key>NSPrincipalClass</key>
+    <string>GeckoNSApplication</string>
+    <key>NSRequiresAquaSystemAppearance</key>
+    <false />
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>NSUserActivityTypeBrowsingWeb</string>
+    </array>
+    <key>SMPrivilegedExecutables</key>
+    <dict>
+      <key>org.mozilla.updater</key>
+      <string>identifier "org.mozilla.updater" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = "43AQ936H96"</string>
+    </dict>
+  </dict>
+</plist>

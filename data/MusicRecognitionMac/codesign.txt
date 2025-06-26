@@ -1,5 +1,5 @@
 Code Signing Information for MusicRecognitionMac
-Generated: 2025-06-26 16:36:28
+Generated: 2025-06-26 18:33:44
 Application Path: /System/Library/CoreServices/MusicRecognitionMac.app
 
 Signature Status: Valid

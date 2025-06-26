@@ -1,10 +1,10 @@
 Sandbox Analysis for Xcode_15.3
-Generated: 2025-06-26 16:35:10
+Generated: 2025-06-26 18:36:42
 Application Path: /Applications/Xcode_15.3.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 39
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

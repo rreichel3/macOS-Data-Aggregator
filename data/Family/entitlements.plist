@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.application-identifier</key><string>0000000000.com.apple.Family</string><key>com.apple.biome.compute.publisher.service</key><true/><key>com.apple.developer.associated-domains</key><array></array><key>com.apple.payment.all-access</key><true/><key>com.apple.payment.amp-card-enrollment</key><true/><key>com.apple.payment.card-on-file</key><true/><key>com.apple.private.accounts.allaccounts</key><true/><key>com.apple.private.biome.client-identifier</key><string>0000000000.com.apple.Family</string><key>com.apple.private.biome.read-only</key><array><string>FindMyLocationChange</string></array><key>com.apple.private.bmk.allow</key><true/><key>com.apple.private.familycircle</key><true/><key>com.apple.private.followup</key><true/><key>com.apple.private.in-app-payments</key><true/><key>com.apple.private.security.storage.familycircled</key><true/><key>com.apple.private.swc.system-app</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAddressBook</string></array><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key><array><string>/Library/Caches/FamilyCircle/</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.biome.PublicStreamAccessService</string><string>com.apple.biome.access.user</string><string>com.apple.biome.compute.publisher.service.user</string><string>com.apple.AddressBook.ContactsAccountsService</string><string>com.apple.biome.compute.source.user</string><string>com.apple.passd.library</string><string>com.apple.passd.in-app-payment</string><string>com.apple.passd.library</string><string>com.apple.passd.payment</string></array><key>com.apple.security.temporary-exception.shared-preference.read-write</key><array><string>com.apple.FamilyCircle</string></array></dict></plist>
+<!-- Entitlements for Family.app -->
+<!-- Extracted on: 2025-06-26 18:37:28 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.application-identifier</key>
+    <string>0000000000.com.apple.Family</string>
+    <key>com.apple.biome.compute.publisher.service</key>
+    <true />
+    <key>com.apple.developer.associated-domains</key>
+    <array />
+    <key>com.apple.payment.all-access</key>
+    <true />
+    <key>com.apple.payment.amp-card-enrollment</key>
+    <true />
+    <key>com.apple.payment.card-on-file</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>0000000000.com.apple.Family</string>
+    <key>com.apple.private.biome.read-only</key>
+    <array>
+      <string>FindMyLocationChange</string>
+    </array>
+    <key>com.apple.private.bmk.allow</key>
+    <true />
+    <key>com.apple.private.familycircle</key>
+    <true />
+    <key>com.apple.private.followup</key>
+    <true />
+    <key>com.apple.private.in-app-payments</key>
+    <true />
+    <key>com.apple.private.security.storage.familycircled</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Caches/FamilyCircle/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.biome.PublicStreamAccessService</string>
+      <string>com.apple.biome.access.user</string>
+      <string>com.apple.biome.compute.publisher.service.user</string>
+      <string>com.apple.AddressBook.ContactsAccountsService</string>
+      <string>com.apple.biome.compute.source.user</string>
+      <string>com.apple.passd.library</string>
+      <string>com.apple.passd.in-app-payment</string>
+      <string>com.apple.passd.library</string>
+      <string>com.apple.passd.payment</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.FamilyCircle</string>
+    </array>
+  </dict>
+</plist>

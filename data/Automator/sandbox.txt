@@ -1,10 +1,10 @@
 Sandbox Analysis for Automator
-Generated: 2025-06-26 16:33:59
+Generated: 2025-06-26 18:37:35
 Application Path: /System/Applications/Automator.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 7
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

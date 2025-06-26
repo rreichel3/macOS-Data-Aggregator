@@ -1,10 +1,10 @@
 Sandbox Analysis for System Settings
-Generated: 2025-06-26 16:33:59
+Generated: 2025-06-26 18:37:28
 Application Path: /System/Applications/System Settings.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 23
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

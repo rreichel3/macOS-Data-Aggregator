@@ -1,5 +1,5 @@
 Code Signing Information for Feedback Assistant
-Generated: 2025-06-26 16:31:57
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/Applications/Feedback Assistant.app
 
 Signature Status: Valid

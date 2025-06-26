@@ -1,1 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>aps-connection-initiate</key><true/><key>aps-environment</key><string>Development</string><key>com.apple.accessibility.axassets</key><true/><key>com.apple.application-identifier</key><string>com.apple.VoiceOverUtility</string><key>com.apple.bluetooth.system</key><true/><key>com.apple.developer.aps-environment</key><string>Development</string><key>com.apple.developer.icloud-container-environment</key><string>Production</string><key>com.apple.developer.icloud-services</key><array><string>CloudKit</string></array><key>com.apple.private.admin.writeconfig.voiceover</key><true/><key>com.apple.private.aps-connection-initiate</key><true/><key>com.apple.private.assets.accessible-asset-types</key><array><string>com.apple.MobileAsset.ImageCaptionModel</string><string>com.apple.MobileAsset.TTSAXResourceModelAssets</string></array><key>com.apple.private.assets.change-daemon-config</key><true/><key>com.apple.private.cloudkit.masquerade</key><true/><key>com.apple.private.cloudkit.serviceNameForContainerMap</key><dict><key>com.apple.accessibility.VoiceOverPunctuation</key><string>com.apple.Accessibility</string></dict><key>com.apple.private.security.container-required</key><true/><key>com.apple.private.speech.synthesis.custom.voices.allow</key><true/><key>com.apple.private.translation</key><true/><key>com.apple.security.exception.mach-lookup.global-name</key><array><string>com.apple.translationd</string></array><key>com.apple.security.exception.shared-preference.read-write</key><array><string>com.apple.Accessibility.Assets</string></array><key>com.apple.security.system-container</key><true/><key>com.apple.security.temporary-exception.audio-unit-host</key><true/><key>com.apple.shortcuts.background-running</key><true/><key>com.apple.shortcuts.library-read-access</key><true/><key>com.apple.trial.client</key><array><string>406</string></array></dict></plist>
+<!-- Entitlements for VoiceOver Utility.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>aps-connection-initiate</key>
+    <true />
+    <key>aps-environment</key>
+    <string>Development</string>
+    <key>com.apple.accessibility.axassets</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.VoiceOverUtility</string>
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.developer.aps-environment</key>
+    <string>Development</string>
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Production</string>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.private.admin.writeconfig.voiceover</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.ImageCaptionModel</string>
+      <string>com.apple.MobileAsset.TTSAXResourceModelAssets</string>
+    </array>
+    <key>com.apple.private.assets.change-daemon-config</key>
+    <true />
+    <key>com.apple.private.cloudkit.masquerade</key>
+    <true />
+    <key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+    <dict>
+      <key>com.apple.accessibility.VoiceOverPunctuation</key>
+      <string>com.apple.Accessibility</string>
+    </dict>
+    <key>com.apple.private.security.container-required</key>
+    <true />
+    <key>com.apple.private.speech.synthesis.custom.voices.allow</key>
+    <true />
+    <key>com.apple.private.translation</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.translationd</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.Accessibility.Assets</string>
+    </array>
+    <key>com.apple.security.system-container</key>
+    <true />
+    <key>com.apple.security.temporary-exception.audio-unit-host</key>
+    <true />
+    <key>com.apple.shortcuts.background-running</key>
+    <true />
+    <key>com.apple.shortcuts.library-read-access</key>
+    <true />
+    <key>com.apple.trial.client</key>
+    <array>
+      <string>406</string>
+    </array>
+  </dict>
+</plist>

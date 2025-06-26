@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.accounts.appleaccount.fullaccess</key><true/><key>com.apple.appleaccount.beneficiary</key><true/><key>com.apple.appleaccount.custodian</key><true/><key>com.apple.application-identifier</key><string>0000000000.com.apple.AOSUIPrefPaneLauncher</string><key>com.apple.developer.associated-domains</key><array></array><key>com.apple.private.coreservices.canmaplsdatabase</key><true/><key>com.apple.private.swc.system-app</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAddressBook</string></array><key>com.apple.security.exception.mach-lookup.global-name</key><array><string>com.apple.CoreServices.coreservicesd</string><string>com.apple.coreservices.quarantine-resolver</string></array><key>keychain-access-groups</key><array><string>apple</string></array></dict></plist>
+<!-- Entitlements for AOSUIPrefPaneLauncher.app -->
+<!-- Extracted on: 2025-06-26 18:36:45 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.appleaccount.beneficiary</key>
+    <true />
+    <key>com.apple.appleaccount.custodian</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>0000000000.com.apple.AOSUIPrefPaneLauncher</string>
+    <key>com.apple.developer.associated-domains</key>
+    <array />
+    <key>com.apple.private.coreservices.canmaplsdatabase</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.CoreServices.coreservicesd</string>
+      <string>com.apple.coreservices.quarantine-resolver</string>
+    </array>
+    <key>keychain-access-groups</key>
+    <array>
+      <string>apple</string>
+    </array>
+  </dict>
+</plist>

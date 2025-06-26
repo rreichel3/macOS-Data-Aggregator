@@ -1,5 +1,5 @@
 Code Signing Information for QuickTime Player
-Generated: 2025-06-26 16:31:58
+Generated: 2025-06-26 18:38:09
 Application Path: /System/Applications/QuickTime Player.app
 
 Signature Status: Valid

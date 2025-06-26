@@ -1,1 +1,149 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.account.publishedcalendar.fullaccess</key><true/><key>com.apple.accounts.inactive.fullaccess</key><true/><key>com.apple.application-identifier</key><string>com.apple.calendar</string><key>com.apple.authkit.client.internal</key><true/><key>com.apple.chronoservices</key><true/><key>com.apple.coreduetd.allow</key><true/><key>com.apple.coreduetd.people</key><true/><key>com.apple.developer.maps</key><true/><key>com.apple.developer.usernotifications.time-sensitive</key><true/><key>com.apple.locationd.effective_bundle</key><true/><key>com.apple.private.accounts.allaccounts</key><true/><key>com.apple.private.associated-domains</key><true/><key>com.apple.private.calendar</key><true/><key>com.apple.private.calendar.allow-diagnostics-collection</key><true/><key>com.apple.private.calendar.allow-suggestions</key><true/><key>com.apple.private.canGetAppLinkInfo</key><true/><key>com.apple.private.canModifyAppLinkPermissions</key><true/><key>com.apple.private.contactsui</key><true/><key>com.apple.private.corerecents</key><true/><key>com.apple.private.corespotlight.bundleid</key><array><string>com.apple.mobilecal</string></array><key>com.apple.private.corespotlight.search.internal</key><true/><key>com.apple.private.hid.client.event-dispatch.internal</key><true/><key>com.apple.private.launchservices.changedefaulthandlers</key><array><string>webcal</string><string>com.apple.ical.ics</string><string>com.apple.ical.vcs</string><string>com.apple.ical.backup-package</string></array><key>com.apple.private.mailservice.delivery</key><true/><key>com.apple.private.suggestions.contacts</key><true/><key>com.apple.private.suggestions.events</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceReminders</string><string>kTCCServiceCalendar</string><string>kTCCServiceAddressBook</string></array><key>com.apple.private.tcc.manager.check-by-audit-token</key><array><string>kTCCServiceCalendar</string></array><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.exception.mach-lookup.global-name</key><array><string>com.apple.CalendarAgent</string><string>com.apple.calaccessd</string></array><key>com.apple.security.exception.shared-preference.read-only</key><array><string>com.apple.applicationaccess</string></array><key>com.apple.security.files.bookmarks.document-scope</key><true/><key>com.apple.security.files.user-selected.read-write</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.personal-information.addressbook</key><true/><key>com.apple.security.personal-information.calendars</key><true/><key>com.apple.security.personal-information.location</key><true/><key>com.apple.security.print</key><true/><key>com.apple.security.scripting-targets</key><dict><key>com.apple.mail</key><array><string>com.apple.mail.compose</string></array></dict><key>com.apple.security.temporary-exception.files.absolute-path.read-only</key><array><string>/Library/Managed Preferences/</string></array><key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key><array><string>/Library/Calendars/Pending Events/</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.exchange.exchangesyncd</string><string>com.apple.CalendarAgent</string><string>com.apple.calaccessd</string><string>com.apple.dataaccess.dataaccessd</string><string>com.apple.chronoservices</string><string>com.apple.corerecents.recentsd</string><string>com.apple.accountsd.accountmanager</string><string>com.apple.suggestd.events</string><string>com.apple.duetknowledged.activity</string><string>com.apple.coreduetd.people</string><string>com.apple.ak.auth.xpc</string></array><key>com.apple.security.temporary-exception.shared-preference.read-only</key><array><string>com.apple.icloud.managed</string><string>MobileMeAccounts</string></array><key>com.apple.security.temporary-exception.shared-preference.read-write</key><array><string>.GlobalPreferences</string><string>com.apple.iCal</string><string>com.apple.iCal.Highlander</string><string>com.apple.calviewmodel</string><string>com.apple.suggestions</string><string>com.apple.DataAccess.BehaviorOptions</string></array><key>keychain-access-groups</key><array><string>appleaccount</string></array></dict></plist>
+<!-- Entitlements for Calendar.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.account.publishedcalendar.fullaccess</key>
+    <true />
+    <key>com.apple.accounts.inactive.fullaccess</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.calendar</string>
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.chronoservices</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.people</key>
+    <true />
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.developer.usernotifications.time-sensitive</key>
+    <true />
+    <key>com.apple.locationd.effective_bundle</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.associated-domains</key>
+    <true />
+    <key>com.apple.private.calendar</key>
+    <true />
+    <key>com.apple.private.calendar.allow-diagnostics-collection</key>
+    <true />
+    <key>com.apple.private.calendar.allow-suggestions</key>
+    <true />
+    <key>com.apple.private.canGetAppLinkInfo</key>
+    <true />
+    <key>com.apple.private.canModifyAppLinkPermissions</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.corespotlight.bundleid</key>
+    <array>
+      <string>com.apple.mobilecal</string>
+    </array>
+    <key>com.apple.private.corespotlight.search.internal</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.launchservices.changedefaulthandlers</key>
+    <array>
+      <string>webcal</string>
+      <string>com.apple.ical.ics</string>
+      <string>com.apple.ical.vcs</string>
+      <string>com.apple.ical.backup-package</string>
+    </array>
+    <key>com.apple.private.mailservice.delivery</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.suggestions.events</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.private.tcc.manager.check-by-audit-token</key>
+    <array>
+      <string>kTCCServiceCalendar</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.CalendarAgent</string>
+      <string>com.apple.calaccessd</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.applicationaccess</string>
+    </array>
+    <key>com.apple.security.files.bookmarks.document-scope</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.calendars</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.scripting-targets</key>
+    <dict>
+      <key>com.apple.mail</key>
+      <array>
+        <string>com.apple.mail.compose</string>
+      </array>
+    </dict>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Managed Preferences/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Calendars/Pending Events/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.exchange.exchangesyncd</string>
+      <string>com.apple.CalendarAgent</string>
+      <string>com.apple.calaccessd</string>
+      <string>com.apple.dataaccess.dataaccessd</string>
+      <string>com.apple.chronoservices</string>
+      <string>com.apple.corerecents.recentsd</string>
+      <string>com.apple.accountsd.accountmanager</string>
+      <string>com.apple.suggestd.events</string>
+      <string>com.apple.duetknowledged.activity</string>
+      <string>com.apple.coreduetd.people</string>
+      <string>com.apple.ak.auth.xpc</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.icloud.managed</string>
+      <string>MobileMeAccounts</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>.GlobalPreferences</string>
+      <string>com.apple.iCal</string>
+      <string>com.apple.iCal.Highlander</string>
+      <string>com.apple.calviewmodel</string>
+      <string>com.apple.suggestions</string>
+      <string>com.apple.DataAccess.BehaviorOptions</string>
+    </array>
+    <key>keychain-access-groups</key>
+    <array>
+      <string>appleaccount</string>
+    </array>
+  </dict>
+</plist>

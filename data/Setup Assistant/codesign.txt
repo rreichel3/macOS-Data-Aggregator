@@ -1,5 +1,5 @@
 Code Signing Information for Setup Assistant
-Generated: 2025-06-26 16:32:34
+Generated: 2025-06-26 18:35:27
 Application Path: /System/Library/CoreServices/Setup Assistant.app
 
 Signature Status: Valid

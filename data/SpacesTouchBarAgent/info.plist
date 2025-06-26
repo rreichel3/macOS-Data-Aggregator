@@ -1,27 +1,57 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDisplayName": "SpacesTouchBarAgent",
-  "CFBundleExecutable": "SpacesTouchBarAgent",
-  "CFBundleIdentifier": "com.apple.SpacesTouchBarAgent",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "SpacesTouchBarAgent",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "2273.105.2.2",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "23H502",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23H502",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "LSUIElement": true,
-  "NSDisablePersistence": true,
-  "NSPrincipalClass": "NSApplication"
-}
+<!-- Info.plist for SpacesTouchBarAgent.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+<!-- Source: /System/Library/CoreServices/SpacesTouchBarAgent.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>SpacesTouchBarAgent</string>
+    <key>CFBundleExecutable</key>
+    <string>SpacesTouchBarAgent</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.SpacesTouchBarAgent</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>SpacesTouchBarAgent</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>2273.105.2.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H502</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H502</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSDisablePersistence</key>
+    <true />
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+  </dict>
+</plist>

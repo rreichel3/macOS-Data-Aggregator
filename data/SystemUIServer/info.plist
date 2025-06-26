@@ -1,59 +1,107 @@
-{
-  "Application-Group": "AirPort",
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeExtensions": [
-        "menu"
-      ],
-      "CFBundleTypeName": "MenuExtra plugin",
-      "CFBundleTypeRole": "Editor",
-      "LSIsAppleDefaultForType": true,
-      "LSTypeIsPackage": true
-    }
-  ],
-  "CFBundleExecutable": "SystemUIServer",
-  "CFBundleIdentifier": "com.apple.systemuiserver",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "SystemUIServer",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.7",
-  "CFBundleSignature": "syui",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "524.100",
-  "CTIgnoreUserFonts": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSLaunchDLabel": "com.apple.SystemUIServer.agent",
-  "LSMinimumSystemVersion": "14.7",
-  "LSRequiresNativeExecution": true,
-  "LSUIElement": "1",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2000-2020 Apple Inc. All rights reserved.",
-  "NSPrincipalClass": "NSApplication",
-  "NSServices": [
-    {
-      "NSMenuItem": {
-        "default": "Open URL"
-      },
-      "NSMessage": "openURL",
-      "NSPortName": "SystemUIServer",
-      "NSSendTypes": [
-        "NSURLPboardType",
-        "NSStringPboardType"
-      ]
-    }
-  ],
-  "NSSupportsSuddenTermination": true,
-  "com.apple.PreferenceSync.ExcludeSyncKeys": [
-    "menuExtras"
-  ]
-}
+<!-- Info.plist for SystemUIServer.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+<!-- Source: /System/Library/CoreServices/SystemUIServer.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>Application-Group</key>
+    <string>AirPort</string>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>menu</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>MenuExtra plugin</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>SystemUIServer</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.systemuiserver</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>SystemUIServer</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.7</string>
+    <key>CFBundleSignature</key>
+    <string>syui</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>524.100</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSLaunchDLabel</key>
+    <string>com.apple.SystemUIServer.agent</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>LSUIElement</key>
+    <string>1</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2000-2020 Apple Inc. All rights reserved.</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSServices</key>
+    <array>
+      <dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Open URL</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>openURL</string>
+        <key>NSPortName</key>
+        <string>SystemUIServer</string>
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSURLPboardType</string>
+          <string>NSStringPboardType</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+    <array>
+      <string>menuExtras</string>
+    </array>
+  </dict>
+</plist>

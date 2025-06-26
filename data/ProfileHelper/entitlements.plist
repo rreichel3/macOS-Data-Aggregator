@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.private.managedclient.configurationprofiles.purgatory</key><true/><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.files.user-selected.read-only</key><true/><key>com.apple.security.temporary-exception.files.absolute-path.read-only</key><array><string>/Library/Managed Preferences/com.apple.mdmclient.plist</string><string>/Library/Managed Preferences/com.apple.mcxtools.plist</string><string>/Library/Managed Preferences/com.apple.MCXDebug.plist</string></array><key>com.apple.security.temporary-exception.files.absolute-path.read-write</key><array><string>/Library/Logs/MCXTools.log</string><string>/Library/Logs/ManagedClient/ManagedClient.log</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.mdmclient.agent.unrestricted</string><string>com.apple.mdmclient.daemon.unrestricted</string></array><key>com.apple.security.temporary-exception.shared-preference.read-only</key><array><string>com.apple.mdmclient</string><string>com.apple.mcxtools</string><string>com.apple.MCXDebug</string></array></dict></plist>
+<!-- Entitlements for ProfileHelper.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.private.managedclient.configurationprofiles.purgatory</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Managed Preferences/com.apple.mdmclient.plist</string>
+      <string>/Library/Managed Preferences/com.apple.mcxtools.plist</string>
+      <string>/Library/Managed Preferences/com.apple.MCXDebug.plist</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+    <array>
+      <string>/Library/Logs/MCXTools.log</string>
+      <string>/Library/Logs/ManagedClient/ManagedClient.log</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.mdmclient.agent.unrestricted</string>
+      <string>com.apple.mdmclient.daemon.unrestricted</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.mdmclient</string>
+      <string>com.apple.mcxtools</string>
+      <string>com.apple.MCXDebug</string>
+    </array>
+  </dict>
+</plist>

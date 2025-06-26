@@ -1,5 +1,5 @@
 Code Signing Information for screencaptureui
-Generated: 2025-06-26 16:36:25
+Generated: 2025-06-26 18:35:27
 Application Path: /System/Library/CoreServices/screencaptureui.app
 
 Signature Status: Valid

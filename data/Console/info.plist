@@ -1,258 +1,419 @@
-{
-  "ATSApplicationFontsPath": "Fonts",
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Console",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "Analytics Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.ips"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Shutdown Stall",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.shutdownStall"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "GPU Restart",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.gpuRestart"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Log Archive",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.logarchive"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "diag"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "text/plain"
-      ],
-      "CFBundleTypeName": "Diagnostic Report",
-      "CFBundleTypeOSTypes": [
-        "****"
-      ],
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSTypeIsPackage": false,
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Crash Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.crashreport"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Spin Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.spinreport"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Hang Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.hangreport"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Panic Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.panicreport"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "Log File",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultForType": true,
-      "LSItemContentTypes": [
-        "com.apple.log",
-        "public.log"
-      ],
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "gz"
-      ],
-      "CFBundleTypeName": "gzip",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": false,
-      "LSTypeIsPackage": false,
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "bz2"
-      ],
-      "CFBundleTypeName": "bzip2",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": false,
-      "LSTypeIsPackage": false,
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeExtensions": [
-        "asl"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "text/plain"
-      ],
-      "CFBundleTypeName": "ASL Database",
-      "CFBundleTypeOSTypes": [
-        "****"
-      ],
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForType": true,
-      "LSTypeIsPackage": false,
-      "NSPersistentStoreTypeKey": "Binary"
-    },
-    {
-      "CFBundleTypeName": "JSON Crash Report",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Default",
-      "LSItemContentTypes": [
-        "com.apple.json-crash"
-      ]
-    },
-    {
-      "CFBundleTypeName": "ktrace file",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "None",
-      "LSItemContentTypes": [
-        "com.apple.ktrace"
-      ]
-    },
-    {
-      "CFBundleTypeName": "Apple Trace file",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "None",
-      "LSItemContentTypes": [
-        "com.apple.trace"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "Console",
-  "CFBundleHelpBookFolder": "Console.help",
-  "CFBundleHelpBookName": "com.apple.Console.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.Console",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Console",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.1",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "8.1.6.3",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "NSAppleScriptEnabled": true,
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "NSApplication",
-  "OSAScriptingDefinition": "Console.sdef",
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.composite-content",
-        "com.apple.package"
-      ],
-      "UTTypeDescription": "Log Archive",
-      "UTTypeIcons": {
-        "UTTypeIconBadgeName": "AppIcon",
-        "UTTypeIconText": "Archive"
-      },
-      "UTTypeIdentifier": "com.apple.logarchive",
-      "UTTypeReferenceURL": "",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "logarchive"
-        ],
-        "public.mime-type": [
-          "inode/directory"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.text"
-      ],
-      "UTTypeDescription": "Analytics Report",
-      "UTTypeIcons": {},
-      "UTTypeIdentifier": "com.apple.ips",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "ips"
-        ]
-      }
-    },
-    {
-      "UTTypeConformsTo": [
-        "public.text"
-      ],
-      "UTTypeDescription": "JSON Crash Report",
-      "UTTypeIcons": {},
-      "UTTypeIdentifier": "com.apple.json-crash",
-      "UTTypeTagSpecification": {
-        "public.filename-extension": [
-          "json_crash"
-        ]
-      }
-    }
-  ]
-}
+<!-- Info.plist for Console.app -->
+<!-- Extracted on: 2025-06-26 18:36:42 -->
+<!-- Source: /System/Applications/Utilities/Console.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>ATSApplicationFontsPath</key>
+    <string>Fonts</string>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Console</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Analytics Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.ips</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Shutdown Stall</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.shutdownStall</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>GPU Restart</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.gpuRestart</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Log Archive</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.logarchive</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>diag</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>text/plain</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Diagnostic Report</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>****</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Crash Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.crashreport</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Spin Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.spinreport</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Hang Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.hangreport</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Panic Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.panicreport</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Log File</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.log</string>
+          <string>public.log</string>
+        </array>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>gz</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>gzip</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>bz2</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>bzip2</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <false />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>asl</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>text/plain</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>ASL Database</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>****</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>JSON Crash Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.json-crash</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>ktrace file</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.ktrace</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Apple Trace file</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.trace</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Console</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>Console.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.Console.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Console</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Console</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>8.1.6.3</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>OSAScriptingDefinition</key>
+    <string>Console.sdef</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.composite-content</string>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Log Archive</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBadgeName</key>
+          <string>AppIcon</string>
+          <key>UTTypeIconText</key>
+          <string>Archive</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.logarchive</string>
+        <key>UTTypeReferenceURL</key>
+        <string />
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>logarchive</string>
+          </array>
+          <key>public.mime-type</key>
+          <array>
+            <string>inode/directory</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.text</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Analytics Report</string>
+        <key>UTTypeIcons</key>
+        <dict />
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ips</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>ips</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.text</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>JSON Crash Report</string>
+        <key>UTTypeIcons</key>
+        <dict />
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.json-crash</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>json_crash</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

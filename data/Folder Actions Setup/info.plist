@@ -1,44 +1,85 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Folder Actions Setup",
-  "CFBundleExecutable": "Folder Actions Setup",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.FolderActionsSetup",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Folder Actions Setup",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.2",
-  "CFBundleSignature": "fasu",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "38",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "NSAppleScriptEnabled": true,
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "NSApplication",
-  "NSServices": [
-    {
-      "NSMenuItem": {
-        "default": "Folder Actions Setup"
-      },
-      "NSMessage": "openFilesFromPasteboard",
-      "NSPortName": "Folder Actions Setup",
-      "NSSendTypes": [
-        "NSFilenamesPboardType"
-      ]
-    }
-  ],
-  "NSSupportsSuddenTermination": true,
-  "OSAScriptingDefinition": "Folder Actions Setup"
-}
+<!-- Info.plist for Folder Actions Setup.app -->
+<!-- Extracted on: 2025-06-26 18:36:49 -->
+<!-- Source: /System/Library/CoreServices/Applications/Folder Actions Setup.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Folder Actions Setup</string>
+    <key>CFBundleExecutable</key>
+    <string>Folder Actions Setup</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.FolderActionsSetup</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Folder Actions Setup</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.2</string>
+    <key>CFBundleSignature</key>
+    <string>fasu</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>38</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSServices</key>
+    <array>
+      <dict>
+        <key>NSMenuItem</key>
+        <dict>
+          <key>default</key>
+          <string>Folder Actions Setup</string>
+        </dict>
+        <key>NSMessage</key>
+        <string>openFilesFromPasteboard</string>
+        <key>NSPortName</key>
+        <string>Folder Actions Setup</string>
+        <key>NSSendTypes</key>
+        <array>
+          <string>NSFilenamesPboardType</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>OSAScriptingDefinition</key>
+    <string>Folder Actions Setup</string>
+  </dict>
+</plist>

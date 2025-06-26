@@ -1,81 +1,145 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Reminders",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeName": "Reminders List",
-      "CFBundleTypeRole": "Editor",
-      "LSHandlerRank": "Owner",
-      "LSItemContentTypes": [
-        "com.apple.reminders.list"
-      ]
-    }
-  ],
-  "CFBundleExecutable": "Reminders",
-  "CFBundleHelpBookFolder": "reminders.help",
-  "CFBundleHelpBookName": "com.apple.reminders.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.reminders",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Reminders",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "7.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleURLTypes": [
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "ReminderKit",
-      "CFBundleURLSchemes": [
-        "x-apple-reminderkit"
-      ]
-    }
-  ],
-  "CFBundleVersion": "2946",
-  "CKSharingSupported": true,
-  "CTIgnoreUserFonts": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "NSAppTransportSecurity": {
-    "NSAllowsArbitraryLoadsInWebContent": true
-  },
-  "NSAppleScriptEnabled": true,
-  "NSCameraUsageDescription": "Camera access allows you to take photos to attach to reminders.",
-  "NSContactsUsageDescription": "Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.",
-  "NSLocationUsageDescription": "Location access allows you to set up reminders to notify you when you arrive at or leave a specific place.",
-  "NSMainNibFile": "MainMenu",
-  "NSPhotoLibraryAddUsageDescription": "Photo library write access allows you to add photos taken within Reminders to your photo library.",
-  "NSPhotoLibraryUsageDescription": "Photo library access allows you to attach photos to reminders.",
-  "NSPrincipalClass": "TTRMApplication",
-  "NSSiriUsageDescription": "Allow Siri to make suggestions in Reminders and learn from how you use Reminders to make suggestions across apps.",
-  "NSUserActivityTypes": [
-    "ConfigurationIntent",
-    "com.apple.reminders.activity.list"
-  ],
-  "NSUserNotificationsUsageDescription": "Notifications let you know when your reminders are due.",
-  "OSAScriptingDefinition": "Reminders.sdef",
-  "UNUserNotificationCenter": {
-    "UNUniversalApplicationIdentifier": "com.apple.Reminders"
-  },
-  "UTExportedTypeDeclarations": [
-    {
-      "UTTypeConformsTo": [
-        "public.data"
-      ],
-      "UTTypeDescription": "Reminders inline menu button",
-      "UTTypeIcons": {},
-      "UTTypeIdentifier": "com.apple.reminders.button.menu.inline",
-      "UTTypeTagSpecification": {}
-    }
-  ]
-}
+<!-- Info.plist for Reminders.app -->
+<!-- Extracted on: 2025-06-26 18:37:33 -->
+<!-- Source: /System/Applications/Reminders.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Reminders</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Reminders List</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.reminders.list</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Reminders</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>reminders.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.reminders.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.reminders</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Reminders</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>7.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>ReminderKit</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-apple-reminderkit</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>2946</string>
+    <key>CKSharingSupported</key>
+    <true />
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoadsInWebContent</key>
+      <true />
+    </dict>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSCameraUsageDescription</key>
+    <string>Camera access allows you to take photos to attach to reminders.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Location access allows you to set up reminders to notify you when you arrive at or leave a specific place.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Photo library write access allows you to add photos taken within Reminders to your photo library.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Photo library access allows you to attach photos to reminders.</string>
+    <key>NSPrincipalClass</key>
+    <string>TTRMApplication</string>
+    <key>NSSiriUsageDescription</key>
+    <string>Allow Siri to make suggestions in Reminders and learn from how you use Reminders to make suggestions across apps.</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>ConfigurationIntent</string>
+      <string>com.apple.reminders.activity.list</string>
+    </array>
+    <key>NSUserNotificationsUsageDescription</key>
+    <string>Notifications let you know when your reminders are due.</string>
+    <key>OSAScriptingDefinition</key>
+    <string>Reminders.sdef</string>
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNUniversalApplicationIdentifier</key>
+      <string>com.apple.Reminders</string>
+    </dict>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Reminders inline menu button</string>
+        <key>UTTypeIcons</key>
+        <dict />
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.reminders.button.menu.inline</string>
+        <key>UTTypeTagSpecification</key>
+        <dict />
+      </dict>
+    </array>
+  </dict>
+</plist>

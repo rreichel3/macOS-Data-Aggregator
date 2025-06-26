@@ -1,29 +1,61 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleAllowMixedLocalizations": true,
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleExecutable": "PowerChime",
-  "CFBundleIdentifier": "com.apple.PowerChime",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "PowerChime",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.0",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "LSUIElement": true,
-  "NSMainNibFile": "Application",
-  "NSPrincipalClass": "NSApplication",
-  "NSSupportsSuddenTermination": true
-}
+<!-- Info.plist for PowerChime.app -->
+<!-- Extracted on: 2025-06-26 18:37:34 -->
+<!-- Source: /System/Library/CoreServices/PowerChime.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>PowerChime</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.PowerChime</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>PowerChime</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>Application</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+  </dict>
+</plist>

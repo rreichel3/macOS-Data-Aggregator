@@ -1,10 +1,10 @@
 Sandbox Analysis for Disk Utility
-Generated: 2025-06-26 16:36:26
+Generated: 2025-06-26 18:35:27
 Application Path: /System/Applications/Utilities/Disk Utility.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

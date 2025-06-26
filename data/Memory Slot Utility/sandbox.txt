@@ -1,5 +1,5 @@
 Sandbox Analysis for Memory Slot Utility
-Generated: 2025-06-26 16:33:55
+Generated: 2025-06-26 18:35:27
 Application Path: /System/Library/CoreServices/Memory Slot Utility.app
 
 Sandboxed: Unknown

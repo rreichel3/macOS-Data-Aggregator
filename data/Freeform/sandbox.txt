@@ -1,10 +1,10 @@
 Sandbox Analysis for Freeform
-Generated: 2025-06-26 16:34:00
+Generated: 2025-06-26 18:34:18
 Application Path: /System/Applications/Freeform.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 39
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

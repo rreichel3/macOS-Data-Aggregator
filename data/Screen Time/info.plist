@@ -1,36 +1,71 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Screen Time",
-  "CFBundleExecutable": "Screen Time",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.ScreenTimeWidgetApplication",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Screen Time",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "3.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "503.6.8",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSMinimumSystemVersion": "14.7",
-  "NSSupportsAutomaticTermination": true,
-  "NSSupportsSuddenTermination": true,
-  "SBAppTags": [
-    "hidden"
-  ],
-  "UIDeviceFamily": [
-    6
-  ],
-  "UIRequiresFullScreen": true
-}
+<!-- Info.plist for Screen Time.app -->
+<!-- Extracted on: 2025-06-26 18:38:10 -->
+<!-- Source: /System/Library/CoreServices/Screen Time.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Screen Time</string>
+    <key>CFBundleExecutable</key>
+    <string>Screen Time</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.ScreenTimeWidgetApplication</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Screen Time</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>503.6.8</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>SBAppTags</key>
+    <array>
+      <string>hidden</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>6</integer>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+  </dict>
+</plist>

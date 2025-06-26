@@ -1,5 +1,5 @@
 Code Signing Information for AirPort Base Station Agent
-Generated: 2025-06-26 16:34:34
+Generated: 2025-06-26 18:36:02
 Application Path: /System/Library/CoreServices/AirPort Base Station Agent.app
 
 Signature Status: Valid

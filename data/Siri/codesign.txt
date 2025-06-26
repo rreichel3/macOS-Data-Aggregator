@@ -1,6 +1,6 @@
 Code Signing Information for Siri
-Generated: 2025-06-26 16:35:11
-Application Path: /System/Applications/Siri.app
+Generated: 2025-06-26 18:38:10
+Application Path: /System/Library/CoreServices/Siri.app
 
 Signature Status: Valid
 Authority: Unknown

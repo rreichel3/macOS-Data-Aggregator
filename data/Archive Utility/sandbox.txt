@@ -1,10 +1,10 @@
 Sandbox Analysis for Archive Utility
-Generated: 2025-06-26 16:36:27
+Generated: 2025-06-26 18:36:47
 Application Path: /System/Library/CoreServices/Applications/Archive Utility.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

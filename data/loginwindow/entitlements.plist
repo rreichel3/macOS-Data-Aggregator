@@ -1,1 +1,173 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.SystemConfiguration.SCDynamicStore-write-access</key><dict><key>keys</key><array><string>State:/Users/ConsoleUser</string></array></dict><key>com.apple.ahp</key><true/><key>com.apple.authorization.extract-password</key><true/><key>com.apple.icloud.findmydeviced.access</key><true/><key>com.apple.keystore.config.set</key><true/><key>com.apple.keystore.console</key><true/><key>com.apple.keystore.device</key><true/><key>com.apple.keystore.device.smart-card</key><true/><key>com.apple.keystore.domain.console</key><true/><key>com.apple.keystore.stash.access</key><true/><key>com.apple.mobileactivationd.spi</key><true/><key>com.apple.private.AuthorizationServices</key><array><string>com.apple.opendirectoryd.linkidentity</string></array><key>com.apple.private.CoreAuthentication.SPI</key><true/><key>com.apple.private.LocalAuthentication.Storage</key><true/><key>com.apple.private.LocalAuthentication.Storage.MacBuddyPassword</key><true/><key>com.apple.private.MobileContainerManager.lookup</key><dict><key>appData</key><true/></dict><key>com.apple.private.SkyLight.displaycontrol</key><true/><key>com.apple.private.SkyLight.loginwindow</key><true/><key>com.apple.private.SkyLight.screencapturedirect</key><true/><key>com.apple.private.appleevents.allowedtobesystemprocess</key><true/><key>com.apple.private.applefdekeystore.deletepassphrase</key><true/><key>com.apple.private.applefdekeystore.readpassphrase</key><true/><key>com.apple.private.appletamanager.allow</key><true/><key>com.apple.private.aqua.createSession</key><true/><key>com.apple.private.bmk.allow</key><true/><key>com.apple.private.boot-time-install</key><true/><key>com.apple.private.commercekit.appstore</key><true/><key>com.apple.private.configurationprofiles.bootstraptoken.readonly</key><true/><key>com.apple.private.coreservices.canmanagebackgroundtasks</key><true/><key>com.apple.private.ctk.configuration-allowed-for-bundles</key><array><string>com.apple.PlatformSSOToken</string></array><key>com.apple.private.endpoint-security.submit.lw</key><true/><key>com.apple.private.findmymacd.spi</key><true/><key>com.apple.private.hibernation.set-preview</key><true/><key>com.apple.private.iokit.assertonlidclose</key><true/><key>com.apple.private.iokit.rootdomain-set-property</key><true/><key>com.apple.private.iokit.system-nvram-allow</key><true/><key>com.apple.private.launchservices.allowedtosetconnection.csuiagent</key><true/><key>com.apple.private.logind.spi</key><true/><key>com.apple.private.managedclient.configurationprofiles</key><true/><key>com.apple.private.netfs.server.control</key><true/><key>com.apple.private.notificationcenter-system</key><array><dict><key>identifier</key><string>com.apple.loginwindow</string></dict></array><key>com.apple.private.opendirectoryd.BootstrapToken</key><true/><key>com.apple.private.opendirectoryd.identity</key><true/><key>com.apple.private.platformsso.agent</key><true/><key>com.apple.private.pluginkit.manager</key><true/><key>com.apple.private.runningboard.roles</key><true/><key>com.apple.private.screencapturekit.noprompt</key><true/><key>com.apple.private.security.clear-library-validation</key><true/><key>com.apple.private.security.nvram.recovery-boot-mode</key><true/><key>com.apple.private.security.storage.Trash</key><true/><key>com.apple.private.security.storage.universalaccess</key><true/><key>com.apple.private.securityd.stash</key><true/><key>com.apple.private.sessionagent.sessionowner</key><true/><key>com.apple.private.sessionmanager</key><true/><key>com.apple.private.sharing.unlock-manager</key><true/><key>com.apple.private.skylight.plugin-power</key><true/><key>com.apple.private.skylight.unconditional-activation</key><true/><key>com.apple.private.softwareupdated.OSUpdate</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServicePostEvent</string><string>kTCCServiceScreenCapture</string><string>kTCCServiceListenEvent</string></array><key>com.apple.private.wallpaper</key><true/><key>com.apple.private.xpc.launchd.service-hold</key><true/><key>com.apple.rootless.xpc.effective-root</key><true/><key>com.apple.securebackupd.access</key><true/><key>com.apple.systemstatus.domains</key><array><string>media</string></array><key>com.apple.usermanagerd.persona.login</key><true/><key>com.apple.wifi.associate</key><true/><key>com.apple.wifi.events</key><true/><key>com.apple.wifi.events.private</key><true/><key>com.apple.wifi.scan</key><true/><key>keychain-access-groups</key><array><string>com.apple.loginwindow.minibuddyitem</string></array></dict></plist>
+<!-- Entitlements for loginwindow.app -->
+<!-- Extracted on: 2025-06-26 18:35:28 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.SystemConfiguration.SCDynamicStore-write-access</key>
+    <dict>
+      <key>keys</key>
+      <array>
+        <string>State:/Users/ConsoleUser</string>
+      </array>
+    </dict>
+    <key>com.apple.ahp</key>
+    <true />
+    <key>com.apple.authorization.extract-password</key>
+    <true />
+    <key>com.apple.icloud.findmydeviced.access</key>
+    <true />
+    <key>com.apple.keystore.config.set</key>
+    <true />
+    <key>com.apple.keystore.console</key>
+    <true />
+    <key>com.apple.keystore.device</key>
+    <true />
+    <key>com.apple.keystore.device.smart-card</key>
+    <true />
+    <key>com.apple.keystore.domain.console</key>
+    <true />
+    <key>com.apple.keystore.stash.access</key>
+    <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.private.AuthorizationServices</key>
+    <array>
+      <string>com.apple.opendirectoryd.linkidentity</string>
+    </array>
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.Storage</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.Storage.MacBuddyPassword</key>
+    <true />
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <true />
+    </dict>
+    <key>com.apple.private.SkyLight.displaycontrol</key>
+    <true />
+    <key>com.apple.private.SkyLight.loginwindow</key>
+    <true />
+    <key>com.apple.private.SkyLight.screencapturedirect</key>
+    <true />
+    <key>com.apple.private.appleevents.allowedtobesystemprocess</key>
+    <true />
+    <key>com.apple.private.applefdekeystore.deletepassphrase</key>
+    <true />
+    <key>com.apple.private.applefdekeystore.readpassphrase</key>
+    <true />
+    <key>com.apple.private.appletamanager.allow</key>
+    <true />
+    <key>com.apple.private.aqua.createSession</key>
+    <true />
+    <key>com.apple.private.bmk.allow</key>
+    <true />
+    <key>com.apple.private.boot-time-install</key>
+    <true />
+    <key>com.apple.private.commercekit.appstore</key>
+    <true />
+    <key>com.apple.private.configurationprofiles.bootstraptoken.readonly</key>
+    <true />
+    <key>com.apple.private.coreservices.canmanagebackgroundtasks</key>
+    <true />
+    <key>com.apple.private.ctk.configuration-allowed-for-bundles</key>
+    <array>
+      <string>com.apple.PlatformSSOToken</string>
+    </array>
+    <key>com.apple.private.endpoint-security.submit.lw</key>
+    <true />
+    <key>com.apple.private.findmymacd.spi</key>
+    <true />
+    <key>com.apple.private.hibernation.set-preview</key>
+    <true />
+    <key>com.apple.private.iokit.assertonlidclose</key>
+    <true />
+    <key>com.apple.private.iokit.rootdomain-set-property</key>
+    <true />
+    <key>com.apple.private.iokit.system-nvram-allow</key>
+    <true />
+    <key>com.apple.private.launchservices.allowedtosetconnection.csuiagent</key>
+    <true />
+    <key>com.apple.private.logind.spi</key>
+    <true />
+    <key>com.apple.private.managedclient.configurationprofiles</key>
+    <true />
+    <key>com.apple.private.netfs.server.control</key>
+    <true />
+    <key>com.apple.private.notificationcenter-system</key>
+    <array>
+      <dict>
+        <key>identifier</key>
+        <string>com.apple.loginwindow</string>
+      </dict>
+    </array>
+    <key>com.apple.private.opendirectoryd.BootstrapToken</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.identity</key>
+    <true />
+    <key>com.apple.private.platformsso.agent</key>
+    <true />
+    <key>com.apple.private.pluginkit.manager</key>
+    <true />
+    <key>com.apple.private.runningboard.roles</key>
+    <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.security.clear-library-validation</key>
+    <true />
+    <key>com.apple.private.security.nvram.recovery-boot-mode</key>
+    <true />
+    <key>com.apple.private.security.storage.Trash</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.securityd.stash</key>
+    <true />
+    <key>com.apple.private.sessionagent.sessionowner</key>
+    <true />
+    <key>com.apple.private.sessionmanager</key>
+    <true />
+    <key>com.apple.private.sharing.unlock-manager</key>
+    <true />
+    <key>com.apple.private.skylight.plugin-power</key>
+    <true />
+    <key>com.apple.private.skylight.unconditional-activation</key>
+    <true />
+    <key>com.apple.private.softwareupdated.OSUpdate</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServicePostEvent</string>
+      <string>kTCCServiceScreenCapture</string>
+      <string>kTCCServiceListenEvent</string>
+    </array>
+    <key>com.apple.private.wallpaper</key>
+    <true />
+    <key>com.apple.private.xpc.launchd.service-hold</key>
+    <true />
+    <key>com.apple.rootless.xpc.effective-root</key>
+    <true />
+    <key>com.apple.securebackupd.access</key>
+    <true />
+    <key>com.apple.systemstatus.domains</key>
+    <array>
+      <string>media</string>
+    </array>
+    <key>com.apple.usermanagerd.persona.login</key>
+    <true />
+    <key>com.apple.wifi.associate</key>
+    <true />
+    <key>com.apple.wifi.events</key>
+    <true />
+    <key>com.apple.wifi.events.private</key>
+    <true />
+    <key>com.apple.wifi.scan</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.loginwindow.minibuddyitem</string>
+    </array>
+  </dict>
+</plist>

@@ -1,10 +1,10 @@
 Sandbox Analysis for NotificationCenter
-Generated: 2025-06-26 16:31:55
+Generated: 2025-06-26 18:34:19
 Application Path: /System/Library/CoreServices/NotificationCenter.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 2
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 58
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

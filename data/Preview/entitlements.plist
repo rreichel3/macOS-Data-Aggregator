@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.application-identifier</key><string>com.apple.preview</string><key>com.apple.developer.maps</key><true/><key>com.apple.developer.ubiquity-container-identifiers</key><array><string>com.apple.Preview</string></array><key>com.apple.private.bookkit</key><true/><key>com.apple.private.hid.client.event-dispatch.internal</key><true/><key>com.apple.private.hydraresourcecoordinator.api-access</key><true/><key>com.apple.private.hydrars</key><true/><key>com.apple.private.metadata.exattrs</key><true/><key>com.apple.private.screencapture.allow</key><true/><key>com.apple.private.security.restricted-application-groups</key><array><string>com.apple.PreviewLegacySignaturesConversion</string></array><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceCamera</string></array><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.application-groups</key><array><string>com.apple.PreviewLegacySignaturesConversion</string></array><key>com.apple.security.device.camera</key><true/><key>com.apple.security.files.downloads.read-write</key><true/><key>com.apple.security.files.user-selected.read-write</key><true/><key>com.apple.security.print</key><true/><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.systemuiserver.screencapture</string><string>com.apple.spotlight.CSExattrCryptoService</string><string>com.apple.synapse.DocumentWorkflowsService</string></array><key>keychain-access-groups</key><array><string>com.apple.AnnotationKit</string></array></dict></plist>
+<!-- Entitlements for Preview.app -->
+<!-- Extracted on: 2025-06-26 18:36:46 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.preview</string>
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.developer.ubiquity-container-identifiers</key>
+    <array>
+      <string>com.apple.Preview</string>
+    </array>
+    <key>com.apple.private.bookkit</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.hydraresourcecoordinator.api-access</key>
+    <true />
+    <key>com.apple.private.hydrars</key>
+    <true />
+    <key>com.apple.private.metadata.exattrs</key>
+    <true />
+    <key>com.apple.private.screencapture.allow</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>com.apple.PreviewLegacySignaturesConversion</string>
+    </array>
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceCamera</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>com.apple.PreviewLegacySignaturesConversion</string>
+    </array>
+    <key>com.apple.security.device.camera</key>
+    <true />
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.systemuiserver.screencapture</string>
+      <string>com.apple.spotlight.CSExattrCryptoService</string>
+      <string>com.apple.synapse.DocumentWorkflowsService</string>
+    </array>
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.AnnotationKit</string>
+    </array>
+  </dict>
+</plist>

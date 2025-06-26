@@ -1,10 +1,10 @@
 Sandbox Analysis for rcd
-Generated: 2025-06-26 16:31:57
+Generated: 2025-06-26 18:37:29
 Application Path: /System/Library/CoreServices/rcd.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 4
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

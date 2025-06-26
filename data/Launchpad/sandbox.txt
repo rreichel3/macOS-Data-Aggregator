@@ -1,5 +1,5 @@
 Sandbox Analysis for Launchpad
-Generated: 2025-06-26 16:33:57
+Generated: 2025-06-26 18:36:51
 Application Path: /System/Applications/Launchpad.app
 
 Sandboxed: Unknown

@@ -1,10 +1,10 @@
 Sandbox Analysis for screencaptureui
-Generated: 2025-06-26 16:36:25
+Generated: 2025-06-26 18:35:27
 Application Path: /System/Library/CoreServices/screencaptureui.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

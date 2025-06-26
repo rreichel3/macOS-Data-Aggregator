@@ -1,5 +1,5 @@
 Code Signing Information for App Store
-Generated: 2025-06-26 16:36:27
+Generated: 2025-06-26 18:37:31
 Application Path: /System/Applications/App Store.app
 
 Signature Status: Valid

@@ -1,5 +1,5 @@
 Sandbox Analysis for NowPlayingTouchUI
-Generated: 2025-06-26 16:35:12
+Generated: 2025-06-26 18:37:30
 Application Path: /System/Library/CoreServices/NowPlayingTouchUI.app
 
 Sandboxed: Unknown

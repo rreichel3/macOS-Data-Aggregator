@@ -1,145 +1,234 @@
-{
-  "BGTaskSchedulerPermittedIdentifiers": [
-    "com.apple.news.backgroundFetchManager"
-  ],
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "News",
-  "CFBundleExecutable": "News",
-  "CFBundleHelpBookFolder": "News.help",
-  "CFBundleHelpBookName": "com.apple.News.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.news",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "News",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "9.5",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleURLTypes": [
-    {
-      "CFBundleTypeRole": "Editor",
-      "CFBundleURLName": "com.apple.NewsCustomScheme",
-      "CFBundleURLSchemes": [
-        "applenews",
-        "applenewss"
-      ]
-    }
-  ],
-  "CFBundleVersion": "5419",
-  "CTIgnoreUserFonts": true,
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "23G300t",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G300t",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "news",
-  "LSApplicationQueriesSchemes": [
-    "sports"
-  ],
-  "LSCounterpartIdentifiers": [
-    "com.apple.nanonews"
-  ],
-  "LSMinimumSystemVersion": "14.7",
-  "LSSupportedRegions": [
-    "US",
-    "GB",
-    "AU",
-    "CA"
-  ],
-  "NSAccentColorName": "NewsAccentColor",
-  "NSCalendarsFullAccessUsageDescription": "This will let you add events from News to your calendar.",
-  "NSCalendarsUsageDescription": "This will let you add events from News to your calendar.",
-  "NSContactsUsageDescription": "",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
-  "NSLocationDefaultAccuracyReduced": true,
-  "NSLocationUsageDescription": "Get top local news and weather, and locally relevant search results and ads.",
-  "NSLocationWhenInUseUsageDescription": "Get top local news and weather, and locally relevant search results and ads.",
-  "NSPhotoLibraryAddUsageDescription": "",
-  "NSPhotoLibraryUsageDescription": "",
-  "NSSupportsAutomaticTermination": true,
-  "NSSupportsSuddenTermination": true,
-  "NSUserActivityTypes": [
-    "TagIntent",
-    "TodayIntent",
-    "com.apple.news.articleViewing",
-    "com.apple.news.feedBrowsing",
-    "com.apple.news.feedBackCatalog",
-    "com.apple.news.forYou",
-    "com.apple.news.history",
-    "com.apple.news.saved",
-    "com.apple.news.magazineSections",
-    "com.apple.news.link"
-  ],
-  "SBAppUsesLocalNotifications": true,
-  "SBMatchingApplicationGenres": [
-    "News",
-    "Reference",
-    "Entertainment",
-    "Productivity",
-    "Education",
-    "Business"
-  ],
-  "UIAppFonts": [],
-  "UIApplicationSceneManifest": {
-    "UIApplicationSupportsMultipleScenes": "1",
-    "UISceneConfigurations": {
-      "UIWindowSceneSessionRoleApplication": [
-        {
-          "UISceneClassName": "TeaUI.WindowScene",
-          "UISceneConfigurationName": "Default Configuration",
-          "UISceneDelegateClassName": "NewsUI2.SceneDelegate"
-        }
-      ]
-    }
-  },
-  "UIApplicationShortcutItems": [
-    {
-      "UIApplicationShortcutItemIconFile": "ios_for_you_icon_large",
-      "UIApplicationShortcutItemTitle": "ApplicationShortcutItemForYou",
-      "UIApplicationShortcutItemType": "com.apple.news.openforyou"
-    }
-  ],
-  "UIApplicationShortcutWidget": "com.apple.news.widget",
-  "UIBackgroundModes": [
-    "audio",
-    "fetch",
-    "remote-notification"
-  ],
-  "UIDeviceFamily": [
-    6
-  ],
-  "UILaunchStoryboardName": "LaunchScreen",
-  "UIMenuBarItemTitleAbout": "About News",
-  "UIMenuBarItemTitleHelp": "News Help",
-  "UIMenuBarItemTitleHide": "Hide News",
-  "UIMenuBarItemTitleQuit": "Quit News",
-  "UIRequiredDeviceCapabilities": [
-    "armv7"
-  ],
-  "UIStatusBarHidden": false,
-  "UISupportedInterfaceOrientations": [
-    "UIInterfaceOrientationPortrait"
-  ],
-  "UISupportedInterfaceOrientations~ipad": [
-    "UIInterfaceOrientationPortrait",
-    "UIInterfaceOrientationPortraitUpsideDown",
-    "UIInterfaceOrientationLandscapeLeft",
-    "UIInterfaceOrientationLandscapeRight"
-  ],
-  "UIUserInterfaceStyle": "Automatic",
-  "UIViewControllerBasedStatusBarAppearance": true,
-  "UIViewEdgeAntialiasing": false,
-  "UIViewGroupOpacity": false,
-  "UIWhitePointAdaptivityStyle": "UIWhitePointAdaptivityStyleReading",
-  "UNUserNotificationCenter": {
-    "UNSuppressUserAuthorizationPrompt": false
-  },
-  "_LSSupportsRemoval": true
-}
+<!-- Info.plist for News.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+<!-- Source: /System/Applications/News.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.apple.news.backgroundFetchManager</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>News</string>
+    <key>CFBundleExecutable</key>
+    <string>News</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>News.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.News.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.news</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>News</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>9.5</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.apple.NewsCustomScheme</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>applenews</string>
+          <string>applenewss</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>5419</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23G300t</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G300t</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>news</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>sports</string>
+    </array>
+    <key>LSCounterpartIdentifiers</key>
+    <array>
+      <string>com.apple.nanonews</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSSupportedRegions</key>
+    <array>
+      <string>US</string>
+      <string>GB</string>
+      <string>AU</string>
+      <string>CA</string>
+    </array>
+    <key>NSAccentColorName</key>
+    <string>NewsAccentColor</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>This will let you add events from News to your calendar.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This will let you add events from News to your calendar.</string>
+    <key>NSContactsUsageDescription</key>
+    <string />
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2023 Apple Inc. All rights reserved.</string>
+    <key>NSLocationDefaultAccuracyReduced</key>
+    <true />
+    <key>NSLocationUsageDescription</key>
+    <string>Get top local news and weather, and locally relevant search results and ads.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Get top local news and weather, and locally relevant search results and ads.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string />
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string />
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>TagIntent</string>
+      <string>TodayIntent</string>
+      <string>com.apple.news.articleViewing</string>
+      <string>com.apple.news.feedBrowsing</string>
+      <string>com.apple.news.feedBackCatalog</string>
+      <string>com.apple.news.forYou</string>
+      <string>com.apple.news.history</string>
+      <string>com.apple.news.saved</string>
+      <string>com.apple.news.magazineSections</string>
+      <string>com.apple.news.link</string>
+    </array>
+    <key>SBAppUsesLocalNotifications</key>
+    <true />
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>News</string>
+      <string>Reference</string>
+      <string>Entertainment</string>
+      <string>Productivity</string>
+      <string>Education</string>
+      <string>Business</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array />
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <string>1</string>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneClassName</key>
+            <string>TeaUI.WindowScene</string>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>NewsUI2.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict>
+        <key>UIApplicationShortcutItemIconFile</key>
+        <string>ios_for_you_icon_large</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>ApplicationShortcutItemForYou</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>com.apple.news.openforyou</string>
+      </dict>
+    </array>
+    <key>UIApplicationShortcutWidget</key>
+    <string>com.apple.news.widget</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>6</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMenuBarItemTitleAbout</key>
+    <string>About News</string>
+    <key>UIMenuBarItemTitleHelp</key>
+    <string>News Help</string>
+    <key>UIMenuBarItemTitleHide</key>
+    <string>Hide News</string>
+    <key>UIMenuBarItemTitleQuit</key>
+    <string>Quit News</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <false />
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Automatic</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>UIViewEdgeAntialiasing</key>
+    <false />
+    <key>UIViewGroupOpacity</key>
+    <false />
+    <key>UIWhitePointAdaptivityStyle</key>
+    <string>UIWhitePointAdaptivityStyleReading</string>
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNSuppressUserAuthorizationPrompt</key>
+      <false />
+    </dict>
+    <key>_LSSupportsRemoval</key>
+    <true />
+  </dict>
+</plist>

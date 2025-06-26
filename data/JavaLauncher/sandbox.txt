@@ -1,5 +1,5 @@
 Sandbox Analysis for JavaLauncher
-Generated: 2025-06-26 16:33:54
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/JavaLauncher.app
 
 Sandboxed: Unknown

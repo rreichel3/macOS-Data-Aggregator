@@ -1,5 +1,5 @@
 Code Signing Information for Database Events
-Generated: 2025-06-26 16:32:36
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/Database Events.app
 
 Signature Status: Valid

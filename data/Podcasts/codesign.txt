@@ -1,5 +1,5 @@
 Code Signing Information for Podcasts
-Generated: 2025-06-26 16:32:37
+Generated: 2025-06-26 18:34:18
 Application Path: /System/Applications/Podcasts.app
 
 Signature Status: Valid

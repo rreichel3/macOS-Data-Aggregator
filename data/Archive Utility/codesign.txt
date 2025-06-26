@@ -1,5 +1,5 @@
 Code Signing Information for Archive Utility
-Generated: 2025-06-26 16:36:27
+Generated: 2025-06-26 18:36:47
 Application Path: /System/Library/CoreServices/Applications/Archive Utility.app
 
 Signature Status: Valid

@@ -1,10 +1,10 @@
 Sandbox Analysis for Finder
-Generated: 2025-06-26 16:35:11
+Generated: 2025-06-26 18:37:30
 Application Path: /System/Library/CoreServices/Finder.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 1
+Entitlements Count: 86
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

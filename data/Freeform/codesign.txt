@@ -1,5 +1,5 @@
 Code Signing Information for Freeform
-Generated: 2025-06-26 16:34:00
+Generated: 2025-06-26 18:34:18
 Application Path: /System/Applications/Freeform.app
 
 Signature Status: Valid

@@ -1,5 +1,5 @@
 Code Signing Information for BluetoothUIServer
-Generated: 2025-06-26 16:32:36
+Generated: 2025-06-26 18:34:19
 Application Path: /System/Library/CoreServices/BluetoothUIServer.app
 
 Signature Status: Valid

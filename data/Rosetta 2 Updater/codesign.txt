@@ -1,5 +1,5 @@
 Code Signing Information for Rosetta 2 Updater
-Generated: 2025-06-26 16:32:35
+Generated: 2025-06-26 18:37:30
 Application Path: /System/Library/CoreServices/Rosetta 2 Updater.app
 
 Signature Status: Valid

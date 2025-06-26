@@ -1,68 +1,116 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "FamilyRequest",
-  "CFBundleExecutable": "PeopleMessageService",
-  "CFBundleIcons": {},
-  "CFBundleIcons~ipad": {},
-  "CFBundleIdentifier": "com.apple.PeopleMessageService",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleLocalizations": [
-    "en"
-  ],
-  "CFBundleName": "PeopleMessageService",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "1.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "NSExtension": {
-    "NSExtensionMainStoryboard": "MainInterface"
-  },
-  "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
-  "NSSupportsAutomaticTermination": true,
-  "NSSupportsSuddenTermination": true,
-  "SBAppTags": [
-    "hidden"
-  ],
-  "UIApplicationSceneManifest": {
-    "UIApplicationSupportsMultipleScenes": false,
-    "UISceneConfigurations": {
-      "UIWindowSceneSessionRoleApplication": [
-        {
-          "UISceneConfigurationName": "Default Configuration",
-          "UISceneDelegateClassName": "PeopleMessageService.SceneDelegate"
-        }
-      ]
-    }
-  },
-  "UIApplicationSupportsIndirectInputEvents": true,
-  "UIBackgroundModes": [
-    "processing"
-  ],
-  "UIDeviceFamily": [
-    2
-  ],
-  "UIRequiresFullScreen": true,
-  "UISupportedInterfaceOrientations~ipad": [
-    "UIInterfaceOrientationPortrait",
-    "UIInterfaceOrientationPortraitUpsideDown",
-    "UIInterfaceOrientationLandscapeLeft",
-    "UIInterfaceOrientationLandscapeRight"
-  ],
-  "UISupportedInterfaceOrientations~iphone": [
-    "UIInterfaceOrientationPortrait",
-    "UIInterfaceOrientationLandscapeLeft",
-    "UIInterfaceOrientationLandscapeRight"
-  ]
-}
+<!-- Info.plist for PeopleMessageService.app -->
+<!-- Extracted on: 2025-06-26 18:33:44 -->
+<!-- Source: /System/Library/CoreServices/PeopleMessageService.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>FamilyRequest</string>
+    <key>CFBundleExecutable</key>
+    <string>PeopleMessageService</string>
+    <key>CFBundleIcons</key>
+    <dict />
+    <key>CFBundleIcons~ipad</key>
+    <dict />
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.PeopleMessageService</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>en</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>PeopleMessageService</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSExtension</key>
+    <dict>
+      <key>NSExtensionMainStoryboard</key>
+      <string>MainInterface</string>
+    </dict>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2021 Apple Inc. All rights reserved.</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>SBAppTags</key>
+    <array>
+      <string>hidden</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false />
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>PeopleMessageService.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true />
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>processing</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>2</integer>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+  </dict>
+</plist>

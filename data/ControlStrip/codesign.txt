@@ -1,5 +1,5 @@
 Code Signing Information for ControlStrip
-Generated: 2025-06-26 16:32:35
+Generated: 2025-06-26 18:37:35
 Application Path: /System/Library/CoreServices/ControlStrip.app
 
 Signature Status: Valid

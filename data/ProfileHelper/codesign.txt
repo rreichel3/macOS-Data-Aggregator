@@ -1,5 +1,5 @@
 Code Signing Information for ProfileHelper
-Generated: 2025-06-26 16:36:26
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Library/CoreServices/ProfileHelper.app
 
 Signature Status: Valid

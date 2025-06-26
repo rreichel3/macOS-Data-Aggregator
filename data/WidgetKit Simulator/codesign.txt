@@ -1,5 +1,5 @@
 Code Signing Information for WidgetKit Simulator
-Generated: 2025-06-26 16:31:59
+Generated: 2025-06-26 18:36:50
 Application Path: /System/Library/CoreServices/WidgetKit Simulator.app
 
 Signature Status: Valid

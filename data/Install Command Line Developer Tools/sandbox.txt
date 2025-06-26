@@ -1,5 +1,5 @@
 Sandbox Analysis for Install Command Line Developer Tools
-Generated: 2025-06-26 16:32:39
+Generated: 2025-06-26 18:37:35
 Application Path: /System/Library/CoreServices/Install Command Line Developer Tools.app
 
 Sandboxed: Unknown

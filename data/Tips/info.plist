@@ -1,49 +1,92 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "en",
-  "CFBundleDisplayName": "Tips",
-  "CFBundleExecutable": "Tips",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.tips",
-  "CFBundleName": "Tips",
-  "CFBundleShortVersionString": "10.0",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleURLTypes": [
-    {
-      "CFBundleTypeRole": "Viewer",
-      "CFBundleURLSchemes": [
-        "x-apple-tips"
-      ],
-      "LSHandlerRank": "Default",
-      "LSIsAppleDefaultForScheme": true
-    }
-  ],
-  "CFBundleVersion": "725.17",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "LSUIElement": "YES",
-  "SBMatchingApplicationGenres": [
-    "Education"
-  ],
-  "UNUserNotificationCenter": {
-    "UNAutomaticallyShowSettings": true,
-    "UNDefaultSettings": {
-      "UNSettingAlwaysShowPreviews": true,
-      "UNSettingLockScreen": true,
-      "UNSettingNotificationCenter": true
-    },
-    "UNSuppressUserAuthorizationPrompt": true
-  },
-  "UTTypeDescription": "Tips",
-  "UTTypeIdentifier": "com.apple.tips"
-}
+<!-- Info.plist for Tips.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+<!-- Source: /System/Library/CoreServices/Tips.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Tips</string>
+    <key>CFBundleExecutable</key>
+    <string>Tips</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.tips</string>
+    <key>CFBundleName</key>
+    <string>Tips</string>
+    <key>CFBundleShortVersionString</key>
+    <string>10.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-apple-tips</string>
+        </array>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>725.17</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <string>YES</string>
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>Education</string>
+    </array>
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNAutomaticallyShowSettings</key>
+      <true />
+      <key>UNDefaultSettings</key>
+      <dict>
+        <key>UNSettingAlwaysShowPreviews</key>
+        <true />
+        <key>UNSettingLockScreen</key>
+        <true />
+        <key>UNSettingNotificationCenter</key>
+        <true />
+      </dict>
+      <key>UNSuppressUserAuthorizationPrompt</key>
+      <true />
+    </dict>
+    <key>UTTypeDescription</key>
+    <string>Tips</string>
+    <key>UTTypeIdentifier</key>
+    <string>com.apple.tips</string>
+  </dict>
+</plist>

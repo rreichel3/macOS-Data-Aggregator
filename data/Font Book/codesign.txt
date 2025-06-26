@@ -1,5 +1,5 @@
 Code Signing Information for Font Book
-Generated: 2025-06-26 16:32:41
+Generated: 2025-06-26 18:33:45
 Application Path: /System/Applications/Font Book.app
 
 Signature Status: Valid

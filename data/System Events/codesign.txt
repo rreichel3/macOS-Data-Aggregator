@@ -1,5 +1,5 @@
 Code Signing Information for System Events
-Generated: 2025-06-26 16:32:36
+Generated: 2025-06-26 18:36:51
 Application Path: /System/Library/CoreServices/System Events.app
 
 Signature Status: Valid

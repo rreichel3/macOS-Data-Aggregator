@@ -1,5 +1,5 @@
 Sandbox Analysis for Directory Utility
-Generated: 2025-06-26 16:35:49
+Generated: 2025-06-26 18:36:47
 Application Path: /System/Library/CoreServices/Applications/Directory Utility.app
 
 Sandboxed: Unknown

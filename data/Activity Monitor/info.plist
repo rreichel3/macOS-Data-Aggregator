@@ -1,38 +1,79 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleExecutable": "Activity Monitor",
-  "CFBundleHelpBookFolder": "ActivityMonitor.help",
-  "CFBundleHelpBookName": "com.apple.ActivityMonitor.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.ActivityMonitor",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Activity Monitor",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "10.14",
-  "CFBundleSignature": "????",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1040",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "GPUEjectPolicy": "ignore",
-  "HPDHelpProjectIdentifier": "activity-monitor",
-  "LSApplicationCategory": "public.app-category.utilities",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "NSHumanReadableCopyright": "Copyright \u00a9 2000-2023 Apple Inc. All rights reserved.",
-  "NSMainNibFile": "ActivityMonitor",
-  "NSPrincipalClass": "NSApplication",
-  "NSSupportsAutomaticTermination": true,
-  "NSSupportsSuddenTermination": true
-}
+<!-- Info.plist for Activity Monitor.app -->
+<!-- Extracted on: 2025-06-26 18:33:44 -->
+<!-- Source: /System/Applications/Utilities/Activity Monitor.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>Activity Monitor</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>ActivityMonitor.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.ActivityMonitor.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.ActivityMonitor</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Activity Monitor</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>10.14</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1040</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>GPUEjectPolicy</key>
+    <string>ignore</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>activity-monitor</string>
+    <key>LSApplicationCategory</key>
+    <string>public.app-category.utilities</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2000-2023 Apple Inc. All rights reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>ActivityMonitor</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+  </dict>
+</plist>

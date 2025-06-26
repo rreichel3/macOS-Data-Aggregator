@@ -1,10 +1,10 @@
 Sandbox Analysis for Weather
-Generated: 2025-06-26 16:36:26
+Generated: 2025-06-26 18:37:33
 Application Path: /System/Applications/Weather.app
 
-Sandboxed: Yes
-Sandbox Type: App Sandbox
-Entitlements Count: 1
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 51
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

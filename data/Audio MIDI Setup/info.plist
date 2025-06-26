@@ -1,36 +1,75 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleExecutable": "Audio MIDI Setup",
-  "CFBundleGetInfoString": "3.6, Copyright 2002\u20132023 Apple Inc.",
-  "CFBundleHelpBookFolder": "AudioMIDISetup.help",
-  "CFBundleHelpBookName": "com.apple.AudioMIDISetup.help",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.audio.AudioMIDISetup",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Audio MIDI Setup",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "3.6",
-  "CFBundleSignature": "AMDS",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "3.6",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "HPDHelpProjectIdentifier": "audio-midi-setup",
-  "LSApplicationCategoryType": "public.app-category.utilities",
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "MDItemKeywords": "midi",
-  "NSBluetoothAlwaysUsageDescription": "Used to manage bluetooth audio devices",
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "NSApplication"
-}
+<!-- Info.plist for Audio MIDI Setup.app -->
+<!-- Extracted on: 2025-06-26 18:36:48 -->
+<!-- Source: /System/Applications/Utilities/Audio MIDI Setup.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>Audio MIDI Setup</string>
+    <key>CFBundleGetInfoString</key>
+    <string>3.6, Copyright 2002–2023 Apple Inc.</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>AudioMIDISetup.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.AudioMIDISetup.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.audio.AudioMIDISetup</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Audio MIDI Setup</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.6</string>
+    <key>CFBundleSignature</key>
+    <string>AMDS</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>3.6</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>audio-midi-setup</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>MDItemKeywords</key>
+    <string>midi</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Used to manage bluetooth audio devices</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+  </dict>
+</plist>

@@ -1,85 +1,144 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFAppleHelpAnchor": "instX001",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeIconFile": "package.icns",
-      "CFBundleTypeName": "INSTALLER_PACKAGE",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultNoOverrideForType": true,
-      "LSItemContentTypes": [
-        "com.apple.installer-package"
-      ],
-      "LSTypeIsPackage": true
-    },
-    {
-      "CFBundleTypeIconFile": "metapackage.icns",
-      "CFBundleTypeName": "INSTALLER_PACKAGE",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultNoOverrideForType": true,
-      "LSItemContentTypes": [
-        "com.apple.installer-meta-package"
-      ],
-      "LSTypeIsPackage": true
-    },
-    {
-      "CFBundleTypeIconFile": "package.icns",
-      "CFBundleTypeName": "INSTALLER_FLAT_PACKAGE",
-      "CFBundleTypeRole": "Viewer",
-      "LSHandlerRank": "Owner",
-      "LSIsAppleDefaultNoOverrideForType": true,
-      "LSItemContentTypes": [
-        "com.apple.installer-package-archive"
-      ],
-      "LSTypeIsPackage": false,
-      "NSPersistentStoreTypeKey": "Binary"
-    }
-  ],
-  "CFBundleExecutable": "Installer",
-  "CFBundleIconFile": "AppIcon",
-  "CFBundleIconName": "AppIcon",
-  "CFBundleIdentifier": "com.apple.installer",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Installer",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "6.2.0",
-  "CFBundleSignature": "xins",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1210",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23G1000s",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "IFLanguageNamesOrder": [
-    "en",
-    "ja",
-    "fr",
-    "de",
-    "es",
-    "it",
-    "pt",
-    "nl",
-    "sv",
-    "no",
-    "da",
-    "fi",
-    "zh-Hans",
-    "zh-Hant",
-    "ko"
-  ],
-  "IFLanguageShortNumber": 7,
-  "LSHasLocalizedDisplayName": true,
-  "LSMinimumSystemVersion": "14.7",
-  "LSRequiresNativeExecution": true,
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "NSApplication"
-}
+<!-- Info.plist for Installer.app -->
+<!-- Extracted on: 2025-06-26 18:33:44 -->
+<!-- Source: /System/Library/CoreServices/Installer.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFAppleHelpAnchor</key>
+    <string>instX001</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>package.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>INSTALLER_PACKAGE</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultNoOverrideForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.installer-package</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>metapackage.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>INSTALLER_PACKAGE</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultNoOverrideForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.installer-meta-package</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeIconFile</key>
+        <string>package.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>INSTALLER_FLAT_PACKAGE</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSIsAppleDefaultNoOverrideForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.installer-package-archive</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Installer</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.installer</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Installer</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6.2.0</string>
+    <key>CFBundleSignature</key>
+    <string>xins</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1210</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>IFLanguageNamesOrder</key>
+    <array>
+      <string>en</string>
+      <string>ja</string>
+      <string>fr</string>
+      <string>de</string>
+      <string>es</string>
+      <string>it</string>
+      <string>pt</string>
+      <string>nl</string>
+      <string>sv</string>
+      <string>no</string>
+      <string>da</string>
+      <string>fi</string>
+      <string>zh-Hans</string>
+      <string>zh-Hant</string>
+      <string>ko</string>
+    </array>
+    <key>IFLanguageShortNumber</key>
+    <integer>7</integer>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+  </dict>
+</plist>

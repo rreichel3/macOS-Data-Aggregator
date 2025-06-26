@@ -1,5 +1,5 @@
 Code Signing Information for CoreServicesUIAgent
-Generated: 2025-06-26 16:32:38
+Generated: 2025-06-26 18:36:46
 Application Path: /System/Library/CoreServices/CoreServicesUIAgent.app
 
 Signature Status: Valid

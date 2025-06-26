@@ -1,5 +1,5 @@
 Code Signing Information for OSDUIHelper
-Generated: 2025-06-26 16:32:41
+Generated: 2025-06-26 18:36:52
 Application Path: /System/Library/CoreServices/OSDUIHelper.app
 
 Signature Status: Valid

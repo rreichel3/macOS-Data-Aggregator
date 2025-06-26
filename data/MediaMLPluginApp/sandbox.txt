@@ -1,5 +1,5 @@
 Sandbox Analysis for MediaMLPluginApp
-Generated: 2025-06-26 16:31:58
+Generated: 2025-06-26 18:38:09
 Application Path: /System/Library/CoreServices/MediaMLPluginApp.app
 
 Sandboxed: Unknown

@@ -1,1 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.ManagedClient.cloudconfigurationd-access</key><true/><key>com.apple.bluetooth.system</key><true/><key>com.apple.keystore.access-keychain-keys</key><true/><key>com.apple.keystore.config.set</key><true/><key>com.apple.keystore.sik.access</key><true/><key>com.apple.locationd.authorizeapplications</key><true/><key>com.apple.managedconfiguration.teslad-access</key><true/><key>com.apple.mobileactivationd.spi</key><true/><key>com.apple.private.accounts.allaccounts</key><true/><key>com.apple.private.admin.writeconfig</key><true/><key>com.apple.private.applecredentialmanager.allow</key><true/><key>com.apple.private.aps-client-cert-access</key><true/><key>com.apple.private.aps-connection-initiate</key><true/><key>com.apple.private.bmk.allow</key><true/><key>com.apple.private.configurationprofiles.bootstraptoken.readwrite</key><true/><key>com.apple.private.logind.spi</key><true/><key>com.apple.private.managedclient.mdmclient-private</key><true/><key>com.apple.private.opendirectoryd.BootstrapToken</key><true/><key>com.apple.private.opendirectoryd.auth-hint</key><true/><key>com.apple.private.opendirectoryd.modify_uuid</key><true/><key>com.apple.private.opendirectoryd.securetoken</key><true/><key>com.apple.private.security.storage.ConfigurationProfilesPrivate</key><true/><key>com.apple.private.security.storage.Safari</key><true/><key>com.apple.private.security.storage.universalaccess</key><true/><key>com.apple.private.system-keychain</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAddressBook</string><string>kTCCServiceCalendar</string><string>kTCCServicePhotos</string><string>kTCCServiceReminders</string><string>kTCCServiceSystemPolicySysAdminFiles</string><string>kTCCServiceSystemPolicyAllFiles</string></array><key>com.apple.rootless.storage.ConfigurationProfilesPrivate</key><true/><key>com.apple.security.device.bluetooth</key><true/><key>com.apple.security.system-groups</key><array><string>systemgroup.com.apple.powerlog</string></array><key>com.apple.tzlink.allow</key><true/><key>com.apple.wifi.associate</key><true/><key>com.apple.wifi.scan</key><true/><key>com.apple.wifi.set_power</key><true/><key>com.apple.wlan.authentication</key><true/><key>keychain-access-groups</key><array><string>apple</string><string>com.apple.identities</string></array></dict></plist>
+<!-- Entitlements for ManagedClient.app -->
+<!-- Extracted on: 2025-06-26 18:36:43 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.ManagedClient.cloudconfigurationd-access</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.keystore.access-keychain-keys</key>
+    <true />
+    <key>com.apple.keystore.config.set</key>
+    <true />
+    <key>com.apple.keystore.sik.access</key>
+    <true />
+    <key>com.apple.locationd.authorizeapplications</key>
+    <true />
+    <key>com.apple.managedconfiguration.teslad-access</key>
+    <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.admin.writeconfig</key>
+    <true />
+    <key>com.apple.private.applecredentialmanager.allow</key>
+    <true />
+    <key>com.apple.private.aps-client-cert-access</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.bmk.allow</key>
+    <true />
+    <key>com.apple.private.configurationprofiles.bootstraptoken.readwrite</key>
+    <true />
+    <key>com.apple.private.logind.spi</key>
+    <true />
+    <key>com.apple.private.managedclient.mdmclient-private</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.BootstrapToken</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.auth-hint</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.modify_uuid</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.securetoken</key>
+    <true />
+    <key>com.apple.private.security.storage.ConfigurationProfilesPrivate</key>
+    <true />
+    <key>com.apple.private.security.storage.Safari</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.system-keychain</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServicePhotos</string>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServiceSystemPolicySysAdminFiles</string>
+      <string>kTCCServiceSystemPolicyAllFiles</string>
+    </array>
+    <key>com.apple.rootless.storage.ConfigurationProfilesPrivate</key>
+    <true />
+    <key>com.apple.security.device.bluetooth</key>
+    <true />
+    <key>com.apple.security.system-groups</key>
+    <array>
+      <string>systemgroup.com.apple.powerlog</string>
+    </array>
+    <key>com.apple.tzlink.allow</key>
+    <true />
+    <key>com.apple.wifi.associate</key>
+    <true />
+    <key>com.apple.wifi.scan</key>
+    <true />
+    <key>com.apple.wifi.set_power</key>
+    <true />
+    <key>com.apple.wlan.authentication</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>apple</string>
+      <string>com.apple.identities</string>
+    </array>
+  </dict>
+</plist>

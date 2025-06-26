@@ -1,1 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>aps-connection-initiate</key><true/><key>aps-environment</key><string>development</string><key>com.apple.application-identifier</key><string>com.apple.VoiceOver</string><key>com.apple.developer.aps-environment</key><string>Development</string><key>com.apple.developer.icloud-container-environment</key><string>Development</string><key>com.apple.developer.icloud-container-identifiers</key><array><string>com.apple.accessibility.VoiceOverPunctuation</string></array><key>com.apple.developer.icloud-services</key><array><string>CloudKit</string></array><key>com.apple.private.SkyLight.accessibility.ui</key><true/><key>com.apple.private.accessibility.accessProtectedContent</key><true/><key>com.apple.private.accessibility.constResponsiblePid</key><true/><key>com.apple.private.accessibility.forceBundleLoad</key><true/><key>com.apple.private.accessibility.inspection</key><true/><key>com.apple.private.accessibility.systemSetup</key><true/><key>com.apple.private.accessibility.visuals</key><true/><key>com.apple.private.admin.writeconfig.voiceover</key><true/><key>com.apple.private.applecredentialmanager.allow</key><true/><key>com.apple.private.applecredentialmanager.devicerestrictedmode.allow</key><true/><key>com.apple.private.aps-connection-initiate</key><true/><key>com.apple.private.assets.accessible-asset-types</key><array><string>com.apple.MobileAsset.ImageCaptionModel</string></array><key>com.apple.private.assets.change-daemon-config</key><true/><key>com.apple.private.cloudkit.serviceNameForContainerMap</key><dict><key>com.apple.accessibility.VoiceOverPunctuation</key><string>com.apple.Accessibility</string></dict><key>com.apple.private.contacts</key><true/><key>com.apple.private.hid.client.event-dispatch</key><true/><key>com.apple.private.hid.client.event-monitor</key><true/><key>com.apple.private.photoanalysisd.access</key><true/><key>com.apple.private.screencapturekit.noprompt</key><true/><key>com.apple.private.security.container-required</key><true/><key>com.apple.private.security.storage.universalaccess</key><true/><key>com.apple.private.skylight.unconditional-activation</key><true/><key>com.apple.private.sociallayer.accessibility</key><true/><key>com.apple.private.sociallayer.highlights</key><true/><key>com.apple.private.speech.synthesis.custom.voices.allow</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceAccessibility</string><string>kTCCServiceScreenCapture</string><string>kTCCServiceListenEvent</string><string>kTCCServiceSystemPolicyAllFiles</string><string>kTCCServiceAddressBook</string></array><key>com.apple.private.translation</key><true/><key>com.apple.private.windowmanager</key><true/><key>com.apple.security.exception.mach-lookup.global-name</key><array><string>com.apple.translationd</string><string>com.apple.sociallayerd</string><string>com.apple.windowmanager.external</string></array><key>com.apple.security.exception.shared-preference.read-write</key><array><string>com.apple.Accessibility.Assets</string><string>com.apple.universalaccess</string><string>com.apple.WindowManager</string></array><key>com.apple.security.system-container</key><true/><key>com.apple.security.temporary-exception.audio-unit-host</key><true/></dict></plist>
+<!-- Entitlements for VoiceOver.app -->
+<!-- Extracted on: 2025-06-26 18:34:19 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>aps-connection-initiate</key>
+    <true />
+    <key>aps-environment</key>
+    <string>development</string>
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.VoiceOver</string>
+    <key>com.apple.developer.aps-environment</key>
+    <string>Development</string>
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Development</string>
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+      <string>com.apple.accessibility.VoiceOverPunctuation</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.private.SkyLight.accessibility.ui</key>
+    <true />
+    <key>com.apple.private.accessibility.accessProtectedContent</key>
+    <true />
+    <key>com.apple.private.accessibility.constResponsiblePid</key>
+    <true />
+    <key>com.apple.private.accessibility.forceBundleLoad</key>
+    <true />
+    <key>com.apple.private.accessibility.inspection</key>
+    <true />
+    <key>com.apple.private.accessibility.systemSetup</key>
+    <true />
+    <key>com.apple.private.accessibility.visuals</key>
+    <true />
+    <key>com.apple.private.admin.writeconfig.voiceover</key>
+    <true />
+    <key>com.apple.private.applecredentialmanager.allow</key>
+    <true />
+    <key>com.apple.private.applecredentialmanager.devicerestrictedmode.allow</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.ImageCaptionModel</string>
+    </array>
+    <key>com.apple.private.assets.change-daemon-config</key>
+    <true />
+    <key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+    <dict>
+      <key>com.apple.accessibility.VoiceOverPunctuation</key>
+      <string>com.apple.Accessibility</string>
+    </dict>
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch</key>
+    <true />
+    <key>com.apple.private.hid.client.event-monitor</key>
+    <true />
+    <key>com.apple.private.photoanalysisd.access</key>
+    <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.security.container-required</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.skylight.unconditional-activation</key>
+    <true />
+    <key>com.apple.private.sociallayer.accessibility</key>
+    <true />
+    <key>com.apple.private.sociallayer.highlights</key>
+    <true />
+    <key>com.apple.private.speech.synthesis.custom.voices.allow</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAccessibility</string>
+      <string>kTCCServiceScreenCapture</string>
+      <string>kTCCServiceListenEvent</string>
+      <string>kTCCServiceSystemPolicyAllFiles</string>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.private.translation</key>
+    <true />
+    <key>com.apple.private.windowmanager</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.translationd</string>
+      <string>com.apple.sociallayerd</string>
+      <string>com.apple.windowmanager.external</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.Accessibility.Assets</string>
+      <string>com.apple.universalaccess</string>
+      <string>com.apple.WindowManager</string>
+    </array>
+    <key>com.apple.security.system-container</key>
+    <true />
+    <key>com.apple.security.temporary-exception.audio-unit-host</key>
+    <true />
+  </dict>
+</plist>

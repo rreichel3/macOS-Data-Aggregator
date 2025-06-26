@@ -1,5 +1,5 @@
 Code Signing Information for About This Mac
-Generated: 2025-06-26 16:36:25
+Generated: 2025-06-26 18:37:34
 Application Path: /System/Library/CoreServices/Applications/About This Mac.app
 
 Signature Status: Valid

@@ -1,5 +1,5 @@
 Sandbox Analysis for Digital Color Meter
-Generated: 2025-06-26 16:32:34
+Generated: 2025-06-26 18:36:52
 Application Path: /System/Applications/Utilities/Digital Color Meter.app
 
 Sandboxed: Unknown

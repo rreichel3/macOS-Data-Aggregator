@@ -1,5 +1,5 @@
 Sandbox Analysis for RegisterPluginIMApp
-Generated: 2025-06-26 16:33:58
+Generated: 2025-06-26 18:36:51
 Application Path: /System/Library/CoreServices/RegisterPluginIMApp.app
 
 Sandboxed: Unknown

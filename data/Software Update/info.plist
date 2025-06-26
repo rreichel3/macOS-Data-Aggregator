@@ -1,44 +1,84 @@
-{
-  "BuildMachineOSBuild": "22A380019",
-  "CFAppleHelpAnchor": "mchlp1065",
-  "CFBundleDevelopmentRegion": "English",
-  "CFBundleDisplayName": "Software Update",
-  "CFBundleDocumentTypes": [
-    {
-      "CFBundleTypeExtensions": [
-        "sucatalog"
-      ],
-      "CFBundleTypeMIMETypes": [
-        "application/x-apple.sucatalog+xml"
-      ],
-      "CFBundleTypeName": "SUCatalog",
-      "CFBundleTypeRole": "Viewer",
-      "LSTypeIsPackage": false
-    }
-  ],
-  "CFBundleExecutable": "Software Update",
-  "CFBundleGetInfoString": "Software Update version 4.0, Copyright \u00a9 2000-2009, Apple Inc. All rights reserved.",
-  "CFBundleIconFile": "SoftwareUpdate.icns",
-  "CFBundleIdentifier": "com.apple.SoftwareUpdate",
-  "CFBundleInfoDictionaryVersion": "6.0",
-  "CFBundleName": "Software Update",
-  "CFBundlePackageType": "APPL",
-  "CFBundleShortVersionString": "6",
-  "CFBundleSignature": "swup",
-  "CFBundleSupportedPlatforms": [
-    "MacOSX"
-  ],
-  "CFBundleVersion": "1892.140.15.701.1",
-  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
-  "DTPlatformBuild": "23H610",
-  "DTPlatformName": "macosx",
-  "DTPlatformVersion": "14.7",
-  "DTSDKBuild": "23H610",
-  "DTSDKName": "macosx14.7.internal",
-  "DTXcode": "1500",
-  "DTXcodeBuild": "15E6079e",
-  "LSMinimumSystemVersion": "14.7",
-  "LSUIElement": true,
-  "NSMainNibFile": "MainMenu",
-  "NSPrincipalClass": "NSApplication"
-}
+<!-- Info.plist for Software Update.app -->
+<!-- Extracted on: 2025-06-26 18:37:34 -->
+<!-- Source: /System/Library/CoreServices/Software Update.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFAppleHelpAnchor</key>
+    <string>mchlp1065</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Software Update</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>sucatalog</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>application/x-apple.sucatalog+xml</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>SUCatalog</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Software Update</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Software Update version 4.0, Copyright © 2000-2009, Apple Inc. All rights reserved.</string>
+    <key>CFBundleIconFile</key>
+    <string>SoftwareUpdate.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.SoftwareUpdate</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Software Update</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6</string>
+    <key>CFBundleSignature</key>
+    <string>swup</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1892.140.15.701.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H610</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H610</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+  </dict>
+</plist>

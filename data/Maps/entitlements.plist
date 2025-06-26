@@ -1,1 +1,264 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>aps-connection-initiate</key><true/><key>com.apple.CoreRoutine.LocationOfInterest</key><true/><key>com.apple.CoreRoutine.LocationOfInterest.Delete</key><true/><key>com.apple.CoreRoutine.MapHint</key><true/><key>com.apple.CoreRoutine.Prediction</key><true/><key>com.apple.CoreRoutine.VehicleLocation</key><true/><key>com.apple.Maps.mapspushd.geod</key><true/><key>com.apple.Maps.tripsharing.receiving</key><true/><key>com.apple.MapsSupport.MapsDaemon</key><true/><key>com.apple.accounts.appleaccount.fullaccess</key><true/><key>com.apple.accounts.idms.fullaccess</key><true/><key>com.apple.application-identifier</key><string>com.apple.Maps</string><key>com.apple.coreduetd.allow</key><true/><key>com.apple.coreduetd.knowledge</key><true/><key>com.apple.coreduetd.people</key><true/><key>com.apple.developer.aps-environment</key><string>production</string><key>com.apple.developer.associated-domains</key><array></array><key>com.apple.developer.icloud-container-environment</key><string>Production</string><key>com.apple.developer.icloud-container-identifiers</key><array><string>com.apple.Maps.Sync</string></array><key>com.apple.developer.icloud-services</key><array><string>CloudKit</string></array><key>com.apple.developer.maps</key><true/><key>com.apple.developer.ubiquity-container-identifiers</key><string></string><key>com.apple.developer.ubiquity-kvstore-identifier</key><string>com.apple.Maps</string><key>com.apple.findmy.findmylocate.friendshipservice</key><true/><key>com.apple.findmy.findmylocate.locationservice</key><true/><key>com.apple.findmy.findmylocate.settings</key><true/><key>com.apple.geoanalyticsd.analytics</key><true/><key>com.apple.geoservices.changetilegroup</key><true/><key>com.apple.geoservices.experiments.fetchall</key><true/><key>com.apple.geoservices.experiments.set</key><true/><key>com.apple.geoservices.getmanifest</key><true/><key>com.apple.geoservices.requestCounter</key><true/><key>com.apple.geoservices.setanydefault</key><true/><key>com.apple.geoservices.shrinkdb</key><true/><key>com.apple.geoservices.utility</key><true/><key>com.apple.keystore.sik.acces</key><true/><key>com.apple.launchservices.receivereferrerrurl</key><true/><key>com.apple.locationd.effective_bundle</key><true/><key>com.apple.locationd.simulation</key><true/><key>com.apple.maps.debug-assistant</key><true/><key>com.apple.maps.model-access</key><true/><key>com.apple.mobileactivationd.device-identifiers</key><true/><key>com.apple.mobileactivationd.spi</key><true/><key>com.apple.navigation.spi</key><true/><key>com.apple.private.assets.accessible-asset-types</key><array><string>com.apple.MobileAsset.GeoPolygonDataAssets</string></array><key>com.apple.private.cloudkit.serviceNameForContainerMap</key><dict><key>com.apple.Maps.Sync</key><string>MapsSync</string><key>com.apple.Maps.Sync.secure</key><string>com.apple.Maps.Sync.secure</string></dict><key>com.apple.private.communicationsfilter</key><true/><key>com.apple.private.contacts</key><true/><key>com.apple.private.corerecents</key><true/><key>com.apple.private.corewifi</key><true/><key>com.apple.private.hid.client.event-dispatch.internal</key><true/><key>com.apple.private.iaaccounts</key><true/><key>com.apple.private.ids.messaging</key><array><string>com.apple.private.alloy.maps</string></array><key>com.apple.private.ids.messaging.high-priority</key><array><string>com.apple.private.alloy.maps</string></array><key>com.apple.private.security.storage.MapsSync</key><true/><key>com.apple.private.security.storage.Weather</key><true/><key>com.apple.private.swc.system-app</key><true/><key>com.apple.private.tcc.allow</key><array><string>kTCCServiceCalendar</string><string>kTCCServiceAddressBook</string><string>kTCCServicePhotos</string></array><key>com.apple.private.ubiquity-additional-kvstore-identifiers</key><array><string>com.apple.MapsSupport.history</string><string>com.apple.MapsSupport.bookmarks</string><string>com.apple.Maps.recents</string><string>com.apple.weather</string></array><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.application-groups</key><array><string>group.com.apple.Maps</string></array><key>com.apple.security.attestation.access</key><true/><key>com.apple.security.exception.files.absolute-path.read-only</key><array><string>/System/Library/Preferences/Logging/</string><string>/AppleInternal/Library/Preferences/Logging/</string><string>/Library/Preferences/Logging/</string></array><key>com.apple.security.exception.shared-preference.read-write</key><array><string>com.apple.suggestions</string></array><key>com.apple.security.files.user-selected.read-write</key><true/><key>com.apple.security.network.client</key><true/><key>com.apple.security.personal-information.addressbook</key><true/><key>com.apple.security.personal-information.calendars</key><true/><key>com.apple.security.personal-information.location</key><true/><key>com.apple.security.print</key><true/><key>com.apple.security.scripting-targets</key><dict><key>com.apple.systempreferences</key><array><string>preferencepane.reveal</string></array></dict><key>com.apple.security.temporary-exception.files.absolute-path.read-only</key><array><string>/AppleInternal/Maps/GEOConfigDebug/</string><string>/private/var/log/asl/</string><string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string><string>/AppleInternal/Library/Application Support/Maps/</string><string>/AppleInternal/Library/Frameworks/MapsInternal.framework/</string></array><key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key><array><string>/Library/Weather/</string></array><key>com.apple.security.temporary-exception.mach-lookup.global-name</key><array><string>com.apple.airportd</string><string>com.apple.assistant.settings</string><string>com.apple.ClipServices.clipserviced</string><string>com.apple.cmfsyncagent.auth</string><string>com.apple.coreduetd.people</string><string>com.apple.coremedia.endpoint.xpc</string><string>com.apple.corerecents.recentsd</string><string>com.apple.coreservices.coreservicesuihandler</string><string>com.apple.duet.expertcenter</string><string>com.apple.icloud.fmfd</string><string>com.apple.locationd.simulation</string><string>com.apple.lsd.mapdb</string><string>com.apple.lsd.modifydb</string><string>com.apple.lsd.open</string><string>com.apple.lsd.xpc</string><string>com.apple.managedconfiguration.profiled</string><string>com.apple.mapinspectord</string><string>com.apple.maps.destinationd.donations</string><string>com.apple.maps.destinationd.predictions</string><string>com.apple.maps.destinationd.signalPipeline</string><string>com.apple.maps.destinationd.sources</string><string>com.apple.Maps.gsEvents</string><string>com.apple.Maps.mapspushd.geoservices</string><string>com.apple.Maps.mapspushd</string><string>com.apple.Maps.xpc.connectionBroker.endpointProvider</string><string>com.apple.Maps.xpc.connectionBroker.endpointRecorder</string><string>com.apple.Maps.xpc.SharedTrip</string><string>com.apple.navd.recentLocationsService</string><string>com.apple.navd</string><string>com.apple.navigationServer</string><string>com.apple.navigationService</string><string>com.apple.passd.payment</string><string>com.apple.proactive.PersonalizationPortrait.Location.readOnly</string><string>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</string><string>com.apple.routined.registration</string><string>com.apple.siri.activation.service</string><string>com.apple.suggestd.contacts</string><string>com.apple.suggestd.events</string><string>com.apple.telephonyutilities.callservicesdaemon.callprovidermanager</string><string>com.apple.wifi.anqp</string><string>com.apple.coredatad.cloudkit</string><string>com.apple.private.corewifi-xpc</string><string>com.apple.remoted</string><string>com.apple.Maps.xpc.MediaAPI</string><string>com.apple.mobileactivationd</string><string>com.apple.Maps.MapsSync.store</string><string>com.apple.geoanalyticsd</string><string>com.apple.findmy.findmylocate.settings</string><string>com.apple.findmy.findmylocate.friendshipservice</string><string>com.apple.findmy.findmylocate.locationservice</string></array><key>com.apple.security.temporary-exception.sbpl</key><string>(allow system-socket network-inbound (require-all (socket-domain AF_SYSTEM) (socket-protocol 1)))</string><key>com.apple.wifi.priority.id</key><string>maps</string><key>com.apple.wifi.priority.internal</key><true/><key>com.apple.wifi.set_power</key><true/><key>keychain-access-groups</key><array><string>apple</string></array></dict></plist>
+<!-- Entitlements for Maps.app -->
+<!-- Extracted on: 2025-06-26 18:36:46 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>aps-connection-initiate</key>
+    <true />
+    <key>com.apple.CoreRoutine.LocationOfInterest</key>
+    <true />
+    <key>com.apple.CoreRoutine.LocationOfInterest.Delete</key>
+    <true />
+    <key>com.apple.CoreRoutine.MapHint</key>
+    <true />
+    <key>com.apple.CoreRoutine.Prediction</key>
+    <true />
+    <key>com.apple.CoreRoutine.VehicleLocation</key>
+    <true />
+    <key>com.apple.Maps.mapspushd.geod</key>
+    <true />
+    <key>com.apple.Maps.tripsharing.receiving</key>
+    <true />
+    <key>com.apple.MapsSupport.MapsDaemon</key>
+    <true />
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.accounts.idms.fullaccess</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.Maps</string>
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.knowledge</key>
+    <true />
+    <key>com.apple.coreduetd.people</key>
+    <true />
+    <key>com.apple.developer.aps-environment</key>
+    <string>production</string>
+    <key>com.apple.developer.associated-domains</key>
+    <array />
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Production</string>
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+      <string>com.apple.Maps.Sync</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.developer.ubiquity-container-identifiers</key>
+    <string />
+    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+    <string>com.apple.Maps</string>
+    <key>com.apple.findmy.findmylocate.friendshipservice</key>
+    <true />
+    <key>com.apple.findmy.findmylocate.locationservice</key>
+    <true />
+    <key>com.apple.findmy.findmylocate.settings</key>
+    <true />
+    <key>com.apple.geoanalyticsd.analytics</key>
+    <true />
+    <key>com.apple.geoservices.changetilegroup</key>
+    <true />
+    <key>com.apple.geoservices.experiments.fetchall</key>
+    <true />
+    <key>com.apple.geoservices.experiments.set</key>
+    <true />
+    <key>com.apple.geoservices.getmanifest</key>
+    <true />
+    <key>com.apple.geoservices.requestCounter</key>
+    <true />
+    <key>com.apple.geoservices.setanydefault</key>
+    <true />
+    <key>com.apple.geoservices.shrinkdb</key>
+    <true />
+    <key>com.apple.geoservices.utility</key>
+    <true />
+    <key>com.apple.keystore.sik.acces</key>
+    <true />
+    <key>com.apple.launchservices.receivereferrerrurl</key>
+    <true />
+    <key>com.apple.locationd.effective_bundle</key>
+    <true />
+    <key>com.apple.locationd.simulation</key>
+    <true />
+    <key>com.apple.maps.debug-assistant</key>
+    <true />
+    <key>com.apple.maps.model-access</key>
+    <true />
+    <key>com.apple.mobileactivationd.device-identifiers</key>
+    <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.navigation.spi</key>
+    <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.GeoPolygonDataAssets</string>
+    </array>
+    <key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+    <dict>
+      <key>com.apple.Maps.Sync</key>
+      <string>MapsSync</string>
+      <key>com.apple.Maps.Sync.secure</key>
+      <string>com.apple.Maps.Sync.secure</string>
+    </dict>
+    <key>com.apple.private.communicationsfilter</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.corewifi</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.iaaccounts</key>
+    <true />
+    <key>com.apple.private.ids.messaging</key>
+    <array>
+      <string>com.apple.private.alloy.maps</string>
+    </array>
+    <key>com.apple.private.ids.messaging.high-priority</key>
+    <array>
+      <string>com.apple.private.alloy.maps</string>
+    </array>
+    <key>com.apple.private.security.storage.MapsSync</key>
+    <true />
+    <key>com.apple.private.security.storage.Weather</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServicePhotos</string>
+    </array>
+    <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+    <array>
+      <string>com.apple.MapsSupport.history</string>
+      <string>com.apple.MapsSupport.bookmarks</string>
+      <string>com.apple.Maps.recents</string>
+      <string>com.apple.weather</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.Maps</string>
+    </array>
+    <key>com.apple.security.attestation.access</key>
+    <true />
+    <key>com.apple.security.exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/System/Library/Preferences/Logging/</string>
+      <string>/AppleInternal/Library/Preferences/Logging/</string>
+      <string>/Library/Preferences/Logging/</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.suggestions</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.calendars</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.scripting-targets</key>
+    <dict>
+      <key>com.apple.systempreferences</key>
+      <array>
+        <string>preferencepane.reveal</string>
+      </array>
+    </dict>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/AppleInternal/Maps/GEOConfigDebug/</string>
+      <string>/private/var/log/asl/</string>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+      <string>/AppleInternal/Library/Application Support/Maps/</string>
+      <string>/AppleInternal/Library/Frameworks/MapsInternal.framework/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Weather/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.airportd</string>
+      <string>com.apple.assistant.settings</string>
+      <string>com.apple.ClipServices.clipserviced</string>
+      <string>com.apple.cmfsyncagent.auth</string>
+      <string>com.apple.coreduetd.people</string>
+      <string>com.apple.coremedia.endpoint.xpc</string>
+      <string>com.apple.corerecents.recentsd</string>
+      <string>com.apple.coreservices.coreservicesuihandler</string>
+      <string>com.apple.duet.expertcenter</string>
+      <string>com.apple.icloud.fmfd</string>
+      <string>com.apple.locationd.simulation</string>
+      <string>com.apple.lsd.mapdb</string>
+      <string>com.apple.lsd.modifydb</string>
+      <string>com.apple.lsd.open</string>
+      <string>com.apple.lsd.xpc</string>
+      <string>com.apple.managedconfiguration.profiled</string>
+      <string>com.apple.mapinspectord</string>
+      <string>com.apple.maps.destinationd.donations</string>
+      <string>com.apple.maps.destinationd.predictions</string>
+      <string>com.apple.maps.destinationd.signalPipeline</string>
+      <string>com.apple.maps.destinationd.sources</string>
+      <string>com.apple.Maps.gsEvents</string>
+      <string>com.apple.Maps.mapspushd.geoservices</string>
+      <string>com.apple.Maps.mapspushd</string>
+      <string>com.apple.Maps.xpc.connectionBroker.endpointProvider</string>
+      <string>com.apple.Maps.xpc.connectionBroker.endpointRecorder</string>
+      <string>com.apple.Maps.xpc.SharedTrip</string>
+      <string>com.apple.navd.recentLocationsService</string>
+      <string>com.apple.navd</string>
+      <string>com.apple.navigationServer</string>
+      <string>com.apple.navigationService</string>
+      <string>com.apple.passd.payment</string>
+      <string>com.apple.proactive.PersonalizationPortrait.Location.readOnly</string>
+      <string>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</string>
+      <string>com.apple.routined.registration</string>
+      <string>com.apple.siri.activation.service</string>
+      <string>com.apple.suggestd.contacts</string>
+      <string>com.apple.suggestd.events</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callprovidermanager</string>
+      <string>com.apple.wifi.anqp</string>
+      <string>com.apple.coredatad.cloudkit</string>
+      <string>com.apple.private.corewifi-xpc</string>
+      <string>com.apple.remoted</string>
+      <string>com.apple.Maps.xpc.MediaAPI</string>
+      <string>com.apple.mobileactivationd</string>
+      <string>com.apple.Maps.MapsSync.store</string>
+      <string>com.apple.geoanalyticsd</string>
+      <string>com.apple.findmy.findmylocate.settings</string>
+      <string>com.apple.findmy.findmylocate.friendshipservice</string>
+      <string>com.apple.findmy.findmylocate.locationservice</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <string>(allow system-socket network-inbound (require-all (socket-domain AF_SYSTEM) (socket-protocol 1)))</string>
+    <key>com.apple.wifi.priority.id</key>
+    <string>maps</string>
+    <key>com.apple.wifi.priority.internal</key>
+    <true />
+    <key>com.apple.wifi.set_power</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>apple</string>
+    </array>
+  </dict>
+</plist>
