@@ -1,5 +1,4 @@
 Code Signing Information for Migration Assistant
-Generated: 2025-06-26 19:45:14
 Application Path: /System/Applications/Utilities/Migration Assistant.app
 
 Signature Status: Valid

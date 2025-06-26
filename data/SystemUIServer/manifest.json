@@ -1,7 +1,6 @@
 {
   "name": "SystemUIServer",
   "path": "/System/Library/CoreServices/SystemUIServer.app",
-  "generated": "2025-06-26T19:48:04.591809",
   "sdef_count": 0,
   "has_icon": false,
   "icon_path": null,

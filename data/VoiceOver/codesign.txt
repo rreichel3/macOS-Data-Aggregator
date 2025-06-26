@@ -1,5 +1,4 @@
 Code Signing Information for VoiceOver
-Generated: 2025-06-26 19:46:04
 Application Path: /System/Library/CoreServices/VoiceOver.app
 
 Signature Status: Valid

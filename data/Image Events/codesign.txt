@@ -1,5 +1,4 @@
 Code Signing Information for Image Events
-Generated: 2025-06-26 19:46:45
 Application Path: /System/Library/CoreServices/Image Events.app
 
 Signature Status: Valid

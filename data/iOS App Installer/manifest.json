@@ -1,7 +1,6 @@
 {
   "name": "iOS App Installer",
   "path": "/System/Library/CoreServices/Applications/iOS App Installer.app",
-  "generated": "2025-06-26T19:48:42.890939",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

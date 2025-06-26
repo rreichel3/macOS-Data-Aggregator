@@ -1,7 +1,6 @@
 {
   "name": "Setup Assistant",
   "path": "/System/Library/CoreServices/Setup Assistant.app",
-  "generated": "2025-06-26T19:48:04.510709",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

@@ -1,5 +1,4 @@
 Sandbox Analysis for Print Center
-Generated: 2025-06-26 19:47:59
 Application Path: /System/Applications/Utilities/Print Center.app
 
 Sandboxed: Unknown

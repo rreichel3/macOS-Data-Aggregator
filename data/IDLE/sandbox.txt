@@ -1,12 +1,11 @@
 Sandbox Analysis for IDLE
-Generated: 2025-06-26 19:46:03
-Application Path: /Applications/Python 3.12/IDLE.app
+Application Path: /Applications/Python 3.11/IDLE.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 0
-Hardened Runtime: Unknown
-Library Validation: Unknown
+Entitlements Count: 4
+Hardened Runtime: Yes
+Library Validation: Disabled
 
 Analysis Notes:
 - No additional notes

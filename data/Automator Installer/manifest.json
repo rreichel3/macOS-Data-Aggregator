@@ -1,7 +1,6 @@
 {
   "name": "Automator Installer",
   "path": "/System/Library/CoreServices/Automator Installer.app",
-  "generated": "2025-06-26T19:45:17.273779",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

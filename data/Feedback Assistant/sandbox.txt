@@ -1,5 +1,4 @@
 Sandbox Analysis for Feedback Assistant
-Generated: 2025-06-26 19:48:06
 Application Path: /System/Library/CoreServices/Applications/Feedback Assistant.app
 
 Sandboxed: No

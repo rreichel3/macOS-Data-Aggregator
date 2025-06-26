@@ -1,5 +1,4 @@
 Sandbox Analysis for WidgetKit Simulator
-Generated: 2025-06-26 19:45:22
 Application Path: /System/Library/CoreServices/WidgetKit Simulator.app
 
 Sandboxed: No

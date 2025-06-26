@@ -1,5 +1,4 @@
 Sandbox Analysis for VoiceOver Utility
-Generated: 2025-06-26 19:48:05
 Application Path: /System/Applications/Utilities/VoiceOver Utility.app
 
 Sandboxed: Unknown

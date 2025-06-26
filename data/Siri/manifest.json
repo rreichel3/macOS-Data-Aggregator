@@ -1,7 +1,6 @@
 {
   "name": "Siri",
-  "path": "/System/Applications/Siri.app",
-  "generated": "2025-06-26T19:45:14.632605",
+  "path": "/System/Library/CoreServices/Siri.app",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",
@@ -14,14 +13,13 @@
     "error": null
   },
   "sandbox": {
-    "sandboxed": "Unknown",
+    "sandboxed": "No",
     "sandbox_type": "Unknown",
-    "entitlements_count": "0",
+    "entitlements_count": "27",
     "hardened_runtime": "Unknown",
-    "library_validation": "Unknown",
+    "library_validation": "Enabled",
     "analysis_notes": [
-      "Background app (LSUIElement)",
-      "System application"
+      "Background app (LSUIElement)"
     ]
   }
 }

@@ -1,7 +1,6 @@
 {
   "name": "Diagnostics Reporter",
   "path": "/System/Library/CoreServices/Diagnostics Reporter.app",
-  "generated": "2025-06-26T19:45:20.026008",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

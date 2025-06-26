@@ -1,5 +1,4 @@
 Code Signing Information for NotificationCenter
-Generated: 2025-06-26 19:44:04
 Application Path: /System/Library/CoreServices/NotificationCenter.app
 
 Signature Status: Valid

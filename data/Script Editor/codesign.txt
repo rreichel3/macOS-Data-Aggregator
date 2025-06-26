@@ -1,5 +1,4 @@
 Code Signing Information for Script Editor
-Generated: 2025-06-26 19:48:06
 Application Path: /System/Applications/Utilities/Script Editor.app
 
 Signature Status: Valid

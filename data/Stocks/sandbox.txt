@@ -1,5 +1,4 @@
 Sandbox Analysis for Stocks
-Generated: 2025-06-26 19:48:41
 Application Path: /System/Applications/Stocks.app
 
 Sandboxed: No

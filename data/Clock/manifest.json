@@ -1,7 +1,6 @@
 {
   "name": "Clock",
   "path": "/System/Applications/Clock.app",
-  "generated": "2025-06-26T19:47:23.187848",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

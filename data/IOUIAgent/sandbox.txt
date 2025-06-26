@@ -1,5 +1,4 @@
 Sandbox Analysis for IOUIAgent
-Generated: 2025-06-26 19:45:17
 Application Path: /System/Library/CoreServices/IOUIAgent.app
 
 Sandboxed: No

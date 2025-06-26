@@ -1,5 +1,4 @@
 Sandbox Analysis for QuickTime Player
-Generated: 2025-06-26 19:48:03
 Application Path: /System/Applications/QuickTime Player.app
 
 Sandboxed: No

@@ -1,7 +1,6 @@
 {
   "name": "BluetoothUIServer",
   "path": "/System/Library/CoreServices/BluetoothUIServer.app",
-  "generated": "2025-06-26T19:45:17.977424",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

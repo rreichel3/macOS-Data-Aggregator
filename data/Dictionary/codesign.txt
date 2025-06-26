@@ -1,5 +1,4 @@
 Code Signing Information for Dictionary
-Generated: 2025-06-26 19:43:58
 Application Path: /System/Applications/Dictionary.app
 
 Signature Status: Valid

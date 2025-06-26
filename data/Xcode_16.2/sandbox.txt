@@ -1,5 +1,4 @@
 Sandbox Analysis for Xcode_16.2
-Generated: 2025-06-26 19:48:40
 Application Path: /Applications/Xcode_16.2.app
 
 Sandboxed: Unknown

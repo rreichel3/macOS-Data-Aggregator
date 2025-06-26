@@ -1,5 +1,4 @@
 Sandbox Analysis for Firefox
-Generated: 2025-06-26 19:44:02
 Application Path: /Applications/Firefox.app
 
 Sandboxed: Unknown

@@ -1,5 +1,4 @@
 Sandbox Analysis for Pass Viewer
-Generated: 2025-06-26 19:48:02
 Application Path: /System/Library/CoreServices/Pass Viewer.app
 
 Sandboxed: No

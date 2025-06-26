@@ -1,5 +1,4 @@
 Sandbox Analysis for TMHelperAgent
-Generated: 2025-06-26 19:47:22
 Application Path: /System/Library/CoreServices/TimeMachine/TMHelperAgent.app
 
 Sandboxed: Unknown

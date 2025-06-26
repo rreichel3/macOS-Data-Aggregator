@@ -1,5 +1,4 @@
 Code Signing Information for PeopleMessageService
-Generated: 2025-06-26 19:48:05
 Application Path: /System/Library/CoreServices/PeopleMessageService.app
 
 Signature Status: Valid

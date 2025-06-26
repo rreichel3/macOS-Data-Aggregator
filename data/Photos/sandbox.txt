@@ -1,5 +1,4 @@
 Sandbox Analysis for Photos
-Generated: 2025-06-26 19:47:23
 Application Path: /System/Applications/Photos.app
 
 Sandboxed: No

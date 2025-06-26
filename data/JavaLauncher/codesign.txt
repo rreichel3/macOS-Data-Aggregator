@@ -1,5 +1,4 @@
 Code Signing Information for JavaLauncher
-Generated: 2025-06-26 19:46:05
 Application Path: /System/Library/CoreServices/JavaLauncher.app
 
 Signature Status: Valid

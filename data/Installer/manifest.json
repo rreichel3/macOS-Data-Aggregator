@@ -1,7 +1,6 @@
 {
   "name": "Installer",
   "path": "/System/Library/CoreServices/Installer.app",
-  "generated": "2025-06-26T19:45:15.213037",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

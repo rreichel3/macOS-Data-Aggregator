@@ -1,5 +1,4 @@
 Code Signing Information for Paired Devices
-Generated: 2025-06-26 19:48:06
 Application Path: /System/Library/CoreServices/Paired Devices.app
 
 Signature Status: Valid

@@ -1,5 +1,4 @@
 Sandbox Analysis for FaceTime
-Generated: 2025-06-26 19:43:59
 Application Path: /System/Applications/FaceTime.app
 
 Sandboxed: No

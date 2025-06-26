@@ -1,5 +1,4 @@
 Code Signing Information for Google Chrome
-Generated: 2025-06-26 19:48:05
 Application Path: /Applications/Google Chrome.app
 
 Signature Status: Valid

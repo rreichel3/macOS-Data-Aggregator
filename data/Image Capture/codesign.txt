@@ -1,5 +1,4 @@
 Code Signing Information for Image Capture
-Generated: 2025-06-26 19:48:03
 Application Path: /System/Applications/Image Capture.app
 
 Signature Status: Valid

@@ -1,5 +1,4 @@
 Code Signing Information for Disk Utility
-Generated: 2025-06-26 19:48:05
 Application Path: /System/Applications/Utilities/Disk Utility.app
 
 Signature Status: Valid

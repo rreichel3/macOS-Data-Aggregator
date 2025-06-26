@@ -1,5 +1,4 @@
 Code Signing Information for PowerShell
-Generated: 2025-06-26 19:46:07
 Application Path: /Applications/PowerShell.app
 
 Signature Status: Invalid or Unsigned (Verification Failed)

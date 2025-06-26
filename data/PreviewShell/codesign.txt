@@ -1,5 +1,4 @@
 Code Signing Information for PreviewShell
-Generated: 2025-06-26 19:48:04
 Application Path: /System/Library/CoreServices/PreviewShell.app
 
 Signature Status: Valid

@@ -1,5 +1,4 @@
 Code Signing Information for Shortcuts
-Generated: 2025-06-26 19:48:04
 Application Path: /System/Applications/Shortcuts.app
 
 Signature Status: Valid

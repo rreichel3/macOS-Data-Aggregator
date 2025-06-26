@@ -1,5 +1,4 @@
 Code Signing Information for ARDAgent
-Generated: 2025-06-26 19:48:00
 Application Path: /System/Library/CoreServices/RemoteManagement/ARDAgent.app
 
 Signature Status: Valid

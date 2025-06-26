@@ -1,5 +1,4 @@
 Sandbox Analysis for Freeform
-Generated: 2025-06-26 19:46:05
 Application Path: /System/Applications/Freeform.app
 
 Sandboxed: No

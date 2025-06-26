@@ -1,5 +1,4 @@
 Code Signing Information for VoiceMemos
-Generated: 2025-06-26 19:45:20
 Application Path: /System/Applications/VoiceMemos.app
 
 Signature Status: Valid

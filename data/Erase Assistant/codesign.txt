@@ -1,5 +1,4 @@
 Code Signing Information for Erase Assistant
-Generated: 2025-06-26 19:48:00
 Application Path: /System/Library/CoreServices/Erase Assistant.app
 
 Signature Status: Valid

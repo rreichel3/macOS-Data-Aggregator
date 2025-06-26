@@ -1,7 +1,6 @@
 {
   "name": "Screen Time",
   "path": "/System/Library/CoreServices/Screen Time.app",
-  "generated": "2025-06-26T19:48:01.760271",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

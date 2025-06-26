@@ -1,5 +1,4 @@
 Sandbox Analysis for AddressBookSync
-Generated: 2025-06-26 19:48:04
 Application Path: /System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app
 
 Sandboxed: Unknown

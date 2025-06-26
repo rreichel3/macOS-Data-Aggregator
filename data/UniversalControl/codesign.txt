@@ -1,5 +1,4 @@
 Code Signing Information for UniversalControl
-Generated: 2025-06-26 19:46:07
 Application Path: /System/Library/CoreServices/UniversalControl.app
 
 Signature Status: Valid

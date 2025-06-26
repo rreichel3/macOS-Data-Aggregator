@@ -1,5 +1,4 @@
 Code Signing Information for Photo Booth
-Generated: 2025-06-26 19:46:03
 Application Path: /System/Applications/Photo Booth.app
 
 Signature Status: Valid

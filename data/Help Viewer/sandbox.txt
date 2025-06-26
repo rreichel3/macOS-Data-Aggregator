@@ -1,5 +1,4 @@
 Sandbox Analysis for Help Viewer
-Generated: 2025-06-26 19:45:14
 Application Path: /System/Library/CoreServices/Help Viewer.app
 
 Sandboxed: No

@@ -1,5 +1,4 @@
 Sandbox Analysis for System Events
-Generated: 2025-06-26 19:47:59
 Application Path: /System/Library/CoreServices/System Events.app
 
 Sandboxed: Unknown

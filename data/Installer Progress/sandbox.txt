@@ -1,5 +1,4 @@
 Sandbox Analysis for Installer Progress
-Generated: 2025-06-26 19:44:39
 Application Path: /System/Library/CoreServices/Installer Progress.app
 
 Sandboxed: Unknown

@@ -1,5 +1,4 @@
 Code Signing Information for Install in Progress
-Generated: 2025-06-26 19:44:04
 Application Path: /System/Library/CoreServices/Install in Progress.app
 
 Signature Status: Valid

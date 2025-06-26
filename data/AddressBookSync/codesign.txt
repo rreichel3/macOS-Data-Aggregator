@@ -1,5 +1,4 @@
 Code Signing Information for AddressBookSync
-Generated: 2025-06-26 19:48:04
 Application Path: /System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app
 
 Signature Status: Valid

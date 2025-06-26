@@ -1,5 +1,4 @@
 Sandbox Analysis for ctkbind
-Generated: 2025-06-26 19:48:01
 Application Path: /System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app
 
 Sandboxed: Unknown

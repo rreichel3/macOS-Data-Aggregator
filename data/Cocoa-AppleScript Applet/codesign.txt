@@ -1,5 +1,4 @@
 Code Signing Information for Cocoa-AppleScript Applet
-Generated: 2025-06-26 19:48:04
 Application Path: /Library/Application Support/Script Editor/Templates/Cocoa-AppleScript Applet.app
 
 Signature Status: Valid (Verification Failed)

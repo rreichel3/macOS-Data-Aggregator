@@ -1,5 +1,4 @@
 Code Signing Information for BluetoothUIService
-Generated: 2025-06-26 19:48:41
 Application Path: /System/Library/CoreServices/BluetoothUIService.app
 
 Signature Status: Valid

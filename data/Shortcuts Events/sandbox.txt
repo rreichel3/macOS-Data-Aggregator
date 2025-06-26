@@ -1,5 +1,4 @@
 Sandbox Analysis for Shortcuts Events
-Generated: 2025-06-26 19:44:01
 Application Path: /System/Library/CoreServices/Shortcuts Events.app
 
 Sandboxed: No

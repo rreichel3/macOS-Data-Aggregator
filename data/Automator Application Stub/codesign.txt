@@ -1,5 +1,4 @@
 Code Signing Information for Automator Application Stub
-Generated: 2025-06-26 19:48:01
 Application Path: /System/Library/CoreServices/Automator Application Stub.app
 
 Signature Status: Valid (Verification Failed)

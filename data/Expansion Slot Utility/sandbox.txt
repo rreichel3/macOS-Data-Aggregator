@@ -1,5 +1,4 @@
 Sandbox Analysis for Expansion Slot Utility
-Generated: 2025-06-26 19:47:59
 Application Path: /System/Library/CoreServices/Applications/Expansion Slot Utility.app
 
 Sandboxed: Unknown

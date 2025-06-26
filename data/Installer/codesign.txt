@@ -1,5 +1,4 @@
 Code Signing Information for Installer
-Generated: 2025-06-26 19:45:15
 Application Path: /System/Library/CoreServices/Installer.app
 
 Signature Status: Valid

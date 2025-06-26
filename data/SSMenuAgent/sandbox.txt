@@ -1,5 +1,4 @@
 Sandbox Analysis for SSMenuAgent
-Generated: 2025-06-26 19:48:41
 Application Path: /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app
 
 Sandboxed: No

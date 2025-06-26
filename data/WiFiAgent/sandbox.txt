@@ -1,5 +1,4 @@
 Sandbox Analysis for WiFiAgent
-Generated: 2025-06-26 19:48:03
 Application Path: /System/Library/CoreServices/WiFiAgent.app
 
 Sandboxed: Unknown

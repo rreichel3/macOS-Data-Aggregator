@@ -1,5 +1,4 @@
 Code Signing Information for Game Center
-Generated: 2025-06-26 19:43:59
 Application Path: /System/Library/CoreServices/Game Center.app
 
 Signature Status: Valid

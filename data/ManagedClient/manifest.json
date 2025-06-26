@@ -1,7 +1,6 @@
 {
   "name": "ManagedClient",
   "path": "/System/Library/CoreServices/ManagedClient.app",
-  "generated": "2025-06-26T19:44:03.117928",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

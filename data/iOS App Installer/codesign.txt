@@ -1,5 +1,4 @@
 Code Signing Information for iOS App Installer
-Generated: 2025-06-26 19:48:42
 Application Path: /System/Library/CoreServices/Applications/iOS App Installer.app
 
 Signature Status: Valid

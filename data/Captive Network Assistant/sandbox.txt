@@ -1,5 +1,4 @@
 Sandbox Analysis for Captive Network Assistant
-Generated: 2025-06-26 19:44:03
 Application Path: /System/Library/CoreServices/Captive Network Assistant.app
 
 Sandboxed: No

@@ -1,5 +1,4 @@
 Sandbox Analysis for Maps
-Generated: 2025-06-26 19:44:02
 Application Path: /System/Applications/Maps.app
 
 Sandboxed: No

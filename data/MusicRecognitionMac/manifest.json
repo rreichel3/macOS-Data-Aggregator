@@ -1,7 +1,6 @@
 {
   "name": "MusicRecognitionMac",
   "path": "/System/Library/CoreServices/MusicRecognitionMac.app",
-  "generated": "2025-06-26T19:44:00.185434",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

@@ -1,7 +1,6 @@
 {
   "name": "App Store",
   "path": "/System/Applications/App Store.app",
-  "generated": "2025-06-26T19:45:20.285495",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",

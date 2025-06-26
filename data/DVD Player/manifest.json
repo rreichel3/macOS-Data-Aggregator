@@ -1,7 +1,6 @@
 {
   "name": "DVD Player",
   "path": "/System/Library/CoreServices/Applications/DVD Player.app",
-  "generated": "2025-06-26T19:44:03.812832",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",
