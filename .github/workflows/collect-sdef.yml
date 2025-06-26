@@ -62,7 +62,7 @@ jobs:
     - name: Run application data collection script
       run: |
         echo "Collecting macOS application data..."
-        sudo python3 collect_sdef_files.py
+        sudo python3 collect_macos_app_data.py
         
         # Count collected data
         TOTAL_APPS=$(find data -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
