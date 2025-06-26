@@ -1,0 +1,12 @@
+Sandbox Analysis for Family
+Generated: 2025-06-26 18:37:28
+Application Path: /System/Library/CoreServices/Family.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 20
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

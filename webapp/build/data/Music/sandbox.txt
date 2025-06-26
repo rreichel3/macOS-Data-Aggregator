@@ -1,0 +1,12 @@
+Sandbox Analysis for Music
+Generated: 2025-06-26 18:37:29
+Application Path: /System/Applications/Music.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 47
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

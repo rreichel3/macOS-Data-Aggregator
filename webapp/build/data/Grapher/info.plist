@@ -1,0 +1,92 @@
+<!-- Info.plist for Grapher.app -->
+<!-- Extracted on: 2025-06-26 18:38:10 -->
+<!-- Source: /System/Applications/Utilities/Grapher.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Grapher</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>gcx</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Grapher Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>gcx</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>NSDocumentClass</key>
+        <string>GrapherDocument</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Grapher</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>Grapher.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.Grapher.help</string>
+    <key>CFBundleIconFile</key>
+    <string>Grapher</string>
+    <key>CFBundleIconName</key>
+    <string>Grapher</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.grapher</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Grapher</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.7</string>
+    <key>CFBundleSignature</key>
+    <string>CRVS</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleVersionString</key>
+    <string>2.7.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>grapher</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.education</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+  </dict>
+</plist>

@@ -1,0 +1,177 @@
+<!-- Entitlements for NotificationCenter.app -->
+<!-- Extracted on: 2025-06-26 18:34:19 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.Contacts.database-allow</key>
+    <true />
+    <key>com.apple.chrono.event-service-publisher</key>
+    <true />
+    <key>com.apple.chrono.widgetRenderer</key>
+    <true />
+    <key>com.apple.chronod.toolservices</key>
+    <true />
+    <key>com.apple.chronoservices</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.context</key>
+    <true />
+    <key>com.apple.developer.extension-host.widget-extension</key>
+    <true />
+    <key>com.apple.intents.extension.discovery</key>
+    <true />
+    <key>com.apple.linkd.registry</key>
+    <true />
+    <key>com.apple.locationd.effective_bundle</key>
+    <true />
+    <key>com.apple.locationd.usage_oracle</key>
+    <true />
+    <key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+    <true />
+    <key>com.apple.private.SkyLight.event.monitor</key>
+    <true />
+    <key>com.apple.private.appintents.extension-host</key>
+    <true />
+    <key>com.apple.private.audio.notification-wake-audio</key>
+    <true />
+    <key>com.apple.private.chrono-extension-host</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.coreservices.canmaplsdatabase</key>
+    <true />
+    <key>com.apple.private.coreservices.canopenactivity</key>
+    <true />
+    <key>com.apple.private.dmd.policy</key>
+    <true />
+    <key>com.apple.private.donotdisturb.auxiliary-state.modification.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.behavior.resolution.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.mode.assertion.client-identifiers</key>
+    <array>
+      <string>com.apple.private.nc.dnd</string>
+      <string>com.apple.private.nc.dnd-debug</string>
+      <string>com.apple.controlcenter.dnd</string>
+    </array>
+    <key>com.apple.private.donotdisturb.mode.assertion.user-requested.client-identifiers</key>
+    <array>
+      <string>com.apple.private.nc.dnd.user-requested</string>
+      <string>com.apple.controlcenter.dnd</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.modify.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.settings.request.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.settings.updates.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.state.request.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.donotdisturb.state.updates.client-identifiers</key>
+    <string>com.apple.private.nc.dnd</string>
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.iokit.batterydataprecise</key>
+    <true />
+    <key>com.apple.private.iokit.darkwake-control</key>
+    <true />
+    <key>com.apple.private.launchservices.allowopenwithanyhandler</key>
+    <true />
+    <key>com.apple.private.notificationcenter</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <string>group.com.apple.chronod</string>
+    <key>com.apple.private.security.storage.Safari</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceSystemPolicyAppData</string>
+    </array>
+    <key>com.apple.private.windowmanager</key>
+    <true />
+    <key>com.apple.runningboard.assertions.chronod</key>
+    <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.process-state</key>
+    <true />
+    <key>com.apple.runningboard.terminateprocess</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.files.downloads.read-only</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+    <array>
+      <string>/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.siri.VoiceShortcuts.xpc</string>
+      <string>com.apple.windowmanager.external</string>
+      <string>com.apple.usernoted.notificationcenter</string>
+      <string>com.apple.chronoservices</string>
+      <string>com.apple.dock.notificationcenter</string>
+      <string>com.apple.dock.remotedesktoppicture</string>
+      <string>com.apple.locationd.desktop.synchronous</string>
+      <string>com.apple.locationd.registration</string>
+      <string>com.apple.locationd.desktop.registration</string>
+      <string>com.apple.locationd.synchronous</string>
+      <string>com.apple.donotdisturb.service</string>
+      <string>com.apple.donotdisturb.service.non-launching</string>
+      <string>com.apple.linkd.extension</string>
+      <string>com.apple.linkd.registry</string>
+      <string>com.apple.linkd.mediator</string>
+      <string>com.apple.linkd.transcript</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-register.global-name</key>
+    <array>
+      <string>com.apple.widget-observation</string>
+      <string>com.apple.notificationcenterui.siri</string>
+      <string>com.apple.chrono.widgetcenterconnection</string>
+      <string>com.apple.chronoservices</string>
+      <string>com.apple.notificationcenterui.menu</string>
+      <string>com.apple.notificationcenterui.snippet</string>
+      <string>com.apple.notificationcenterui.pip</string>
+      <string>com.apple.notificationcetnerui.ping</string>
+      <string>com.apple.notificationcenterui.tcc</string>
+      <string>com.apple.notificationcenterui.nctool</string>
+      <string>com.apple.notificationcenterui.customalerts</string>
+      <string>com.apple.notificationcenterui.main</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(allow file-unlink file-write*
+    (home-regex #"/Library/Containers/[^/]+/Data/SystemData"))</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.BatteryCenter.BatteryWidget</string>
+      <string>com.apple.chronod</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.widgets</string>
+    </array>
+    <key>com.apple.shortcuts.background-running</key>
+    <true />
+    <key>com.apple.siri.VoiceShortcuts.xpc</key>
+    <true />
+  </dict>
+</plist>

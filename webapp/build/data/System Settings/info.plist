@@ -1,0 +1,268 @@
+<!-- Info.plist for System Settings.app -->
+<!-- Extracted on: 2025-06-26 18:37:28 -->
+<!-- Source: /System/Applications/System Settings.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFAppleHelpAnchor</key>
+    <string>mh15217</string>
+    <key>CFBundleAlternateNames</key>
+    <array>
+      <string>System Preferences</string>
+      <string>System Settings</string>
+      <string>Preferences</string>
+      <string>Settings</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>internetconnect</string>
+          <string>networkconnect</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Internet Connect Document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>prefPane</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>OS X Preference Pane</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>sysprefex</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>OS X Preference Pane Extension</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>saver</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>OS X Preference Screen Saver</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>System Settings</string>
+    <key>CFBundleIconName</key>
+    <string>PrefApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.systempreferences</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>System Settings</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>15.0</string>
+    <key>CFBundleSignature</key>
+    <string>sprf</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLName</key>
+        <string>System Preferences URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-apple.systempreferences</string>
+          <string>otpauth</string>
+          <string>apple-otpauth</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>15.0</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>MDItemKeywords</key>
+    <string>System Preferences</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSDockTilePlugIn</key>
+    <string>SystemPreferencesDockTile.docktileplugin</string>
+    <key>NSDockTilePlugInMenuOnly</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>PreferencesApp</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>OSAScriptingDefinition</key>
+    <string>SystemPreferences.sdef</string>
+    <key>QuartzGLEnable</key>
+    <true />
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.xml</string>
+          <string>public.text</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Internet Connect Document</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.preference.network</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>internetconnect</string>
+            <string>networkconnect</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+          <string>com.apple.bundle</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>System Preference pane</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBadgeName</key>
+          <string>pref_pane_document_badge</string>
+          <key>UTTypeIconText</key>
+          <string>PREF</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.systempreference.prefpane</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>prefPane</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+          <string>com.apple.bundle</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>System Preference pane extension</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.systempreference.prefpane.extension</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <string>sysprefex</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>ISGraphicIconConfiguration</key>
+          <dict>
+            <key>ISEnclosureColor</key>
+            <string>Gray</string>
+            <key>ISRenderingMode</key>
+            <string>Automatic</string>
+            <key>ISSymbolColor</key>
+            <string>White</string>
+            <key>ISSymbolName</key>
+            <string>gear</string>
+          </dict>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.settings.section.icon.general</string>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>ISGraphicIconConfiguration</key>
+          <dict>
+            <key>ISEnclosureColor</key>
+            <string>Blue</string>
+            <key>ISRenderingMode</key>
+            <string>automatic</string>
+            <key>ISSymbolColor</key>
+            <string>White</string>
+            <key>ISSymbolName</key>
+            <string>hand.raised.fill</string>
+          </dict>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.settings.section.icon.privacy</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

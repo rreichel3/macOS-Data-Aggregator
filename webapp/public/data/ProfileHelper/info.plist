@@ -1,0 +1,169 @@
+<!-- Info.plist for ProfileHelper.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+<!-- Source: /System/Library/CoreServices/ProfileHelper.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>ProfileHelper</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Configuration Profile</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.mobileconfig</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Configuration Profile</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.configprofile</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Provision Profile</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.provisionprofile</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <false />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>ProfileHelper</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.mcx.ProfileHelper</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>ProfileHelper</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2020 Apple, Inc. All rights reserved.</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.mobileconfig</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Configuration Profile</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconText</key>
+          <string>CONFIG</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.mobileconfig</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>mobileconfig</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.configprofile</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Configuration Profile</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconText</key>
+          <string>CONFIG</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.configprofile</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>configprofile</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.provisionprofile</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Provisioning Profile</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconText</key>
+          <string>PROV</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.provisionprofile</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>provisionprofile</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

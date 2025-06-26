@@ -1,0 +1,97 @@
+<!-- Info.plist for Boot Camp Assistant.app -->
+<!-- Extracted on: 2025-06-26 18:37:32 -->
+<!-- Source: /System/Applications/Utilities/Boot Camp Assistant.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Boot Camp Assistant</string>
+    <key>CFBundleExecutable</key>
+    <string>Boot Camp Assistant</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.bootcampassistant</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.1.0</string>
+    <key>CFBundleName</key>
+    <string>Boot Camp Assistant</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6.1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>6338.100.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>ExternalInstallOnlyModels</key>
+    <array>
+      <string>MacBookAir7,1</string>
+    </array>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2022 Apple Inc. All rights reserved.</string>
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>PreUEFIModels</key>
+    <array>
+      <string>MacBook7</string>
+      <string>MacBookAir5</string>
+      <string>MacBookPro10</string>
+      <string>MacPro5</string>
+      <string>Macmini6</string>
+      <string>iMac13</string>
+    </array>
+    <key>RS5OrHigherModels</key>
+    <array>
+      <string>MacBookPro15,3</string>
+    </array>
+    <key>UEFIOnlyModels</key>
+    <array>
+      <string>MacBook8,1</string>
+      <string>MacBook7,1</string>
+      <string>MacBookPro11,4</string>
+      <string>MacPro6,1</string>
+      <string>iMac16,1</string>
+    </array>
+    <key>USBInstallModels</key>
+    <array>
+      <string>MacBook7</string>
+      <string>MacBookAir5</string>
+      <string>MacBookPro10</string>
+      <string>MacPro5</string>
+      <string>Macmini6</string>
+      <string>iMac13</string>
+    </array>
+  </dict>
+</plist>

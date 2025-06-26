@@ -1,0 +1,9 @@
+Code Signing Information for AirPort Utility
+Generated: 2025-06-26 18:36:48
+Application Path: /System/Applications/Utilities/AirPort Utility.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

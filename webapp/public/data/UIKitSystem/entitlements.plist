@@ -1,0 +1,54 @@
+<!-- Entitlements for UIKitSystem.app -->
+<!-- Extracted on: 2025-06-26 18:36:48 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>application-identifier</key>
+    <string>com.apple.UIKitSystemApp</string>
+    <key>com.apple.QuartzCore.displayable-context</key>
+    <true />
+    <key>com.apple.accessibility.api</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.UIKitSystemApp</string>
+    <key>com.apple.assertiond.system-shell</key>
+    <true />
+    <key>com.apple.backboard.client</key>
+    <true />
+    <key>com.apple.frontboard.app-badge-value-access</key>
+    <true />
+    <key>com.apple.frontboard.application-process-handle</key>
+    <true />
+    <key>com.apple.frontboard.debugapplications</key>
+    <true />
+    <key>com.apple.frontboard.keyboard-focus</key>
+    <true />
+    <key>com.apple.frontboard.launchapplications</key>
+    <true />
+    <key>com.apple.multitasking.systemappassertions</key>
+    <true />
+    <key>com.apple.multitasking.termination</key>
+    <true />
+    <key>com.apple.multitasking.unlimitedassertions</key>
+    <true />
+    <key>com.apple.private.UIKitSystemApp.system-app</key>
+    <true />
+    <key>com.apple.private.security.storage.containers</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.xpc.launchd.app-server</key>
+    <true />
+    <key>com.apple.runningboard.endowment-originator</key>
+    <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.primitiveattribute</key>
+    <true />
+    <key>com.apple.runningboard.process-state</key>
+    <true />
+    <key>com.apple.runningboard.terminateprocess</key>
+    <true />
+  </dict>
+</plist>

@@ -1,0 +1,71 @@
+<!-- Info.plist for loginwindow.app -->
+<!-- Extracted on: 2025-06-26 18:35:28 -->
+<!-- Source: /System/Library/CoreServices/loginwindow.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>Application-Group</key>
+    <string>dot-mac</string>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>loginwindow</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.loginwindow</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>loginwindow</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>9.0</string>
+    <key>CFBundleSignature</key>
+    <string>lgnw</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>3022.6.2.1</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H619</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H619</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>GPUSelectionPolicy</key>
+    <string>avoidRemovable</string>
+    <key>LSDoNotSetTaskPolicyAutomatically</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSRequiresNativeExecution</key>
+    <true />
+    <key>LSUIElement</key>
+    <true />
+    <key>NSDisablePersistence</key>
+    <true />
+    <key>NSExtensions</key>
+    <dict />
+    <key>NSMainNibFile</key>
+    <string>loginwindow</string>
+    <key>NSPrincipalClass</key>
+    <string>LoginApp</string>
+  </dict>
+</plist>

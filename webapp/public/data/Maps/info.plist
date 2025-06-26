@@ -1,0 +1,301 @@
+<!-- Info.plist for Maps.app -->
+<!-- Extracted on: 2025-06-26 18:36:46 -->
+<!-- Source: /System/Applications/Maps.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CAProcessCanAccessGPU</key>
+    <true />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Maps</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>custom trace file</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.maps.navtracefile</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Maps</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>Maps.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.Maps.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Maps</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLIsPrivate</key>
+        <true />
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-maps-ac-auth</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>maps</string>
+          <string>mapitem</string>
+          <string>map</string>
+          <string>x-maps-mapitemhandles</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLIsPrivate</key>
+        <true />
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-maps-bulletin</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLIsPrivate</key>
+        <true />
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>x-maps-punchinhint</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>2811.26.4.18.7</string>
+    <key>CoreSpotlightContinuation</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H510</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H510</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>maps</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>twcweather</string>
+    </array>
+    <key>LSCounterpartIdentifiers</key>
+    <array>
+      <string>com.apple.NanoMaps</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2012–2020 Apple Inc.\nAll rights reserved.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Your location is used to show your position on the map, get directions, estimate travel times, and improve search results.</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.apple.Maps</string>
+    </array>
+    <key>SKRespectApplicationUserInterfaceLayoutDirection</key>
+    <true />
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true />
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true />
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>6</integer>
+    </array>
+    <key>UIGlobalUserInterfaceIdiomMac</key>
+    <true />
+    <key>UILaunchStoryboardName</key>
+    <string>Launch</string>
+    <key>UIPrerenderedIcon</key>
+    <true />
+    <key>UIUserInterfaceIdiomMac</key>
+    <true />
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>UIViewServiceUsesNSXPCConnection</key>
+    <true />
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNAutomaticallyShowSettings</key>
+      <true />
+      <key>UNDaemonShouldReceiveApplicationEvents</key>
+      <true />
+      <key>UNDaemonShouldReceiveBackgroundResponses</key>
+      <true />
+      <key>UNDefaultCategories</key>
+      <array>
+        <dict>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryRAP</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryParkedCar</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryTraffic</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryActions</key>
+          <array>
+            <dict>
+              <key>UNActionIdentifier</key>
+              <string>TrafficIncidentAlertRerouteAction</string>
+              <key>UNActionTitle</key>
+              <string>MapsRerouteActionTitle</string>
+            </dict>
+          </array>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryTrafficReroute</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryPredictedDestination</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryAllowInCarPlay</key>
+          <true />
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategoryLowFuel</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsAllowSpoken</key>
+          <true />
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowSubtitle</key>
+          <true />
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+        <dict>
+          <key>UNCategoryAllowInCarPlay</key>
+          <true />
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategorySharedTrip</string>
+        </dict>
+        <dict>
+          <key>UNCategoryIdentifier</key>
+          <string>MapsUNCategorySharedTrip</string>
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowSubtitle</key>
+          <true />
+          <key>UNNotificationCategoryOptionHiddenPreviewsShowTitle</key>
+          <true />
+        </dict>
+      </array>
+      <key>UNDefaultSettings</key>
+      <dict>
+        <key>UNSettingAlerts</key>
+        <true />
+        <key>UNSettingCarPlay</key>
+        <true />
+        <key>UNSettingLockScreen</key>
+        <true />
+        <key>UNSettingNotificationCenter</key>
+        <true />
+        <key>UNSettingSounds</key>
+        <true />
+      </dict>
+    </dict>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>MKDirectionsRequest</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.maps.directionsrequest</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>mkdirectionsrequest</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>TraceFileType</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.maps.navtracefile</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>navtrace</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>_LSSupportsRemoval</key>
+    <true />
+    <key>kMDItemKeywords</key>
+    <string>Maps</string>
+  </dict>
+</plist>

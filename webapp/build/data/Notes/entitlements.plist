@@ -1,0 +1,201 @@
+<!-- Entitlements for Notes.app -->
+<!-- Extracted on: 2025-06-26 18:37:32 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.Notes</string>
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.chrono.invalidate-timelines</key>
+    <true />
+    <key>com.apple.corespotlight.search.allowed.bundleIDs</key>
+    <array>
+      <string>com.apple.reminders</string>
+    </array>
+    <key>com.apple.developer.aps-environment</key>
+    <string>production</string>
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Production</string>
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+      <string>com.apple.notes</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+    <string>com.apple.Notes</string>
+    <key>com.apple.pds.clientid</key>
+    <string>Notes</string>
+    <key>com.apple.private.CloudSharing.SPI</key>
+    <true />
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
+    <true />
+    <key>com.apple.private.applemediaservices</key>
+    <true />
+    <key>com.apple.private.ckks</key>
+    <true />
+    <key>com.apple.private.cloudkit.customAccounts</key>
+    <true />
+    <key>com.apple.private.cloudkit.displaysSystemAcceptPrompt</key>
+    <true />
+    <key>com.apple.private.cloudkit.explicitCodeOperationURL</key>
+    <true />
+    <key>com.apple.private.cloudkit.participant-pii</key>
+    <true />
+    <key>com.apple.private.cloudkit.realTimeOperations</key>
+    <true />
+    <key>com.apple.private.cloudkit.setEnvironment</key>
+    <true />
+    <key>com.apple.private.cloudkit.spi</key>
+    <true />
+    <key>com.apple.private.cloudkit.systemService</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.copresence</key>
+    <true />
+    <key>com.apple.private.copresence.stable-app-identifier</key>
+    <string>com.apple.notes</string>
+    <key>com.apple.private.coreservices.allowedToMatchUserActivities</key>
+    <true />
+    <key>com.apple.private.coreservices.cangetcurrentactivityinfo</key>
+    <true />
+    <key>com.apple.private.coreservices.canopenactivity</key>
+    <true />
+    <key>com.apple.private.corespotlight.internal</key>
+    <true />
+    <key>com.apple.private.corespotlight.search.internal</key>
+    <true />
+    <key>com.apple.private.dprivacyd.allow</key>
+    <true />
+    <key>com.apple.private.exchangesyncd</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.iaaccounts</key>
+    <true />
+    <key>com.apple.private.ind.client</key>
+    <true />
+    <key>com.apple.private.metadata.exattrs</key>
+    <true />
+    <key>com.apple.private.octagon</key>
+    <true />
+    <key>com.apple.private.paper.catalyst-scroll-event-forwarding</key>
+    <true />
+    <key>com.apple.private.personas.propagate</key>
+    <true />
+    <key>com.apple.private.photoanalysisd.access</key>
+    <true />
+    <key>com.apple.private.rtcreportingd</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.notes</string>
+      <string>group.com.apple.notes.import</string>
+    </array>
+    <key>com.apple.private.security.storage.Notes</key>
+    <true />
+    <key>com.apple.private.security.storage.PhotosLibraries</key>
+    <true />
+    <key>com.apple.private.sociallayer.highlights</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceScreenCapture</string>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServicePhotos</string>
+      <string>kTCCServicePhotosAdd</string>
+    </array>
+    <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+    <array>
+      <string>com.apple.notes.analytics</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.notes</string>
+      <string>group.com.apple.notes.import</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.calendars</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Preferences/com.apple.internetaccounts.plist</string>
+      <string>/Library/Preferences/com.apple.screensaver.plist</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+    <array>
+      <string>/Library/Mail/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.AppleMediaServicesUIDynamicService</string>
+      <string>com.apple.identityservicesd.pds</string>
+      <string>com.apple.rtcreportingd</string>
+      <string>com.apple.CrashReporterSupportHelper</string>
+      <string>com.apple.dprivacyd</string>
+      <string>com.apple.exchange.exchangesyncd</string>
+      <string>com.apple.icbaccountsd</string>
+      <string>com.apple.ind.xpc</string>
+      <string>com.apple.mobile.keybagd.UserManager.xpc</string>
+      <string>com.apple.mobile.usermanagerd.xpc</string>
+      <string>com.apple.photoanalysisd</string>
+      <string>com.apple.synapse.add-link-context-service</string>
+      <string>com.apple.security.octagon</string>
+      <string>com.apple.securityd.ckks</string>
+      <string>com.apple.synapse.DocumentWorkflowsService</string>
+      <string>com.apple.spotlight.CSExattrCryptoService</string>
+      <string>com.apple.commcenter.coretelephony.xpc</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(read-write-and-issue-extensions (regex (string-append "^/Volumes/" (uuid-regex-string) "(/|$)")))</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.cloud.quota</string>
+      <string>com.apple.SocialLayer</string>
+    </array>
+    <key>com.apple.spotlight.documentunderstanding.entitledattributes</key>
+    <true />
+    <key>com.apple.spotlight.photos.entitledattributes</key>
+    <true />
+    <key>com.apple.spotlight.search</key>
+    <true />
+    <key>com.apple.synapse.allowAddLinkContextRequests</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>apple</string>
+      <string>appleaccount</string>
+      <string>com.apple.identities</string>
+      <string>com.apple.Notes</string>
+      <string>group.com.apple.notes</string>
+    </array>
+  </dict>
+</plist>

@@ -1,0 +1,12 @@
+Sandbox Analysis for Rosetta 2 Updater
+Generated: 2025-06-26 18:37:30
+Application Path: /System/Library/CoreServices/Rosetta 2 Updater.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 3
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

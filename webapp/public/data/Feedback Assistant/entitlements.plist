@@ -1,0 +1,67 @@
+<!-- Entitlements for Feedback Assistant.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.accounts.idms.fullaccess</key>
+    <true />
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.developer.aps-environment</key>
+    <string>production</string>
+    <key>com.apple.diagnosticextensionsd.xpcclient</key>
+    <true />
+    <key>com.apple.dock.add-item</key>
+    <true />
+    <key>com.apple.feedbackd.admin</key>
+    <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.feedback</string>
+    </array>
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServicePostEvent</string>
+      <string>kTCCServiceScreenCapture</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.feedback</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/private/var/tmp/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
+    <array>
+      <string>AppleNVMeEANUC</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.hsa-authentication-server</string>
+      <string>com.apple.ak.auth.xpc</string>
+      <string>com.apple.diagnosticextensionsd.session</string>
+      <string>com.apple.cdp.daemon</string>
+      <string>com.apple.mobile.keybagd.xpc</string>
+      <string>com.apple.AddressBook.ContactsAccountsService</string>
+      <string>com.apple.WebKit.WebContent</string>
+      <string>com.apple.contactsd.persistence</string>
+      <string>com.apple.CoreServices.coreservicesd</string>
+      <string>com.apple.feedbackd.xpc</string>
+    </array>
+    <key>platform-application</key>
+    <true />
+  </dict>
+</plist>

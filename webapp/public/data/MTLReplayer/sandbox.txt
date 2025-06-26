@@ -1,0 +1,12 @@
+Sandbox Analysis for MTLReplayer
+Generated: 2025-06-26 18:35:28
+Application Path: /System/Library/CoreServices/MTLReplayer.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 8
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

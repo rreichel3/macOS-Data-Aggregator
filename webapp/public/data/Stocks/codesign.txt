@@ -1,0 +1,9 @@
+Code Signing Information for Stocks
+Generated: 2025-06-26 18:36:43
+Application Path: /System/Applications/Stocks.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

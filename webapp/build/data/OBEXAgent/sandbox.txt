@@ -1,0 +1,12 @@
+Sandbox Analysis for OBEXAgent
+Generated: 2025-06-26 18:36:52
+Application Path: /System/Library/CoreServices/OBEXAgent.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 10
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

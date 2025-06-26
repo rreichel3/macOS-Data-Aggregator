@@ -1,0 +1,12 @@
+Sandbox Analysis for Spotlight
+Generated: 2025-06-26 18:37:30
+Application Path: /System/Library/CoreServices/Spotlight.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 77
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

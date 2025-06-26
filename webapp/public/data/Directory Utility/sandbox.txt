@@ -1,0 +1,12 @@
+Sandbox Analysis for Directory Utility
+Generated: 2025-06-26 18:36:47
+Application Path: /System/Library/CoreServices/Applications/Directory Utility.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

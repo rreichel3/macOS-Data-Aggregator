@@ -1,0 +1,12 @@
+Sandbox Analysis for ScreenSaverEngine
+Generated: 2025-06-26 18:37:30
+Application Path: /System/Library/CoreServices/ScreenSaverEngine.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 15
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

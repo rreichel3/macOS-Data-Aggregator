@@ -1,0 +1,12 @@
+Sandbox Analysis for Paired Devices
+Generated: 2025-06-26 18:33:45
+Application Path: /System/Library/CoreServices/Paired Devices.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 6
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

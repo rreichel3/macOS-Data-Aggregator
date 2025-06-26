@@ -1,0 +1,9 @@
+Code Signing Information for Remote Desktop Message
+Generated: 2025-06-26 18:34:17
+Application Path: /System/Library/CoreServices/RemoteManagement/Remote Desktop Message.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

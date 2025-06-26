@@ -1,0 +1,145 @@
+<!-- Entitlements for System Information.app -->
+<!-- Extracted on: 2025-06-26 18:34:18 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>adi-client</key>
+    <string>166430402</string>
+    <key>com.apple.Contacts.database-allow</key>
+    <true />
+    <key>com.apple.accounts.appleidauthentication.defaultaccess</key>
+    <true />
+    <key>com.apple.accounts.inactive.fullaccess</key>
+    <true />
+    <key>com.apple.authkit.client.private</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.cards.all-access</key>
+    <true />
+    <key>com.apple.developer.extension-host.systeminfoapp</key>
+    <true />
+    <key>com.apple.developer.pass-type-identifiers</key>
+    <array>
+      <string>*.pass.com.apple.itunes.storecredit</string>
+    </array>
+    <key>com.apple.itunesstored.private</key>
+    <true />
+    <key>com.apple.keystore.sik.access</key>
+    <true />
+    <key>com.apple.mobileactivationd.bridge</key>
+    <true />
+    <key>com.apple.mobileactivationd.device-identifiers</key>
+    <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.payment.all-access</key>
+    <true />
+    <key>com.apple.payment.amp-card-enrollment</key>
+    <true />
+    <key>com.apple.payment.card-on-file</key>
+    <true />
+    <key>com.apple.private.AmbientDisplay.messaging</key>
+    <true />
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+    <array>
+      <string>UniqueDeviceID</string>
+      <string>SerialNumber</string>
+    </array>
+    <key>com.apple.private.WebKit.UnrestrictedApplePay</key>
+    <true />
+    <key>com.apple.private.ac</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.applemediaservices</key>
+    <true />
+    <key>com.apple.private.aps-client-cert-access</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.bmk.allow</key>
+    <true />
+    <key>com.apple.private.cloudkit.systemService</key>
+    <true />
+    <key>com.apple.private.fpsd.client</key>
+    <true />
+    <key>com.apple.private.iaaccounts</key>
+    <true />
+    <key>com.apple.private.in-app-payments</key>
+    <true />
+    <key>com.apple.private.ndoagent</key>
+    <true />
+    <key>com.apple.private.secure-apsclient</key>
+    <true />
+    <key>com.apple.private.secure-apsclientv2</key>
+    <true />
+    <key>com.apple.private.security.bootpolicy</key>
+    <true />
+    <key>com.apple.private.security.no-sandbox</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.system-keychain</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceSystemPolicyAllFiles</string>
+      <string>kTCCServicePhotos</string>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServiceAppleEvents</string>
+      <string>kTCCServicePostEvent</string>
+      <string>kTCCServiceCamera</string>
+      <string>kTCCServiceFaceID</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <false />
+    <key>com.apple.security.attestation.access</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.corefollowup.agent</string>
+      <string>com.apple.ndoagent</string>
+      <string>com.apple.passd.in-app-payment</string>
+      <string>com.apple.passd.library</string>
+      <string>com.apple.xpc.amsaccountsd</string>
+      <string>com.apple.askpermissiond</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.sandbox</key>
+    <false />
+    <key>com.apple.security.scripting-targets</key>
+    <dict>
+      <key>com.apple.finder</key>
+      <array>
+        <string>com.apple.finder.trash</string>
+      </array>
+    </dict>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.NewDeviceOutreach</string>
+    </array>
+    <key>com.apple.springboard.opensensitiveurl</key>
+    <true />
+    <key>com.apple.symptom_analytics.query</key>
+    <true />
+    <key>com.apple.symptoms.NetworkOfInterest</key>
+    <true />
+    <key>fairplay-client</key>
+    <string>505792035</string>
+    <key>keychain-access-groups</key>
+    <array>
+      <string>apple</string>
+    </array>
+  </dict>
+</plist>

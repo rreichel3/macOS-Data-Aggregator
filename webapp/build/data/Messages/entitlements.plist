@@ -1,0 +1,591 @@
+<!-- Entitlements for Messages.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.Contacts.database-allow</key>
+    <true />
+    <key>com.apple.CoreRoutine.SafetyMonitor</key>
+    <true />
+    <key>com.apple.FaceTime.NoPrompt</key>
+    <true />
+    <key>com.apple.StatusKit.publish.types</key>
+    <array>
+      <string>com.apple.availability</string>
+      <string>com.apple.focus.status</string>
+    </array>
+    <key>com.apple.StatusKit.subscribe.types</key>
+    <array>
+      <string>com.apple.availability</string>
+      <string>com.apple.focus.status</string>
+    </array>
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.MobileSMS</string>
+    <key>com.apple.appstored.install-apps</key>
+    <true />
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.avfoundation.allow-capture-filter-rendering</key>
+    <true />
+    <key>com.apple.bluetooth.doap</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.coreaudio.allow-amr-decode</key>
+    <true />
+    <key>com.apple.coreaudio.allow-amr-encode</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.people</key>
+    <true />
+    <key>com.apple.developer.applesignin</key>
+    <array>
+      <string />
+    </array>
+    <key>com.apple.developer.associated-domains</key>
+    <array />
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+    <string>com.apple.messages.pinning</string>
+    <key>com.apple.developer.usernotifications.communication</key>
+    <true />
+    <key>com.apple.developer.usernotifications.critical-alerts</key>
+    <true />
+    <key>com.apple.developer.usernotifications.time-sensitive</key>
+    <true />
+    <key>com.apple.developer.usersafety.client</key>
+    <array>
+      <string>analysis</string>
+    </array>
+    <key>com.apple.fileprovider.share</key>
+    <true />
+    <key>com.apple.findmy.findmylocate.friendshipservice</key>
+    <true />
+    <key>com.apple.findmy.findmylocate.locationservice</key>
+    <true />
+    <key>com.apple.findmy.findmylocate.settings</key>
+    <true />
+    <key>com.apple.imagent.chat</key>
+    <true />
+    <key>com.apple.mediaanalysisd.client</key>
+    <true />
+    <key>com.apple.messages.sticker-sharing-level</key>
+    <string>messages</string>
+    <key>com.apple.private.CloudSharing.SPI</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/ChatKit.framework</string>
+    </array>
+    <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
+    <true />
+    <key>com.apple.private.applemediaservices</key>
+    <true />
+    <key>com.apple.private.appstored</key>
+    <array>
+      <string>Purchase</string>
+      <string>Library</string>
+      <string>IAPInfo</string>
+      <string>Personalization</string>
+      <string>Update</string>
+      <string>PurchaseHistory</string>
+    </array>
+    <key>com.apple.private.avatar.store</key>
+    <true />
+    <key>com.apple.private.biome.read-write</key>
+    <array>
+      <string>CommunicationSafetyResult</string>
+      <string>CommunicationSafetyResultWithoutImage</string>
+    </array>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>SensitiveContentAnalysis.UIInteraction</string>
+      <string>SensitiveContentAnalysis.MediaAnalysis</string>
+    </array>
+    <key>com.apple.private.canGetAppLinkInfo</key>
+    <true />
+    <key>com.apple.private.catalyst-openURL-source</key>
+    <true />
+    <key>com.apple.private.clouddocs.sharing-proxy</key>
+    <true />
+    <key>com.apple.private.cloudkit.spi</key>
+    <true />
+    <key>com.apple.private.communicationsfilter</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.contacts.disable-remote-database-access</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.corespotlight.internal</key>
+    <true />
+    <key>com.apple.private.corespotlight.search.internal</key>
+    <true />
+    <key>com.apple.private.dmd.emergency-mode</key>
+    <true />
+    <key>com.apple.private.dmd.policy</key>
+    <true />
+    <key>com.apple.private.donotdisturb.modeconfiguration.availability.client-identifiers</key>
+    <array>
+      <string>com.apple.messages</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.modify.client-identifiers</key>
+    <array>
+      <string>com.apple.messages</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.request.client-identifiers</key>
+    <array>
+      <string>com.apple.messages</string>
+    </array>
+    <key>com.apple.private.donotdisturb.state.request.client-identifiers</key>
+    <array>
+      <string>com.apple.messages</string>
+    </array>
+    <key>com.apple.private.donotdisturb.state.updates.client-identifiers</key>
+    <array>
+      <string>com.apple.messages</string>
+    </array>
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.ids.idquery-cache</key>
+    <true />
+    <key>com.apple.private.ids.messaging</key>
+    <array>
+      <string>com.apple.private.alloy.biz</string>
+      <string>com.apple.madrid</string>
+      <string>com.apple.madrid.lite</string>
+    </array>
+    <key>com.apple.private.imcore.imremoteurlconnection</key>
+    <true />
+    <key>com.apple.private.imcore.imtranscoderservice</key>
+    <true />
+    <key>com.apple.private.interstellar.data-access</key>
+    <string>collaborations</string>
+    <key>com.apple.private.iosmac</key>
+    <true />
+    <key>com.apple.private.iosmac.unscaled</key>
+    <true />
+    <key>com.apple.private.managed-settings.effective-read</key>
+    <true />
+    <key>com.apple.private.photos.service.internal.cloud</key>
+    <true />
+    <key>com.apple.private.pluginkit.manager</key>
+    <true />
+    <key>com.apple.private.remindd</key>
+    <array>
+      <string>peopleInteraction</string>
+      <string>store</string>
+    </array>
+    <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.screentime-communication</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.ManagedSettings</string>
+    </array>
+    <key>com.apple.private.security.storage.Messages</key>
+    <true />
+    <key>com.apple.private.security.storage.MessagesMetaData</key>
+    <true />
+    <key>com.apple.private.sociallayer.collaboration-handshake</key>
+    <true />
+    <key>com.apple.private.sociallayer.highlights</key>
+    <true />
+    <key>com.apple.private.sociallayer.shareable-content</key>
+    <true />
+    <key>com.apple.private.stickers</key>
+    <true />
+    <key>com.apple.private.suggestions</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.suggestions.messages</key>
+    <true />
+    <key>com.apple.private.suggestions.reminders</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServicePhotosAdd </string>
+      <string>kTCCServicePhotos</string>
+      <string>kTCCServiceMediaLibrary</string>
+      <string>kTCCServiceMicrophone</string>
+      <string>kTCCServiceCamera</string>
+    </array>
+    <key>com.apple.private.tcc.allow-prompting</key>
+    <array>
+      <string>kTCCServiceFocusStatus</string>
+    </array>
+    <key>com.apple.private.voicememod.client</key>
+    <true />
+    <key>com.apple.remindd</key>
+    <true />
+    <key>com.apple.rootless.storage.remotemanagementd</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.ManagedSettings</string>
+    </array>
+    <key>com.apple.security.device.microphone</key>
+    <true />
+    <key>com.apple.security.exception.files.home-relative-path.read-only</key>
+    <array>
+      <string>/Library/com.apple.ManagedSettings/EffectiveSettings.plist</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.universalaccess</string>
+      <string>com.apple.applicationaccess</string>
+      <string>com.apple.healthd</string>
+      <string>com.apple.conference</string>
+      <string>com.apple.LanguageModeling</string>
+      <string>com.apple.ids.debug</string>
+      <string>com.apple.CoreNLP</string>
+      <string>com.apple.avfaudio</string>
+      <string>com.apple.frontboardservices.device_emulation</string>
+      <string>com.apple.registration</string>
+      <string>com.apple.assistant</string>
+      <string>UITextInputContextIdentifiers</string>
+      <string>com.apple.ResponseKit</string>
+      <string>com.apple.ImageIO</string>
+      <string>com.apple.nanolifestyle.privacy</string>
+      <string>PUICNPSPreferences</string>
+      <string>com.apple.communicationSafetySettings</string>
+    </array>
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Managed Preferences/</string>
+      <string>/AppleInternal/Messages/extra_strings.plist</string>
+      <string>/Library/Audio/Tunings/Generic/AU/aufx-epvd-appl.plist</string>
+      <string>/Library/Audio/Plug-Ins/RemoteInput</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+    <array>
+      <string>/private/var/tmp/com.apple.messages/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Messages/</string>
+      <string>/Media/</string>
+      <string>/Library/SMS/</string>
+      <string>/Library/Caches/com.apple.MobileSMS/</string>
+      <string>/Library/CoreDuet/People/interactionC.db-shm</string>
+      <string>/Library/com.apple.itunesstored/kvs.sqlitedb-shm</string>
+      <string>/Library/Caches/com.apple.keyboards/</string>
+      <string>/Library/Caches/com.apple.AppleMediaServices/</string>
+      <string>/Library/Caches/com.apple.storeservices/</string>
+      <string>/Library/Application Support/Animoji/</string>
+      <string>/Library/Caches/Animoji/</string>
+      <string>/Library/Biome/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
+    <array>
+      <string>AppleKeyStoreUserClient</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.SharedWebCredentials</string>
+      <string>com.apple.systemstatus.publisher</string>
+      <string>com.apple.voicememod.xpc</string>
+      <string>com.apple.webprivacyd</string>
+      <string>com.apple.xpc.amsaccountsd</string>
+      <string>com.apple.coreduetd.people.user</string>
+      <string>com.apple.BTLEAudioController.xpc</string>
+      <string>com.apple.transparencyd</string>
+      <string>com.apple.transparencyd.ids</string>
+      <string>com.apple.CoreLocation.agent</string>
+      <string>com.apple.locationd.desktop.registration</string>
+      <string>com.apple.locationd.desktop.synchronous</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string>
+      <string>com.apple.TextInput.preferences</string>
+      <string>com.apple.TextInput.rdt</string>
+      <string>com.apple.universalaccessAuthWarn</string>
+      <string>com.apple.coreduetd.people</string>
+      <string>com.apple.imfoundation.IMRemoteURLConnectionAgent</string>
+      <string>com.apple.ak.auth.xpc</string>
+      <string>com.apple.remindd</string>
+      <string>com.apple.suggestd.contacts</string>
+      <string>com.apple.suggestd.reminders</string>
+      <string>com.apple.private.suggestd.reminders</string>
+      <string>com.apple.suggestd.messages</string>
+      <string>com.apple.StatusKit.subscribe</string>
+      <string>com.apple.StatusKit.publish</string>
+      <string>com.apple.donotdisturb.service</string>
+      <string>com.apple.donotdisturb.service.non-launching</string>
+      <string>com.apple.donotdisturb.appconfiguration.service</string>
+      <string>com.apple.passd.peer-payment</string>
+      <string>com.apple.NPKInAppPaymentServer</string>
+      <string>com.apple.passd.payment</string>
+      <string>com.apple.nfcd.hwmanager</string>
+      <string>com.apple.cdp.daemon</string>
+      <string>com.apple.icloud.fmfd</string>
+      <string>com.apple.findmy.findmylocate.friendshipservice</string>
+      <string>com.apple.findmy.findmylocate.locationservice</string>
+      <string>com.apple.findmy.findmylocate.settings</string>
+      <string>com.apple.identityservicesd.embedded.auth</string>
+      <string>com.apple.lsd.xpc</string>
+      <string>com.apple.Safari.SafeBrowsing.Service</string>
+      <string>com.apple.imdpersistence.IMDPersistenceAgent</string>
+      <string>com.apple.askpermissiond</string>
+      <string>com.apple.familycircle.agent</string>
+      <string>com.apple.IdentityLookup.MessageFilter</string>
+      <string>com.apple.private.screen-time</string>
+      <string>com.apple.private.dmd.policy</string>
+      <string>com.apple.private.dmd.emergency-mode</string>
+      <string>com.apple.private.contacts</string>
+      <string>com.apple.ScreenTimeAgent</string>
+      <string>com.apple.ScreenTimeAgent.private</string>
+      <string>com.apple.ScreenTimeAgent.communication</string>
+      <string>com.apple.mediaanalysisd.analysis</string>
+      <string>com.apple.biome.compute.source.user</string>
+      <string>com.apple.dprivacyd</string>
+      <string>com.apple.proactive.experiments.responses</string>
+      <string>com.apple.avatar.service</string>
+      <string>com.apple.avatar.support</string>
+      <string>com.apple.avatarsd</string>
+      <string>com.apple.commcenter.coretelephony.xpc</string>
+      <string>com.apple.SocialLayer</string>
+      <string>com.apple.imtranscoding.IMTranscoderAgent</string>
+      <string>com.apple.biome.PublicStreamAccessService</string>
+      <string>com.apple.remindd</string>
+      <string>com.apple.sharing.sharesheetrecipients</string>
+      <string>com.apple.photos.service</string>
+      <string>com.apple.routined.safetyMonitor</string>
+      <string>com.apple.CoreRoutine.SafetyMonitor</string>
+      <string>com.apple.stickers.api</string>
+      <string>com.apple.ManagedSettingsAgent.publisher</string>
+      <string>com.apple.ManagedSettingsAgent</string>
+      <string>com.apple.businessservicesd</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(deny syscall-unix (with telemetry)(with message "syscall-unix-denied"))</string>
+      <string>(allow syscall-unix
+(syscall-group-aio-read)
+(syscall-group-aio-write)
+(syscall-group-select)
+(syscall-group-stat)
+(syscall-group-statfs)
+(syscall-group-ulock)
+(syscall-number SYS___disable_threadsignal
+SYS___mac_syscall
+SYS___pthread_canceled
+SYS___pthread_chdir
+SYS___pthread_fchdir
+SYS___pthread_kill
+SYS___pthread_sigmask
+SYS___semwait_signal
+SYS___semwait_signal_nocancel
+SYS_abort_with_payload
+SYS_access
+SYS_auditon
+SYS_bsdthread_create
+SYS_bsdthread_ctl
+SYS_bsdthread_terminate
+SYS_change_fdguard_np
+SYS_chdir
+SYS_csrctl
+SYS_dup2
+SYS_exit
+SYS_faccessat
+SYS_fcntl
+SYS_fcntl_nocancel
+SYS_fgetattrlist
+SYS_fgetxattr
+SYS_fileport_makefd
+SYS_fileport_makeport
+SYS_flistxattr
+SYS_flock
+SYS_fpathconf
+SYS_fsetattrlist
+SYS_fsgetpath
+SYS_fsync
+SYS_ftruncate
+SYS_getattrlist
+SYS_getattrlistbulk
+SYS_getaudit_addr
+SYS_getdirentries64
+SYS_getegid
+SYS_getgroups
+SYS_getentropy
+SYS_geteuid
+SYS_getfsstat64
+SYS_getgid
+SYS_gethostuuid
+SYS_getlogin
+SYS_getpeername
+SYS_getrlimit
+SYS_getrusage
+SYS_getsockname
+SYS_getsockopt
+SYS_gettid
+SYS_gettimeofday
+SYS_getuid
+SYS_getxattr
+SYS_guarded_close_np
+SYS_guarded_open_dprotected_np
+SYS_guarded_open_np
+SYS_guarded_pwrite_np
+SYS_guarded_write_np
+SYS_iopolicysys
+SYS_issetugid
+SYS_kdebug_trace
+SYS_kdebug_trace64
+SYS_kdebug_trace_string
+SYS_kdebug_typefilter
+SYS_kevent
+SYS_kevent_id
+SYS_kevent_qos
+SYS_kqueue
+SYS_kqueue_workloop_ctl
+SYS_listxattr
+SYS_lseek
+SYS_madvise
+SYS_memorystatus_control
+SYS_mkdir
+SYS_mkdirat
+SYS_mlock
+SYS_mmap
+SYS_mprotect
+SYS_msync
+SYS_munlock
+SYS_munmap
+SYS_necp_client_action
+SYS_necp_open
+SYS_open_dprotected_np
+SYS_os_fault_with_payload
+SYS_pathconf
+SYS_persona
+SYS_pipe
+SYS_poll
+SYS_pread
+SYS_pread_nocancel
+SYS_proc_info_extended_id
+SYS_proc_rlimit_control
+SYS_psynch_cvbroad
+SYS_psynch_cvclrprepost
+SYS_psynch_cvsignal
+SYS_psynch_cvwait
+SYS_psynch_mutexdrop
+SYS_psynch_mutexwait
+SYS_psynch_rw_rdlock
+SYS_psynch_rw_unlock
+SYS_psynch_rw_wrlock
+SYS_quotactl
+SYS_read
+SYS_read_nocancel
+SYS_readlink
+SYS_recvfrom
+SYS_recvfrom_nocancel
+SYS_recvmsg
+SYS_rename
+SYS_rmdir
+SYS_sendmsg
+SYS_sendmsg_nocancel
+SYS_sendto
+SYS_sendto_nocancel
+SYS_setattrlist
+SYS_setattrlistat
+SYS_setrlimit
+SYS_setsockopt
+SYS_shutdown
+SYS_sigaction
+SYS_sigaltstack
+SYS_sigprocmask
+SYS_socketpair
+SYS_symlink
+SYS_terminate_with_payload
+SYS_thread_selfid
+SYS_umask
+SYS_work_interval_ctl
+SYS_workq_kernreturn
+SYS_workq_open
+SYS___channel_open
+SYS___channel_sync
+SYS___channel_get_info
+SYS___channel_get_opt
+SYS___channel_set_opt))</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.WatchListKit</string>
+      <string>com.apple.IMCoreSpotlight</string>
+      <string>com.apple.EmojiPreferences</string>
+      <string>com.apple.photos.shareddefaults</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.MobileSMS</string>
+      <string>com.apple.madrid</string>
+      <string>com.apple.handwriting</string>
+      <string>com.apple.MobileSMS.CKDNDList</string>
+      <string>com.apple.MobileSMSPreview</string>
+      <string>com.apple.messages</string>
+      <string>com.apple.AppleMediaServices</string>
+      <string>com.apple.imessage.bag</string>
+      <string>com.apple.facetime.bag</string>
+      <string>com.apple.EmojiCache</string>
+      <string>com.apple.messages.nicknames</string>
+      <string>com.apple.messages.pinning</string>
+      <string>com.apple.messages.text</string>
+      <string>com.apple.ScreenTimeAgent.conversation</string>
+      <string>com.apple.SocialLayer</string>
+      <string>com.apple.messages.commsafety</string>
+    </array>
+    <key>com.apple.sharesheet.recipients</key>
+    <true />
+    <key>com.apple.spotlight.documentunderstanding.entitledattributes</key>
+    <true />
+    <key>com.apple.spotlight.photos.entitledattributes</key>
+    <true />
+    <key>com.apple.springboard.allowallcallurls</key>
+    <true />
+    <key>com.apple.springboard.opensensitiveurl</key>
+    <true />
+    <key>com.apple.system.set-alert-tone</key>
+    <true />
+    <key>com.apple.systemstatus.publisher.domains</key>
+    <array>
+      <string>media</string>
+    </array>
+    <key>com.apple.telephonyutilities.callservicesd</key>
+    <array>
+      <string>modify-calls</string>
+      <string>access-calls</string>
+      <string>access-call-providers</string>
+      <string>modify-pending-collaboration</string>
+    </array>
+    <key>com.apple.transparency.kt</key>
+    <true />
+    <key>com.apple.usersafety.service</key>
+    <string>messages</string>
+  </dict>
+</plist>

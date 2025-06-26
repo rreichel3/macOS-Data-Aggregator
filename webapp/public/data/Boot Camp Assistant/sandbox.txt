@@ -1,0 +1,12 @@
+Sandbox Analysis for Boot Camp Assistant
+Generated: 2025-06-26 18:37:32
+Application Path: /System/Applications/Utilities/Boot Camp Assistant.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 7
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

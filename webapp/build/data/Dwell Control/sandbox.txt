@@ -1,0 +1,12 @@
+Sandbox Analysis for Dwell Control
+Generated: 2025-06-26 18:38:10
+Application Path: /System/Library/CoreServices/Dwell Control.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 6
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background only app

@@ -1,0 +1,31 @@
+<!-- Info.plist for PowerShell.app -->
+<!-- Extracted on: 2025-06-26 18:37:31 -->
+<!-- Source: /Applications/PowerShell.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>CFBundleExecutable</key>
+    <string>PowerShell.sh</string>
+    <key>CFBundleGetInfoString</key>
+    <string>7.4.10</string>
+    <key>CFBundleIconFile</key>
+    <string>Powershell</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.microsoft.powershell</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>PowerShell</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>7.4.10</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>7.4.10</string>
+  </dict>
+</plist>

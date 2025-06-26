@@ -1,0 +1,9 @@
+Code Signing Information for iOS App Installer
+Generated: 2025-06-26 18:35:27
+Application Path: /System/Library/CoreServices/Applications/iOS App Installer.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

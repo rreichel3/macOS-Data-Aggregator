@@ -1,0 +1,9 @@
+Code Signing Information for Mail
+Generated: 2025-06-26 18:36:47
+Application Path: /System/Applications/Mail.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

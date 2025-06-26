@@ -1,0 +1,12 @@
+Sandbox Analysis for Game Center
+Generated: 2025-06-26 18:37:35
+Application Path: /System/Library/CoreServices/Game Center.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)

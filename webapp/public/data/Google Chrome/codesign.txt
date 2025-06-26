@@ -1,0 +1,9 @@
+Code Signing Information for Google Chrome
+Generated: 2025-06-26 18:37:32
+Application Path: /Applications/Google Chrome.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: EQHXZ8M8AV
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,311 @@
+<!-- Entitlements for ControlCenter.app -->
+<!-- Extracted on: 2025-06-26 18:38:10 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.CompanionLink</key>
+    <true />
+    <key>com.apple.PairingManager.HomeKit</key>
+    <true />
+    <key>com.apple.PairingManager.Read</key>
+    <true />
+    <key>com.apple.PairingManager.Write</key>
+    <true />
+    <key>com.apple.SystemConfiguration.SCDynamicStore-write-access</key>
+    <true />
+    <key>com.apple.SystemConfiguration.SCPreferences-write-access</key>
+    <array>
+      <string>preferences.plist</string>
+    </array>
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.airplay.allows-set-advertising-access-mode</key>
+    <true />
+    <key>com.apple.airplay.receiver.mediaremote.services</key>
+    <true />
+    <key>com.apple.airplay.receiverservices</key>
+    <true />
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.controlcenter</string>
+    <key>com.apple.avfoundation.allow-system-wide-context</key>
+    <true />
+    <key>com.apple.avfoundation.allows-access-to-device-list</key>
+    <true />
+    <key>com.apple.avfoundation.allows-set-output-device</key>
+    <true />
+    <key>com.apple.bluetooth.internal</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.context</key>
+    <true />
+    <key>com.apple.coremedia.allow-mpeg4streaming</key>
+    <true />
+    <key>com.apple.coremedia.allow-protected-content-playback</key>
+    <true />
+    <key>com.apple.coremedia.salplayer</key>
+    <true />
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.ubiquity-container-identifiers</key>
+    <string />
+    <key>com.apple.imagent</key>
+    <true />
+    <key>com.apple.imdpersistence.IMDPersistenceAgent-GroupMetadata</key>
+    <true />
+    <key>com.apple.intelligentrouting.recommendationservice</key>
+    <true />
+    <key>com.apple.mediaremote.send-commands</key>
+    <true />
+    <key>com.apple.private.CommandAndControl.utility</key>
+    <true />
+    <key>com.apple.private.MobileActivation</key>
+    <array>
+      <string>GetActivationState</string>
+    </array>
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <true />
+    </dict>
+    <key>com.apple.private.ShazamKit</key>
+    <true />
+    <key>com.apple.private.airdrop.discovery</key>
+    <true />
+    <key>com.apple.private.airdrop.settings</key>
+    <true />
+    <key>com.apple.private.avfoundation.capture.allow-set-any-user-preferred-camera</key>
+    <true />
+    <key>com.apple.private.cmcapture.frame-receiver</key>
+    <true />
+    <key>com.apple.private.commerce</key>
+    <array>
+      <string>Accounts</string>
+    </array>
+    <key>com.apple.private.corewifi</key>
+    <true />
+    <key>com.apple.private.disable.screencapturekit.alert</key>
+    <true />
+    <key>com.apple.private.donotdisturb.behavior.resolution.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.mode.assertion.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.mode.assertion.user-requested.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+    </array>
+    <key>com.apple.private.donotdisturb.modeconfiguration.modify.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.modeconfiguration.request.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.modeconfiguration.updates.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.modify.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.request.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.settings.updates.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.state.request.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.donotdisturb.state.updates.client-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.dnd</string>
+      <string>com.apple.focus.activity-manager</string>
+    </array>
+    <key>com.apple.private.fpsd.client</key>
+    <true />
+    <key>com.apple.private.imcore.spi.database-access</key>
+    <true />
+    <key>com.apple.private.interstellar.data-access</key>
+    <string>collaborations</string>
+    <key>com.apple.private.iokit.batterydata</key>
+    <true />
+    <key>com.apple.private.messages.collaboration-initiate-send</key>
+    <true />
+    <key>com.apple.private.mobiletimerd</key>
+    <true />
+    <key>com.apple.private.nc.dnd.read</key>
+    <true />
+    <key>com.apple.private.nc.dnd.write</key>
+    <true />
+    <key>com.apple.private.notificationcenter.menu</key>
+    <true />
+    <key>com.apple.private.rtcreportingd</key>
+    <true />
+    <key>com.apple.private.screencapturekit</key>
+    <true />
+    <key>com.apple.private.screencapturekit.sharingsessionsystemui</key>
+    <true />
+    <key>com.apple.private.security.storage.Messages</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.shared-with-you.on-screen-content</key>
+    <true />
+    <key>com.apple.private.skylight.expanse</key>
+    <true />
+    <key>com.apple.private.skylight.privacy-indicator</key>
+    <true />
+    <key>com.apple.private.sociallayer.highlights</key>
+    <true />
+    <key>com.apple.private.sociallayer.shareable-content</key>
+    <true />
+    <key>com.apple.private.speech.synthesis.custom.voices.allow</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceBluetoothPeripheral</string>
+      <string>kTCCServiceScreenCapture</string>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceMicrophone</string>
+    </array>
+    <key>com.apple.private.tcc.manager.get-identity-for-credential</key>
+    <true />
+    <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+    <array>
+      <string>com.apple.tipsd</string>
+    </array>
+    <key>com.apple.private.universalcontrol</key>
+    <true />
+    <key>com.apple.private.usernotifications.bundle-identifiers</key>
+    <array>
+      <string>com.apple.controlcenter.notifications.low-battery</string>
+      <string>com.apple.controlcenter.notifications.airplay</string>
+      <string>com.apple.controlcenter.notifications.focus</string>
+    </array>
+    <key>com.apple.private.wifi-ui.join-delegate</key>
+    <true />
+    <key>com.apple.private.windowmanager</key>
+    <true />
+    <key>com.apple.rapport.Client</key>
+    <true />
+    <key>com.apple.security.device.bluetooth</key>
+    <true />
+    <key>com.apple.security.exception.iokit-user-client-class</key>
+    <array>
+      <string>IOTimeSyncClockManagerUserClient</string>
+      <string>IOTimeSyncgPTPManagerUserClient</string>
+      <string>IOTimeSyncDomainUserClient</string>
+      <string>IOTimeSyncNetworkPortUserClient</string>
+    </array>
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.telephonyutilities.callservicesdaemon.callprovidermanager</string>
+      <string>com.apple.CalendarAgent</string>
+      <string>com.apple.CalendarAgent.database</string>
+      <string>com.apple.CalendarAgent.proxy</string>
+      <string>com.apple.private.corewifi-xpc</string>
+      <string>com.apple.wifip2pd</string>
+      <string>com.apple.accessibility.heard</string>
+      <string>com.apple.replaykit.sharingsession</string>
+      <string>com.apple.replaykit.sharingsession.notification</string>
+      <string>com.apple.imdpersistence.IMDPersistenceAgent</string>
+      <string>com.apple.imagent.desktop.auth</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.SocialLayer</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.donotdisturb.service</string>
+      <string>com.apple.donotdisturb.service.non-launching</string>
+      <string>com.apple.intelligentroutingd.xpc.media</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.Bluetooth</string>
+      <string>com.apple.Sharing</string>
+      <string>com.apple.shortcuts.runningUIDefaults</string>
+    </array>
+    <key>com.apple.selectivesharing.system</key>
+    <true />
+    <key>com.apple.siri.VoiceShortcuts.xpc</key>
+    <true />
+    <key>com.apple.studentd-access</key>
+    <true />
+    <key>com.apple.system.diagnostics.iokit-properties</key>
+    <true />
+    <key>com.apple.systemstatus.activityattribution</key>
+    <true />
+    <key>com.apple.systemstatus.domains</key>
+    <array>
+      <string>media</string>
+      <string>location</string>
+    </array>
+    <key>com.apple.telephonyutilities.callservicesd</key>
+    <array>
+      <string>access-calls</string>
+      <string>access-call-providers</string>
+      <string>access-collaboration</string>
+      <string>modify-calls</string>
+      <string>screen-sharing-remote-control</string>
+    </array>
+    <key>com.apple.timed</key>
+    <true />
+    <key>com.apple.videoconference.allow-conferencing</key>
+    <true />
+    <key>com.apple.wifi.autojoin</key>
+    <true />
+    <key>com.apple.wifi.events.private</key>
+    <true />
+    <key>com.apple.wifi.manager-access</key>
+    <true />
+    <key>com.apple.wifi.priority.id</key>
+    <string>control_center</string>
+    <key>com.apple.wifi.priority.internal</key>
+    <true />
+    <key>com.apple.wifi.user_agent_join</key>
+    <true />
+    <key>com.apple.wifip2pd</key>
+    <true />
+    <key>com.apple.wlan.authentication</key>
+    <true />
+    <key>fairplay-client</key>
+    <integer>938689383</integer>
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.airplay</string>
+      <string>com.apple.airplay.pairing</string>
+      <string>com.apple.pairing</string>
+    </array>
+  </dict>
+</plist>

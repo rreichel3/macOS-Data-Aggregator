@@ -1,0 +1,12 @@
+Sandbox Analysis for KeyboardSetupAssistant
+Generated: 2025-06-26 18:34:20
+Application Path: /System/Library/CoreServices/KeyboardSetupAssistant.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)

@@ -1,0 +1,9 @@
+Code Signing Information for Books
+Generated: 2025-06-26 18:34:18
+Application Path: /System/Applications/Books.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

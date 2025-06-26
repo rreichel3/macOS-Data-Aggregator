@@ -1,0 +1,12 @@
+Sandbox Analysis for Database Events
+Generated: 2025-06-26 18:33:46
+Application Path: /System/Library/CoreServices/Database Events.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background only app

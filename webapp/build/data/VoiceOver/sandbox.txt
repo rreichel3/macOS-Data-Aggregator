@@ -1,0 +1,13 @@
+Sandbox Analysis for VoiceOver
+Generated: 2025-06-26 18:34:19
+Application Path: /System/Library/CoreServices/VoiceOver.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 40
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)
+- Background only app

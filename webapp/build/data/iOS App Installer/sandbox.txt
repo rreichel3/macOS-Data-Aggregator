@@ -1,0 +1,12 @@
+Sandbox Analysis for iOS App Installer
+Generated: 2025-06-26 18:35:27
+Application Path: /System/Library/CoreServices/Applications/iOS App Installer.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 8
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

@@ -1,0 +1,9 @@
+Code Signing Information for Screen Time
+Generated: 2025-06-26 18:38:10
+Application Path: /System/Library/CoreServices/Screen Time.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

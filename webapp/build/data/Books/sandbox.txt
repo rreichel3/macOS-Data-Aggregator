@@ -1,0 +1,12 @@
+Sandbox Analysis for Books
+Generated: 2025-06-26 18:34:18
+Application Path: /System/Applications/Books.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 92
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

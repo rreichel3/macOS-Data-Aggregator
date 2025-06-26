@@ -1,0 +1,12 @@
+Sandbox Analysis for Clock
+Generated: 2025-06-26 18:38:10
+Application Path: /System/Applications/Clock.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 10
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

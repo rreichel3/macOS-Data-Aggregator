@@ -1,0 +1,54 @@
+<!-- Entitlements for Font Book.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.XType.fontmover</key>
+    <true />
+    <key>com.apple.XType.fontmover.restore</key>
+    <true />
+    <key>com.apple.ats</key>
+    <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.Font7</string>
+    </array>
+    <key>com.apple.private.ats.validation</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.device.usb</key>
+    <true />
+    <key>com.apple.security.files.bookmarks.app-scope</key>
+    <true />
+    <key>com.apple.security.files.downloads.read-only</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.apple-events</key>
+    <array>
+      <string>com.apple.finder</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Fonts/</string>
+      <string>/Library/Fonts (Removed)/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.ATS.FontValidator</string>
+      <string>com.apple.fontmover</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(allow authorization-right-obtain (right-name "com.apple.XType.fontmover.restore")(right-name "com.apple.XType.fontmover.install")(right-name "com.apple.XType.fontmover.remove"))</string>
+    </array>
+  </dict>
+</plist>

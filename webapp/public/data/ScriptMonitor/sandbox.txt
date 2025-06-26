@@ -1,0 +1,12 @@
+Sandbox Analysis for ScriptMonitor
+Generated: 2025-06-26 18:36:47
+Application Path: /System/Library/CoreServices/ScriptMonitor.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)

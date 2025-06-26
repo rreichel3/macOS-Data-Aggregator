@@ -1,0 +1,12 @@
+Sandbox Analysis for Calendar
+Generated: 2025-06-26 18:36:50
+Application Path: /System/Applications/Calendar.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 46
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

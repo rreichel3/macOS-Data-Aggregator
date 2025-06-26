@@ -1,0 +1,12 @@
+Sandbox Analysis for Terminal
+Generated: 2025-06-26 18:37:33
+Application Path: /System/Applications/Utilities/Terminal.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 2
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

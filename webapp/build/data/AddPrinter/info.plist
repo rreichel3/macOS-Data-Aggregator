@@ -1,0 +1,85 @@
+<!-- Info.plist for AddPrinter.app -->
+<!-- Extracted on: 2025-06-26 18:34:19 -->
+<!-- Source: /System/Library/CoreServices/AddPrinter.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>AddPrinter</string>
+    <key>CFBundleExecutable</key>
+    <string>AddPrinter</string>
+    <key>CFBundleIconFile</key>
+    <string>Printer.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.print.add</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>AddPrinter</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>607</string>
+    <key>CFBundleSignature</key>
+    <string>prad</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLIconFile</key>
+        <string>PrinterURL</string>
+        <key>CFBundleURLName</key>
+        <string>AirPrint</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ipps</string>
+          <string>ipp</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>621.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <string>YES</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 1995–2021, Apple Inc., All Rights Reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>UBrowserDefaultToolbarItems</key>
+    <array>
+      <string>com.apple.print.pbm.uber</string>
+      <string>com.apple.print.pbm.ip</string>
+      <string>com.apple.print.pbm.smb</string>
+    </array>
+  </dict>
+</plist>

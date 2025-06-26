@@ -1,0 +1,18 @@
+<!-- Entitlements for StageManagerOnboarding.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.private.windowmanager</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <string>com.apple.windowmanager.external</string>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.WindowManager</string>
+    </array>
+  </dict>
+</plist>

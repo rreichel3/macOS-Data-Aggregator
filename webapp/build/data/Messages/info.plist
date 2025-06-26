@@ -1,0 +1,407 @@
+<!-- Info.plist for Messages.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+<!-- Source: /System/Applications/Messages.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>AppleEventSupported</key>
+    <true />
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CAProcessCanAccessGPU</key>
+    <true />
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Messages</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.image</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Audiovisual content</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.audiovisual-content</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Plain Text</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>None</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.utf8-plain-text</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Messages</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>MobileSMS.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.MobileSMS.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIcons</key>
+    <dict />
+    <key>CFBundleIcons~ipad</key>
+    <dict />
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.MobileSMS</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Messages</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>14.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>SMS URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>sms</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLIsPrivate</key>
+        <true />
+        <key>CFBundleURLName</key>
+        <string>SMS Private URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>sms-private</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Message Store URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>itms-messages</string>
+          <string>itms-messagess</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>IMSG</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>imessage</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>iChat URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>iChat</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Messages URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>Messages</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>CPIM</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>im</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1262.700.71.1.6</string>
+    <key>CoreSpotlightContinuation</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H601s</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H601s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>messages</string>
+    <key>LSCounterpartIdentifiers</key>
+    <array>
+      <string>com.apple.MobileSMS</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>MDItemKeywords</key>
+    <string>Messages iChat iMessage</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSCalendarsUsageDescription</key>
+    <string>Calendar access allows Messages to show suggestions related to current or upcoming events.</string>
+    <key>NSFocusStatusUsageDescription</key>
+    <string>When you’re using Do Not Disturb or another Focus, Messages will let your contacts know that you have notifications silenced.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2002–2023 Apple Inc. All rights reserved.</string>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+      <key>SendLocationDescription</key>
+      <string>Your precise location is used to send your current location.</string>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>You can send your location to someone in an iMessage.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Photo library write access allows you to add photos from your conversations to your photo library.</string>
+    <key>NSPrincipalClass</key>
+    <string>SMSApplication</string>
+    <key>NSRegulatoryPrivacyDisclosure</key>
+    <dict>
+      <key>NSRegulatoryPrivacyDisclosureCallRecords</key>
+      <string>If your device supports Dual SIM, access to your call records allows Messages to associate a contact with a preferred SIM.</string>
+      <key>NSRegulatoryPrivacyDisclosureCamera</key>
+      <string>Camera access allows you to take photos or create a Memoji to add to your contacts or share in Messages.</string>
+      <key>NSRegulatoryPrivacyDisclosureContacts</key>
+      <string>Contacts access allows Messages to show the names and photos of people in your conversations. The app will ask permission before accessing your contacts.</string>
+      <key>NSRegulatoryPrivacyDisclosureLocation</key>
+      <string>Location access allows you to share your location in conversations. The app will ask permission before accessing your location.</string>
+      <key>NSRegulatoryPrivacyDisclosureMediaLibrary</key>
+      <string>Media Library access allows you to share currently playing or recently played music in Messages.</string>
+      <key>NSRegulatoryPrivacyDisclosureMicrophone</key>
+      <string>Microphone access allows you to record audio messages and to send messages with Memoji.</string>
+      <key>NSRegulatoryPrivacyDisclosurePhoneNumber</key>
+      <string>Phone number access allows Messages to use your phone number to send and receive iMessages.</string>
+      <key>NSRegulatoryPrivacyDisclosurePhotos</key>
+      <string>Photos access allows you to share your photos in Messages.</string>
+      <key>NSRegulatoryPrivacyDisclosureSMSData</key>
+      <string>SMS data access allows you to send and receive SMS messages.</string>
+      <key>NSRegulatoryPrivacyDisclosureSummary</key>
+      <string>To allow you to easily send and receive messages with your contacts, Messages will securely access sensors and your data such as your SMS data, contacts, and phone number. It may also access your call records if your device supports Dual SIM.</string>
+      <key>NSRegulatoryPrivacyDisclosureTitle</key>
+      <string>Welcome to Messages</string>
+      <key>NSRegulatoryPrivacyDisclosureVersion</key>
+      <string>1.0</string>
+    </dict>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.apple.Messages</string>
+      <string>com.apple.Messages.StateRestoration</string>
+    </array>
+    <key>OSAScriptingDefinition</key>
+    <string>Messages</string>
+    <key>SBAppTags~ipad</key>
+    <array />
+    <key>SBAppTags~iphone</key>
+    <array />
+    <key>SBAppTags~ipod</key>
+    <array />
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>Productivity</string>
+      <string>Utilities</string>
+      <string>Social Networking</string>
+    </array>
+    <key>SBPreferredPriorityBand</key>
+    <string>PriorityBandSuspended</string>
+    <key>SBStarkLaunchModes</key>
+    <array>
+      <string>Default</string>
+      <string>Siri</string>
+    </array>
+    <key>SPDatastoreVersion</key>
+    <integer>1</integer>
+    <key>SPSearchBundle</key>
+    <string>SMSSearch</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true />
+      <key>UIApplicationSupportsSceneItemProviders</key>
+      <true />
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>CPTemplateApplicationSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneClassName</key>
+            <string>CPTemplateApplicationScene</string>
+            <key>UISceneConfigurationName</key>
+            <string>Messages-Car</string>
+            <key>UISceneDelegateClassName</key>
+            <string>CKStarkManager</string>
+          </dict>
+        </array>
+        <key>UIWindowSceneSessionRoleSimplifiedApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Messages-ClarityUI</string>
+            <key>UISceneDelegateClassName</key>
+            <string>CKClarityUISceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict>
+        <key>UIApplicationShortcutItemIconType</key>
+        <string>UIApplicationShortcutIconTypeCompose</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>NEW_MESSAGE_ACTION</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>com.apple.mobilesms.newmessage</string>
+      </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>2</integer>
+    </array>
+    <key>UIGlobalUserInterfaceIdiomMac</key>
+    <true />
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIStatusBarTintParameters</key>
+    <dict>
+      <key>UINavigationBar</key>
+      <dict>
+        <key>Style</key>
+        <string>UIBarStyleDefault</string>
+      </dict>
+    </dict>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipod</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportsClarityUI</key>
+    <true />
+    <key>UIUserInterfaceIdiomMac</key>
+    <true />
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNAllowCriticalAlerts</key>
+      <true />
+      <key>UNAutomaticallyShowSettings</key>
+      <true />
+      <key>UNCustomSettingsBundle</key>
+      <string>MessagesNotificationFiltering</string>
+      <key>UNCustomSettingsDetailControllerClass</key>
+      <string>MessagesNotificationFilteringController</string>
+      <key>UNDaemonShouldReceiveBackgroundResponses</key>
+      <true />
+      <key>UNDefaultSettings</key>
+      <dict>
+        <key>UNSettingAlerts</key>
+        <true />
+        <key>UNSettingBadges</key>
+        <true />
+        <key>UNSettingCarPlay</key>
+        <true />
+        <key>UNSettingLockScreen</key>
+        <true />
+        <key>UNSettingNotificationCenter</key>
+        <true />
+        <key>UNSettingSounds</key>
+        <true />
+        <key>UNSettingSpoken</key>
+        <true />
+      </dict>
+      <key>UNSuppressDismissalSync</key>
+      <true />
+      <key>UNSuppressUserAuthorizationPrompt</key>
+      <true />
+      <key>UNUniversalApplicationIdentifier</key>
+      <string>com.apple.MobileSMS</string>
+    </dict>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.item</string>
+        </array>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.messages.CKConversation</string>
+        <key>UTTypeTagSpecification</key>
+        <dict />
+      </dict>
+    </array>
+  </dict>
+</plist>

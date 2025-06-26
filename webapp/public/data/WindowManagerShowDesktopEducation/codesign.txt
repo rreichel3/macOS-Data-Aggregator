@@ -1,0 +1,9 @@
+Code Signing Information for WindowManagerShowDesktopEducation
+Generated: 2025-06-26 18:37:32
+Application Path: /System/Library/CoreServices/WindowManagerShowDesktopEducation.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

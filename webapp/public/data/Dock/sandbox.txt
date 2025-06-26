@@ -1,0 +1,12 @@
+Sandbox Analysis for Dock
+Generated: 2025-06-26 18:36:48
+Application Path: /System/Library/CoreServices/Dock.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 22
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

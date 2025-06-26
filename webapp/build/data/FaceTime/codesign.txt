@@ -1,0 +1,9 @@
+Code Signing Information for FaceTime
+Generated: 2025-06-26 18:36:45
+Application Path: /System/Applications/FaceTime.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

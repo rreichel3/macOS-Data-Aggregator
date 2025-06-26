@@ -1,0 +1,12 @@
+Sandbox Analysis for Preview
+Generated: 2025-06-26 18:36:46
+Application Path: /System/Applications/Preview.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 19
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

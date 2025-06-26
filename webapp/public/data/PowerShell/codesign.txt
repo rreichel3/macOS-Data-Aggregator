@@ -1,0 +1,11 @@
+Code Signing Information for PowerShell
+Generated: 2025-06-26 18:37:30
+Application Path: /Applications/PowerShell.app
+
+Signature Status: Invalid or Unsigned (Verification Failed)
+Authority: Unknown
+Identifier: Unknown
+Team Identifier: Unknown
+Sealed Resources: Unknown
+
+Error: /Applications/PowerShell.app: code object is not signed at all

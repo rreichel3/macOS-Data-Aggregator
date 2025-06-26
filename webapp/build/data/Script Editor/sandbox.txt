@@ -1,0 +1,12 @@
+Sandbox Analysis for Script Editor
+Generated: 2025-06-26 18:36:49
+Application Path: /System/Applications/Utilities/Script Editor.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 4
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

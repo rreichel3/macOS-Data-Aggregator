@@ -1,0 +1,9 @@
+Code Signing Information for Game Center
+Generated: 2025-06-26 18:37:35
+Application Path: /System/Library/CoreServices/Game Center.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

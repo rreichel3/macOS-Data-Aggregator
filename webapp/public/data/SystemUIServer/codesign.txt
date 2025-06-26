@@ -1,0 +1,9 @@
+Code Signing Information for SystemUIServer
+Generated: 2025-06-26 18:33:45
+Application Path: /System/Library/CoreServices/SystemUIServer.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,12 @@
+Sandbox Analysis for WatchFaceAlert
+Generated: 2025-06-26 18:37:34
+Application Path: /System/Library/CoreServices/WatchFaceAlert.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 5
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

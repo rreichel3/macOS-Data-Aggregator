@@ -1,0 +1,9 @@
+Code Signing Information for AVB Configuration
+Generated: 2025-06-26 18:34:17
+Application Path: /System/Library/CoreServices/AVB Configuration.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,12 @@
+Sandbox Analysis for TV
+Generated: 2025-06-26 18:36:45
+Application Path: /System/Applications/TV.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 55
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

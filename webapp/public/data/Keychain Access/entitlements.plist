@@ -1,0 +1,23 @@
+<!-- Entitlements for Keychain Access.app -->
+<!-- Extracted on: 2025-06-26 18:37:32 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>application-identifier</key>
+    <string>com.apple.keychainaccess</string>
+    <key>com.apple.authorization.extract-password</key>
+    <true />
+    <key>com.apple.private.octagon</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>com.apple.keychainaccess</string>
+      <string>*</string>
+    </array>
+    <key>keychain-cloud-circle</key>
+    <true />
+    <key>modify-anchor-certificates</key>
+    <true />
+  </dict>
+</plist>

@@ -1,0 +1,12 @@
+Sandbox Analysis for CoreServicesUIAgent
+Generated: 2025-06-26 18:36:46
+Application Path: /System/Library/CoreServices/CoreServicesUIAgent.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 18
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

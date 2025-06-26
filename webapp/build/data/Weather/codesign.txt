@@ -1,0 +1,9 @@
+Code Signing Information for Weather
+Generated: 2025-06-26 18:37:33
+Application Path: /System/Applications/Weather.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

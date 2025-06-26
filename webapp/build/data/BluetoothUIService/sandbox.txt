@@ -1,0 +1,12 @@
+Sandbox Analysis for BluetoothUIService
+Generated: 2025-06-26 18:36:50
+Application Path: /System/Library/CoreServices/BluetoothUIService.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 8
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

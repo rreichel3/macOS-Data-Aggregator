@@ -1,0 +1,28 @@
+<!-- Entitlements for Disk Utility.app -->
+<!-- Extracted on: 2025-06-26 18:35:27 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>allow-obliterate-device</key>
+    <true />
+    <key>com.apple.authkit.client.private</key>
+    <true />
+    <key>com.apple.authorization.extract-password</key>
+    <true />
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.asr</key>
+    <true />
+    <key>com.apple.private.icloud.findmydevice.account.modify</key>
+    <true />
+    <key>com.apple.private.skylight.plugin-power</key>
+    <true />
+    <key>com.apple.private.storagekitd.destructive</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceSystemPolicyRemovableVolumes</string>
+    </array>
+  </dict>
+</plist>

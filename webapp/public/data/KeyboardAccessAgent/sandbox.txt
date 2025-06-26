@@ -1,0 +1,13 @@
+Sandbox Analysis for KeyboardAccessAgent
+Generated: 2025-06-26 18:36:50
+Application Path: /System/Library/CoreServices/KeyboardAccessAgent.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 30
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)
+- Background only app

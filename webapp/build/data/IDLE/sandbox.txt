@@ -1,0 +1,12 @@
+Sandbox Analysis for IDLE
+Generated: 2025-06-26 18:37:34
+Application Path: /Applications/Python 3.11/IDLE.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 4
+Hardened Runtime: Yes
+Library Validation: Disabled
+
+Analysis Notes:
+- No additional notes

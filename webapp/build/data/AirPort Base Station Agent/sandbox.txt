@@ -1,0 +1,12 @@
+Sandbox Analysis for AirPort Base Station Agent
+Generated: 2025-06-26 18:36:02
+Application Path: /System/Library/CoreServices/AirPort Base Station Agent.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)

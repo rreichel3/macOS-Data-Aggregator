@@ -1,0 +1,12 @@
+Sandbox Analysis for Xcode_15.2
+Generated: 2025-06-26 18:34:54
+Application Path: /Applications/Xcode_15.2.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 37
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- User application

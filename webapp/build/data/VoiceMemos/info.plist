@@ -1,0 +1,142 @@
+<!-- Info.plist for VoiceMemos.app -->
+<!-- Extracted on: 2025-06-26 18:36:51 -->
+<!-- Source: /System/Applications/VoiceMemos.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CAProcessCanAccessGPU</key>
+    <true />
+    <key>CFBundleDailyBuildNumber</key>
+    <string />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>VoiceMemos</string>
+    <key>CFBundleExecutable</key>
+    <string>VoiceMemos</string>
+    <key>CFBundleGitHash</key>
+    <string />
+    <key>CFBundleHelpBookFolder</key>
+    <string>VoiceMemos.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.VoiceMemos.help</string>
+    <key>CFBundleIconFile</key>
+    <string>MacAppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>MacAppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.VoiceMemos</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>VoiceMemos</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.4</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1158.1</string>
+    <key>CanInheritApplicationStateFromOtherProcesses</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>voice-memos</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2021 Apple Inc.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Voice Memos will be named with the location where they are recorded.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Voice Memos will be named with the location where they are recorded.</string>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>SBMachServices</key>
+    <array>
+      <string>com.apple.uikit.viewservice.com.apple.VoiceMemos</string>
+    </array>
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>Business</string>
+      <string>Utilities</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false />
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <false />
+    <key>UIApplicationSystemWindowsSecureKey</key>
+    <true />
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>UIMenuBarItemTitleAbout</key>
+    <string>About Voice Memos</string>
+    <key>UIMenuBarItemTitleHelp</key>
+    <string>Voice Memos Help</string>
+    <key>UIMenuBarItemTitleHide</key>
+    <string>Hide Voice Memos</string>
+    <key>UIMenuBarItemTitleQuit</key>
+    <string>Quit Voice Memos</string>
+    <key>UIPrerenderedIcon</key>
+    <true />
+    <key>UIStatusBarHidden</key>
+    <false />
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Automatic</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>UIViewServiceUsesNSXPCConnection</key>
+    <true />
+  </dict>
+</plist>

@@ -1,0 +1,12 @@
+Sandbox Analysis for ManagedClient
+Generated: 2025-06-26 18:36:43
+Application Path: /System/Library/CoreServices/ManagedClient.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 35
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

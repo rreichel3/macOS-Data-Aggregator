@@ -1,0 +1,202 @@
+<!-- Info.plist for Keychain Access.app -->
+<!-- Extracted on: 2025-06-26 18:37:32 -->
+<!-- Source: /System/Applications/Utilities/Keychain Access.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFAppleHelpAnchor</key>
+    <string>keychain</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Keychain Access</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>keychain</string>
+          <string>keychain-db</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>keychain</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.keychain</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>cert</string>
+          <string>cer</string>
+          <string>der</string>
+          <string>crt</string>
+          <string>p7c</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>certificate</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>pem</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>printable encoded archive</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p7b</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>certificate bundle</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p7r</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>certificate request response</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p7</string>
+          <string>p7m</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>cryptographic message</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p7s</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>cryptographic signature</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p10</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>certificate request</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>p12</string>
+          <string>pkcs12</string>
+          <string>pfx</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>personal information exchange file</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Keychain Access</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>KeychainAccess.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.keychainaccess.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.keychainaccess</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Keychain Access</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>11.0</string>
+    <key>CFBundleSignature</key>
+    <string>kcmr</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>55314.140.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H619</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H619</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>keychain-access</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>MDItemKeywords</key>
+    <string>Keychain Passwords Certificates</string>
+    <key>NSAppleScriptEnabled</key>
+    <string>No</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 1998–2022, Apple Inc. All Rights Reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>KeychainApp</string>
+    <key>SecForcePassphrasePrompt</key>
+    <true />
+  </dict>
+</plist>

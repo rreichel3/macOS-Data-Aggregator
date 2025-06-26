@@ -1,0 +1,290 @@
+<!-- Info.plist for Calendar.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+<!-- Source: /System/Applications/Calendar.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>Application-Group</key>
+    <array>
+      <string>dot-mac</string>
+      <string>exchange</string>
+      <string>CalendarApps</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleAlternateNames</key>
+    <array>
+      <string>iCal</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Calendar</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>ics</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>text/calendar</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>ICS file</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>iCal</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.ical.ics</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <false />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>vcs</string>
+        </array>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>text/x-vCalendar</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>vCal file</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>vCal</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.ical.vcs</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <false />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>aplmodel</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>APL model</string>
+        <key>CFBundleTypeRole</key>
+        <string>None</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>icbu</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Calendar Backup file</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Calendar</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>iCal.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.iCal.help</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.iCal</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>7.0</string>
+    <key>CFBundleName</key>
+    <string>Calendar</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>14.0</string>
+    <key>CFBundleSignature</key>
+    <string>wrbt</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Remote Calendar URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>webcal</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLIconFile</key>
+        <string>ical</string>
+        <key>CFBundleURLName</key>
+        <string>iCal URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ical</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>2964.4.2</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>calendar</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSFileQuarantineEnabled</key>
+    <false />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>MDItemKeywords</key>
+    <string>iCal</string>
+    <key>NSAccentColorName</key>
+    <string>CalendarAccentColor</string>
+    <key>NSAppAccentColorName</key>
+    <string>CalendarAccentColor</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSDockTilePlugIn</key>
+    <string>Calendar.docktileplugin</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>CALApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.apple.calendar.continuity.event_selection</string>
+      <string>com.apple.calendar.continuity.date_selection</string>
+      <string>INShowPersonInteractionsIntent</string>
+      <string>com.apple.calendar.event_creation</string>
+    </array>
+    <key>OSAScriptingDefinition</key>
+    <string>iCal.sdef</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.ical.ics</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Calendar Event</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ical.ics.event</string>
+        <key>UTTypeTagSpecification</key>
+        <dict />
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.ical.ics</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Reminder Todo</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ical.ics.todo</string>
+        <key>UTTypeTagSpecification</key>
+        <dict />
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.calendar-event</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>ICS File</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ical.ics</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>ics</string>
+          </array>
+          <key>public.mime-type</key>
+          <string>text/calendar</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>VCS File</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ical.vcs</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>vcs</string>
+            <string>vcal</string>
+          </array>
+          <key>public.mime-type</key>
+          <string>text/x-vcalendar</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.item</string>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>iCal Backup File</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.ical.backup-package</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>icbu</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+    <array>
+      <string>Disable all alarms</string>
+    </array>
+  </dict>
+</plist>

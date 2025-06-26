@@ -1,0 +1,12 @@
+Sandbox Analysis for UIKitSystem
+Generated: 2025-06-26 18:36:48
+Application Path: /System/Library/CoreServices/UIKitSystem.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 23
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background only app

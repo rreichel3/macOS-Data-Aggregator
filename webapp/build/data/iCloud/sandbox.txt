@@ -1,0 +1,12 @@
+Sandbox Analysis for iCloud
+Generated: 2025-06-26 18:36:45
+Application Path: /System/Library/CoreServices/iCloud.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 23
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

@@ -1,0 +1,9 @@
+Code Signing Information for Clock
+Generated: 2025-06-26 18:38:10
+Application Path: /System/Applications/Clock.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

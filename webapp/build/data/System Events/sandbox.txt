@@ -1,0 +1,13 @@
+Sandbox Analysis for System Events
+Generated: 2025-06-26 18:36:51
+Application Path: /System/Library/CoreServices/System Events.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 3
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)
+- Background only app

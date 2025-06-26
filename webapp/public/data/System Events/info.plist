@@ -1,0 +1,90 @@
+<!-- Info.plist for System Events.app -->
+<!-- Extracted on: 2025-06-26 18:36:51 -->
+<!-- Source: /System/Library/CoreServices/System Events.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>osax</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>ScriptingAddition</string>
+        <key>CFBundleTypeName</key>
+        <string>scripting addition</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>osax</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>None</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>System Events</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.systemevents</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>System Events</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.3.6</string>
+    <key>CFBundleSignature</key>
+    <string>sevs</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1.3.6</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>LSBackgroundOnly</key>
+    <string>0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <string>1</string>
+    <key>LSVisibleInClassic</key>
+    <string>1</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>OSAExportAdditions</key>
+    <string>All</string>
+    <key>OSAScriptingDefinition</key>
+    <string>SystemEvents.sdef</string>
+  </dict>
+</plist>

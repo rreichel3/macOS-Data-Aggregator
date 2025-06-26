@@ -1,0 +1,12 @@
+Sandbox Analysis for Problem Reporter
+Generated: 2025-06-26 18:38:09
+Application Path: /System/Library/CoreServices/Problem Reporter.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 2
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

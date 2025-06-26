@@ -1,0 +1,12 @@
+Sandbox Analysis for Activity Monitor
+Generated: 2025-06-26 18:33:44
+Application Path: /System/Applications/Utilities/Activity Monitor.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 7
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

@@ -1,0 +1,38 @@
+<!-- Entitlements for PreviewShell.app -->
+<!-- Extracted on: 2025-06-26 18:36:50 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.QuartzCore.global-capture</key>
+    <true />
+    <key>com.apple.osanalytics.canusediagnosticmonitor</key>
+    <true />
+    <key>com.apple.private.coreservices.canmaplsdatabase</key>
+    <true />
+    <key>com.apple.private.oop-jit.loader</key>
+    <string>previews</string>
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAccessibility</string>
+    </array>
+    <key>com.apple.runningboard.assertions.frontboard</key>
+    <true />
+    <key>com.apple.runningboard.assertions.xcodepreviews</key>
+    <true />
+    <key>com.apple.runningboard.hereditarygrantoriginator</key>
+    <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.primitiveattribute</key>
+    <true />
+    <key>com.apple.runningboard.process-state</key>
+    <true />
+    <key>com.apple.runningboard.terminateprocess</key>
+    <true />
+    <key>com.apple.runningboard.trustedtarget</key>
+    <true />
+    <key>com.apple.springboard.allowIconVisibilityChanges</key>
+    <true />
+  </dict>
+</plist>

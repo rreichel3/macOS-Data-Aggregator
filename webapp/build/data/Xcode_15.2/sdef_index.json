@@ -1,0 +1,8 @@
+{
+  "files": [
+    "Xcode.sdef",
+    "Simulator.sdef",
+    "Instruments.sdef"
+  ],
+  "count": 3
+}

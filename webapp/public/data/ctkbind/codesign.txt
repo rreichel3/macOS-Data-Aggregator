@@ -1,0 +1,9 @@
+Code Signing Information for ctkbind
+Generated: 2025-06-26 18:37:30
+Application Path: /System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

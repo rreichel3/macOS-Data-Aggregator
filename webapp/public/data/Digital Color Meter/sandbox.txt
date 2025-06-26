@@ -1,0 +1,12 @@
+Sandbox Analysis for Digital Color Meter
+Generated: 2025-06-26 18:36:52
+Application Path: /System/Applications/Utilities/Digital Color Meter.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

@@ -1,0 +1,12 @@
+Sandbox Analysis for Photo Booth
+Generated: 2025-06-26 18:36:49
+Application Path: /System/Applications/Photo Booth.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 15
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

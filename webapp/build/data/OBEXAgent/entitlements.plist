@@ -1,0 +1,37 @@
+<!-- Entitlements for OBEXAgent.app -->
+<!-- Extracted on: 2025-06-26 18:36:52 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceBluetoothAlways</string>
+    </array>
+    <key>com.apple.private.tcc.allow-prompting</key>
+    <array>
+      <string>kTCCServiceAll</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.assets.movies.read-write</key>
+    <true />
+    <key>com.apple.security.assets.music.read-write</key>
+    <true />
+    <key>com.apple.security.assets.pictures.read-write</key>
+    <true />
+    <key>com.apple.security.device.bluetooth</key>
+    <true />
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Public/</string>
+      <string>/Downloads/</string>
+      <string>/Documents/</string>
+      <string>/Desktop/</string>
+    </array>
+  </dict>
+</plist>

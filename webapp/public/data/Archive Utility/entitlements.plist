@@ -1,0 +1,28 @@
+<!-- Entitlements for Archive Utility.app -->
+<!-- Extracted on: 2025-06-26 18:36:47 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.private.AUHelperService.XPC</key>
+    <true />
+    <key>com.apple.private.AUQuarantineService.XPC</key>
+    <true />
+    <key>com.apple.private.ArchiveService.XPC</key>
+    <true />
+    <key>com.apple.private.app-sandbox.unquarantine</key>
+    <true />
+    <key>com.apple.private.security.storage.ArchiveUtility</key>
+    <true />
+    <key>com.apple.private.security.syspolicy.package-installation</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.security.syspolicy.exec</string>
+    </array>
+  </dict>
+</plist>

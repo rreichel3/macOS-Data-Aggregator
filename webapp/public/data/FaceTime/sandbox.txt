@@ -1,0 +1,12 @@
+Sandbox Analysis for FaceTime
+Generated: 2025-06-26 18:36:46
+Application Path: /System/Applications/FaceTime.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 93
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

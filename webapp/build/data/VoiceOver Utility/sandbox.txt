@@ -1,0 +1,12 @@
+Sandbox Analysis for VoiceOver Utility
+Generated: 2025-06-26 18:36:50
+Application Path: /System/Applications/Utilities/VoiceOver Utility.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 25
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

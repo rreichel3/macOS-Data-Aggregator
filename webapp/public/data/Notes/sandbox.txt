@@ -1,0 +1,12 @@
+Sandbox Analysis for Notes
+Generated: 2025-06-26 18:37:32
+Application Path: /System/Applications/Notes.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 69
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

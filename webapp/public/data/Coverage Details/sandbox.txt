@@ -1,0 +1,12 @@
+Sandbox Analysis for Coverage Details
+Generated: 2025-06-26 18:34:19
+Application Path: /System/Library/CoreServices/Coverage Details.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 8
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

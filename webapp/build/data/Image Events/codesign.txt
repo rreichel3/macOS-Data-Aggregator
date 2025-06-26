@@ -1,0 +1,9 @@
+Code Signing Information for Image Events
+Generated: 2025-06-26 18:36:42
+Application Path: /System/Library/CoreServices/Image Events.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,155 @@
+<!-- Info.plist for Weather.app -->
+<!-- Extracted on: 2025-06-26 18:37:33 -->
+<!-- Source: /System/Applications/Weather.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Weather</string>
+    <key>CFBundleExecutable</key>
+    <string>Weather</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>weather.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.weather.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.weather</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Weather</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.apple.weather</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>weather</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>614.2.1</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H606</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H606</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>weather-mac</string>
+    <key>LSApplicationCategoryType</key>
+    <string />
+    <key>LSCounterpartIdentifiers</key>
+    <array>
+      <string>com.apple.weather.watchapp</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Your location is used to show local weather and send notifications about weather near you.</string>
+    <key>NSRegulatoryPrivacyDisclosure</key>
+    <dict>
+      <key>NSRegulatoryPrivacyDisclosureOBKPrivacyBundle</key>
+      <string>com.apple.onboarding.weather</string>
+      <key>NSRegulatoryPrivacyDisclosureVersion</key>
+      <string>1.0</string>
+    </dict>
+    <key>NSSupportsAutomaticTermination</key>
+    <true />
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>WeatherIntent</string>
+      <string>com.apple.weather.useractivity</string>
+      <string>com.apple.nanoweather.useractivity</string>
+    </array>
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>Weather</string>
+      <string>Reference</string>
+      <string>Travel</string>
+      <string>News</string>
+      <string>Productivity</string>
+      <string>Education</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true />
+      <key>UIApplicationSupportsTabbedSceneCollection</key>
+      <false />
+      <key>UISceneConfigurations</key>
+      <dict />
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true />
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>6</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UNUserNotificationCenter</key>
+    <dict>
+      <key>UNAllowCriticalAlerts</key>
+      <true />
+      <key>UNDaemonShouldReceiveNotificationSettingsUpdates</key>
+      <true />
+      <key>UNSettingProvidesAppNotificationSettings</key>
+      <true />
+      <key>UNSuppressUserAuthorizationPrompt</key>
+      <false />
+      <key>UNUniversalApplicationIdentifier</key>
+      <string>com.apple.weather</string>
+    </dict>
+  </dict>
+</plist>

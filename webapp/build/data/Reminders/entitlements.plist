@@ -1,0 +1,131 @@
+<!-- Entitlements for Reminders.app -->
+<!-- Extracted on: 2025-06-26 18:37:33 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.application-identifier</key>
+    <string>com.apple.reminders</string>
+    <key>com.apple.chrono.invalidate-timelines</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.corespotlight.search.allowed.bundleIDs</key>
+    <array>
+      <string>com.apple.Notes</string>
+      <string>com.apple.mobilenotes</string>
+    </array>
+    <key>com.apple.developer.aps-environment</key>
+    <string />
+    <key>com.apple.developer.associated-domains</key>
+    <array />
+    <key>com.apple.developer.icloud-container-environment</key>
+    <string>Production</string>
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+      <string>com.apple.reminders</string>
+      <string>com.apple.reminders.fdb</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.shared-with-you</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
+    <true />
+    <key>com.apple.private.calendar.has-adopted-modern-request-access-methods</key>
+    <true />
+    <key>com.apple.private.cloudkit.customAccounts</key>
+    <true />
+    <key>com.apple.private.cloudkit.masquerade</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.coreservices.canopenactivity</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.remindd</key>
+    <dict>
+      <key>debug</key>
+      <true />
+      <key>keepAlive</key>
+      <true />
+      <key>siriFoundInApps</key>
+      <true />
+      <key>sync</key>
+      <true />
+      <key>userInteractive</key>
+      <true />
+    </dict>
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.reminders</string>
+    </array>
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.suggestions.reminders</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceReminders</string>
+    </array>
+    <key>com.apple.private.tcc.manager.check-by-audit-token</key>
+    <array>
+      <string>kTCCServiceReminders</string>
+    </array>
+    <key>com.apple.proactive.eventtracker</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.reminders</string>
+    </array>
+    <key>com.apple.security.exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>Library/Reminders/</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.location</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.linkd.mediator</string>
+      <string>com.apple.analyticsd</string>
+      <string>com.apple.remindd</string>
+      <string>com.apple.remindd.userInteractive</string>
+      <string>com.apple.suggestd.reminders</string>
+      <string>com.apple.chrono.widgetcenterconnection</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.SocialLayer</string>
+      <string>com.apple.suggestions</string>
+      <string>com.apple.EmojiPreferences</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.remindd</string>
+    </array>
+    <key>com.apple.siri.koa.donate.internal</key>
+    <true />
+    <key>com.apple.trial.client</key>
+    <array>
+      <string>1380</string>
+    </array>
+  </dict>
+</plist>

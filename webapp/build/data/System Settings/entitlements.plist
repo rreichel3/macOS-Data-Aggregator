@@ -1,0 +1,64 @@
+<!-- Entitlements for System Settings.app -->
+<!-- Extracted on: 2025-06-26 18:37:28 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.Settings.extension.host</key>
+    <true />
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.developer.extension-host.systemprefsapp.appleid</key>
+    <true />
+    <key>com.apple.developer.extension-host.systemprefsapp.privacy</key>
+    <true />
+    <key>com.apple.developer.extension-host.systemprefsapp.sharing</key>
+    <true />
+    <key>com.apple.extensionkit.host.extension-point-identifiers</key>
+    <array>
+      <string>com.apple.Settings.extension.ui</string>
+    </array>
+    <key>com.apple.private.AmbientDisplay.messaging</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.assets.change-daemon-config</key>
+    <true />
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>com.apple.systempreferences</string>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>SystemSettings.SearchTerms</string>
+    </array>
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.domain-extension</key>
+    <true />
+    <key>com.apple.private.extensionkit.host.unsandboxed-extensions-for-extension-points</key>
+    <array>
+      <string>com.apple.Settings.extension.ui</string>
+    </array>
+    <key>com.apple.private.followup</key>
+    <true />
+    <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.iaaccounts</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>com.apple.systempreferences.cache</string>
+    </array>
+    <key>com.apple.private.systempreferences</key>
+    <true />
+    <key>com.apple.private.viewbridge.host.command-equivalent.attempt-at-will</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>com.apple.systempreferences.cache</string>
+    </array>
+    <key>com.apple.security.assets.pictures.read-only</key>
+    <true />
+  </dict>
+</plist>

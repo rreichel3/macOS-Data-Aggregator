@@ -1,0 +1,55 @@
+<!-- Entitlements for WallpaperAgent.app -->
+<!-- Extracted on: 2025-06-26 18:37:35 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.developer.extension-host.screensaver</key>
+    <true />
+    <key>com.apple.extensionkit.host.extension-point-identifiers</key>
+    <array>
+      <string>com.apple.wallpaper</string>
+      <string>com.apple.wallpaper.development</string>
+    </array>
+    <key>com.apple.idleassetsd.screen-saver-service</key>
+    <true />
+    <key>com.apple.private.coreservices.definesExtensionPoint</key>
+    <true />
+    <key>com.apple.private.dock.spaces</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceSystemPolicyAllFiles</string>
+    </array>
+    <key>com.apple.private.usernotifications.bundle-identifiers</key>
+    <array>
+      <string>com.apple.wallpaper.notifications.sonoma-first-run</string>
+    </array>
+    <key>com.apple.private.wallpaper.export</key>
+    <true />
+    <key>com.apple.private.wallpaper.extension-host</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <false />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.idleassetsd.xpc</string>
+      <string>com.apple.wallpaper.export</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-register.global-name</key>
+    <array>
+      <string>com.apple.wallpaper.agent</string>
+      <string>com.apple.wallpaper.CacheDelete</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.desktop</string>
+      <string>com.apple.screensaver</string>
+      <string>com.apple.wallpaper</string>
+    </array>
+  </dict>
+</plist>

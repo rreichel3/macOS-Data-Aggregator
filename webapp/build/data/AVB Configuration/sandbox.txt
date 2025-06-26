@@ -1,0 +1,12 @@
+Sandbox Analysis for AVB Configuration
+Generated: 2025-06-26 18:34:17
+Application Path: /System/Library/CoreServices/AVB Configuration.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- No additional notes

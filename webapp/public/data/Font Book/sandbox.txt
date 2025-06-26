@@ -1,0 +1,12 @@
+Sandbox Analysis for Font Book
+Generated: 2025-06-26 18:33:45
+Application Path: /System/Applications/Font Book.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 17
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

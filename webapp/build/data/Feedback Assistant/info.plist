@@ -1,0 +1,91 @@
+<!-- Info.plist for Feedback Assistant.app -->
+<!-- Extracted on: 2025-06-26 18:33:45 -->
+<!-- Source: /System/Library/CoreServices/Applications/Feedback Assistant.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Feedback Assistant</string>
+    <key>CFBundleExecutable</key>
+    <string>Feedback Assistant</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>FeedbackAssistant.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.appleseed.FeedbackAssistant.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.appleseed.FeedbackAssistant</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Feedback Assistant</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.1</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.apple.appleseed.FeedbackAssistant.action</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>applefeedback</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>544</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G1000s</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>FBKUsePersistentStore</key>
+    <true />
+    <key>HPDHelpProjectIdentifier</key>
+    <string>feedback-assistant</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>NSAppAccentColorName</key>
+    <string>AppAccentColor</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2017–2023 Apple Inc. All rights reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>SMPrivilegedExecutables</key>
+    <dict>
+      <key>com.apple.appleseed.fbahelperd</key>
+      <string>identifier com.apple.appleseed.fbahelperd and anchor apple</string>
+    </dict>
+  </dict>
+</plist>

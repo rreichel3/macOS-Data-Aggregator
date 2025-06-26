@@ -1,0 +1,12 @@
+Sandbox Analysis for AOSUIPrefPaneLauncher
+Generated: 2025-06-26 18:36:45
+Application Path: /System/Library/CoreServices/AOSUIPrefPaneLauncher.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 10
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

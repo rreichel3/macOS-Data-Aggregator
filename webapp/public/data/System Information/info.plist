@@ -1,0 +1,169 @@
+<!-- Info.plist for System Information.app -->
+<!-- Extracted on: 2025-06-26 18:34:18 -->
+<!-- Source: /System/Applications/Utilities/System Information.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleAlternateNames</key>
+    <array>
+      <string>System Profiler</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>txt</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>NSStringPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>None</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSDocumentClass</key>
+        <string>SPDocument</string>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>InMemory</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>rtf</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>NSRTFPboardType</string>
+        <key>CFBundleTypeRole</key>
+        <string>None</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSDocumentClass</key>
+        <string>SPDocument</string>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>InMemory</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>spreporter</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>SystemProfilerPlugin.icns</string>
+        <key>CFBundleTypeName</key>
+        <string>System Reporter</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+        <key>NSDocumentClass</key>
+        <string>SPDocument</string>
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>spx</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>System Report</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSDocumentClass</key>
+        <string>SPDocument</string>
+        <key>NSExportableAs</key>
+        <array>
+          <string>NSRTFPboardType</string>
+          <string>NSStringPboardType</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>System Information</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>SystemInformation.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.SystemInformation.help</string>
+    <key>CFBundleIconName</key>
+    <string>ASP</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.SystemProfiler</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>System Information</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>11.0</string>
+    <key>CFBundleSignature</key>
+    <string>aspx</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>915</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23H502</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23H502</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>system-information</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSLaunchDLabel</key>
+    <string>com.apple.systemprofiler</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>LSUIElement</key>
+    <true />
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSMainNibFile</key>
+    <string>SPApp</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.xml</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>System Profile Report</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.systemprofiler.document</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>spx</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

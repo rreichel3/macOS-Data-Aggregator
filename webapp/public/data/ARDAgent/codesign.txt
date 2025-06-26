@@ -1,0 +1,9 @@
+Code Signing Information for ARDAgent
+Generated: 2025-06-26 18:36:51
+Application Path: /System/Library/CoreServices/RemoteManagement/ARDAgent.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

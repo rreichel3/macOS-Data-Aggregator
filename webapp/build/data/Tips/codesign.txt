@@ -1,0 +1,9 @@
+Code Signing Information for Tips
+Generated: 2025-06-26 18:33:45
+Application Path: /System/Library/CoreServices/Tips.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

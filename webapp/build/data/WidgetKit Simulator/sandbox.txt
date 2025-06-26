@@ -1,0 +1,12 @@
+Sandbox Analysis for WidgetKit Simulator
+Generated: 2025-06-26 18:36:50
+Application Path: /System/Library/CoreServices/WidgetKit Simulator.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 18
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

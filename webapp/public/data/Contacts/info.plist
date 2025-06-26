@@ -1,0 +1,277 @@
+<!-- Info.plist for Contacts.app -->
+<!-- Extracted on: 2025-06-26 18:37:35 -->
+<!-- Source: /System/Applications/Contacts.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>Application-Group</key>
+    <array>
+      <string>InternetAccounts</string>
+      <string>dot-mac</string>
+      <string>exchange</string>
+      <string>addressbookserver</string>
+      <string>ldap</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22A380019</string>
+    <key>CFBundleAlternateNames</key>
+    <array>
+      <string>Address Book</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Contacts</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>abcdp</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Contacts Person Data</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>vCard</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.vcard</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>ldif</string>
+          <string>ldi</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>LDIF</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>ICExtension</key>
+        <string>LDIF</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>abcdg</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Contacts Group Data</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>abcdg</string>
+          <string>abcdp</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Contacts Card Data</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Folder</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>fold</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSTypeIsPackage</key>
+        <false />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>abbu</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Backup File</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSTypeIsPackage</key>
+        <true />
+        <key>NSPersistentStoreTypeKey</key>
+        <string>Binary</string>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>persistentCardModel</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Instant Replay Document</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Contacts</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>AddressBook.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.AddressBook.help</string>
+    <key>CFBundleIconFile</key>
+    <string>Contacts</string>
+    <key>CFBundleIconName</key>
+    <string>Contacts</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.AddressBook</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Contacts</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>14.0</string>
+    <key>CFBundleSignature</key>
+    <string>adrb</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Contacts URL</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>addressbook</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>2571.8</string>
+    <key>CTIgnoreUserFonts</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>23G405</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>14.7</string>
+    <key>DTSDKBuild</key>
+    <string>23G405</string>
+    <key>DTSDKName</key>
+    <string>macosx14.7.internal</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>DTXcodeBuild</key>
+    <string>15E6079e</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>contacts</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>14.7</string>
+    <key>MDItemKeywords</key>
+    <string>Address Book</string>
+    <key>NSAccentColorName</key>
+    <string>ContactsAccentColor</string>
+    <key>NSAppleScriptEnabled</key>
+    <true />
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2002-2023 Apple Inc.\n All Rights Reserved.</string>
+    <key>NSMainNibFile</key>
+    <string>MainMenu</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSSupportsSuddenTermination</key>
+    <true />
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.apple.Contacts.ViewingCard</string>
+      <string>com.apple.Contacts.CreateContact</string>
+      <string>com.apple.Contacts.SearchContacts</string>
+    </array>
+    <key>OSAScriptingDefinition</key>
+    <string>Contacts.sdef</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.contact</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Contacts Person Data</string>
+        <key>UTTypeIconName</key>
+        <string>vCard</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.addressbook.person</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>ABPR</string>
+          <key>public.filename-extension</key>
+          <string>abcdp</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Contacts Group Data</string>
+        <key>UTTypeIconName</key>
+        <string>vCard</string>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.addressbook.group</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>ABGR</string>
+          <key>public.filename-extension</key>
+          <string>abcdg</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

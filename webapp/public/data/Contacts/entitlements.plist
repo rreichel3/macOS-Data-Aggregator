@@ -1,0 +1,184 @@
+<!-- Entitlements for Contacts.app -->
+<!-- Extracted on: 2025-06-26 18:37:35 -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.CommCenter.fine-grained</key>
+    <array>
+      <string>spi</string>
+      <string>carrier-settings</string>
+    </array>
+    <key>com.apple.FaceTime.NoPrompt</key>
+    <true />
+    <key>com.apple.accounts.applicationidfrompid</key>
+    <true />
+    <key>com.apple.accounts.inactive.fullaccess</key>
+    <true />
+    <key>com.apple.authkit.client.internal</key>
+    <true />
+    <key>com.apple.coreduetd</key>
+    <true />
+    <key>com.apple.coreduetd.allow</key>
+    <true />
+    <key>com.apple.coreduetd.people</key>
+    <true />
+    <key>com.apple.developer.maps</key>
+    <true />
+    <key>com.apple.icloud.fmfd.access</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.aps-connection-initiate</key>
+    <true />
+    <key>com.apple.private.backupd.session</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.contacts-avatar-picker-host</key>
+    <true />
+    <key>com.apple.private.contacts.disable-remote-database-access</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.corerecents</key>
+    <true />
+    <key>com.apple.private.coreservices.canopenactivity</key>
+    <true />
+    <key>com.apple.private.dark-wake-push</key>
+    <true />
+    <key>com.apple.private.iaaccounts</key>
+    <true />
+    <key>com.apple.private.imcore.imdpersistence.data-detection-access</key>
+    <true />
+    <key>com.apple.private.imcore.imdpersistence.database-access</key>
+    <true />
+    <key>com.apple.private.imcore.spi.database-access</key>
+    <true />
+    <key>com.apple.private.persona.read</key>
+    <true />
+    <key>com.apple.private.persona.write</key>
+    <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.suggestions</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceReminders</string>
+      <string>kTCCServiceCamera</string>
+      <string>kTCCServicePhotos</string>
+      <string>kTCCServiceAppleEvents</string>
+    </array>
+    <key>com.apple.private.tcc.manager.check-by-audit-token</key>
+    <array>
+      <string>kTCCServiceAddressBook</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.assets.pictures.read-only</key>
+    <true />
+    <key>com.apple.security.device.camera</key>
+    <true />
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.applicationaccess</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
+    <key>com.apple.security.personal-information.calendars</key>
+    <true />
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.scripting-targets</key>
+    <dict>
+      <key>com.apple.finder</key>
+      <array />
+    </dict>
+    <key>com.apple.security.temporary-exception.apple-events</key>
+    <array>
+      <string>com.apple.facetime</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/Library/Preferences/com.apple.AOSKit.plist</string>
+      <string>/Library/Address Book Plug-Ins/</string>
+      <string>/Network/Library/Address Book Plug-Ins/</string>
+      <string>/System/Library/Address Book Plug-Ins/</string>
+      <string>/Library/Preferences/com.apple.screensaver.plist</string>
+      <string>/Library/Managed Preferences/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+    <array>
+      <string>/Library/Containers/com.apple.mobileSMS/Data/Library/Messages/Archive/</string>
+      <string>/Library/Mail/V2/</string>
+      <string>/Library/Address Book Plug-Ins/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Preferences/.GlobalPreferences.plist</string>
+      <string>/Library/Application Support/SyncServices/</string>
+      <string>/Library/Logs/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.contactsd.persistence</string>
+      <string>com.apple.backupd.session.xpc</string>
+      <string>com.apple.contacts.donation.agent</string>
+      <string>com.apple.locationd.desktop.synchronous</string>
+      <string>com.apple.locationd.desktop.registration</string>
+      <string>com.apple.CoreLocation.agent</string>
+      <string>com.apple.personad.xpc</string>
+      <string>com.apple.icloud.fmfd</string>
+      <string>com.apple.coreduetd.allow</string>
+      <string>com.apple.coreduetd</string>
+      <string>com.apple.coreduetd.people</string>
+      <string>com.apple.ak.auth.xpc</string>
+      <string>com.apple.corerecents.recentsd</string>
+      <string>com.apple.AddressBook.ScheduledSync</string>
+      <string>com.apple.AddressBook.abd</string>
+      <string>com.apple.soagent</string>
+      <string>com.apple.transparencyd</string>
+      <string>com.apple.mtmd.xpc</string>
+      <string>com.apple.dock.remotedesktoppicture</string>
+      <string>com.apple.suggestd.suggestionmanager</string>
+      <string>com.apple.ak.anisette.xpc</string>
+      <string>com.apple.marco</string>
+      <string>com.apple.storeaccountd</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(allow distributed-notification-post)</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.AddressBook.CardDAVPlugin</string>
+      <string>com.apple.icloud.managed</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.AddressBook</string>
+      <string>com.apple.suggestions</string>
+      <string>.GlobalPreferences</string>
+      <string>MobileMeAccounts</string>
+    </array>
+    <key>com.apple.system.get-alert-tone</key>
+    <true />
+    <key>com.apple.transparency.kt</key>
+    <true />
+    <key>keychain-access-groups</key>
+    <array>
+      <string>appleaccount</string>
+      <string>apple</string>
+      <string>appleaccount</string>
+    </array>
+  </dict>
+</plist>
