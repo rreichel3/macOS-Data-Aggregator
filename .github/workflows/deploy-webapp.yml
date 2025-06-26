@@ -54,7 +54,7 @@ jobs:
     - name: Install webapp dependencies
       run: |
         cd webapp
-        npm ci
+        npm install
 
     - name: Build React app
       run: |
