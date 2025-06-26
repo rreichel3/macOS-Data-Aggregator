@@ -344,7 +344,7 @@ def find_sdef_files() -> Set[Path]:
                 # Use find command for better performance on large directories
                 result = subprocess.run([
                     'find', str(expanded_path), '-name', '*.sdef', '-type', 'f'
-                ], capture_output=True, text=True, timeout=30)
+                ], capture_output=True, text=True, timeout=300)
                 
                 if result.returncode == 0:
                     for line in result.stdout.strip().split('\n'):
