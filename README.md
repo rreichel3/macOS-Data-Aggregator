@@ -1,4 +1,4 @@
-# sdef
+# M
 macOS Application Data Aggregator
 
 [![Collect macOS Application Data](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml/badge.svg)](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml)
@@ -6,7 +6,17 @@ macOS Application Data Aggregator
 [![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://www.apple.com/macos/)
 [![Python](https://img.shields.io/badge/Python-3.6+-green.svg)](https://www.python.org/)
 
-A comprehensive tool for collecting and organizing macOS application data including SDEF files, code signing information, entitlements, Info.plist data, and sandbox analysis.
+A comprehensive tool for collecting and organizing macOS application data including SDEF files, code signing information, entitlements, Info.plist data, sandbox analysis, and app icons. Features a modern React webapp for browsing the collected data.
+
+## 🌐 Live Browser
+
+**[View the interactive macOS App Data Browser →](https://rreichel3.github.io/sdef)**
+
+The webapp provides an intuitive interface to:
+- Search and filter through macOS applications
+- View app icons, metadata, and security information
+- Browse SDEF files, entitlements, and sandbox details
+- Get insights into code signing and sandboxing status
 
 ## What This Tool Collects
 
@@ -42,10 +52,12 @@ XML-based files that define AppleScript interfaces for applications, specifying 
 ## Features
 
 - 🔍 **Comprehensive Discovery**: Finds all application bundles across the system
-- 📱 **Complete Data Collection**: Gathers SDEF files, code signing, entitlements, Info.plist, and sandbox data
+- 📱 **Complete Data Collection**: Gathers SDEF files, code signing, entitlements, Info.plist, sandbox data, and app icons
 - 🎯 **Intelligent Organization**: Organizes data by application in a clean directory structure
 - 🛡️ **Security Analysis**: Analyzes code signing, sandboxing, and security entitlements
-- � **Detailed Reporting**: Provides comprehensive analysis and statistics
+- 🖼️ **Icon Extraction**: Extracts and converts app icons to PNG format
+- 🌐 **Interactive Browser**: Modern React webapp for browsing collected data
+- 📊 **Detailed Reporting**: Provides comprehensive analysis and statistics
 - 🔄 **Conflict Handling**: Manages filename conflicts automatically
 - ⚡ **Efficient Processing**: Uses system tools for optimal performance
 
@@ -71,13 +83,17 @@ data/
 │   ├── codesign.txt          # Code signing information
 │   ├── entitlements.plist    # Security entitlements
 │   ├── info.plist           # Application metadata
-│   └── sandbox.txt          # Sandbox analysis
+│   ├── sandbox.txt          # Sandbox analysis
+│   ├── icon.png             # App icon (if available)
+│   └── manifest.json        # App summary for webapp
 ├── ApplicationName2/
 │   ├── sdef/
 │   ├── codesign.txt
 │   ├── entitlements.plist
 │   ├── info.plist
-│   └── sandbox.txt
+│   ├── sandbox.txt
+│   ├── icon.png
+│   └── manifest.json
 └── ...
 ```
 
@@ -88,6 +104,8 @@ data/
 - **`entitlements.plist`**: Security entitlements and permissions in XML format
 - **`info.plist`**: Application metadata, bundle information, and capabilities in JSON format
 - **`sandbox.txt`**: Sandbox analysis including security restrictions and runtime settings
+- **`icon.png`**: Application icon extracted and converted to PNG format (when available)
+- **`manifest.json`**: JSON summary of application data for webapp consumption
 
 ## Search Locations
 

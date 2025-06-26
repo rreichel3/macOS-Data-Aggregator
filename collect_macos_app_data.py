@@ -609,6 +609,110 @@ def copy_sdef_file(sdef_path: Path, data_dir: Path) -> bool:
         logger.error(f"Failed to copy {sdef_path}: {e}")
         return False
 
+def extract_app_icon(app_path: Path, app_dir: Path) -> Optional[str]:
+    """
+    Extract and convert app icon to PNG format.
+    
+    Args:
+        app_path: Path to the .app bundle
+        app_dir: Application data directory where icon should be saved
+        
+    Returns:
+        Relative path to the extracted icon, or None if not found
+    """
+    try:
+        # First, try to find the icon file from Info.plist
+        info_plist_path = app_path / "Contents" / "Info.plist"
+        icon_filename = None
+        
+        if info_plist_path.exists():
+            try:
+                with open(info_plist_path, 'rb') as f:
+                    plist_data = plistlib.load(f)
+                    icon_filename = plist_data.get('CFBundleIconFile')
+                    
+                    # Some apps might use CFBundleIcons instead
+                    if not icon_filename:
+                        icons_dict = plist_data.get('CFBundleIcons')
+                        if icons_dict and isinstance(icons_dict, dict):
+                            primary_icon = icons_dict.get('CFBundlePrimaryIcon')
+                            if primary_icon and isinstance(primary_icon, dict):
+                                icon_files = primary_icon.get('CFBundleIconFiles')
+                                if icon_files and isinstance(icon_files, list) and icon_files:
+                                    icon_filename = icon_files[0]
+            except Exception as e:
+                logger.debug(f"Could not read Info.plist for {app_path.name}: {e}")
+        
+        # Look for icon files in Resources directory
+        resources_dir = app_path / "Contents" / "Resources"
+        icon_path = None
+        
+        if icon_filename:
+            # Try the exact filename
+            potential_paths = [
+                resources_dir / icon_filename,
+                resources_dir / f"{icon_filename}.icns",
+                resources_dir / f"{icon_filename}.png"
+            ]
+            
+            for potential_path in potential_paths:
+                if potential_path.exists():
+                    icon_path = potential_path
+                    break
+        
+        # If no icon found via plist, search for common icon files
+        if not icon_path and resources_dir.exists():
+            common_icon_names = [
+                "AppIcon.icns", "app.icns", "icon.icns", "Icon.icns",
+                f"{app_path.stem}.icns", f"{app_path.stem.lower()}.icns"
+            ]
+            
+            for icon_name in common_icon_names:
+                potential_path = resources_dir / icon_name
+                if potential_path.exists():
+                    icon_path = potential_path
+                    break
+            
+            # If still no icon, try any .icns file
+            if not icon_path:
+                icns_files = list(resources_dir.glob("*.icns"))
+                if icns_files:
+                    # Use the first .icns file found
+                    icon_path = icns_files[0]
+        
+        if not icon_path:
+            logger.debug(f"No icon found for {app_path.name}")
+            return None
+        
+        # Convert icon to PNG using sips (available on macOS)
+        output_icon_path = app_dir / "icon.png"
+        
+        try:
+            # Use sips to convert icns to png
+            result = subprocess.run([
+                'sips', '-s', 'format', 'png', str(icon_path), '--out', str(output_icon_path)
+            ], capture_output=True, text=True, timeout=30)
+            
+            if result.returncode == 0 and output_icon_path.exists():
+                logger.debug(f"Extracted icon for {app_path.name}")
+                return "icon.png"
+            else:
+                logger.debug(f"Failed to convert icon for {app_path.name}: {result.stderr}")
+                
+                # Fallback: if it's already a PNG, just copy it
+                if icon_path.suffix.lower() == '.png':
+                    shutil.copy2(icon_path, output_icon_path)
+                    return "icon.png"
+                
+        except (subprocess.TimeoutExpired, subprocess.SubprocessError) as e:
+            logger.debug(f"Icon conversion failed for {app_path.name}: {e}")
+        
+        return None
+        
+    except Exception as e:
+        logger.debug(f"Icon extraction failed for {app_path.name}: {e}")
+        return None
+
 def process_application(app_path: Path, data_dir: Path) -> bool:
     """
     Process a single application and collect all its data.
@@ -729,6 +833,40 @@ Analysis Notes:
             f.write(sandbox_text)
         collected_data = True
         
+        # 6. Extract app icon
+        logger.debug(f"Extracting icon for {app_name}")
+        icon_path = extract_app_icon(app_path, app_dir)
+        if icon_path:
+            logger.debug(f"Icon extracted for {app_name}: {icon_path}")
+        
+        # 7. Create JSON manifest for the app
+        manifest = {
+            "name": app_name,
+            "path": str(app_path),
+            "generated": datetime.now().isoformat(),
+            "sdef_count": sdef_count,
+            "has_icon": icon_path is not None,
+            "icon_path": icon_path,
+            "codesign": codesign_info,
+            "sandbox": sandbox_info
+        }
+        
+        manifest_file = app_dir / "manifest.json"
+        with open(manifest_file, 'w') as f:
+            json.dump(manifest, f, indent=2)
+        collected_data = True
+        
+        # 6. Extract app icon
+        logger.debug(f"Extracting app icon for {app_name}")
+        icon_path = extract_app_icon(app_path, app_dir)
+        
+        if icon_path:
+            # If icon extraction was successful, move the icon to the app directory
+            shutil.move(icon_path, app_dir / "icon.png")
+            logger.info(f"Extracted app icon for {app_name}")
+        else:
+            logger.debug(f"No app icon found for {app_name}")
+        
         if collected_data:
             logger.info(f"Processed {app_name}: {sdef_count} SDEF files + metadata")
         
@@ -814,6 +952,27 @@ def main():
         print(f"    - entitlements.plist (app entitlements)")
         print(f"    - info.plist (app metadata)")
         print(f"    - sandbox.txt (sandbox analysis)")
+        print(f"    - icon.png (app icon, if available)")
+        print(f"    - manifest.json (app summary)")
+        
+        # Generate webapp data index
+        print(f"\n📱 Generating webapp data...")
+        try:
+            from pathlib import Path
+            import subprocess
+            webapp_script = Path(__file__).parent / "generate_webapp_data.py"
+            if webapp_script.exists():
+                result = subprocess.run([sys.executable, str(webapp_script)], 
+                                       capture_output=True, text=True)
+                if result.returncode == 0:
+                    print(f"✅ Webapp data generated successfully")
+                else:
+                    print(f"⚠️ Warning: Failed to generate webapp data: {result.stderr}")
+            else:
+                print(f"⚠️ Warning: generate_webapp_data.py not found")
+        except Exception as e:
+            print(f"⚠️ Warning: Failed to generate webapp data: {e}")
+        print(f"    - icon.png (app icon)")
 
 if __name__ == "__main__":
     main()

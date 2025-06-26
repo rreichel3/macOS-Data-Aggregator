@@ -8,7 +8,22 @@ on:
     # Allow manual triggering
     inputs:
       force_update:
-        description: 'Force update even if no changes detected'
+        description: 'F    - name: Upload data as artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: macos-app-data-${{ steps.macos-version.outputs.version }}
+        path: data/
+        retention-days: 30
+        if-no-files-found: warn
+
+    - name: Trigger webapp deployment
+      if: steps.commit-changes.outputs.changes_committed == 'true'
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        event-type: data-updated
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'ate even if no changes detected'
         required: false
         default: 'false'
         type: boolean
