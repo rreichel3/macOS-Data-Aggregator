@@ -1,8 +1,8 @@
 {
-  "name": "sdef-webapp",
+  "name": "macos-data-aggregator",
   "version": "1.0.0",
   "description": "React webapp for displaying macOS application data",
-  "homepage": "https://rreichel3.github.io/sdef",
+  "homepage": "https://rreichel3.github.io/macos-data-aggregator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
