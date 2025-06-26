@@ -1,4 +1,4 @@
-name: Collect SDEF Files
+name: Collect macOS Application Data
 
 on:
   schedule:
@@ -59,26 +59,53 @@ jobs:
           rm -rf data
         fi
     
-    - name: Run SDEF collection script
+    - name: Run application data collection script
       run: |
-        echo "Collecting SDEF files..."
+        echo "Collecting macOS application data..."
         sudo python3 collect_sdef_files.py
         
-        # Count collected files
-        TOTAL_FILES=$(find data -name "*.sdef" | wc -l | tr -d ' ')
-        echo "Collected $TOTAL_FILES SDEF files"
-        echo "TOTAL_FILES=$TOTAL_FILES" >> $GITHUB_ENV
+        # Count collected data
+        TOTAL_APPS=$(find data -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
+        TOTAL_SDEF_FILES=$(find data -name "*.sdef" | wc -l | tr -d ' ')
+        TOTAL_CODESIGN_FILES=$(find data -name "codesign.txt" | wc -l | tr -d ' ')
+        TOTAL_ENTITLEMENTS_FILES=$(find data -name "entitlements.plist" | wc -l | tr -d ' ')
+        TOTAL_INFO_PLIST_FILES=$(find data -name "info.plist" | wc -l | tr -d ' ')
+        TOTAL_SANDBOX_FILES=$(find data -name "sandbox.txt" | wc -l | tr -d ' ')
+        
+        echo "Collection Summary:"
+        echo "- Applications processed: $TOTAL_APPS"
+        echo "- SDEF files collected: $TOTAL_SDEF_FILES"
+        echo "- Code signing files: $TOTAL_CODESIGN_FILES"
+        echo "- Entitlements files: $TOTAL_ENTITLEMENTS_FILES"
+        echo "- Info.plist files: $TOTAL_INFO_PLIST_FILES"
+        echo "- Sandbox analysis files: $TOTAL_SANDBOX_FILES"
+        
+        echo "TOTAL_APPS=$TOTAL_APPS" >> $GITHUB_ENV
+        echo "TOTAL_SDEF_FILES=$TOTAL_SDEF_FILES" >> $GITHUB_ENV
+        echo "TOTAL_CODESIGN_FILES=$TOTAL_CODESIGN_FILES" >> $GITHUB_ENV
+        echo "TOTAL_ENTITLEMENTS_FILES=$TOTAL_ENTITLEMENTS_FILES" >> $GITHUB_ENV
+        echo "TOTAL_INFO_PLIST_FILES=$TOTAL_INFO_PLIST_FILES" >> $GITHUB_ENV
+        echo "TOTAL_SANDBOX_FILES=$TOTAL_SANDBOX_FILES" >> $GITHUB_ENV
     
     - name: Check for changes
       id: changes
       run: |
         git add data/
         if git diff --cached --quiet; then
-          echo "No changes detected in SDEF files"
+          echo "No changes detected in application data"
           echo "has_changes=false" >> $GITHUB_OUTPUT
         else
-          echo "Changes detected in SDEF files"
+          echo "Changes detected in application data"
           echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+          # Generate diff summary
+          ADDED_FILES=$(git diff --cached --name-status | grep "^A" | wc -l | tr -d ' ')
+          MODIFIED_FILES=$(git diff --cached --name-status | grep "^M" | wc -l | tr -d ' ')
+          DELETED_FILES=$(git diff --cached --name-status | grep "^D" | wc -l | tr -d ' ')
+          
+          echo "ADDED_FILES=$ADDED_FILES" >> $GITHUB_ENV
+          echo "MODIFIED_FILES=$MODIFIED_FILES" >> $GITHUB_ENV
+          echo "DELETED_FILES=$DELETED_FILES" >> $GITHUB_ENV
         fi
     
     - name: Commit and push changes
@@ -90,9 +117,15 @@ jobs:
         
         # Commit changes
         git add data/
-        git commit -m "Update SDEF files for macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
+        git commit -m "Update macOS application data for ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
 
-        - Collected ${{ env.TOTAL_FILES }} SDEF files
+        - Processed ${{ env.TOTAL_APPS }} applications
+        - Collected ${{ env.TOTAL_SDEF_FILES }} SDEF files
+        - Generated ${{ env.TOTAL_CODESIGN_FILES }} code signing reports
+        - Extracted ${{ env.TOTAL_ENTITLEMENTS_FILES }} entitlements files
+        - Processed ${{ env.TOTAL_INFO_PLIST_FILES }} Info.plist files
+        - Created ${{ env.TOTAL_SANDBOX_FILES }} sandbox analyses
+        - File changes: +${{ env.ADDED_FILES || '0' }} ~${{ env.MODIFIED_FILES || '0' }} -${{ env.DELETED_FILES || '0' }}
         - Runner: ${{ runner.os }} ${{ steps.macos-version.outputs.version }}
         - Date: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
         
@@ -111,14 +144,19 @@ jobs:
         git push origin ":refs/tags/$TAG_NAME" 2>/dev/null || true
         
         # Create new tag
-        git tag -a "$TAG_NAME" -m "SDEF files for macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
+        git tag -a "$TAG_NAME" -m "macOS Application Data for ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }})
 
         Collected on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-        Total files: ${{ env.TOTAL_FILES }}
+        Applications processed: ${{ env.TOTAL_APPS }}
+        SDEF files: ${{ env.TOTAL_SDEF_FILES }}
+        Code signing reports: ${{ env.TOTAL_CODESIGN_FILES }}
+        Entitlements: ${{ env.TOTAL_ENTITLEMENTS_FILES }}
+        Info.plist files: ${{ env.TOTAL_INFO_PLIST_FILES }}
+        Sandbox analyses: ${{ env.TOTAL_SANDBOX_FILES }}
         Runner: GitHub Actions macOS runner
         
-        This tag contains all .sdef files found on macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }}).
-        Files are organized by application in the data/ directory."
+        This tag contains comprehensive application data from macOS ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }}).
+        Each application directory includes SDEF files, code signing data, entitlements, Info.plist, and sandbox analysis."
         
         # Push the tag
         git push origin "$TAG_NAME"
@@ -128,12 +166,17 @@ jobs:
     - name: Generate summary
       if: always()
       run: |
-        echo "## SDEF Collection Summary" >> $GITHUB_STEP_SUMMARY
+        echo "## macOS Application Data Collection Summary" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
         echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
         echo "| macOS Version | ${{ steps.macos-version.outputs.version }} (${{ steps.macos-version.outputs.name }}) |" >> $GITHUB_STEP_SUMMARY
-        echo "| Total SDEF Files | ${{ env.TOTAL_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Applications Processed | ${{ env.TOTAL_APPS || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| SDEF Files | ${{ env.TOTAL_SDEF_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Code Signing Reports | ${{ env.TOTAL_CODESIGN_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Entitlements Files | ${{ env.TOTAL_ENTITLEMENTS_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Info.plist Files | ${{ env.TOTAL_INFO_PLIST_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Sandbox Analyses | ${{ env.TOTAL_SANDBOX_FILES || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Changes Detected | ${{ steps.changes.outputs.has_changes || 'N/A' }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Tag Created | ${{ steps.macos-version.outputs.tag }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Timestamp | $(date -u '+%Y-%m-%d %H:%M:%S UTC') |" >> $GITHUB_STEP_SUMMARY
@@ -145,17 +188,36 @@ jobs:
           for dir in data/*/; do
             if [ -d "$dir" ]; then
               app_name=$(basename "$dir")
-              file_count=$(find "$dir" -name "*.sdef" | wc -l | tr -d ' ')
-              echo "- **$app_name**: $file_count file(s)" >> $GITHUB_STEP_SUMMARY
+              sdef_count=$(find "$dir/sdef" -name "*.sdef" 2>/dev/null | wc -l | tr -d ' ')
+              has_codesign=$([ -f "$dir/codesign.txt" ] && echo "✓" || echo "✗")
+              has_entitlements=$([ -f "$dir/entitlements.plist" ] && echo "✓" || echo "✗")
+              has_info_plist=$([ -f "$dir/info.plist" ] && echo "✓" || echo "✗")
+              has_sandbox=$([ -f "$dir/sandbox.txt" ] && echo "✓" || echo "✗")
+              echo "- **$app_name**: $sdef_count SDEF | Code:$has_codesign | Ent:$has_entitlements | Info:$has_info_plist | Sandbox:$has_sandbox" >> $GITHUB_STEP_SUMMARY
             fi
           done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Data Structure" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "data/" >> $GITHUB_STEP_SUMMARY
+          echo "├── ApplicationName1/" >> $GITHUB_STEP_SUMMARY
+          echo "│   ├── sdef/" >> $GITHUB_STEP_SUMMARY
+          echo "│   │   └── *.sdef" >> $GITHUB_STEP_SUMMARY
+          echo "│   ├── codesign.txt" >> $GITHUB_STEP_SUMMARY
+          echo "│   ├── entitlements.plist" >> $GITHUB_STEP_SUMMARY
+          echo "│   ├── info.plist" >> $GITHUB_STEP_SUMMARY
+          echo "│   └── sandbox.txt" >> $GITHUB_STEP_SUMMARY
+          echo "└── ..." >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
         fi
     
     - name: Upload data as artifact
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: sdef-files-macos-${{ steps.macos-version.outputs.version }}
+        name: macos-app-data-${{ steps.macos-version.outputs.version }}
         path: data/
         retention-days: 30
         if-no-files-found: warn

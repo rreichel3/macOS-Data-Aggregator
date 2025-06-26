@@ -1,39 +1,67 @@
 # sdef
-SDEF Aggregator
+macOS Application Data Aggregator
 
-[![Collect SDEF Files](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml/badge.svg)](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml)
+[![Collect macOS Application Data](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml/badge.svg)](https://github.com/rreichel3/sdef/actions/workflows/collect-sdef.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://www.apple.com/macos/)
 [![Python](https://img.shields.io/badge/Python-3.6+-green.svg)](https://www.python.org/)
 
-A collection tool for gathering and organizing all `.sdef` (Scripting Definition) files on macOS systems.
+A comprehensive tool for collecting and organizing macOS application data including SDEF files, code signing information, entitlements, Info.plist data, and sandbox analysis.
 
-## What are SDEF files?
+## What This Tool Collects
 
-SDEF files are XML-based Scripting Definition files used by macOS applications to define their AppleScript interfaces. They describe the objects, commands, and properties that can be controlled via AppleScript or JavaScript for Automation.
+This tool performs comprehensive analysis of all macOS applications and collects:
+
+### 📄 SDEF Files (Scripting Definitions)
+XML-based files that define AppleScript interfaces for applications, specifying objects, commands, and properties for automation.
+
+### 🔐 Code Signing Information
+- Digital signature status and validity
+- Signing authority and certificates
+- Team identifiers and sealed resources
+- Verification status
+
+### 🛡️ Entitlements
+- Security entitlements granted to applications
+- Sandbox permissions and capabilities
+- Hardened runtime settings
+- Special privileges and access rights
+
+### 📋 Info.plist Data
+- Application metadata and configuration
+- Bundle identifiers and version information
+- Supported file types and URL schemes
+- Application capabilities and requirements
+
+### 🏗️ Sandbox Analysis
+- App sandboxing status and type
+- Security restrictions and permissions
+- Hardened runtime analysis
+- Library validation settings
 
 ## Features
 
-- 🔍 Automatically finds all `.sdef` files on your Mac
-- 📱 Organizes files by application name in a clean directory structure
-- 🎯 Searches common locations including application bundles
-- 🛡️ Handles permission errors gracefully
-- 📊 Provides detailed progress and summary information
-- 🔄 Handles filename conflicts automatically
+- 🔍 **Comprehensive Discovery**: Finds all application bundles across the system
+- 📱 **Complete Data Collection**: Gathers SDEF files, code signing, entitlements, Info.plist, and sandbox data
+- 🎯 **Intelligent Organization**: Organizes data by application in a clean directory structure
+- 🛡️ **Security Analysis**: Analyzes code signing, sandboxing, and security entitlements
+- � **Detailed Reporting**: Provides comprehensive analysis and statistics
+- 🔄 **Conflict Handling**: Manages filename conflicts automatically
+- ⚡ **Efficient Processing**: Uses system tools for optimal performance
 
 ## Usage
 
-**⚠️ Important: Both scripts require sudo privileges to access system .sdef files.**
+**⚠️ Important: Both scripts require sudo privileges to access system applications and code signing data.**
 
-You can run either the Python script or the shell script - both do the same thing:
+You can run either the Python script or the shell script:
 
-### Option 1: Python Script (Recommended)
+### Python Script (Recommended)
 
 ```bash
 sudo python3 collect_sdef_files.py
 ```
 
-### Option 2: Shell Script
+### Shell Script
 
 ```bash
 sudo ./collect_sdef_files.sh
@@ -41,53 +69,82 @@ sudo ./collect_sdef_files.sh
 
 ## Output Structure
 
-The script creates a `data/` directory with the following structure:
+The script creates a `data/` directory with comprehensive application data:
 
 ```
 data/
 ├── ApplicationName1/
-│   ├── original_sdef_file1.sdef
-│   └── original_sdef_file2.sdef
+│   ├── sdef/
+│   │   ├── app_script_definition.sdef
+│   │   └── additional_definitions.sdef
+│   ├── codesign.txt          # Code signing information
+│   ├── entitlements.plist    # Security entitlements
+│   ├── info.plist           # Application metadata
+│   └── sandbox.txt          # Sandbox analysis
 ├── ApplicationName2/
-│   └── original_sdef_file.sdef
+│   ├── sdef/
+│   ├── codesign.txt
+│   ├── entitlements.plist
+│   ├── info.plist
+│   └── sandbox.txt
 └── ...
 ```
 
+### File Descriptions
+
+- **`sdef/`**: Directory containing all SDEF files for the application
+- **`codesign.txt`**: Code signing status, authority, team identifier, and verification results
+- **`entitlements.plist`**: Security entitlements and permissions in XML format
+- **`info.plist`**: Application metadata, bundle information, and capabilities in JSON format
+- **`sandbox.txt`**: Sandbox analysis including security restrictions and runtime settings
+
 ## Search Locations
 
-The script searches for `.sdef` files in:
+The script searches for applications in:
 
-- `/System/Library/ScriptingDefinitions`
-- `/Library/ScriptingDefinitions`
-- `/Applications` (and inside .app bundles)
-- `/System/Applications`
-- `/Developer/Applications`
-- `~/Applications`
+- `/Applications` (user applications)
+- `/System/Applications` (system applications)
+- `/System/Library/CoreServices` (core system services)
+- `/Developer/Applications` (development tools)
+- `~/Applications` (user-specific applications)
+- `/Library/Application Support` (support applications)
+- `/System/Library/Frameworks` (system frameworks with apps)
 
 ## Requirements
 
 - macOS (tested on modern versions)
 - Python 3.6+ (for Python script) or Bash (for shell script)
-- No external dependencies required
+- Sudo privileges for accessing system applications and code signing data
+- System tools: `codesign`, `plutil` (included with macOS)
+- No external Python dependencies required
 
 ## Example Output
 
 ```
-🔍 Starting SDEF file collection...
+🔍 Starting macOS application data collection...
 📂 Output directory: /path/to/sdef/data
-🔍 Searching for .sdef files...
-📄 Found 45 .sdef files
+🔍 Searching for application bundles...
+📄 Found 245 application bundles
 
 ✅ Collection complete!
-📊 Successfully copied 45 out of 45 .sdef files
-📂 Files organized in: /path/to/sdef/data
+� Processed 245 applications
+📄 Collected 67 SDEF files
+📂 Output directory: /path/to/sdef/data
 
-📁 Directory structure created:
-  📱 Finder/ (1 file)
-  📱 Safari/ (1 file)
-  📱 TextEdit/ (1 file)
-  📱 Terminal/ (1 file)
+Directory structure created:
+  📱 Safari/ (2 SDEF, 4 metadata files)
+  📱 TextEdit/ (1 SDEF, 4 metadata files)
+  📱 Terminal/ (1 SDEF, 4 metadata files)
+  📱 Xcode/ (3 SDEF, 4 metadata files)
   ...
+
+📊 Summary:
+  • Each app directory contains:
+    - sdef/ (SDEF files)
+    - codesign.txt (code signing info)
+    - entitlements.plist (app entitlements)
+    - info.plist (app metadata)
+    - sandbox.txt (sandbox analysis)
 ```
 
 ## GitHub Actions
@@ -98,7 +155,8 @@ This repository includes automated workflows to collect SDEF files on macOS runn
 
 - **File**: `.github/workflows/collect-sdef.yml`
 - **Schedule**: Runs daily at 6:00 AM UTC
-- **Function**: Automatically collects SDEF files and commits changes to main
+- **Function**: Automatically collects comprehensive application data and commits changes to main
+- **Data Collected**: SDEF files, code signing info, entitlements, Info.plist, sandbox analysis
 - **Tagging**: Creates/updates tags based on macOS version (e.g., `macos-14.5`)
 - **Manual Trigger**: Can be manually triggered via GitHub Actions UI
 
@@ -107,19 +165,21 @@ This repository includes automated workflows to collect SDEF files on macOS runn
 - **File**: `.github/workflows/release-sdef.yml`
 - **Trigger**: Manual only (workflow_dispatch)
 - **Function**: Creates comprehensive releases with:
-  - Complete SDEF file archive
+  - Complete application data archive
   - JSON manifest with collection metadata
   - Detailed release documentation
   - Versioned releases (v1.0.0, v1.1.0, etc.)
+- **Data Included**: All SDEF files, code signing reports, entitlements, Info.plist files, sandbox analyses
 
 ### Workflow Features
 
-- ✅ **Automated Collection**: Runs on GitHub's macOS runners with sudo privileges
+- ✅ **Comprehensive Collection**: Collects SDEF files, code signing data, entitlements, Info.plist, and sandbox analysis
 - 🏷️ **Smart Tagging**: Creates tags based on macOS version
-- 📦 **Release Artifacts**: Generates downloadable archives
-- 📊 **Detailed Reporting**: Provides collection statistics and summaries
-- 🔄 **Change Detection**: Only commits when files actually change
+- 📦 **Release Artifacts**: Generates downloadable archives with all application data
+- 📊 **Detailed Reporting**: Provides collection statistics and change summaries
+- 🔄 **Change Detection**: Only commits when application data actually changes
 - 📝 **Rich Documentation**: Auto-generates release notes and manifests
+- 🛡️ **Security Analysis**: Includes comprehensive security and sandbox analysis
 
 ### Permissions
 
