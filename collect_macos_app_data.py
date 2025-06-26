@@ -958,8 +958,6 @@ def main():
         # Generate webapp data index
         print(f"\n📱 Generating webapp data...")
         try:
-            from pathlib import Path
-            import subprocess
             webapp_script = Path(__file__).parent / "generate_webapp_data.py"
             if webapp_script.exists():
                 result = subprocess.run([sys.executable, str(webapp_script)], 
@@ -972,7 +970,6 @@ def main():
                 print(f"⚠️ Warning: generate_webapp_data.py not found")
         except Exception as e:
             print(f"⚠️ Warning: Failed to generate webapp data: {e}")
-        print(f"    - icon.png (app icon)")
 
 if __name__ == "__main__":
     main()
