@@ -1,5 +1,5 @@
 Sandbox Analysis for Screen Sharing
-Generated: 2025-06-26 18:34:17
+Generated: 2025-06-26 19:48:00
 Application Path: /System/Applications/Utilities/Screen Sharing.app
 
 Sandboxed: No

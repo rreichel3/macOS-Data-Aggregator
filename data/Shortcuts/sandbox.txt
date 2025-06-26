@@ -1,5 +1,5 @@
 Sandbox Analysis for Shortcuts
-Generated: 2025-06-26 18:36:02
+Generated: 2025-06-26 19:48:04
 Application Path: /System/Applications/Shortcuts.app
 
 Sandboxed: No

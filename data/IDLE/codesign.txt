@@ -1,6 +1,6 @@
 Code Signing Information for IDLE
-Generated: 2025-06-26 18:37:33
-Application Path: /Applications/Python 3.11/IDLE.app
+Generated: 2025-06-26 19:46:03
+Application Path: /Applications/Python 3.12/IDLE.app
 
 Signature Status: Valid
 Authority: Unknown

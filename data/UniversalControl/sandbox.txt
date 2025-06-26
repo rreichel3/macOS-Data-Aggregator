@@ -1,5 +1,5 @@
 Sandbox Analysis for UniversalControl
-Generated: 2025-06-26 18:36:49
+Generated: 2025-06-26 19:46:07
 Application Path: /System/Library/CoreServices/UniversalControl.app
 
 Sandboxed: Unknown

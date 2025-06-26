@@ -1,5 +1,5 @@
 Code Signing Information for Screenshot
-Generated: 2025-06-26 18:34:17
+Generated: 2025-06-26 19:48:06
 Application Path: /System/Applications/Utilities/Screenshot.app
 
 Signature Status: Valid

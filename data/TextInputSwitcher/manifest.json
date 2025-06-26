@@ -1,0 +1,26 @@
+{
+  "name": "TextInputSwitcher",
+  "path": "/System/Library/CoreServices/TextInputSwitcher.app",
+  "generated": "2025-06-26T19:45:18.441536",
+  "sdef_count": 0,
+  "has_icon": false,
+  "icon_path": null,
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "No",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "4",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Background app (LSUIElement)"
+    ]
+  }
+}

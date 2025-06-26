@@ -1,0 +1,26 @@
+{
+  "name": "Firefox",
+  "path": "/Applications/Firefox.app",
+  "generated": "2025-06-26T19:44:02.815137",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "43AQ936H96",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "8",
+    "hardened_runtime": "Yes (with exceptions)",
+    "library_validation": "Disabled",
+    "analysis_notes": [
+      "User application"
+    ]
+  }
+}

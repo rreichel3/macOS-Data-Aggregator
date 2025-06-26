@@ -1,5 +1,5 @@
 Sandbox Analysis for ProfileHelper
-Generated: 2025-06-26 18:33:45
+Generated: 2025-06-26 19:48:03
 Application Path: /System/Library/CoreServices/ProfileHelper.app
 
 Sandboxed: No

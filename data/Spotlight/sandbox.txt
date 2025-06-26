@@ -1,5 +1,5 @@
 Sandbox Analysis for Spotlight
-Generated: 2025-06-26 18:37:30
+Generated: 2025-06-26 19:48:06
 Application Path: /System/Library/CoreServices/Spotlight.app
 
 Sandboxed: Unknown

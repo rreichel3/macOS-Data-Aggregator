@@ -1,5 +1,5 @@
 Code Signing Information for rcd
-Generated: 2025-06-26 18:37:29
+Generated: 2025-06-26 19:48:42
 Application Path: /System/Library/CoreServices/rcd.app
 
 Signature Status: Valid

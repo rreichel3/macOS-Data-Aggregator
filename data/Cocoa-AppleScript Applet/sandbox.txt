@@ -1,5 +1,5 @@
 Sandbox Analysis for Cocoa-AppleScript Applet
-Generated: 2025-06-26 18:34:17
+Generated: 2025-06-26 19:48:04
 Application Path: /Library/Application Support/Script Editor/Templates/Cocoa-AppleScript Applet.app
 
 Sandboxed: Unknown

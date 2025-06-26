@@ -1,5 +1,5 @@
 Code Signing Information for loginwindow
-Generated: 2025-06-26 18:35:28
+Generated: 2025-06-26 19:48:02
 Application Path: /System/Library/CoreServices/loginwindow.app
 
 Signature Status: Valid

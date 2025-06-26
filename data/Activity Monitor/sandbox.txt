@@ -1,5 +1,5 @@
 Sandbox Analysis for Activity Monitor
-Generated: 2025-06-26 18:33:44
+Generated: 2025-06-26 19:48:42
 Application Path: /System/Applications/Utilities/Activity Monitor.app
 
 Sandboxed: Unknown

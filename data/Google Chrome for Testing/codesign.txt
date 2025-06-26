@@ -1,5 +1,5 @@
 Code Signing Information for Google Chrome for Testing
-Generated: 2025-06-26 18:36:51
+Generated: 2025-06-26 19:48:01
 Application Path: /Applications/Google Chrome for Testing.app
 
 Signature Status: Valid (Verification Failed)

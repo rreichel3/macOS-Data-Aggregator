@@ -1,0 +1,26 @@
+{
+  "name": "PowerShell",
+  "path": "/Applications/PowerShell.app",
+  "generated": "2025-06-26T19:46:07.947881",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Invalid or Unsigned (Verification Failed)",
+    "authority": "Unknown",
+    "identifier": "Unknown",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Unknown",
+    "error": "/Applications/PowerShell.app: code object is not signed at all"
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "0",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Unknown",
+    "analysis_notes": [
+      "User application"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 Code Signing Information for System Information
-Generated: 2025-06-26 18:34:18
+Generated: 2025-06-26 19:44:03
 Application Path: /System/Applications/Utilities/System Information.app
 
 Signature Status: Valid

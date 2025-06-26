@@ -1,0 +1,26 @@
+{
+  "name": "Clock",
+  "path": "/System/Applications/Clock.app",
+  "generated": "2025-06-26T19:47:23.187848",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "10",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "System application"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 Code Signing Information for Digital Color Meter
-Generated: 2025-06-26 18:36:52
+Generated: 2025-06-26 19:44:03
 Application Path: /System/Applications/Utilities/Digital Color Meter.app
 
 Signature Status: Valid

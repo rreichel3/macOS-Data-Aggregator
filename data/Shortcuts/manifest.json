@@ -1,0 +1,27 @@
+{
+  "name": "Shortcuts",
+  "path": "/System/Applications/Shortcuts.app",
+  "generated": "2025-06-26T19:48:04.873726",
+  "sdef_count": 1,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "No",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "98",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Uses App Transport Security",
+      "System application"
+    ]
+  }
+}

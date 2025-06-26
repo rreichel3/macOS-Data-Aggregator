@@ -1,5 +1,5 @@
 Sandbox Analysis for Image Capture
-Generated: 2025-06-26 18:37:29
+Generated: 2025-06-26 19:48:03
 Application Path: /System/Applications/Image Capture.app
 
 Sandboxed: No

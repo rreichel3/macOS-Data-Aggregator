@@ -1,5 +1,5 @@
 Sandbox Analysis for AOSUIPrefPaneLauncher
-Generated: 2025-06-26 18:36:45
+Generated: 2025-06-26 19:48:05
 Application Path: /System/Library/CoreServices/AOSUIPrefPaneLauncher.app
 
 Sandboxed: Unknown

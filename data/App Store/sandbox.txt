@@ -1,5 +1,5 @@
 Sandbox Analysis for App Store
-Generated: 2025-06-26 18:37:31
+Generated: 2025-06-26 19:45:20
 Application Path: /System/Applications/App Store.app
 
 Sandboxed: No

@@ -1,5 +1,5 @@
 Code Signing Information for Mission Control
-Generated: 2025-06-26 18:33:44
+Generated: 2025-06-26 19:48:05
 Application Path: /System/Applications/Mission Control.app
 
 Signature Status: Valid

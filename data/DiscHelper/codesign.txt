@@ -1,5 +1,5 @@
 Code Signing Information for DiscHelper
-Generated: 2025-06-26 18:36:51
+Generated: 2025-06-26 19:48:06
 Application Path: /System/Library/CoreServices/DiscHelper.app
 
 Signature Status: Valid

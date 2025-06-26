@@ -1,0 +1,26 @@
+{
+  "name": "Terminal",
+  "path": "/System/Applications/Utilities/Terminal.app",
+  "generated": "2025-06-26T19:43:59.523151",
+  "sdef_count": 1,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "2",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "System application"
+    ]
+  }
+}

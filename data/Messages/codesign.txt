@@ -1,5 +1,5 @@
 Code Signing Information for Messages
-Generated: 2025-06-26 18:36:50
+Generated: 2025-06-26 19:44:04
 Application Path: /System/Applications/Messages.app
 
 Signature Status: Valid

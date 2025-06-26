@@ -1,5 +1,5 @@
 Sandbox Analysis for Screen Time
-Generated: 2025-06-26 18:38:10
+Generated: 2025-06-26 19:48:01
 Application Path: /System/Library/CoreServices/Screen Time.app
 
 Sandboxed: Unknown

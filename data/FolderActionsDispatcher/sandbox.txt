@@ -1,5 +1,5 @@
 Sandbox Analysis for FolderActionsDispatcher
-Generated: 2025-06-26 18:33:45
+Generated: 2025-06-26 19:44:01
 Application Path: /System/Library/CoreServices/FolderActionsDispatcher.app
 
 Sandboxed: Unknown

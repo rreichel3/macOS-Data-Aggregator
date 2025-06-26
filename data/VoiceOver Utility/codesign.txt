@@ -1,5 +1,5 @@
 Code Signing Information for VoiceOver Utility
-Generated: 2025-06-26 18:36:50
+Generated: 2025-06-26 19:48:05
 Application Path: /System/Applications/Utilities/VoiceOver Utility.app
 
 Signature Status: Valid

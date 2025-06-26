@@ -1,5 +1,5 @@
 Sandbox Analysis for Keychain Circle Notification
-Generated: 2025-06-26 18:37:29
+Generated: 2025-06-26 19:44:01
 Application Path: /System/Library/CoreServices/Keychain Circle Notification.app
 
 Sandboxed: Unknown

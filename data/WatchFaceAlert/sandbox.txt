@@ -1,5 +1,5 @@
 Sandbox Analysis for WatchFaceAlert
-Generated: 2025-06-26 18:37:34
+Generated: 2025-06-26 19:43:59
 Application Path: /System/Library/CoreServices/WatchFaceAlert.app
 
 Sandboxed: No

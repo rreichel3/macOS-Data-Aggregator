@@ -1,5 +1,5 @@
 Code Signing Information for RegisterPluginIMApp
-Generated: 2025-06-26 18:36:51
+Generated: 2025-06-26 19:48:01
 Application Path: /System/Library/CoreServices/RegisterPluginIMApp.app
 
 Signature Status: Valid

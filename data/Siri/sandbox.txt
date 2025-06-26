@@ -1,12 +1,13 @@
 Sandbox Analysis for Siri
-Generated: 2025-06-26 18:38:10
-Application Path: /System/Library/CoreServices/Siri.app
+Generated: 2025-06-26 19:45:14
+Application Path: /System/Applications/Siri.app
 
-Sandboxed: No
+Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 27
+Entitlements Count: 0
 Hardened Runtime: Unknown
-Library Validation: Enabled
+Library Validation: Unknown
 
 Analysis Notes:
 - Background app (LSUIElement)
+- System application

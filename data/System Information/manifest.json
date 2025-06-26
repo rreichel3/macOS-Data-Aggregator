@@ -1,0 +1,27 @@
+{
+  "name": "System Information",
+  "path": "/System/Applications/Utilities/System Information.app",
+  "generated": "2025-06-26T19:44:03.286059",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "No",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "54",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Background app (LSUIElement)",
+      "System application"
+    ]
+  }
+}

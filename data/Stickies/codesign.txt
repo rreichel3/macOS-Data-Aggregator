@@ -1,5 +1,5 @@
 Code Signing Information for Stickies
-Generated: 2025-06-26 18:34:19
+Generated: 2025-06-26 19:48:42
 Application Path: /System/Applications/Stickies.app
 
 Signature Status: Valid

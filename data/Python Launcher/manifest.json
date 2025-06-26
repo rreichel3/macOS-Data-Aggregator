@@ -1,0 +1,24 @@
+{
+  "name": "Python Launcher",
+  "path": "/Applications/Python 3.12/Python Launcher.app",
+  "generated": "2025-06-26T19:46:04.215463",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "BMM5U3QVKW",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "4",
+    "hardened_runtime": "Yes",
+    "library_validation": "Disabled",
+    "analysis_notes": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Xcode_15.0.1",
+  "path": "/Applications/Xcode_15.0.1.app",
+  "generated": "2025-06-26T19:45:14.382653",
+  "sdef_count": 3,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "59GAB85EFG",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_15.0.1.app']' timed out after 30 seconds"
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "37",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "User application"
+    ]
+  }
+}

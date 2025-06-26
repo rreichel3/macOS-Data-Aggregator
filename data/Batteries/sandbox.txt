@@ -1,5 +1,5 @@
 Sandbox Analysis for Batteries
-Generated: 2025-06-26 18:34:19
+Generated: 2025-06-26 19:45:17
 Application Path: /System/Library/CoreServices/Batteries.app
 
 Sandboxed: No

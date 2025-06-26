@@ -1,5 +1,5 @@
 Code Signing Information for Dwell Control
-Generated: 2025-06-26 18:38:09
+Generated: 2025-06-26 19:45:19
 Application Path: /System/Library/CoreServices/Dwell Control.app
 
 Signature Status: Valid

@@ -1,0 +1,27 @@
+{
+  "name": "Google Chrome",
+  "path": "/Applications/Google Chrome.app",
+  "generated": "2025-06-26T19:48:05.432781",
+  "sdef_count": 1,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "EQHXZ8M8AV",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "11",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Uses App Transport Security",
+      "User application"
+    ]
+  }
+}

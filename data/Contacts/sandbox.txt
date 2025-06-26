@@ -1,5 +1,5 @@
 Sandbox Analysis for Contacts
-Generated: 2025-06-26 18:37:35
+Generated: 2025-06-26 19:48:04
 Application Path: /System/Applications/Contacts.app
 
 Sandboxed: No

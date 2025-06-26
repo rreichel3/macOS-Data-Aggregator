@@ -1,5 +1,5 @@
 Sandbox Analysis for VoiceMemos
-Generated: 2025-06-26 18:36:51
+Generated: 2025-06-26 19:45:20
 Application Path: /System/Applications/VoiceMemos.app
 
 Sandboxed: No

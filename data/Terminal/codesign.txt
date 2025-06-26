@@ -1,5 +1,5 @@
 Code Signing Information for Terminal
-Generated: 2025-06-26 18:37:33
+Generated: 2025-06-26 19:43:59
 Application Path: /System/Applications/Utilities/Terminal.app
 
 Signature Status: Valid

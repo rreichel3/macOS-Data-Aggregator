@@ -1,5 +1,5 @@
 Sandbox Analysis for StageManagerOnboarding
-Generated: 2025-06-26 18:33:45
+Generated: 2025-06-26 19:47:23
 Application Path: /System/Library/CoreServices/StageManagerOnboarding.app
 
 Sandboxed: No

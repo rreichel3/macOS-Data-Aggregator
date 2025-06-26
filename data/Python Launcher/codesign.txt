@@ -1,5 +1,5 @@
 Code Signing Information for Python Launcher
-Generated: 2025-06-26 18:36:50
+Generated: 2025-06-26 19:46:04
 Application Path: /Applications/Python 3.12/Python Launcher.app
 
 Signature Status: Valid

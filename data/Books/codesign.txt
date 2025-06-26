@@ -1,5 +1,5 @@
 Code Signing Information for Books
-Generated: 2025-06-26 18:34:18
+Generated: 2025-06-26 19:48:42
 Application Path: /System/Applications/Books.app
 
 Signature Status: Valid

@@ -1,0 +1,26 @@
+{
+  "name": "Automator Application Stub",
+  "path": "/System/Library/CoreServices/Automator Application Stub.app",
+  "generated": "2025-06-26T19:48:02.032997",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid (Verification Failed)",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "No",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "0",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Unknown",
+    "analysis_notes": [
+      "Background app (LSUIElement)"
+    ]
+  }
+}
