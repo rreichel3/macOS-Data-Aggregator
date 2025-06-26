@@ -156,21 +156,22 @@ def extract_code_signing_info(app_path: Path) -> Dict[str, str]:
 
 def extract_entitlements(app_path: Path) -> Optional[str]:
     """
-    Extract entitlements from an application.
+    Extract and format entitlements from an application.
     
     Args:
         app_path: Path to the .app bundle
         
     Returns:
-        Entitlements as XML string, or None if not found
+        Entitlements as nicely formatted XML string, or None if not found
     """
     try:
         result = subprocess.run([
             'codesign', '-d', '--entitlements', ':-', str(app_path)
         ], capture_output=True, text=True, timeout=30)
         
+        raw_xml = None
         if result.returncode == 0 and result.stdout.strip():
-            return result.stdout
+            raw_xml = result.stdout
         else:
             # Try alternative method for some apps
             result = subprocess.run([
@@ -178,7 +179,53 @@ def extract_entitlements(app_path: Path) -> Optional[str]:
             ], capture_output=True, text=True, timeout=30)
             
             if result.returncode == 0 and result.stdout.strip():
-                return result.stdout
+                raw_xml = result.stdout
+        
+        if raw_xml:
+            # Format the XML nicely
+            try:
+                # Parse the XML
+                root = ET.fromstring(raw_xml)
+                
+                # Create a formatted XML string with proper indentation
+                ET.indent(root, space="  ", level=0)
+                formatted_xml = ET.tostring(root, encoding='unicode', xml_declaration=True)
+                
+                # Add a header comment for clarity
+                header = f"""<!-- Entitlements for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+
+"""
+                return header + formatted_xml
+                
+            except ET.ParseError as e:
+                logger.debug(f"XML parsing failed for {app_path}, returning raw data: {e}")
+                # If parsing fails, at least clean up the raw XML a bit
+                lines = raw_xml.strip().split('\n')
+                cleaned_lines = []
+                for line in lines:
+                    stripped = line.strip()
+                    if stripped:  # Skip empty lines
+                        cleaned_lines.append(stripped)
+                
+                # Add basic indentation
+                formatted_lines = []
+                indent_level = 0
+                for line in cleaned_lines:
+                    if line.startswith('</') and not line.startswith('<?'):
+                        indent_level = max(0, indent_level - 1)
+                    
+                    formatted_lines.append('  ' * indent_level + line)
+                    
+                    if line.startswith('<') and not line.startswith('<?') and not line.startswith('</') and not line.endswith('/>'):
+                        indent_level += 1
+                
+                header = f"""<!-- Entitlements for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+<!-- Note: XML formatting may be basic due to parsing issues -->
+
+"""
+                return header + '\n'.join(formatted_lines)
                 
     except (subprocess.TimeoutExpired, subprocess.SubprocessError) as e:
         logger.debug(f"Entitlements extraction failed for {app_path}: {e}")
@@ -187,13 +234,13 @@ def extract_entitlements(app_path: Path) -> Optional[str]:
 
 def extract_info_plist(app_path: Path) -> Optional[str]:
     """
-    Extract and format Info.plist from an application.
+    Extract and format Info.plist from an application as nicely formatted XML.
     
     Args:
         app_path: Path to the .app bundle
         
     Returns:
-        Formatted Info.plist as string, or None if not found
+        Formatted Info.plist as XML string, or None if not found
     """
     info_plist_path = app_path / "Contents" / "Info.plist"
     
@@ -201,29 +248,74 @@ def extract_info_plist(app_path: Path) -> Optional[str]:
         return None
     
     try:
-        # Read the plist file
+        # Use plutil to convert to nicely formatted XML
+        result = subprocess.run([
+            'plutil', '-convert', 'xml1', '-o', '-', str(info_plist_path)
+        ], capture_output=True, text=True, timeout=30)
+        
+        if result.returncode == 0 and result.stdout.strip():
+            raw_xml = result.stdout
+            
+            try:
+                # Parse and reformat the XML for consistent indentation
+                root = ET.fromstring(raw_xml)
+                ET.indent(root, space="  ", level=0)
+                formatted_xml = ET.tostring(root, encoding='unicode', xml_declaration=True)
+                
+                # Add a header comment for clarity
+                header = f"""<!-- Info.plist for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+<!-- Source: {info_plist_path} -->
+
+"""
+                return header + formatted_xml
+                
+            except ET.ParseError as e:
+                logger.debug(f"XML formatting failed for {app_path}, returning raw plutil output: {e}")
+                # Add basic header even if formatting fails
+                header = f"""<!-- Info.plist for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+<!-- Source: {info_plist_path} -->
+
+"""
+                return header + raw_xml
+        
+    except (subprocess.TimeoutExpired, subprocess.SubprocessError) as e:
+        logger.debug(f"plutil conversion failed for {app_path}: {e}")
+    
+    # Fallback: try reading the plist directly and convert manually
+    try:
         with open(info_plist_path, 'rb') as f:
             plist_data = plistlib.load(f)
         
-        # Convert to formatted JSON for readability
-        return json.dumps(plist_data, indent=2, default=str)
+        # Convert back to plist XML format using plistlib
+        xml_bytes = plistlib.dumps(plist_data, fmt=plistlib.FMT_XML)
+        raw_xml = xml_bytes.decode('utf-8')
+        
+        try:
+            # Parse and reformat for consistent indentation
+            root = ET.fromstring(raw_xml)
+            ET.indent(root, space="  ", level=0)
+            formatted_xml = ET.tostring(root, encoding='unicode', xml_declaration=True)
+            
+            header = f"""<!-- Info.plist for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+<!-- Source: {info_plist_path} -->
+
+"""
+            return header + formatted_xml
+            
+        except ET.ParseError:
+            # Last resort: return raw XML with header
+            header = f"""<!-- Info.plist for {app_path.name} -->
+<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
+<!-- Source: {info_plist_path} -->
+
+"""
+            return header + raw_xml
         
     except (OSError, plistlib.InvalidFileException) as e:
-        logger.debug(f"Info.plist reading failed for {app_path}: {e}")
-        
-        # Fallback: try using plutil
-        try:
-            result = subprocess.run([
-                'plutil', '-convert', 'json', '-o', '-', str(info_plist_path)
-            ], capture_output=True, text=True, timeout=30)
-            
-            if result.returncode == 0:
-                # Reformat the JSON for consistency
-                plist_data = json.loads(result.stdout)
-                return json.dumps(plist_data, indent=2, default=str)
-                
-        except (subprocess.SubprocessError, json.JSONDecodeError) as e2:
-            logger.debug(f"plutil fallback failed for {app_path}: {e2}")
+        logger.debug(f"Direct plist reading failed for {app_path}: {e}")
     
     return None
 
@@ -233,7 +325,7 @@ def analyze_sandbox_info(app_path: Path, info_plist_data: Optional[str], entitle
     
     Args:
         app_path: Path to the .app bundle
-        info_plist_data: Info.plist data as JSON string
+        info_plist_data: Info.plist data as XML string
         entitlements: Entitlements as XML string
         
     Returns:
@@ -281,23 +373,60 @@ def analyze_sandbox_info(app_path: Path, info_plist_data: Optional[str], entitle
     # Check Info.plist for additional sandbox indicators
     if info_plist_data:
         try:
-            plist_data = json.loads(info_plist_data)
+            # Parse XML plist data
+            # First, try to extract just the plist content (remove comments)
+            plist_content = info_plist_data
+            if '<?xml' in plist_content:
+                # Find the start of the actual plist
+                plist_start = plist_content.find('<?xml')
+                plist_content = plist_content[plist_start:]
             
-            # Check for LSUIElement (background app)
-            if plist_data.get('LSUIElement'):
-                sandbox_info['analysis_notes'].append('Background app (LSUIElement)')
+            # Parse the XML and convert to a dictionary
+            root = ET.fromstring(plist_content)
             
-            # Check for LSBackgroundOnly
-            if plist_data.get('LSBackgroundOnly'):
-                sandbox_info['analysis_notes'].append('Background only app')
-            
-            # Check for specific frameworks that indicate sandboxing
-            frameworks = plist_data.get('LSRequiresIPhoneOS', False)
-            if frameworks:
-                sandbox_info['analysis_notes'].append('iOS app on macOS')
+            # Find the main dict element
+            dict_element = root.find('dict')
+            if dict_element is not None:
+                # Parse plist dict structure
+                plist_dict = {}
+                children = list(dict_element)
+                for i in range(0, len(children), 2):
+                    if i + 1 < len(children) and children[i].tag == 'key':
+                        key = children[i].text
+                        value_elem = children[i + 1]
+                        
+                        # Extract value based on type
+                        if value_elem.tag == 'true':
+                            plist_dict[key] = True
+                        elif value_elem.tag == 'false':
+                            plist_dict[key] = False
+                        elif value_elem.tag == 'string':
+                            plist_dict[key] = value_elem.text or ''
+                        elif value_elem.tag == 'integer':
+                            plist_dict[key] = int(value_elem.text or 0)
+                        else:
+                            plist_dict[key] = value_elem.text or ''
                 
-        except json.JSONDecodeError as e:
-            sandbox_info['analysis_notes'].append(f"Info.plist parsing error: {e}")
+                # Check for LSUIElement (background app)
+                if plist_dict.get('LSUIElement'):
+                    sandbox_info['analysis_notes'].append('Background app (LSUIElement)')
+                
+                # Check for LSBackgroundOnly
+                if plist_dict.get('LSBackgroundOnly'):
+                    sandbox_info['analysis_notes'].append('Background only app')
+                
+                # Check for specific frameworks that indicate sandboxing
+                if plist_dict.get('LSRequiresIPhoneOS'):
+                    sandbox_info['analysis_notes'].append('iOS app on macOS')
+                
+                # Check for app transport security
+                if 'NSAppTransportSecurity' in plist_dict:
+                    sandbox_info['analysis_notes'].append('Uses App Transport Security')
+                    
+        except (ET.ParseError, ValueError) as e:
+            sandbox_info['analysis_notes'].append(f"Info.plist XML parsing error: {e}")
+        except Exception as e:
+            sandbox_info['analysis_notes'].append(f"Info.plist analysis error: {e}")
     
     # Additional system-level checks
     try:

@@ -51,21 +51,12 @@ XML-based files that define AppleScript interfaces for applications, specifying 
 
 ## Usage
 
-**⚠️ Important: Both scripts require sudo privileges to access system applications and code signing data.**
-
-You can run either the Python script or the shell script:
-
-### Python Script (Recommended)
+**⚠️ Important: The script requires sudo privileges to access system applications and code signing data.**
 
 ```bash
 sudo python3 collect_sdef_files.py
 ```
 
-### Shell Script
-
-```bash
-sudo ./collect_sdef_files.sh
-```
 
 ## Output Structure
 
