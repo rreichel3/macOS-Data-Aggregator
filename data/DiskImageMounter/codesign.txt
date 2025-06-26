@@ -1,0 +1,9 @@
+Code Signing Information for DiskImageMounter
+Generated: 2025-06-26 16:32:34
+Application Path: /System/Library/CoreServices/DiskImageMounter.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

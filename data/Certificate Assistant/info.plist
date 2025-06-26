@@ -1,0 +1,65 @@
+{
+  "AFAssistantBackgroundImageFileName": "Certificate Assistant Window Graphic",
+  "AFAssistantSectionBundles": [
+    "0_Introduction",
+    "1_CreateCertificateSelf",
+    "2_SetDefaultCA",
+    "3_CreateAndConfigure",
+    "4_CreateCertificateOther",
+    "5_RequestCertificate",
+    "7_EvalCerts"
+  ],
+  "AFAssistantTitle": "Certificate Assistant",
+  "Application-Group": "dot-mac",
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Certificate Assistant",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "certAuthorityConfig"
+      ],
+      "CFBundleTypeName": "certAuthorityConfig",
+      "CFBundleTypeRole": "Editor"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "*"
+      ],
+      "CFBundleTypeName": "*",
+      "CFBundleTypeRole": "Editor"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "certSigningRequest"
+      ],
+      "CFBundleTypeName": "certSigningRequest",
+      "CFBundleTypeRole": "Editor"
+    }
+  ],
+  "CFBundleExecutable": "Certificate Assistant",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.CertificateAssistant",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Certificate Assistant",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "5.0",
+  "CFBundleSignature": "crta",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "55202",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H619",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H619",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

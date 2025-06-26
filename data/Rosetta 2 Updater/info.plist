@@ -1,0 +1,31 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Rosetta 2 Updater",
+  "CFBundleExecutable": "Rosetta 2 Updater",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.OAHSoftwareUpdateApp",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Rosetta 2 Updater",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H503",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H503",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true
+}

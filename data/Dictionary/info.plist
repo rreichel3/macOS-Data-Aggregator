@@ -1,0 +1,86 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Dictionary",
+  "CFBundleExecutable": "Dictionary",
+  "CFBundleHelpBookFolder": "Dictionary.help",
+  "CFBundleHelpBookName": "com.apple.Dictionary.help",
+  "CFBundleIconFile": "AppIconLoc",
+  "CFBundleIconName": "AppIconLoc",
+  "CFBundleIdentifier": "com.apple.Dictionary",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleLocalizations": [
+    "ar",
+    "el",
+    "he",
+    "hi",
+    "ja",
+    "ko",
+    "th",
+    "zh_CN",
+    "zh_HK",
+    "zh_TW"
+  ],
+  "CFBundleName": "Dictionary",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.3.0",
+  "CFBundleSignature": "dics",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLSchemes": [
+        "x-dictionary"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLSchemes": [
+        "dict"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    }
+  ],
+  "CFBundleVersion": "294",
+  "CTIgnoreUserFonts": true,
+  "DCSUseNetworkDictionaries": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "dictionary",
+  "LSApplicationCategoryType": "public.app-category.reference",
+  "LSMinimumSystemVersion": "14.7",
+  "MyDefaultSettings": {
+    "DefaultFoundCountCap": 1000,
+    "UseWikipediaAPIToFetchHTML": "YES",
+    "WikipediaFoundCountCap": 30,
+    "WikipediaRequestTimeout": 30,
+    "contextual menu behavior": 0
+  },
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "DictionaryBrowserApp",
+  "NSServices": [
+    {
+      "NSMenuItem": {
+        "default": "Look Up in Dictionary"
+      },
+      "NSMessage": "doLookupService",
+      "NSPortName": "Dictionary",
+      "NSSendTypes": [
+        "NSStringPboardType"
+      ]
+    }
+  ],
+  "NSSupportsSuddenTermination": true,
+  "com.apple.PreferenceSync.ExcludeSyncKeys": [
+    "window frames"
+  ]
+}

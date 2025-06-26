@@ -1,0 +1,12 @@
+Sandbox Analysis for Print Center
+Generated: 2025-06-26 16:31:59
+Application Path: /System/Applications/Utilities/Print Center.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

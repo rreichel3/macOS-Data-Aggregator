@@ -1,0 +1,9 @@
+Code Signing Information for Script Editor
+Generated: 2025-06-26 16:33:58
+Application Path: /System/Applications/Utilities/Script Editor.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

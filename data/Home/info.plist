@@ -1,0 +1,111 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Home",
+  "CFBundleExecutable": "Home",
+  "CFBundleHelpBookFolder": "Home.help",
+  "CFBundleHelpBookName": "com.apple.Home.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Home",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Home",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "8.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes-iphoneos": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLName": "com.apple.Home.URLScheme",
+      "CFBundleURLSchemes": [
+        "com.apple.Home"
+      ]
+    }
+  ],
+  "CFBundleURLTypes-macos": [],
+  "CFBundleURLTypes-visionos": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLName": "com.apple.Home.URLScheme",
+      "CFBundleURLSchemes": [
+        "com.apple.Home"
+      ]
+    }
+  ],
+  "CFBundleVersion": "873.7.6",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "home",
+  "LSCounterpartIdentifiers": [
+    "com.apple.NanoHome"
+  ],
+  "LSIsAppleDefaultForScheme": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSRequiresIPhoneOS-iphoneos": true,
+  "NSAccentColorName": "AccentColor",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2018-2023 Apple Inc. All rights reserved.",
+  "NSLocationUsageDescription": "Home uses your location for setting up accessory automations, like turning off the lights when you leave your house, and to enable Siri to help you control accessories.",
+  "NSLocationWhenInUseUsageDescription": "Home uses your precise location to locate your home when you set up accessory automations, such as turning off the lights when you leave your house.",
+  "NSRegulatoryPrivacyDisclosure": {
+    "NSRegulatoryPrivacyDisclosureCamera": "Camera access allows you to scan HomeKit accessory setup codes, and take wallpaper photos.",
+    "NSRegulatoryPrivacyDisclosureContacts": "Contacts access allows you to invite people to join your home and see the names and contact photos of people in your home. The app will ask permission before accessing your contacts.",
+    "NSRegulatoryPrivacyDisclosureLocation": "Location access allows Home to show the precise location of your address when you set up accessory automation. The app will ask permission before accessing your location.",
+    "NSRegulatoryPrivacyDisclosureMicrophone": "Microphone access allows you to send intercom messages, and other communications to HomeKit cameras.",
+    "NSRegulatoryPrivacyDisclosurePhotos": "Photo Library access allows you to use your photos as wallpaper and manage familiar faces detected by HomeKit cameras.",
+    "NSRegulatoryPrivacyDisclosureVersion": "1.0"
+  },
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "ClimateSensorTypeConfigurationIntent",
+    "SecurityAccessoryConfigurationIntent",
+    "com.apple.home.useractivity"
+  ],
+  "PrivateURLSchemes-iphoneos": [
+    "com.apple.Home-private",
+    "X-HM"
+  ],
+  "PrivateURLSchemes-macos": [],
+  "PrivateURLSchemes-xros": [
+    "com.apple.Home-private",
+    "X-HM"
+  ],
+  "SBUninstallIconOverrideStringsFile": "HOAppRemoval",
+  "UIApplicationShowsViewsWhileLocked": true,
+  "UIBackgroundModes": [
+    "audio"
+  ],
+  "UIDeviceFamily": [
+    2
+  ],
+  "UILaunchStoryboardName": "Launch",
+  "UIMenuBarItemTitleAbout": "About Home",
+  "UIMenuBarItemTitleHelp": "Home Help",
+  "UIMenuBarItemTitleHide": "Hide Home",
+  "UIMenuBarItemTitleQuit": "Quit Home",
+  "UIRequiredDeviceCapabilities": [
+    "armv7"
+  ],
+  "UIStatusBarStyle": "UIStatusBarStyleLightContent",
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "_LSSupportsRemoval": true
+}

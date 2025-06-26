@@ -1,0 +1,12 @@
+Sandbox Analysis for WiFiAgent
+Generated: 2025-06-26 16:36:25
+Application Path: /System/Library/CoreServices/WiFiAgent.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

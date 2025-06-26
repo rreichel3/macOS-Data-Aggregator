@@ -1,0 +1,12 @@
+Sandbox Analysis for PowerChime
+Generated: 2025-06-26 16:32:33
+Application Path: /System/Library/CoreServices/PowerChime.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

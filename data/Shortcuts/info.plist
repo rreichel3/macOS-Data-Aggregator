@@ -1,0 +1,243 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Shortcuts",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Shortcut",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.shortcut",
+        "com.apple.shortcuts.workflow-file"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "workflow"
+      ],
+      "CFBundleTypeName": "Workflow",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "app"
+      ],
+      "CFBundleTypeName": "Application",
+      "CFBundleTypeOSTypes": [
+        "APPL"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Shortcuts",
+  "CFBundleHelpBookFolder": "Shortcuts.help",
+  "CFBundleHelpBookName": "com.apple.shortcuts.remote.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.shortcuts",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Shortcuts",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "7.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "is.workflow.app.url-scheme",
+      "CFBundleURLSchemes": [
+        "shortcuts-production",
+        "shortcuts",
+        "workflow"
+      ]
+    }
+  ],
+  "CFBundleVersion": "2607.1.5",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H601s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H601s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "shortcuts-mac",
+  "LSMinimumSystemVersion": "14.7",
+  "LSSupportsOpeningDocumentsInPlace": true,
+  "NSAppTransportSecurity": {
+    "NSAllowsArbitraryLoads": true,
+    "NSExceptionDomains": {
+      "akamaihd.net": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false,
+        "NSThirdPartyExceptionRequiresForwardSecrecy": false
+      },
+      "api.giphy.com": {
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "api.pinboard.in": {
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false,
+        "NSThirdPartyExceptionRequiresForwardSecrecy": false
+      },
+      "dropbox.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "dropboxapi.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "evernote.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "getpocket.com": {
+        "NSIncludesSubdomains": false,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "imgur-apiv3.p.mashape.com": {
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false,
+        "NSThirdPartyExceptionRequiresForwardSecrecy": false
+      },
+      "instapaper.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "todoist.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "tumblr.com": {
+        "NSIncludesSubdomains": false,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      },
+      "yinxiang.com": {
+        "NSIncludesSubdomains": true,
+        "NSThirdPartyExceptionAllowsInsecureHTTPLoads": false
+      }
+    }
+  },
+  "NSAppleEventsUsageDescription": "Shortcuts uses automation to perform actions with other applications.",
+  "NSAppleMusicUsageDescription": "Shortcuts needs access to your music library in order to run music-related actions.",
+  "NSAppleScriptEnabled": true,
+  "NSCalendarsUsageDescription": "Shortcuts needs access to your calendar in order to run calendar-related actions.",
+  "NSCameraUsageDescription": "Shortcuts needs access to your camera in order to run shortcuts that use the camera.",
+  "NSContactsUsageDescription": "Shortcuts needs access to your contacts in order to run contacts-related actions.",
+  "NSDockTilePlugIn": "Shortcuts.docktileplugin",
+  "NSHealthShareUsageDescription": "Shortcuts needs access to your health data in order to run health-related actions.",
+  "NSHealthUpdateUsageDescription": "Shortcuts needs access to update your health data in order to run health-related actions.",
+  "NSHomeKitUsageDescription": "Shortcuts needs access to your HomeKit accessories in order to run HomeKit-related actions.",
+  "NSLocationUsageDescription": "Shortcuts needs to access your location in order to run location-based actions.",
+  "NSLocationWhenInUseUsageDescription": "Shortcuts needs to access your location in order to run location-based actions.",
+  "NSMicrophoneUsageDescription": "Shortcuts needs access to your microphone in order to run microphone-related actions.",
+  "NSMotionUsageDescription": "Shortcuts needs access to your motion and fitness data in order to run motion-related actions.",
+  "NSPhotoLibraryAddUsageDescription": "Shortcuts needs access to your photo library in order to run photo-related actions.",
+  "NSPhotoLibraryUsageDescription": "Shortcuts needs access to your photo library in order to run photo-related actions.",
+  "NSPrincipalClass": "NSApplication",
+  "NSRemindersUsageDescription": "Shortcuts needs access to your reminders in order to run reminders-related actions.",
+  "NSSpeechRecognitionUsageDescription": "Shortcuts needs permission to use speech recognition in order to run speech-related actions.",
+  "NSUbiquitousContainers": {
+    "iCloud.is.workflow.my.workflows": {
+      "NSUbiquitousContainerIsDocumentScopePublic": true,
+      "NSUbiquitousContainerName": "Shortcuts",
+      "NSUbiquitousContainerSupportedFolderLevels": "Any"
+    }
+  },
+  "NSUserActivityTypes": [
+    "INRunWorkflowIntent",
+    "is.workflow.my.app.continueworkflow",
+    "is.workflow.my.app.openurl",
+    "is.workflow.my.app.runaction",
+    "is.workflow.my.app.viewworkflow"
+  ],
+  "OSAScriptingDefinition": "Shortcuts.sdef",
+  "UNUserNotificationCenter": {
+    "UNDaemonShouldReceiveBackgroundResponses": true,
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true,
+      "UNSettingSounds": true
+    },
+    "UNHideSettings": true,
+    "UNSuppressUserAuthorizationPrompt": true,
+    "UNUniversalApplicationIdentifier": "com.apple.shortcuts"
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.content"
+      ],
+      "UTTypeDescription": "Shortcut",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.shortcut",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "shortcut"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.property-list",
+        "public.content"
+      ],
+      "UTTypeDescription": "Shortcut",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.shortcuts.workflow-file",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "wflow"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Shortcuts Action",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.shortcuts.action",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Shortcuts Action",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.shortcuts.contextual-action",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeDescription": "Shortcut",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.shortcuts.workflow-reference",
+      "UTTypeTagSpecification": {}
+    }
+  ],
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "Automator Workflow Document",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.automator-workflow",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "workflow"
+        ]
+      }
+    }
+  ]
+}

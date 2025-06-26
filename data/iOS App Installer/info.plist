@@ -1,0 +1,50 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "iOS App Installer",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.itunes.ipa"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "iOS App Installer",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.IPAInstaller",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "iOS App Installer",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "Store Services URL",
+      "CFBundleURLSchemes": [
+        "itms-services"
+      ]
+    }
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+  "NSMainStoryboardFile": "Main",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true
+}

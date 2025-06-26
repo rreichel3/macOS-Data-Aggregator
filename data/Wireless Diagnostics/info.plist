@@ -1,0 +1,87 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Wireless Diagnostics",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "wdmon"
+      ],
+      "CFBundleTypeIconFile": "WirelessDiagnostics.icns",
+      "CFBundleTypeName": "Wireless Diagnostics Monitor File",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.wireless-diagnostics.wdmon"
+      ],
+      "LSTypeIsPackage": 0,
+      "NSDocumentClass": "WDSignalGraphDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "wdsidecar"
+      ],
+      "CFBundleTypeIconFile": "WirelessDiagnostics.icns",
+      "CFBundleTypeName": "Wireless Diagnostics Sidecar File",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.wireless-diagnostics.wdsidecar"
+      ],
+      "LSTypeIsPackage": 0,
+      "NSDocumentClass": "WDSidecarGraphDocument"
+    }
+  ],
+  "CFBundleExecutable": "Wireless Diagnostics",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.wifi.diagnostics",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Wireless Diagnostics",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "11.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1163",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H618",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H618",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2012-2019 Apple Inc.\\nAll rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Wireless Diagnostics Monitor File",
+      "UTTypeIconFile": "WirelessDiagnostics.icns",
+      "UTTypeIdentifier": "com.apple.wireless-diagnostics.wdmon",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "wdmon"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Wireless Diagnostics Sidecar File",
+      "UTTypeIconFile": "WirelessDiagnostics.icns",
+      "UTTypeIdentifier": "com.apple.wireless-diagnostics.wdsidecar",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "wdsidecar"
+        ]
+      }
+    }
+  ]
+}

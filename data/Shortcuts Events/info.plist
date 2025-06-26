@@ -1,0 +1,28 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "Shortcuts Events",
+  "CFBundleIdentifier": "com.apple.shortcuts.events",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Shortcuts Events",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H601s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H601s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSAppleScriptEnabled": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
+  "NSPrincipalClass": "NSApplication",
+  "OSAScriptingDefinition": "Shortcuts.sdef"
+}

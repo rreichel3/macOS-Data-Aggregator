@@ -1,0 +1,9 @@
+Code Signing Information for Photos
+Generated: 2025-06-26 16:33:55
+Application Path: /System/Applications/Photos.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

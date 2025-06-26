@@ -1,0 +1,29 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "PowerChime",
+  "CFBundleIdentifier": "com.apple.PowerChime",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "PowerChime",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSMainNibFile": "Application",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true
+}

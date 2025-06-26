@@ -1,0 +1,112 @@
+{
+  "BSServiceDomains": {
+    "com.apple.preview-shell.host-agent-pipe": {
+      "MachName": "com.apple.preview-shell.host-agent-pipe-services",
+      "Services": {
+        "com.apple.uv.pipe-service": {
+          "LaunchWhitelisted": true
+        }
+      }
+    },
+    "com.apple.preview-shell.host-shell-pipe": {
+      "MachName": "com.apple.preview-shell.host-shell-pipe-services",
+      "Services": {
+        "com.apple.uv.pipe-service": {
+          "LaunchWhitelisted": true
+        }
+      }
+    },
+    "com.apple.preview-shell.shell-agent-pipe": {
+      "MachName": "com.apple.preview-shell.shell-agent-pipe-services",
+      "Services": {
+        "com.apple.uv.pipe-service": {
+          "LaunchWhitelisted": true
+        }
+      }
+    },
+    "com.apple.preview-shell.system": {
+      "MachName": "com.apple.preview-shell.system-services",
+      "Services": {
+        "com.apple.frontboard.system-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.frontboard.workspace-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uis.applicationSupportService": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.agent-control-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.agent-jit-bootstrap-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.agent-preview-nonui-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.agent-preview-scene-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.daemon-preview-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.uv.xcode-preview-service": {
+          "LaunchWhitelisted": true
+        }
+      }
+    }
+  },
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "PreviewShell",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.PreviewShell",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Xcode Previews",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "15.3",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "21.40.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSBackgroundOnly": true,
+  "LSLaunchDLabel": "com.apple.previewshellapp",
+  "LSMinimumSystemVersion": "14.7",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "SBMachServices": [
+    "com.apple.preview-shell.system-services",
+    "com.apple.preview-shell.host-agent-pipe-services",
+    "com.apple.preview-shell.host-shell-pipe-services",
+    "com.apple.preview-shell.shell-agent-pipe-services"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": false,
+    "UISceneConfigurations": {}
+  },
+  "UIDeviceFamily": [
+    2
+  ],
+  "UILaunchStoryboardName": "LaunchScreen-iOS",
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ]
+}

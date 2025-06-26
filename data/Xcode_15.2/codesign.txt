@@ -1,0 +1,11 @@
+Code Signing Information for Xcode_15.2
+Generated: 2025-06-26 16:33:17
+Application Path: /Applications/Xcode_15.2.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: 59GAB85EFG
+Team Identifier: Unknown
+Sealed Resources: Yes
+
+Error: Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_15.2.app']' timed out after 30 seconds

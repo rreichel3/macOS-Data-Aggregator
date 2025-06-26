@@ -1,0 +1,9 @@
+Code Signing Information for Software Update
+Generated: 2025-06-26 16:36:26
+Application Path: /System/Library/CoreServices/Software Update.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

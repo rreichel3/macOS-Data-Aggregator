@@ -1,0 +1,102 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Clock",
+  "CFBundleExecutable": "Clock",
+  "CFBundleHelpBookFolder": "clock.help",
+  "CFBundleHelpBookName": "com.apple.clock.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIcons": {
+    "CFBundlePrimaryIcon": {
+      "NSAppIconActionTintOverrideColorName": "AppShortcutsTint",
+      "NSAppIconComplementingColorNames": [
+        "AppIconComplementingColor",
+        "AppShortcutsComplementingSecondary"
+      ]
+    }
+  },
+  "CFBundleIdentifier": "com.apple.clock",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.1",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "62",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "clock-mac",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSAccentColorName": "Accent Color",
+  "NSAppleMusicUsageDescription": "Remove this when media supports private entitlements",
+  "NSDockTilePlugIn": "ClockDockTile.docktileplugin",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2007-2023 Apple Inc. All rights reserved.",
+  "NSLocationWhenInUseUsageDescription": "Translated in InfoPlist.strings",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "MTCreateAlarmIntent",
+    "MTDisableAlarmIntent",
+    "MTEnableAlarmIntent",
+    "MTGetAlarmsIntent",
+    "MTToggleAlarmIntent",
+    "MTUpdateAlarmIntent",
+    "com.apple.clock.alarm",
+    "com.apple.clock.stopwatch",
+    "com.apple.clock.timer",
+    "com.apple.clock.wakealarm",
+    "com.apple.clock.worldclock"
+  ],
+  "PrivateURLSchemes": [
+    "clock-worldclock",
+    "clock-alarm",
+    "clock-stopwatch",
+    "clock-sleep-alarm",
+    "clock-timer",
+    "clock-timer-running"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": false
+  },
+  "UIApplicationShowsViewsWhileLocked": true,
+  "UIApplicationSystemWindowsSecureKey": true,
+  "UIDeviceFamily": [
+    6
+  ],
+  "UILaunchStoryboardName": "LaunchScreen",
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UIUserInterfaceStyle": "Dark",
+  "UNUserNotificationCenter": {
+    "UNDaemonShouldReceiveBackgroundResponses": true,
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingAlwaysShowPreviews": true,
+      "UNSettingCarPlay": true,
+      "UNSettingLockScreen": true,
+      "UNSettingModalAlertStyle": true,
+      "UNSettingNotificationCenter": true,
+      "UNSettingSounds": true
+    },
+    "UNHideSettings": true,
+    "UNSuppressDismissalSync": true,
+    "UNSuppressUserAuthorizationPrompt": true,
+    "UNUniversalApplicationIdentifier": "com.apple.clock"
+  }
+}

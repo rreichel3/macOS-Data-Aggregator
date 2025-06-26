@@ -1,0 +1,30 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "BluetoothUIServer",
+  "CFBundleGetInfoString": "kBluetoothCFBundleGetInfoString",
+  "CFBundleIconFile": "Bluetooth.icns",
+  "CFBundleIdentifier": "com.apple.BluetoothUIServer",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "BluetoothUIServer",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "9.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H621",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H621",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": "1",
+  "NSHumanReadableCopyright": "kBluetoothNSHumanReadableCopyright",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

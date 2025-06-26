@@ -1,0 +1,9 @@
+Code Signing Information for VoiceOver Utility
+Generated: 2025-06-26 16:31:57
+Application Path: /System/Applications/Utilities/VoiceOver Utility.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,57 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Batteries",
+  "CFBundleExecutable": "Batteries",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Batteries",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Batteries",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "ViewPossibleDevicesIntent"
+  ],
+  "SBAppTags": [
+    "hidden"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true,
+    "UISceneConfigurations": {}
+  },
+  "UIApplicationSupportsIndirectInputEvents": true,
+  "UIDeviceFamily": [
+    2
+  ],
+  "UILaunchScreen": {
+    "UILaunchScreen": {}
+  },
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~iphone": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ]
+}

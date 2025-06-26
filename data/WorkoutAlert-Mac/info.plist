@@ -1,0 +1,62 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "WorkoutAlert-Mac",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeIconFiles": [
+        "AppIcon"
+      ],
+      "CFBundleTypeName": "Workout Configuration",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.workout"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "WorkoutAlert-Mac",
+  "CFBundleIdentifier": "com.apple.WorkoutAlert-Mac",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "WorkoutAlert-Mac",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSBackgroundOnly": true,
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Workout Configuration",
+      "UTTypeIconFiles": [
+        "workout-1024@1x.png",
+        "workout-1024@2x.png"
+      ],
+      "UTTypeIdentifier": "com.apple.workout",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "workout"
+        ]
+      }
+    }
+  ]
+}

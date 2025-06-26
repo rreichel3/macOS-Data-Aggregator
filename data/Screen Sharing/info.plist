@@ -1,0 +1,77 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Screen Sharing",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "vncloc"
+      ],
+      "CFBundleTypeIconFile": "InternetLocationVNC",
+      "CFBundleTypeName": "VNC Internet Location",
+      "CFBundleTypeOSTypes": [
+        "ilvn"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ssdownload"
+      ],
+      "CFBundleTypeIconFile": "ssdownload",
+      "CFBundleTypeName": "Screen Sharing Downloads",
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Screen Sharing",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.ScreenSharing",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Screen Sharing",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "4.3",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "vnc URL",
+      "CFBundleURLSchemes": [
+        "vnc"
+      ]
+    }
+  ],
+  "CFBundleVersion": "594.2.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H302",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H302",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSAppleScriptEnabled": true,
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "SSApplication",
+  "NSSupportsSuddenTermination": "NO",
+  "OSAScriptingDefinition": "ScreenSharing.sdef",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.item"
+      ],
+      "UTTypeDescription": "DraggableConnectionsItem",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.ScreenSharing.DraggableConnectionsItem",
+      "UTTypeTagSpecification": {}
+    }
+  ]
+}

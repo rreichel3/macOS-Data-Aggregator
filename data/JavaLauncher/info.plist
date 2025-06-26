@@ -1,0 +1,60 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "class"
+      ],
+      "CFBundleTypeIconFile": "class.icns",
+      "CFBundleTypeName": "Java class file",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "jar"
+      ],
+      "CFBundleTypeIconFile": "jar.icns",
+      "CFBundleTypeName": "Java JAR file",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "jnlp"
+      ],
+      "CFBundleTypeIconFile": "jnlp.icns",
+      "CFBundleTypeMIMETypes": [
+        "application/x-java-jnlp-file"
+      ],
+      "CFBundleTypeName": "Java network launch protocol file",
+      "CFBundleTypeRole": "Viewer"
+    }
+  ],
+  "CFBundleExecutable": "JavaLauncher",
+  "CFBundleIconFile": "JavaLauncher.icns",
+  "CFBundleIdentifier": "com.apple.JavaLauncher",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "JavaLauncher",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "321",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "321",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2005-2020, Apple Inc. All Rights Reserved.",
+  "NSMainNibFile": "Default",
+  "NSPrincipalClass": "NSApplication"
+}

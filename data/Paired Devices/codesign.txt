@@ -1,0 +1,9 @@
+Code Signing Information for Paired Devices
+Generated: 2025-06-26 16:32:40
+Application Path: /System/Library/CoreServices/Paired Devices.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

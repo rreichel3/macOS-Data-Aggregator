@@ -1,0 +1,23 @@
+{
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "KeyboardAccessAgent",
+  "CFBundleExecutable": "KeyboardAccessAgent",
+  "CFBundleIconFile": "KeyboardAccessAgent",
+  "CFBundleIdentifier": "com.apple.KeyboardAccessAgent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "KeyboardAccessAgent",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "10",
+  "CFBundleSignature": "????",
+  "CFBundleVersion": "920.17",
+  "LSBackgroundOnly": true,
+  "LSLaunchDLabel": "com.apple.KeyboardAccessAgent",
+  "LSMinimumSystemVersion": "10.7.0",
+  "LSUIElement": "1",
+  "NSAppleScriptEnabled": true,
+  "NSHighResolutionCapable": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2020-2023 Apple Inc. All Rights Reserved.",
+  "NSSupportsSuddenTermination": "YES",
+  "POSIXSpawnType": "Interactive"
+}

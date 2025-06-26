@@ -1,0 +1,27 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "TMHelperAgent",
+  "CFBundleIdentifier": "com.apple.timemachine.HelperAgent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "TMHelperAgent",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "13",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H621",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H621",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "HelperAgent",
+  "NSPrincipalClass": "NSApplication"
+}

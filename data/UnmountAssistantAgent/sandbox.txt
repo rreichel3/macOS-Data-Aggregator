@@ -1,0 +1,12 @@
+Sandbox Analysis for UnmountAssistantAgent
+Generated: 2025-06-26 16:34:01
+Application Path: /System/Library/CoreServices/UnmountAssistantAgent.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

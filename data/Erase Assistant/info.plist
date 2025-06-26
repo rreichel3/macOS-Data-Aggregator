@@ -1,0 +1,30 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFAppleHelpAnchor": "mchl7676b710",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "Erase Assistant",
+  "CFBundleHelpBookName": "com.apple.machelp",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIdentifier": "com.apple.EraseAssistant",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Erase Assistant",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

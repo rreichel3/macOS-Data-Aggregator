@@ -1,0 +1,12 @@
+Sandbox Analysis for Google Chrome for Testing
+Generated: 2025-06-26 16:35:11
+Application Path: /Applications/Google Chrome for Testing.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- User application

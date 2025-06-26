@@ -1,0 +1,249 @@
+{
+  "AppleEventSupported": true,
+  "BuildMachineOSBuild": "22A380019",
+  "CAProcessCanAccessGPU": true,
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Messages",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "Image",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "None",
+      "LSItemContentTypes": [
+        "public.image"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Audiovisual content",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "None",
+      "LSItemContentTypes": [
+        "public.audiovisual-content"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Plain Text",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "None",
+      "LSItemContentTypes": [
+        "public.utf8-plain-text"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "Messages",
+  "CFBundleHelpBookFolder": "MobileSMS.help",
+  "CFBundleHelpBookName": "com.apple.MobileSMS.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIcons": {},
+  "CFBundleIcons~ipad": {},
+  "CFBundleIdentifier": "com.apple.MobileSMS",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Messages",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "14.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "SMS URL",
+      "CFBundleURLSchemes": [
+        "sms"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    },
+    {
+      "CFBundleURLIsPrivate": true,
+      "CFBundleURLName": "SMS Private URL",
+      "CFBundleURLSchemes": [
+        "sms-private"
+      ]
+    },
+    {
+      "CFBundleURLName": "Message Store URL",
+      "CFBundleURLSchemes": [
+        "itms-messages",
+        "itms-messagess"
+      ]
+    },
+    {
+      "CFBundleURLName": "IMSG",
+      "CFBundleURLSchemes": [
+        "imessage"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    },
+    {
+      "CFBundleURLName": "iChat URL",
+      "CFBundleURLSchemes": [
+        "iChat"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    },
+    {
+      "CFBundleURLName": "Messages URL",
+      "CFBundleURLSchemes": [
+        "Messages"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    },
+    {
+      "CFBundleURLName": "CPIM",
+      "CFBundleURLSchemes": [
+        "im"
+      ],
+      "LSIsAppleDefaultForScheme": true
+    }
+  ],
+  "CFBundleVersion": "1262.700.71.1.6",
+  "CoreSpotlightContinuation": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H601s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H601s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "messages",
+  "LSCounterpartIdentifiers": [
+    "com.apple.MobileSMS"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "MDItemKeywords": "Messages iChat iMessage",
+  "NSAppleScriptEnabled": true,
+  "NSCalendarsUsageDescription": "Calendar access allows Messages to show suggestions related to current or upcoming events.",
+  "NSFocusStatusUsageDescription": "When you\u2019re using Do Not Disturb or another Focus, Messages will let your contacts know that you have notifications silenced.",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2002\u20132023 Apple Inc. All rights reserved.",
+  "NSLocationTemporaryUsageDescriptionDictionary": {
+    "SendLocationDescription": "Your precise location is used to send your current location."
+  },
+  "NSLocationWhenInUseUsageDescription": "You can send your location to someone in an iMessage.",
+  "NSPhotoLibraryAddUsageDescription": "Photo library write access allows you to add photos from your conversations to your photo library.",
+  "NSPrincipalClass": "SMSApplication",
+  "NSRegulatoryPrivacyDisclosure": {
+    "NSRegulatoryPrivacyDisclosureCallRecords": "If your device supports Dual SIM, access to your call records allows Messages to associate a contact with a preferred SIM.",
+    "NSRegulatoryPrivacyDisclosureCamera": "Camera access allows you to take photos or create a Memoji to add to your contacts or share in Messages.",
+    "NSRegulatoryPrivacyDisclosureContacts": "Contacts access allows Messages to show the names and photos of people in your conversations. The app will ask permission before accessing your contacts.",
+    "NSRegulatoryPrivacyDisclosureLocation": "Location access allows you to share your location in conversations. The app will ask permission before accessing your location.",
+    "NSRegulatoryPrivacyDisclosureMediaLibrary": "Media Library access allows you to share currently playing or recently played music in Messages.",
+    "NSRegulatoryPrivacyDisclosureMicrophone": "Microphone access allows you to record audio messages and to send messages with Memoji.",
+    "NSRegulatoryPrivacyDisclosurePhoneNumber": "Phone number access allows Messages to use your phone number to send and receive iMessages.",
+    "NSRegulatoryPrivacyDisclosurePhotos": "Photos access allows you to share your photos in Messages.",
+    "NSRegulatoryPrivacyDisclosureSMSData": "SMS data access allows you to send and receive SMS messages.",
+    "NSRegulatoryPrivacyDisclosureSummary": "To allow you to easily send and receive messages with your contacts, Messages will securely access sensors and your data such as your SMS data, contacts, and phone number. It may also access your call records if your device supports Dual SIM.",
+    "NSRegulatoryPrivacyDisclosureTitle": "Welcome to Messages",
+    "NSRegulatoryPrivacyDisclosureVersion": "1.0"
+  },
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "com.apple.Messages",
+    "com.apple.Messages.StateRestoration"
+  ],
+  "OSAScriptingDefinition": "Messages",
+  "SBAppTags~ipad": [],
+  "SBAppTags~iphone": [],
+  "SBAppTags~ipod": [],
+  "SBMatchingApplicationGenres": [
+    "Productivity",
+    "Utilities",
+    "Social Networking"
+  ],
+  "SBPreferredPriorityBand": "PriorityBandSuspended",
+  "SBStarkLaunchModes": [
+    "Default",
+    "Siri"
+  ],
+  "SPDatastoreVersion": 1,
+  "SPSearchBundle": "SMSSearch",
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true,
+    "UIApplicationSupportsSceneItemProviders": true,
+    "UISceneConfigurations": {
+      "CPTemplateApplicationSceneSessionRoleApplication": [
+        {
+          "UISceneClassName": "CPTemplateApplicationScene",
+          "UISceneConfigurationName": "Messages-Car",
+          "UISceneDelegateClassName": "CKStarkManager"
+        }
+      ],
+      "UIWindowSceneSessionRoleSimplifiedApplication": [
+        {
+          "UISceneConfigurationName": "Messages-ClarityUI",
+          "UISceneDelegateClassName": "CKClarityUISceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIApplicationShortcutItems": [
+    {
+      "UIApplicationShortcutItemIconType": "UIApplicationShortcutIconTypeCompose",
+      "UIApplicationShortcutItemTitle": "NEW_MESSAGE_ACTION",
+      "UIApplicationShortcutItemType": "com.apple.mobilesms.newmessage"
+    }
+  ],
+  "UIBackgroundModes": [
+    "audio"
+  ],
+  "UIDeviceFamily": [
+    2
+  ],
+  "UIGlobalUserInterfaceIdiomMac": true,
+  "UILaunchStoryboardName": "LaunchScreen",
+  "UIStatusBarTintParameters": {
+    "UINavigationBar": {
+      "Style": "UIBarStyleDefault"
+    }
+  },
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~iphone": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~ipod": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportsClarityUI": true,
+  "UIUserInterfaceIdiomMac": true,
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UNUserNotificationCenter": {
+    "UNAllowCriticalAlerts": true,
+    "UNAutomaticallyShowSettings": true,
+    "UNCustomSettingsBundle": "MessagesNotificationFiltering",
+    "UNCustomSettingsDetailControllerClass": "MessagesNotificationFilteringController",
+    "UNDaemonShouldReceiveBackgroundResponses": true,
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingBadges": true,
+      "UNSettingCarPlay": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true,
+      "UNSettingSounds": true,
+      "UNSettingSpoken": true
+    },
+    "UNSuppressDismissalSync": true,
+    "UNSuppressUserAuthorizationPrompt": true,
+    "UNUniversalApplicationIdentifier": "com.apple.MobileSMS"
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.item"
+      ],
+      "UTTypeIdentifier": "com.apple.messages.CKConversation",
+      "UTTypeTagSpecification": {}
+    }
+  ]
+}

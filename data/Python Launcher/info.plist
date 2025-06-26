@@ -1,0 +1,39 @@
+{
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "py",
+        "pyw"
+      ],
+      "CFBundleTypeIconFile": "PythonSource.icns",
+      "CFBundleTypeName": "Python Script",
+      "CFBundleTypeRole": "Viewer",
+      "NSDocumentClass": "MyDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "pyc",
+        "pyo"
+      ],
+      "CFBundleTypeIconFile": "PythonCompiled.icns",
+      "CFBundleTypeName": "Python Bytecode Document",
+      "CFBundleTypeRole": "Viewer",
+      "NSDocumentClass": "MyDocument"
+    }
+  ],
+  "CFBundleExecutable": "Python Launcher",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2001-2024 Python Software Foundation",
+  "CFBundleGetInfoString": "3.13.5, \u00a9 2001-2024 Python Software Foundation",
+  "CFBundleIconFile": "PythonLauncher.icns",
+  "CFBundleIdentifier": "org.python.PythonLauncher",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Python Launcher",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "3.13.5",
+  "CFBundleSignature": "PytL",
+  "CFBundleVersion": "3.13.5",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSAppleEventsUsageDescription": "Python Launcher uses Apple events to launch your Python script in a Terminal window."
+}

@@ -1,0 +1,50 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "*"
+      ],
+      "CFBundleTypeOSTypes": [
+        "****"
+      ],
+      "CFBundleTypeRole": "Viewer"
+    }
+  ],
+  "CFBundleExecutable": "CocoaApplet",
+  "CFBundleIconFile": "applet",
+  "CFBundleIdentifier": "com.apple.ScriptEditor.id.cocoa-applet-template",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "CocoaApplet",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSignature": "aplt",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1.0",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "NSAppleEventsUsageDescription": "This script needs to control other applications to run.",
+  "NSAppleMusicUsageDescription": "This script needs access to your music to run.",
+  "NSCalendarsUsageDescription": "This script needs access to your calendars to run.",
+  "NSCameraUsageDescription": "This script needs access to your camera to run.",
+  "NSContactsUsageDescription": "This script needs access to your contacts to run.",
+  "NSHomeKitUsageDescription": "This script needs access to your HomeKit Home to run.",
+  "NSMainNibFile": "MainMenu",
+  "NSMicrophoneUsageDescription": "This script needs access to your microphone to run.",
+  "NSPhotoLibraryUsageDescription": "This script needs access to your photos to run.",
+  "NSPrincipalClass": "NSApplication",
+  "NSRemindersUsageDescription": "This script needs access to your reminders to run.",
+  "NSSiriUsageDescription": "This script needs access to Siri to run.",
+  "NSSystemAdministrationUsageDescription": "This script needs access to administer this system to run."
+}

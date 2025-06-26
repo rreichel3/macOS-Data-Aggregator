@@ -1,0 +1,9 @@
+Code Signing Information for Freeform
+Generated: 2025-06-26 16:34:00
+Application Path: /System/Applications/Freeform.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

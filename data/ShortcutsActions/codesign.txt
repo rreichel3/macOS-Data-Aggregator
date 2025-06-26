@@ -1,0 +1,9 @@
+Code Signing Information for ShortcutsActions
+Generated: 2025-06-26 16:36:26
+Application Path: /System/Library/CoreServices/ShortcutsActions.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

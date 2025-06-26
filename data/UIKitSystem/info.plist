@@ -1,0 +1,53 @@
+{
+  "BSServiceDomains": {
+    "com.apple.frontboard": {
+      "MachName": "com.apple.frontboard.systemappservices",
+      "Services": {
+        "com.apple.frontboard.system-service": {
+          "LaunchWhitelisted": true
+        },
+        "com.apple.frontboard.workspace-service": {
+          "LaunchWhitelisted": true,
+          "Options": {
+            "InjectEndpoint": false
+          }
+        },
+        "com.apple.fuseboard.accessibility-service": {
+          "LaunchWhitelisted": true
+        }
+      }
+    }
+  },
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "UIKitSystem",
+  "CFBundleIdentifier": "com.apple.UIKitSystemApp",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "UIKitSystem",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "504",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "FBSRootSceneHost": false,
+  "LSBackgroundOnly": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2017-2018 Apple Inc. All rights reserved.",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "UIDeviceFamily": [
+    2
+  ],
+  "UIRequiredDeviceCapabilities": [
+    "x86_64"
+  ]
+}

@@ -1,0 +1,9 @@
+Code Signing Information for BluetoothUIServer
+Generated: 2025-06-26 16:32:36
+Application Path: /System/Library/CoreServices/BluetoothUIServer.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

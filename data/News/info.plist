@@ -1,0 +1,145 @@
+{
+  "BGTaskSchedulerPermittedIdentifiers": [
+    "com.apple.news.backgroundFetchManager"
+  ],
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "News",
+  "CFBundleExecutable": "News",
+  "CFBundleHelpBookFolder": "News.help",
+  "CFBundleHelpBookName": "com.apple.News.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.news",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "News",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "9.5",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "com.apple.NewsCustomScheme",
+      "CFBundleURLSchemes": [
+        "applenews",
+        "applenewss"
+      ]
+    }
+  ],
+  "CFBundleVersion": "5419",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23G300t",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G300t",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "news",
+  "LSApplicationQueriesSchemes": [
+    "sports"
+  ],
+  "LSCounterpartIdentifiers": [
+    "com.apple.nanonews"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "LSSupportedRegions": [
+    "US",
+    "GB",
+    "AU",
+    "CA"
+  ],
+  "NSAccentColorName": "NewsAccentColor",
+  "NSCalendarsFullAccessUsageDescription": "This will let you add events from News to your calendar.",
+  "NSCalendarsUsageDescription": "This will let you add events from News to your calendar.",
+  "NSContactsUsageDescription": "",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+  "NSLocationDefaultAccuracyReduced": true,
+  "NSLocationUsageDescription": "Get top local news and weather, and locally relevant search results and ads.",
+  "NSLocationWhenInUseUsageDescription": "Get top local news and weather, and locally relevant search results and ads.",
+  "NSPhotoLibraryAddUsageDescription": "",
+  "NSPhotoLibraryUsageDescription": "",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "TagIntent",
+    "TodayIntent",
+    "com.apple.news.articleViewing",
+    "com.apple.news.feedBrowsing",
+    "com.apple.news.feedBackCatalog",
+    "com.apple.news.forYou",
+    "com.apple.news.history",
+    "com.apple.news.saved",
+    "com.apple.news.magazineSections",
+    "com.apple.news.link"
+  ],
+  "SBAppUsesLocalNotifications": true,
+  "SBMatchingApplicationGenres": [
+    "News",
+    "Reference",
+    "Entertainment",
+    "Productivity",
+    "Education",
+    "Business"
+  ],
+  "UIAppFonts": [],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": "1",
+    "UISceneConfigurations": {
+      "UIWindowSceneSessionRoleApplication": [
+        {
+          "UISceneClassName": "TeaUI.WindowScene",
+          "UISceneConfigurationName": "Default Configuration",
+          "UISceneDelegateClassName": "NewsUI2.SceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIApplicationShortcutItems": [
+    {
+      "UIApplicationShortcutItemIconFile": "ios_for_you_icon_large",
+      "UIApplicationShortcutItemTitle": "ApplicationShortcutItemForYou",
+      "UIApplicationShortcutItemType": "com.apple.news.openforyou"
+    }
+  ],
+  "UIApplicationShortcutWidget": "com.apple.news.widget",
+  "UIBackgroundModes": [
+    "audio",
+    "fetch",
+    "remote-notification"
+  ],
+  "UIDeviceFamily": [
+    6
+  ],
+  "UILaunchStoryboardName": "LaunchScreen",
+  "UIMenuBarItemTitleAbout": "About News",
+  "UIMenuBarItemTitleHelp": "News Help",
+  "UIMenuBarItemTitleHide": "Hide News",
+  "UIMenuBarItemTitleQuit": "Quit News",
+  "UIRequiredDeviceCapabilities": [
+    "armv7"
+  ],
+  "UIStatusBarHidden": false,
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UIUserInterfaceStyle": "Automatic",
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UIViewEdgeAntialiasing": false,
+  "UIViewGroupOpacity": false,
+  "UIWhitePointAdaptivityStyle": "UIWhitePointAdaptivityStyleReading",
+  "UNUserNotificationCenter": {
+    "UNSuppressUserAuthorizationPrompt": false
+  },
+  "_LSSupportsRemoval": true
+}

@@ -1,0 +1,84 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "BuildNumber": "58",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Help Viewer",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "help"
+      ],
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "macOS Help Bundle",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSIsAppleDefaultForType": true,
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Help Viewer",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.helpviewer",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Help Viewer",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "7.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLSchemes": [
+        "help",
+        "x-apple-helpbasic"
+      ],
+      "LSHandlerRank": "Default",
+      "LSIsAppleDefaultForScheme": true
+    }
+  ],
+  "CFBundleVersion": "473",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": "YES",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "UNUserNotificationCenter": {
+    "UNAutomaticallyShowSettings": true,
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingAlwaysShowPreviews": false,
+      "UNSettingLockScreen": true,
+      "UNSettingModalAlertStyle": true,
+      "UNSettingNotificationCenter": true
+    },
+    "UNSuppressUserAuthorizationPrompt": true
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "com.apple.bundle"
+      ],
+      "UTTypeDescription": "macOS Help Bundle",
+      "UTTypeIcons": {
+        "UTTypeIconName": "AppIcon",
+        "UTTypeIconText": "HELP"
+      },
+      "UTTypeIdentifier": "com.apple.help",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": "help"
+      }
+    }
+  ]
+}

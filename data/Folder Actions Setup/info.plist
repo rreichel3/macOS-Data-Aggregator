@@ -1,0 +1,44 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Folder Actions Setup",
+  "CFBundleExecutable": "Folder Actions Setup",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.FolderActionsSetup",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Folder Actions Setup",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.2",
+  "CFBundleSignature": "fasu",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "38",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSAppleScriptEnabled": true,
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSServices": [
+    {
+      "NSMenuItem": {
+        "default": "Folder Actions Setup"
+      },
+      "NSMessage": "openFilesFromPasteboard",
+      "NSPortName": "Folder Actions Setup",
+      "NSSendTypes": [
+        "NSFilenamesPboardType"
+      ]
+    }
+  ],
+  "NSSupportsSuddenTermination": true,
+  "OSAScriptingDefinition": "Folder Actions Setup"
+}

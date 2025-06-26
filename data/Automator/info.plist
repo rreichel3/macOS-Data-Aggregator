@@ -1,0 +1,432 @@
+{
+  "AMDocumentVersion": "1",
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Automator",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "workflow"
+      ],
+      "CFBundleTypeName": "Workflow",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "AMDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "app"
+      ],
+      "CFBundleTypeName": "Application",
+      "CFBundleTypeOSTypes": [
+        "APPL"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "AMDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "action"
+      ],
+      "CFBundleTypeName": "Action",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "AMDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "caction"
+      ],
+      "CFBundleTypeName": "Conversion Action",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "AMDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "definition"
+      ],
+      "CFBundleTypeName": "Data Type Definition",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "AMDocument"
+    }
+  ],
+  "CFBundleExecutable": "Automator",
+  "CFBundleHelpBookFolder": "Automator.help",
+  "CFBundleHelpBookName": "com.apple.Automator.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Automator",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Automator",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.10",
+  "CFBundleSignature": "ATM ",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "523.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H501u",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H501u",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "automator",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "NSAppleScriptEnabled": "YES",
+  "NSCameraUsageDescription": "This workflow needs access to your camera to run.",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2004\u20132022 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "AMAutomatorApplication",
+  "NSServices": [
+    {
+      "NSMenuItem": {
+        "default": "Create Service"
+      },
+      "NSMessage": "makeNewServiceWithPasteboard",
+      "NSPortName": "Automator",
+      "NSSendTypes": [
+        "NSStringPboardType",
+        "NSFilenamesPboardType"
+      ]
+    },
+    {
+      "NSMenuItem": {
+        "default": "Create Workflow"
+      },
+      "NSMessage": "makeNewWorkflowServiceWithPasteboard",
+      "NSPortName": "Automator",
+      "NSSendTypes": [
+        "NSStringPboardType",
+        "NSFilenamesPboardType"
+      ]
+    }
+  ],
+  "NSUbiquitousContainers": {
+    "com.apple.Automator": {
+      "NSUbiquitousContainerIsDocumentScopePublic": true
+    }
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeDescription": "Web Content",
+      "UTTypeIdentifier": "com.apple.cocoa.web-archive"
+    },
+    {
+      "UTTypeDescription": "Remote Computers",
+      "UTTypeIdentifier": "com.apple.RemoteDesktop.computer-object"
+    },
+    {
+      "UTTypeDescription": "Anything",
+      "UTTypeIdentifier": "com.apple.applescript.object"
+    },
+    {
+      "UTTypeDescription": "Text",
+      "UTTypeIdentifier": "com.apple.cocoa.string"
+    },
+    {
+      "UTTypeDescription": "Rich Text",
+      "UTTypeIdentifier": "com.apple.cocoa.attributed-string"
+    },
+    {
+      "UTTypeDescription": "Data",
+      "UTTypeIdentifier": "com.apple.cocoa.data"
+    },
+    {
+      "UTTypeDescription": "URLs",
+      "UTTypeIdentifier": "com.apple.cocoa.url"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.cocoa.string",
+      "UTTypeDescription": "Files/Folders",
+      "UTTypeIdentifier": "com.apple.cocoa.path"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Files/Folders",
+      "UTTypeIdentifier": "com.apple.applescript.alias-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.alias-object",
+      "UTTypeDescription": "Image files",
+      "UTTypeIdentifier": "com.apple.applescript.alias-object.image"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.alias-object",
+      "UTTypeDescription": "Movie files",
+      "UTTypeIdentifier": "com.apple.applescript.alias-object.movie"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.alias-object",
+      "UTTypeDescription": "PDF files",
+      "UTTypeIdentifier": "com.apple.applescript.alias-object.pdf"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Powerpoint presentations",
+      "UTTypeIdentifier": "com.microsoft.powerpoint.presentation-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Powerpoint slides",
+      "UTTypeIdentifier": "com.microsoft.powerpoint.slide-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Finder items",
+      "UTTypeIdentifier": "com.apple.finder.file-or-folder-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "iDVD items",
+      "UTTypeIdentifier": "com.apple.idvd.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.idvd.item-object",
+      "UTTypeDescription": "iDVD menus",
+      "UTTypeIdentifier": "com.apple.idvd.menu-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.idvd.item-object",
+      "UTTypeDescription": "iDVD slideshows",
+      "UTTypeIdentifier": "com.apple.idvd.slideshow-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.iphoto.item-object",
+      "UTTypeDescription": "iPhoto albums",
+      "UTTypeIdentifier": "com.apple.iphoto.album-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.iphoto.item-object",
+      "UTTypeDescription": "iPhoto photos",
+      "UTTypeIdentifier": "com.apple.iphoto.photo-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "iPhoto items",
+      "UTTypeIdentifier": "com.apple.iphoto.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Music items",
+      "UTTypeIdentifier": "com.apple.itunes.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.itunes.item-object",
+      "UTTypeDescription": "Music playlists",
+      "UTTypeIdentifier": "com.apple.itunes.playlist-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.itunes.item-object",
+      "UTTypeDescription": "Music sources",
+      "UTTypeIdentifier": "com.apple.itunes.source-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.itunes.item-object",
+      "UTTypeDescription": "Music tracks",
+      "UTTypeIdentifier": "com.apple.itunes.track-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Safari documents",
+      "UTTypeIdentifier": "com.apple.safari.document-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "TextEdit documents",
+      "UTTypeIdentifier": "com.apple.textedit.document-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Calendar items",
+      "UTTypeIdentifier": "com.apple.ical.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.ical.item-object",
+      "UTTypeDescription": "Calendar events",
+      "UTTypeIdentifier": "com.apple.ical.event-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.ical.item-object",
+      "UTTypeDescription": "Calendar calendars",
+      "UTTypeIdentifier": "com.apple.ical.calendar-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.ical.item-object",
+      "UTTypeDescription": "Reminders",
+      "UTTypeIdentifier": "com.apple.ical.todo-object"
+    },
+    {
+      "UTTypeDescription": "Calendar items",
+      "UTTypeIdentifier": "com.apple.calendar-store.item"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.calendar-store.item",
+      "UTTypeDescription": "Calendar events",
+      "UTTypeIdentifier": "com.apple.calendar-store.event"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.calendar-store.item",
+      "UTTypeDescription": "Reminders",
+      "UTTypeIdentifier": "com.apple.calendar-store.todo"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.calendar-store.item",
+      "UTTypeDescription": "Calendar Calendars",
+      "UTTypeIdentifier": "com.apple.calendar-store.calendar"
+    },
+    {
+      "UTTypeDescription": "Calendar items",
+      "UTTypeIdentifier": "com.apple.event-kit.item"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.event-kit.item",
+      "UTTypeDescription": "Calendar events",
+      "UTTypeIdentifier": "com.apple.event-kit.event"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.event-kit.item",
+      "UTTypeDescription": "Reminders",
+      "UTTypeIdentifier": "com.apple.event-kit.reminder"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.event-kit.item",
+      "UTTypeDescription": "Calendar Calendars",
+      "UTTypeIdentifier": "com.apple.event-kit.calendar"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Mail items",
+      "UTTypeIdentifier": "com.apple.mail.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.mail.item-object",
+      "UTTypeDescription": "Mail messages",
+      "UTTypeIdentifier": "com.apple.mail.message-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.mail.item-object",
+      "UTTypeDescription": "Mail mailboxes",
+      "UTTypeIdentifier": "com.apple.mail.mailbox-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.mail.item-object",
+      "UTTypeDescription": "Mail accounts",
+      "UTTypeIdentifier": "com.apple.mail.account-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Contacts items",
+      "UTTypeIdentifier": "com.apple.addressbook.item-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.addressbook.item-object",
+      "UTTypeDescription": "Contacts groups",
+      "UTTypeIdentifier": "com.apple.addressbook.group-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.addressbook.item-object",
+      "UTTypeDescription": "Contacts people",
+      "UTTypeIdentifier": "com.apple.addressbook.person-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Text",
+      "UTTypeIdentifier": "com.apple.applescript.text-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.object",
+      "UTTypeDescription": "Data",
+      "UTTypeIdentifier": "com.apple.applescript.data-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.applescript.text-object",
+      "UTTypeDescription": "URLs",
+      "UTTypeIdentifier": "com.apple.applescript.url-object"
+    },
+    {
+      "UTTypeConformsTo": "com.apple.cocoa.path",
+      "UTTypeDescription": "Spotlight items",
+      "UTTypeIdentifier": "com.apple.spotlight.item"
+    },
+    {
+      "UTTypeDescription": "RSS feeds",
+      "UTTypeIdentifier": "com.apple.pubsub.feed"
+    },
+    {
+      "UTTypeDescription": "RSS articles",
+      "UTTypeIdentifier": "com.apple.pubsub.entry"
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "Automator Workflow Document",
+      "UTTypeIcons": {
+        "UTTypeIconText": "WFLOW"
+      },
+      "UTTypeIdentifier": "com.apple.automator-workflow",
+      "UTTypeReferenceURL": "http://www.apple.com/macosx/features/automator/",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "workflow"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.plugin"
+      ],
+      "UTTypeDescription": "Automator Action",
+      "UTTypeIcons": {
+        "UTTypeIconText": "ACTION"
+      },
+      "UTTypeIdentifier": "com.apple.automator-action",
+      "UTTypeReferenceURL": "http://www.apple.com/macosx/features/automator/",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "action"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.plugin"
+      ],
+      "UTTypeDescription": "Automator Conversion Action",
+      "UTTypeIcons": {
+        "UTTypeIconText": "CACTION"
+      },
+      "UTTypeIdentifier": "com.apple.automator-conversion-action",
+      "UTTypeReferenceURL": "http://www.apple.com/macosx/features/automator/",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "caction"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.plugin"
+      ],
+      "UTTypeDescription": "Automator Data Type Definition",
+      "UTTypeIcons": {
+        "UTTypeIconText": "DEF"
+      },
+      "UTTypeIdentifier": "com.apple.automator-type-definition",
+      "UTTypeReferenceURL": "http://www.apple.com/macosx/features/automator/",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "definition"
+        ]
+      }
+    }
+  ]
+}

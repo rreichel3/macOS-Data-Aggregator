@@ -1,0 +1,48 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Grapher",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "gcx"
+      ],
+      "CFBundleTypeName": "Grapher Document",
+      "CFBundleTypeOSTypes": [
+        "gcx"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "NSDocumentClass": "GrapherDocument"
+    }
+  ],
+  "CFBundleExecutable": "Grapher",
+  "CFBundleHelpBookFolder": "Grapher.help",
+  "CFBundleHelpBookName": "com.apple.Grapher.help",
+  "CFBundleIconFile": "Grapher",
+  "CFBundleIconName": "Grapher",
+  "CFBundleIdentifier": "com.apple.grapher",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Grapher",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.7",
+  "CFBundleSignature": "CRVS",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "CFBundleVersionString": "2.7.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "grapher",
+  "LSApplicationCategoryType": "public.app-category.education",
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true
+}

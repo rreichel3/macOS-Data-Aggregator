@@ -1,0 +1,102 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "ProfileHelper",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "Configuration Profile",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.mobileconfig"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Configuration Profile",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.configprofile"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Provision Profile",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.provisionprofile"
+      ],
+      "LSTypeIsPackage": false
+    }
+  ],
+  "CFBundleExecutable": "ProfileHelper",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.mcx.ProfileHelper",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "ProfileHelper",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple, Inc. All rights reserved.",
+  "NSPrincipalClass": "NSApplication",
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.mobileconfig"
+      ],
+      "UTTypeDescription": "Configuration Profile",
+      "UTTypeIcons": {
+        "UTTypeIconText": "CONFIG"
+      },
+      "UTTypeIdentifier": "com.apple.mobileconfig",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "mobileconfig"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.configprofile"
+      ],
+      "UTTypeDescription": "Configuration Profile",
+      "UTTypeIcons": {
+        "UTTypeIconText": "CONFIG"
+      },
+      "UTTypeIdentifier": "com.apple.configprofile",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "configprofile"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.provisionprofile"
+      ],
+      "UTTypeDescription": "Provisioning Profile",
+      "UTTypeIcons": {
+        "UTTypeIconText": "PROV"
+      },
+      "UTTypeIdentifier": "com.apple.provisionprofile",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "provisionprofile"
+        ]
+      }
+    }
+  ]
+}

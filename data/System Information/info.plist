@@ -1,0 +1,98 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "System Profiler"
+  ],
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "txt"
+      ],
+      "CFBundleTypeName": "NSStringPboardType",
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": false,
+      "NSDocumentClass": "SPDocument",
+      "NSPersistentStoreTypeKey": "InMemory"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "rtf"
+      ],
+      "CFBundleTypeName": "NSRTFPboardType",
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": false,
+      "NSDocumentClass": "SPDocument",
+      "NSPersistentStoreTypeKey": "InMemory"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "spreporter"
+      ],
+      "CFBundleTypeIconFile": "SystemProfilerPlugin.icns",
+      "CFBundleTypeName": "System Reporter",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "SPDocument",
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "spx"
+      ],
+      "CFBundleTypeName": "System Report",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": false,
+      "NSDocumentClass": "SPDocument",
+      "NSExportableAs": [
+        "NSRTFPboardType",
+        "NSStringPboardType"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "System Information",
+  "CFBundleHelpBookFolder": "SystemInformation.help",
+  "CFBundleHelpBookName": "com.apple.SystemInformation.help",
+  "CFBundleIconName": "ASP",
+  "CFBundleIdentifier": "com.apple.SystemProfiler",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "System Information",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "11.0",
+  "CFBundleSignature": "aspx",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "915",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H502",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H502",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "system-information",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSLaunchDLabel": "com.apple.systemprofiler",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSAppleScriptEnabled": true,
+  "NSMainNibFile": "SPApp",
+  "NSPrincipalClass": "NSApplication",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.xml"
+      ],
+      "UTTypeDescription": "System Profile Report",
+      "UTTypeIdentifier": "com.apple.systemprofiler.document",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "spx"
+        ]
+      }
+    }
+  ]
+}

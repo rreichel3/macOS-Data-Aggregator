@@ -1,0 +1,31 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "Directory Utility",
+  "CFBundleHelpBookFolder": "DirectoryUtility.help",
+  "CFBundleHelpBookName": "com.apple.DirectoryUtility.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIdentifier": "com.apple.DirectoryUtility",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Directory Utility",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "6.4",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "460",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "directory-utility",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "DSApplication"
+}

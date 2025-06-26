@@ -1,0 +1,12 @@
+Sandbox Analysis for QuickTime Player
+Generated: 2025-06-26 16:31:58
+Application Path: /System/Applications/QuickTime Player.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

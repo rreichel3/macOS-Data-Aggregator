@@ -1,0 +1,192 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "AppleScript Editor"
+  ],
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "scpt"
+      ],
+      "CFBundleTypeName": "script",
+      "CFBundleTypeRole": "Editor",
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "app"
+      ],
+      "CFBundleTypeName": "application",
+      "CFBundleTypeOSTypes": [
+        "APPL"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "scptd"
+      ],
+      "CFBundleTypeName": "script bundle",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "app"
+      ],
+      "CFBundleTypeName": "application bundle",
+      "CFBundleTypeOSTypes": [
+        "APPL"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "applescript"
+      ],
+      "CFBundleTypeName": "text",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Owner",
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "txt",
+        "text"
+      ],
+      "CFBundleTypeName": "plain text",
+      "CFBundleTypeOSTypes": [
+        "TEXT"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "NSDocumentClass": "SEDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sdef"
+      ],
+      "CFBundleTypeName": "dictionary document",
+      "CFBundleTypeRole": "Viewer",
+      "NSDocumentClass": "SEPDictionaryDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "osax"
+      ],
+      "CFBundleTypeIconFile": "SEScriptingAddition",
+      "CFBundleTypeName": "scripting addition",
+      "CFBundleTypeOSTypes": [
+        "osax"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "*"
+      ],
+      "CFBundleTypeOSTypes": [
+        "****"
+      ],
+      "CFBundleTypeRole": "Viewer"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "seplugin"
+      ],
+      "CFBundleTypeIconFile": "SEPlugin",
+      "CFBundleTypeName": "plugin",
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Script Editor",
+  "CFBundleHelpBookFolder": "ScriptEditor.help",
+  "CFBundleHelpBookName": "com.apple.ScriptEditor.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.ScriptEditor2",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Script Editor",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.11",
+  "CFBundleSignature": "ToyS",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "AppleScript",
+      "CFBundleURLSchemes": [
+        "applescript"
+      ]
+    }
+  ],
+  "CFBundleVersion": "231",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "script-editor",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSAppleScriptEnabled": "YES",
+  "NSMainNibFile": "SEMainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSServices": [
+    {
+      "NSMenuItem": {
+        "default": "Script Editor/Make New AppleScript"
+      },
+      "NSMessage": "makeNewAppleScript",
+      "NSPortName": "Script Editor",
+      "NSSendTypes": [
+        "NSStringPboardType"
+      ]
+    },
+    {
+      "NSMenuItem": {
+        "default": "Script Editor/Run as AppleScript"
+      },
+      "NSMessage": "runAsAppleScript",
+      "NSPortName": "Script Editor",
+      "NSSendTypes": [
+        "NSStringPboardType"
+      ]
+    },
+    {
+      "NSKeyEquivalent": {
+        "default": "*"
+      },
+      "NSMenuItem": {
+        "default": "Script Editor/Get Result of AppleScript"
+      },
+      "NSMessage": "runAsAppleScript",
+      "NSPortName": "Script Editor",
+      "NSReturnTypes": [
+        "NSRTFDPboardType",
+        "NSRTFPboardType",
+        "NSStringPboardType"
+      ],
+      "NSSendTypes": [
+        "NSStringPboardType"
+      ]
+    }
+  ],
+  "NSSupportsSuddenTermination": true,
+  "NSUbiquitousContainers": {
+    "com.apple.ScriptEditor2": {
+      "NSUbiquitousContainerIsDocumentScopePublic": true
+    }
+  }
+}

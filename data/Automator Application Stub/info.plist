@@ -1,0 +1,58 @@
+{
+  "AMIsApplet": true,
+  "AMStayOpen": false,
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "*"
+      ],
+      "CFBundleTypeName": "Automator workflow file",
+      "CFBundleTypeOSTypes": [
+        "****"
+      ],
+      "CFBundleTypeRole": "Viewer"
+    }
+  ],
+  "CFBundleExecutable": "Automator Application Stub",
+  "CFBundleIconFile": "ApplicationStub",
+  "CFBundleIdentifier": "com.apple.Automator.Automator-Application-Stub",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Automator Application Stub",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.3",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [],
+  "CFBundleVersion": "523.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H501u",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H501u",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "10.9",
+  "LSUIElement": true,
+  "NSAppleEventsUsageDescription": "This workflow needs to control other applications to run.",
+  "NSAppleMusicUsageDescription": "This workflow needs access to your music to run.",
+  "NSAppleScriptEnabled": "YES",
+  "NSCalendarsUsageDescription": "This workflow needs access to your calendars to run.",
+  "NSCameraUsageDescription": "This workflow needs access to your camera to run.",
+  "NSContactsUsageDescription": "This workflow needs access to your contacts to run.",
+  "NSHomeKitUsageDescription": "This workflow needs access to your HomeKit Home to run.",
+  "NSMicrophoneUsageDescription": "This workflow needs access to your microphone to run.",
+  "NSPhotoLibraryUsageDescription": "This workflow needs access to your photos to run.",
+  "NSPrincipalClass": "NSApplication",
+  "NSRemindersUsageDescription": "This workflow needs access to your reminders to run.",
+  "NSServices": [],
+  "NSSiriUsageDescription": "This workflow needs access to Siri to run.",
+  "NSSystemAdministrationUsageDescription": "This workflow needs access to administer this system in order to run.",
+  "UTExportedTypeDeclarations": [],
+  "UTImportedTypeDeclarations": []
+}

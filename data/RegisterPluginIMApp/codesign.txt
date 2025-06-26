@@ -1,0 +1,9 @@
+Code Signing Information for RegisterPluginIMApp
+Generated: 2025-06-26 16:33:58
+Application Path: /System/Library/CoreServices/RegisterPluginIMApp.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

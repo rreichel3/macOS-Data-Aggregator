@@ -1,0 +1,31 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "ScreenSaverEngine",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.ScreenSaver.Engine",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "ScreenSaverEngine",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "5.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "343.3.1",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2000\u20132023 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "ScreenSaverEngine",
+  "NSPrincipalClass": "NSApplication"
+}

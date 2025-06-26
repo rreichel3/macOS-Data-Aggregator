@@ -1,0 +1,79 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CAProcessCanAccessGPU": true,
+  "CFBundleDailyBuildNumber": "",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "VoiceMemos",
+  "CFBundleExecutable": "VoiceMemos",
+  "CFBundleGitHash": "",
+  "CFBundleHelpBookFolder": "VoiceMemos.help",
+  "CFBundleHelpBookName": "com.apple.VoiceMemos.help",
+  "CFBundleIconFile": "MacAppIcon",
+  "CFBundleIconName": "MacAppIcon",
+  "CFBundleIdentifier": "com.apple.VoiceMemos",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "VoiceMemos",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.4",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1158.1",
+  "CanInheritApplicationStateFromOtherProcesses": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "voice-memos",
+  "LSMinimumSystemVersion": "14.0",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc.",
+  "NSLocationUsageDescription": "Voice Memos will be named with the location where they are recorded.",
+  "NSLocationWhenInUseUsageDescription": "Voice Memos will be named with the location where they are recorded.",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "SBMachServices": [
+    "com.apple.uikit.viewservice.com.apple.VoiceMemos"
+  ],
+  "SBMatchingApplicationGenres": [
+    "Business",
+    "Utilities"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": false
+  },
+  "UIApplicationSupportsIndirectInputEvents": false,
+  "UIApplicationSystemWindowsSecureKey": true,
+  "UIBackgroundModes": [
+    "audio",
+    "remote-notification"
+  ],
+  "UIDeviceFamily": [
+    2
+  ],
+  "UILaunchStoryboardName": "Launch Screen",
+  "UIMenuBarItemTitleAbout": "About Voice Memos",
+  "UIMenuBarItemTitleHelp": "Voice Memos Help",
+  "UIMenuBarItemTitleHide": "Hide Voice Memos",
+  "UIMenuBarItemTitleQuit": "Quit Voice Memos",
+  "UIPrerenderedIcon": true,
+  "UIStatusBarHidden": false,
+  "UIStatusBarStyle": "UIStatusBarStyleLightContent",
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~iphone": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown"
+  ],
+  "UIUserInterfaceStyle": "Automatic",
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UIViewServiceUsesNSXPCConnection": true
+}

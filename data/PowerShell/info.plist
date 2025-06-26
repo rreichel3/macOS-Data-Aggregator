@@ -1,0 +1,14 @@
+{
+  "CFBundleExecutable": "PowerShell.sh",
+  "CFBundleGetInfoString": "7.4.10",
+  "CFBundleIconFile": "Powershell",
+  "CFBundleIdentifier": "com.microsoft.powershell",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "PowerShell",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "7.4.10",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "7.4.10"
+}

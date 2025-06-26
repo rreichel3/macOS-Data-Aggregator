@@ -1,0 +1,280 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "Apple TV",
+    "Apple TV+"
+  ],
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "TV",
+  "CFBundleDisplayName#CH": "Videos",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeOSTypes": [
+        "****",
+        "fold",
+        "disk"
+      ],
+      "CFBundleTypeRole": "Viewer"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tvlibrary",
+        "videoslibrary"
+      ],
+      "CFBundleTypeName": "TV Library",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.apple.TV.library"
+      ],
+      "LSTypeIsPackage": 1
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tvdb"
+      ],
+      "CFBundleTypeName": "TV Database",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.apple.TV.database"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.mpeg"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.apple.quicktime-movie"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.apple.protected-mpeg-4-video"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.apple.m4v-video"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "movpkg"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.apple.TV.movpkg"
+      ],
+      "LSTypeIsPackage": 1
+    },
+    {
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.apple.TV.ite"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "TV",
+  "CFBundleGetInfoString": "TV 1.4.6.32, \u00a9 2019\u20132024 Apple Inc. All rights reserved.",
+  "CFBundleHelpBookFolder": "TV.help",
+  "CFBundleHelpBookName": "com.apple.TV.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.TV",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "TV",
+  "CFBundleName#CH": "Videos",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.4.6",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "Remote Library URL",
+      "CFBundleURLSchemes": [
+        "daap"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "TV URL",
+      "CFBundleURLSchemes": [
+        "com.apple.tv",
+        "videos",
+        "com.apple.watchlist"
+      ],
+      "LSIsAppleDefaultForType": "Yes"
+    },
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "Live Stream URL",
+      "CFBundleURLSchemes": [
+        "itls",
+        "itlss",
+        "itvls",
+        "itvlss"
+      ],
+      "LSIsAppleDefaultForType": "Yes"
+    }
+  ],
+  "CFBundleVersion": "1.4.6",
+  "CPGroupActivities": [
+    {
+      "CPGroupActivityContext": "CPGroupActivityWatchTogetherContext",
+      "CPGroupActivityIdentifier": "com.apple.tv.watch-together"
+    }
+  ],
+  "CSResourcesFileMapped": true,
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "FullVersion": "1.4.6.32",
+  "HPDHelpProjectIdentifier": "tvapp-mac",
+  "LSApplicationCategoryType": "public.app-category.video",
+  "LSMinimumSystemVersion": "14.7",
+  "LSRegisterWhenRegionChanges": true,
+  "LSRequiresNativeExecution": true,
+  "MDItemKeywords": "TV, Videos, iTunes",
+  "NSAccentColorName": "KeyColor",
+  "NSAppleScriptEnabled": true,
+  "NSHumanReadableCopyright": "\u00a9 2019\u20132024 Apple Inc. All rights reserved.",
+  "NSLocationUsageDescription": "Your location will be used to determine what\u2019s available and show you local content, like live games, events, news, and ads.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "ITNSApplication",
+  "NSSupportsAutomaticGraphicsSwitching": true,
+  "OSAScriptingDefinition": "com.apple.TV.sdef",
+  "UNUserNotificationCenter": {},
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "TV Library",
+      "UTTypeIcons": {
+        "UTTypeIconBadgeName": "AppIcon",
+        "UTTypeIconText": "LIBRARY"
+      },
+      "UTTypeIdentifier": "com.apple.TV.library",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "TVLb",
+          "VDLb"
+        ],
+        "public.filename-extension": [
+          "tvlibrary",
+          "videoslibrary"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.database",
+        "public.data"
+      ],
+      "UTTypeDescription": "TV Database",
+      "UTTypeIcons": {
+        "UTTypeIconBadgeName": "AppIcon"
+      },
+      "UTTypeIdentifier": "com.apple.TV.database",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "tvdb"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "HLS Media",
+      "UTTypeIdentifier": "com.apple.TV.movpkg",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "oHLS"
+        ],
+        "public.filename-extension": [
+          "movpkg"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.url"
+      ],
+      "UTTypeDescription": "iTunes Music Store URL",
+      "UTTypeIdentifier": "com.apple.TV.itms",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "itms",
+        "public.filename-extension": "itms"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.html"
+      ],
+      "UTTypeDescription": "iTunes Extra",
+      "UTTypeIdentifier": "com.apple.TV.ite",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "ite ",
+        "public.filename-extension": "ite"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.text",
+        "public.playlist"
+      ],
+      "UTTypeDescription": "M3U Playlist",
+      "UTTypeIdentifier": "com.apple.TV.m3u-playlist",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "MP3U",
+        "public.filename-extension": [
+          "m3u",
+          "m3u8"
+        ],
+        "public.mime-type": [
+          "audio/x-mpegurl",
+          "audio/mpegurl"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": "public.xml",
+      "UTTypeDescription": "Metadata",
+      "UTTypeIdentifier": "com.apple.TV.metadata",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "itun"
+      }
+    },
+    {
+      "UTTypeConformsTo": "public.file-url",
+      "UTTypeDescription": "iApp Compatibility",
+      "UTTypeIdentifier": "com.apple.TV.iappurl",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "HUfl"
+      }
+    }
+  ]
+}

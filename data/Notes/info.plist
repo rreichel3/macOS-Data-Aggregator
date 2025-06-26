@@ -1,0 +1,358 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDailyBuildNumber": "",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Notes",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Notes Archive",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.notes.archive"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Notes AirDrop Document",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.notes.airdrop.document"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Evernote Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.evernote.enex"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Plain text",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.text"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "HTML",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.html"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Rich text file",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.rtf"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Rich text format directory",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.apple.rtfd"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Stickies Export",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.stickies.appexport"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Note",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.notes.note"
+      ]
+    },
+    {
+      "CFBundleTypeIconSystemGenerated": 1,
+      "CFBundleTypeName": "Generic",
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.data",
+        "public.directory"
+      ],
+      "role": "None"
+    }
+  ],
+  "CFBundleExecutable": "Notes",
+  "CFBundleGitHash": "",
+  "CFBundleHelpBookFolder": "Notes.help",
+  "CFBundleHelpBookName": "com.apple.Notes.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Notes",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Notes",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "4.11",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "com.apple.Notes",
+      "CFBundleURLSchemes": [
+        "notes",
+        "applenotes"
+      ]
+    }
+  ],
+  "CFBundleVersion": "2817.2",
+  "CKSharingSupported": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H610",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H610",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "notes",
+  "LSApplicationCategoryType": "public.app-category.productivity",
+  "LSMinimumSystemVersion": "14.7",
+  "NSAccentColorName": "Accent",
+  "NSAppleScriptEnabled": true,
+  "NSContactsUsageDescription": "Notes uses Contacts to show names when interacting with others.",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2011\u20132023 Apple Inc.\nAll rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPhotoLibraryUsageDescription": "Add photos to notes.",
+  "NSPrincipalClass": "ICMApplication",
+  "NSSupportsAutomaticGraphicsSwitching": true,
+  "NSUserActivityTypes": [
+    "ICNoteIntent",
+    "ICNotesFolderIntent",
+    "com.apple.Notes",
+    "com.apple.notes.activity.edit-note"
+  ],
+  "NSUserNotificationsUsageDescription": "Notes uses notifications to let you know when a shared note has been edited or you\u2019ve been mentioned.",
+  "OSAScriptingDefinition": "Notes.sdef",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Notes Text Attachment",
+      "UTTypeIdentifier": "com.apple.notes.textattachment",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.notes.inlinetextattachment"
+      ],
+      "UTTypeDescription": "Mentions inline attachments of Notes",
+      "UTTypeIdentifier": "com.apple.notes.inlinetextattachment.mention",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.notes.inlinetextattachment"
+      ],
+      "UTTypeDescription": "Tag inline attachments of Notes",
+      "UTTypeIdentifier": "com.apple.notes.inlinetextattachment.hashtag",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.notes.inlinetextattachment"
+      ],
+      "UTTypeDescription": "Link inline attachments of Notes",
+      "UTTypeIdentifier": "com.apple.notes.inlinetextattachment.link",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Base type of inline attachments of Notes",
+      "UTTypeIdentifier": "com.apple.notes.inlinetextattachment",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Notes Archive",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.archive",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "notesarchive"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content",
+        "public.data"
+      ],
+      "UTTypeDescription": "Notes AirDrop Document",
+      "UTTypeIdentifier": "com.apple.notes.airdrop.document",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "notesairdropdocument"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Note",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.note",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": []
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content",
+        "public.data"
+      ],
+      "UTTypeDescription": "Note",
+      "UTTypeIdentifier": "com.apple.notes.spotlightrecord",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "notesspotlightrecord"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Notes table attachment",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.table",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Notes todo attachment",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.todo",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Notes gallery attachment",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.gallery",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Notes rich text pasteboard data",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.richtext",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.content"
+      ],
+      "UTTypeDescription": "Notes fullscreen drawing attachment",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.notes.sketch",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.archive"
+      ],
+      "UTTypeIdentifier": "com.apple.DocumentCamera.scan-archive",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "appledocumentscanarchive"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.paper.doc"
+      ],
+      "UTTypeDescription": "PDF Document",
+      "UTTypeIdentifier": "com.apple.paper.doc.pdf"
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.paper.doc"
+      ],
+      "UTTypeDescription": "Scanned Document",
+      "UTTypeIdentifier": "com.apple.paper.doc.scan"
+    }
+  ],
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Stickies Export",
+      "UTTypeIdentifier": "com.apple.stickies.appexport",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "stickiesappexport"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Apple Paper Document",
+      "UTTypeIdentifier": "com.apple.paper"
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Apple Paper Document",
+      "UTTypeIdentifier": "com.apple.paper.doc"
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.xml"
+      ],
+      "UTTypeDescription": "Evernote Archive",
+      "UTTypeIdentifier": "com.evernote.enex",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "enex"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Code Signing Information for Expansion Slot Utility
+Generated: 2025-06-26 16:33:18
+Application Path: /System/Library/CoreServices/Applications/Expansion Slot Utility.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

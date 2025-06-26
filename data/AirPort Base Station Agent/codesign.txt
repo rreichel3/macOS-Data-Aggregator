@@ -1,0 +1,9 @@
+Code Signing Information for AirPort Base Station Agent
+Generated: 2025-06-26 16:34:34
+Application Path: /System/Library/CoreServices/AirPort Base Station Agent.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

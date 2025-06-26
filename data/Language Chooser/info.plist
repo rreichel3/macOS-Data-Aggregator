@@ -1,0 +1,28 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Language Chooser",
+  "CFBundleExecutable": "Language Chooser",
+  "CFBundleIdentifier": "com.apple.Language-Chooser",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Language Chooser",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "757",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H623",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H623",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2012, 2022 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "LCApplication"
+}

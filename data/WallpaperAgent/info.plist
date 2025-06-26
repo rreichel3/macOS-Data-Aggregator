@@ -1,0 +1,38 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "WallpaperAgent",
+  "CFBundleIcons": {
+    "ISGraphicIconConfiguration": {
+      "ISEnclosureColor": "cyan",
+      "ISRenderingMode": "automatic",
+      "ISSymbolColor": "white",
+      "ISSymbolName": "photos"
+    }
+  },
+  "CFBundleIdentifier": "com.apple.wallpaper.agent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "WallpaperAgent",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "95.201",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSSupportsAutomaticGraphicsSwitching": true,
+  "NSSupportsAutomaticTermination": false,
+  "NSSupportsSuddenTermination": false
+}

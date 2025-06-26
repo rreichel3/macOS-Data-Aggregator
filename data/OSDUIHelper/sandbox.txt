@@ -1,0 +1,12 @@
+Sandbox Analysis for OSDUIHelper
+Generated: 2025-06-26 16:32:41
+Application Path: /System/Library/CoreServices/OSDUIHelper.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

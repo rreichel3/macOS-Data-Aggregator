@@ -1,0 +1,44 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "AddressBookUrlForwarder",
+  "CFBundleIdentifier": "com.apple.AddressBook.UrlForwarder",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "AddressBookUrlForwarder",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "14.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "Twitter",
+      "CFBundleURLSchemes": [
+        "twitter"
+      ],
+      "LSHandlerRank": "Alternate"
+    },
+    {
+      "CFBundleURLName": "Facebook",
+      "CFBundleURLSchemes": [
+        "fb"
+      ],
+      "LSHandlerRank": "Alternate"
+    }
+  ],
+  "CFBundleVersion": "2571.8",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23G405",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G405",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSBackgroundOnly": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "ABUrlForwarderMainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true
+}

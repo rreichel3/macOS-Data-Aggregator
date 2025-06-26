@@ -1,0 +1,32 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "StageManagerOnboarding",
+  "CFBundleExecutable": "StageManagerOnboarding",
+  "CFBundleGetInfoString": "StageManagerOnboarding",
+  "CFBundleIdentifier": "com.apple.windowmanager.StageManagerOnboarding",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "StageManagerOnboarding",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "",
+  "LSMinimumSystemVersion": "14.7",
+  "LSRequiresNativeExecution": true,
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright 2021-2022, Apple Inc.",
+  "NSMainStoryboardFile": "Main",
+  "NSPrincipalClass": "NSApplication"
+}

@@ -1,0 +1,12 @@
+Sandbox Analysis for Expansion Slot Utility
+Generated: 2025-06-26 16:33:18
+Application Path: /System/Library/CoreServices/Applications/Expansion Slot Utility.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- No additional notes

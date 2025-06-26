@@ -1,0 +1,9 @@
+Code Signing Information for Print Center
+Generated: 2025-06-26 16:31:59
+Application Path: /System/Applications/Utilities/Print Center.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

@@ -1,0 +1,31 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "AirPlayUIAgent",
+  "CFBundleIdentifier": "com.apple.AirPlayUIAgent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "AirPlayUIAgent",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "775.3.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H601s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H601s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2012 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "AirPlayUIAgent",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true
+}

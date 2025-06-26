@@ -1,0 +1,12 @@
+Sandbox Analysis for NotificationCenter
+Generated: 2025-06-26 16:31:55
+Application Path: /System/Library/CoreServices/NotificationCenter.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 2
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

@@ -1,0 +1,28 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "CoreServicesUIAgent",
+  "CFBundleGetInfoString": "Copyright \u00a9 2009 Apple Inc.",
+  "CFBundleIdentifier": "com.apple.coreservices.uiagent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "CoreServicesUIAgent",
+  "CFBundleShortVersionString": "369",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "369",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H213",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H213",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2009 Apple Inc.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true
+}

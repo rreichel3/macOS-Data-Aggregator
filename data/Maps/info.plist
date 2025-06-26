@@ -1,0 +1,186 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CAProcessCanAccessGPU": true,
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Maps",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "custom trace file",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.maps.navtracefile"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "Maps",
+  "CFBundleHelpBookFolder": "Maps.help",
+  "CFBundleHelpBookName": "com.apple.Maps.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Maps",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "3.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLIsPrivate": true,
+      "CFBundleURLSchemes": [
+        "x-maps-ac-auth"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLSchemes": [
+        "maps",
+        "mapitem",
+        "map",
+        "x-maps-mapitemhandles"
+      ]
+    },
+    {
+      "CFBundleURLIsPrivate": true,
+      "CFBundleURLSchemes": [
+        "x-maps-bulletin"
+      ]
+    },
+    {
+      "CFBundleURLIsPrivate": true,
+      "CFBundleURLSchemes": [
+        "x-maps-punchinhint"
+      ]
+    }
+  ],
+  "CFBundleVersion": "2811.26.4.18.7",
+  "CoreSpotlightContinuation": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H510",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H510",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "maps",
+  "LSApplicationQueriesSchemes": [
+    "twcweather"
+  ],
+  "LSCounterpartIdentifiers": [
+    "com.apple.NanoMaps"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2012\u20132020 Apple Inc.\\nAll rights reserved.",
+  "NSLocationUsageDescription": "Your location is used to show your position on the map, get directions, estimate travel times, and improve search results.",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "com.apple.Maps"
+  ],
+  "SKRespectApplicationUserInterfaceLayoutDirection": true,
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true
+  },
+  "UIApplicationSupportsIndirectInputEvents": true,
+  "UIBackgroundModes": [
+    "audio",
+    "remote-notification"
+  ],
+  "UIDeviceFamily": [
+    6
+  ],
+  "UIGlobalUserInterfaceIdiomMac": true,
+  "UILaunchStoryboardName": "Launch",
+  "UIPrerenderedIcon": true,
+  "UIUserInterfaceIdiomMac": true,
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UIViewServiceUsesNSXPCConnection": true,
+  "UNUserNotificationCenter": {
+    "UNAutomaticallyShowSettings": true,
+    "UNDaemonShouldReceiveApplicationEvents": true,
+    "UNDaemonShouldReceiveBackgroundResponses": true,
+    "UNDefaultCategories": [
+      {
+        "UNCategoryIdentifier": "MapsUNCategoryRAP",
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryIdentifier": "MapsUNCategoryParkedCar",
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryIdentifier": "MapsUNCategoryTraffic",
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryActions": [
+          {
+            "UNActionIdentifier": "TrafficIncidentAlertRerouteAction",
+            "UNActionTitle": "MapsRerouteActionTitle"
+          }
+        ],
+        "UNCategoryIdentifier": "MapsUNCategoryTrafficReroute",
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryIdentifier": "MapsUNCategoryPredictedDestination",
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryAllowInCarPlay": true,
+        "UNCategoryIdentifier": "MapsUNCategoryLowFuel",
+        "UNNotificationCategoryOptionHiddenPreviewsAllowSpoken": true,
+        "UNNotificationCategoryOptionHiddenPreviewsShowSubtitle": true,
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      },
+      {
+        "UNCategoryAllowInCarPlay": true,
+        "UNCategoryIdentifier": "MapsUNCategorySharedTrip"
+      },
+      {
+        "UNCategoryIdentifier": "MapsUNCategorySharedTrip",
+        "UNNotificationCategoryOptionHiddenPreviewsShowSubtitle": true,
+        "UNNotificationCategoryOptionHiddenPreviewsShowTitle": true
+      }
+    ],
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingCarPlay": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true,
+      "UNSettingSounds": true
+    }
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "MKDirectionsRequest",
+      "UTTypeIdentifier": "com.apple.maps.directionsrequest",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "mkdirectionsrequest"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "TraceFileType",
+      "UTTypeIdentifier": "com.apple.maps.navtracefile",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "navtrace"
+        ]
+      }
+    }
+  ],
+  "_LSSupportsRemoval": true,
+  "kMDItemKeywords": "Maps"
+}

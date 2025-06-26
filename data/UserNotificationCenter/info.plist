@@ -1,0 +1,26 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "UserNotificationCenter",
+  "CFBundleIdentifier": "com.apple.UserNotificationCenter",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "82",
+  "CFBundleSignature": "uncx",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "82",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H601s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H601s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSPrincipalClass": "NSApplication",
+  "NSUIElement": "1"
+}

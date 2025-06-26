@@ -1,0 +1,202 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Archive Utility",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSItemContentTypes": [
+        "public.data",
+        "public.folder"
+      ]
+    },
+    {
+      "CFBundleTypeName": "CPIO/PAX archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.cpio-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "CPGZ archive",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.bom-compressed-cpio"
+      ]
+    },
+    {
+      "CFBundleTypeName": "ZIP archive",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.zip-archive",
+        "com.pkware.zip-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "tar archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.tar-archive",
+        "org.gnu.gnu-tar-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "gzip compressed tar archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "org.gnu.gnu-zip-tar-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "bzip2 compressed tar archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.tar-bzip2-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "gzip compressed archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "org.gnu.gnu-zip-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "unix compressed archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.z-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "bzip2 compressed archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.bzip2-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "xz compressed archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "org.tukaani.xz-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "xz compressed tar archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "org.tukaani.tar-xz-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "MacBinary archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.macbinary-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "BinHex archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.binhex-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "uuencoded archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.uuencoded-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "AppleSingle archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.applesingle-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "XIP Secure Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.xip-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "7-Zip Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "org.7-zip.7-zip-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Apple Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Apple Encrypted Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.encrypted-archive"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Pixar USD Document",
+      "CFBundleTypeRole": "Viewer",
+      "LSItemContentTypes": [
+        "com.pixar.universal-scene-description-mobile"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "Archive Utility",
+  "CFBundleIconFile": "ArchiveUtility",
+  "CFBundleIconName": "ArchiveUtility",
+  "CFBundleIdentifier": "com.apple.archiveutility",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Archive Utility",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "10.15",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "159.5.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23G401s",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G401s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "\u00a9 2003\u20132020 Apple Inc. All Rights Reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

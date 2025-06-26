@@ -1,0 +1,28 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "ManagedClient",
+  "CFBundleIdentifier": "com.apple.ManagedClient",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "ManagedClient",
+  "CFBundlePackageType": "AAPL",
+  "CFBundleShortVersionString": "16.6",
+  "CFBundleSignature": "mcxd",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1672",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H509",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H509",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSDoNotAbortIfNoASN": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright 2004-2020 Apple Inc. All Rights Reserved.",
+  "NSSupportsSuddenTermination": true
+}

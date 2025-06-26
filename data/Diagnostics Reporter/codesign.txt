@@ -1,0 +1,9 @@
+Code Signing Information for Diagnostics Reporter
+Generated: 2025-06-26 16:35:12
+Application Path: /System/Library/CoreServices/Diagnostics Reporter.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

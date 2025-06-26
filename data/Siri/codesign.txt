@@ -1,0 +1,9 @@
+Code Signing Information for Siri
+Generated: 2025-06-26 16:35:11
+Application Path: /System/Applications/Siri.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

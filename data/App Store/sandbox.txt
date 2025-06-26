@@ -1,0 +1,12 @@
+Sandbox Analysis for App Store
+Generated: 2025-06-26 16:36:27
+Application Path: /System/Applications/App Store.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 2
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

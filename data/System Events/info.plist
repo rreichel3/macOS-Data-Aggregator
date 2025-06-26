@@ -1,0 +1,47 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "osax"
+      ],
+      "CFBundleTypeIconFile": "ScriptingAddition",
+      "CFBundleTypeName": "scripting addition",
+      "CFBundleTypeOSTypes": [
+        "osax"
+      ],
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "System Events",
+  "CFBundleIdentifier": "com.apple.systemevents",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "System Events",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.3.6",
+  "CFBundleSignature": "sevs",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1.3.6",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSBackgroundOnly": "0",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": "1",
+  "LSVisibleInClassic": "1",
+  "NSAppleScriptEnabled": true,
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true,
+  "OSAExportAdditions": "All",
+  "OSAScriptingDefinition": "SystemEvents.sdef"
+}

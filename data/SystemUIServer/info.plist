@@ -1,0 +1,59 @@
+{
+  "Application-Group": "AirPort",
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "menu"
+      ],
+      "CFBundleTypeName": "MenuExtra plugin",
+      "CFBundleTypeRole": "Editor",
+      "LSIsAppleDefaultForType": true,
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "SystemUIServer",
+  "CFBundleIdentifier": "com.apple.systemuiserver",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "SystemUIServer",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.7",
+  "CFBundleSignature": "syui",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "524.100",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSLaunchDLabel": "com.apple.SystemUIServer.agent",
+  "LSMinimumSystemVersion": "14.7",
+  "LSRequiresNativeExecution": true,
+  "LSUIElement": "1",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2000-2020 Apple Inc. All rights reserved.",
+  "NSPrincipalClass": "NSApplication",
+  "NSServices": [
+    {
+      "NSMenuItem": {
+        "default": "Open URL"
+      },
+      "NSMessage": "openURL",
+      "NSPortName": "SystemUIServer",
+      "NSSendTypes": [
+        "NSURLPboardType",
+        "NSStringPboardType"
+      ]
+    }
+  ],
+  "NSSupportsSuddenTermination": true,
+  "com.apple.PreferenceSync.ExcludeSyncKeys": [
+    "menuExtras"
+  ]
+}

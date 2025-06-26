@@ -1,0 +1,81 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "widgetkitsim"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.widgetkit.simulator.document"
+      ],
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "WidgetDocument"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "chrono-timeline"
+      ],
+      "CFBundleTypeName": "Timeline Document",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.widgetkit.simulator.timeline"
+      ],
+      "NSDocumentClass": "TimelineDocument"
+    }
+  ],
+  "CFBundleExecutable": "WidgetKit Simulator",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.widgetkit.simulator",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "WidgetKit Simulator",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1341.300.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H607",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H607",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "Application",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "WidgetKit Simulator document",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.widgetkit.simulator.document",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "widgetkitsim"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.data"
+      ],
+      "UTTypeDescription": "Widget Timeline",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.widgetkit.simulator.timeline",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "chrono-timeline"
+        ]
+      }
+    }
+  ]
+}

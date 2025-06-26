@@ -1,0 +1,169 @@
+{
+  "Application-Group": [
+    "InternetAccounts",
+    "dot-mac",
+    "exchange",
+    "addressbookserver",
+    "ldap"
+  ],
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "Address Book"
+  ],
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Contacts",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "abcdp"
+      ],
+      "CFBundleTypeName": "Contacts Person Data",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeName": "vCard",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "public.vcard"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ldif",
+        "ldi"
+      ],
+      "CFBundleTypeName": "LDIF",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "LDIF",
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "abcdg"
+      ],
+      "CFBundleTypeName": "Contacts Group Data",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "abcdg",
+        "abcdp"
+      ],
+      "CFBundleTypeName": "Contacts Card Data",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeName": "Folder",
+      "CFBundleTypeOSTypes": [
+        "fold"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "abbu"
+      ],
+      "CFBundleTypeName": "Backup File",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "persistentCardModel"
+      ],
+      "CFBundleTypeName": "Instant Replay Document",
+      "CFBundleTypeRole": "Editor"
+    }
+  ],
+  "CFBundleExecutable": "Contacts",
+  "CFBundleHelpBookFolder": "AddressBook.help",
+  "CFBundleHelpBookName": "com.apple.AddressBook.help",
+  "CFBundleIconFile": "Contacts",
+  "CFBundleIconName": "Contacts",
+  "CFBundleIdentifier": "com.apple.AddressBook",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Contacts",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "14.0",
+  "CFBundleSignature": "adrb",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "Contacts URL",
+      "CFBundleURLSchemes": [
+        "addressbook"
+      ]
+    }
+  ],
+  "CFBundleVersion": "2571.8",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23G405",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G405",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "contacts",
+  "LSApplicationCategoryType": "public.app-category.productivity",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "MDItemKeywords": "Address Book",
+  "NSAccentColorName": "ContactsAccentColor",
+  "NSAppleScriptEnabled": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2002-2023 Apple Inc.\\n All Rights Reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "com.apple.Contacts.ViewingCard",
+    "com.apple.Contacts.CreateContact",
+    "com.apple.Contacts.SearchContacts"
+  ],
+  "OSAScriptingDefinition": "Contacts.sdef",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.contact"
+      ],
+      "UTTypeDescription": "Contacts Person Data",
+      "UTTypeIconName": "vCard",
+      "UTTypeIdentifier": "com.apple.addressbook.person",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "ABPR",
+        "public.filename-extension": "abcdp"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data"
+      ],
+      "UTTypeDescription": "Contacts Group Data",
+      "UTTypeIconName": "vCard",
+      "UTTypeIdentifier": "com.apple.addressbook.group",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "ABGR",
+        "public.filename-extension": "abcdg"
+      }
+    }
+  ]
+}

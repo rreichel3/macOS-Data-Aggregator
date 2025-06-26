@@ -1,0 +1,9 @@
+Code Signing Information for Firefox
+Generated: 2025-06-26 16:31:59
+Application Path: /Applications/Firefox.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: 43AQ936H96
+Team Identifier: Unknown
+Sealed Resources: Yes

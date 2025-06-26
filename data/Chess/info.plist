@@ -1,0 +1,97 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "game"
+      ],
+      "CFBundleTypeName": "game",
+      "CFBundleTypeOSTypes": [
+        "cfen"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSItemContentTypes": [
+        "com.apple.chess.game"
+      ],
+      "LSTypeIsPackage": false,
+      "NSDocumentClass": "MBCDocument",
+      "NSExportableAs": [
+        "moves"
+      ],
+      "NSExportableTypes": [
+        "com.apple.chess.pgn"
+      ],
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "pgn"
+      ],
+      "CFBundleTypeName": "moves",
+      "CFBundleTypeOSTypes": [
+        "cpgn"
+      ],
+      "CFBundleTypeRole": "None",
+      "LSItemContentTypes": [
+        "com.apple.chess.pgn"
+      ],
+      "LSTypeIsPackage": false
+    }
+  ],
+  "CFBundleExecutable": "Chess",
+  "CFBundleGetInfoString": "3.18, Copyright 2003\u20132023 Apple Inc.",
+  "CFBundleHelpBookFolder": "Chess.help",
+  "CFBundleHelpBookName": "com.apple.Chess.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.Chess",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Chess",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "3.18",
+  "CFBundleSignature": "mbch",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "3.18",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "chess",
+  "LSApplicationCategoryType": "public.app-category.board-games",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "MBCBuildTag": "Chess-514.1",
+  "NSHumanReadableCopyright": "Copyright 2003\u20132023 Apple Inc.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsSuddenTermination": true,
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.utf8-plain-text"
+      ],
+      "UTTypeDescription": "Composed document icon for the .game document type",
+      "UTTypeIdentifier": "com.apple.chess.game",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": "game"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.utf8-plain-text"
+      ],
+      "UTTypeDescription": "Composed document icon for the .pgn document type",
+      "UTTypeIdentifier": "com.apple.chess.pgn",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": "pgn"
+      }
+    }
+  ]
+}

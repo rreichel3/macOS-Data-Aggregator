@@ -1,0 +1,44 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFAppleHelpAnchor": "mchlp1065",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Software Update",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "sucatalog"
+      ],
+      "CFBundleTypeMIMETypes": [
+        "application/x-apple.sucatalog+xml"
+      ],
+      "CFBundleTypeName": "SUCatalog",
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": false
+    }
+  ],
+  "CFBundleExecutable": "Software Update",
+  "CFBundleGetInfoString": "Software Update version 4.0, Copyright \u00a9 2000-2009, Apple Inc. All rights reserved.",
+  "CFBundleIconFile": "SoftwareUpdate.icns",
+  "CFBundleIdentifier": "com.apple.SoftwareUpdate",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Software Update",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "6",
+  "CFBundleSignature": "swup",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1892.140.15.701.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H610",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H610",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

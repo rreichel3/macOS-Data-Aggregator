@@ -1,0 +1,36 @@
+{
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "py",
+        "pyi",
+        "pyw"
+      ],
+      "CFBundleTypeIconFile": "PythonSource.icns",
+      "CFBundleTypeName": "Python Script",
+      "CFBundleTypeRole": "Editor"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "pyc",
+        "pyo"
+      ],
+      "CFBundleTypeIconFile": "PythonCompiled.icns",
+      "CFBundleTypeName": "Python Bytecode Document",
+      "CFBundleTypeRole": "Editor"
+    }
+  ],
+  "CFBundleExecutable": "IDLE",
+  "CFBundleGetInfoString": "3.13.5, \u00a9 2001-2024 Python Software Foundation",
+  "CFBundleIconFile": "IDLE.icns",
+  "CFBundleIdentifier": "org.python.IDLE",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "IDLE",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "3.13.5",
+  "CFBundleSignature": "????",
+  "CFBundleVersion": "3.13.5",
+  "NSHighResolutionCapable": true,
+  "CFBundleAllowMixedLocalizations": true
+}

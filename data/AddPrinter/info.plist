@@ -1,0 +1,46 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "AddPrinter",
+  "CFBundleExecutable": "AddPrinter",
+  "CFBundleIconFile": "Printer.icns",
+  "CFBundleIdentifier": "com.apple.print.add",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "AddPrinter",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "607",
+  "CFBundleSignature": "prad",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLIconFile": "PrinterURL",
+      "CFBundleURLName": "AirPrint",
+      "CFBundleURLSchemes": [
+        "ipps",
+        "ipp"
+      ]
+    }
+  ],
+  "CFBundleVersion": "621.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": "YES",
+  "NSHumanReadableCopyright": "Copyright \u00a9 1995\u20132021, Apple Inc., All Rights Reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "UBrowserDefaultToolbarItems": [
+    "com.apple.print.pbm.uber",
+    "com.apple.print.pbm.ip",
+    "com.apple.print.pbm.smb"
+  ]
+}

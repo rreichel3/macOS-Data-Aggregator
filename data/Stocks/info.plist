@@ -1,0 +1,130 @@
+{
+  "BGTaskSchedulerPermittedIdentifiers": [
+    "com.apple.stocks.backgroundFetchManager"
+  ],
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Stocks",
+  "CFBundleExecutable": "Stocks",
+  "CFBundleHelpBookFolder": "Stocks.help",
+  "CFBundleHelpBookName": "com.apple.Stocks.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.stocks",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Stocks",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "6.2.3",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "com.apple.stocks",
+      "CFBundleURLSchemes": [
+        "stocks"
+      ]
+    }
+  ],
+  "CFBundleVersion": "1374",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "stocks",
+  "LSApplicationCategoryType": "",
+  "LSCounterpartIdentifiers": [
+    "com.apple.stocks.watchapp"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "NSCalendarsFullAccessUsageDescription": "This will let you add earnings reports to your calendar.",
+  "NSCalendarsWriteOnlyAccessUsageDescription": "This will let you add earnings reports to your calendar.",
+  "NSContactsUsageDescription": "This will let you add your contacts to calendar events in Stocks.",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+  "NSRegulatoryPrivacyDisclosure": {
+    "NSRegulatoryPrivacyDisclosureOBKPrivacyBundle": "com.apple.onboarding.stocks",
+    "NSRegulatoryPrivacyDisclosureVersion": "1.0"
+  },
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "StockIntent",
+    "StocksOverviewIntent",
+    "com.apple.stocks.basic",
+    "com.apple.stocks.v2.ForYouFeed",
+    "com.apple.stocks.v2.StockList",
+    "com.apple.stocks.v2.SymbolFeed",
+    "com.apple.stocks.v2.SymbolSearch",
+    "com.apple.stocks.v2.Article"
+  ],
+  "SBMatchingApplicationGenres": [
+    "Finance",
+    "Business",
+    "Reference",
+    "News",
+    "Productivity",
+    "Education"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true,
+    "UISceneConfigurations": {
+      "UIWindowSceneSessionRoleApplication": [
+        {
+          "UISceneClassName": "TeaUI.WindowScene",
+          "UISceneDelegateClassName": "StocksApp.SceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIApplicationShortcutItems": [
+    {
+      "UIApplicationShortcutItemIconType": "UIApplicationShortcutIconTypeSearch",
+      "UIApplicationShortcutItemTitle": "SEARCH_QUICK_ACTION_TITLE",
+      "UIApplicationShortcutItemType": "com.apple.stocks.v2.SymbolSearch",
+      "UIApplicationShortcutItemUserInfo": {
+        "data": "b'{\"type\":\"com.apple.stocks.v2.SymbolSearch\",\"query\":\"\"}'"
+      }
+    }
+  ],
+  "UIApplicationShortcutWidget": "com.apple.stocks.widget",
+  "UIBackgroundModes": [
+    "fetch",
+    "remote-notification"
+  ],
+  "UIDeviceFamily": [
+    2
+  ],
+  "UIGlobalUserInterfaceIdiomMac": true,
+  "UILaunchStoryboardName": "LaunchScreen",
+  "UILaunchStoryboardName~iphone": "LaunchScreen~iphone",
+  "UILaunchStoryboardName~ipod": "LaunchScreen~iphone",
+  "UIMenuBarItemTitleAbout": "About Stocks",
+  "UIMenuBarItemTitleHelp": "Stocks Help",
+  "UIMenuBarItemTitleHide": "Hide Stocks",
+  "UIMenuBarItemTitleQuit": "Quit Stocks",
+  "UIRequiredDeviceCapabilities": [
+    "armv7"
+  ],
+  "UIStatusBarStyle": "UIStatusBarStyleLightContent",
+  "UIStatusBarStyle~ipad": "UIStatusBarStyleDefault",
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UISupportedInterfaceOrientations~iphone": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UISupportedInterfaceOrientations~ipod": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UIUserInterfaceIdiomMac": true,
+  "UIUserInterfaceStyle": "Automatic",
+  "WKPluginBundleIdKey": "com.apple.stocks.watchkitextension"
+}

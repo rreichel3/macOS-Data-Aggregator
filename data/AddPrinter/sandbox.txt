@@ -1,0 +1,12 @@
+Sandbox Analysis for AddPrinter
+Generated: 2025-06-26 16:36:27
+Application Path: /System/Library/CoreServices/AddPrinter.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

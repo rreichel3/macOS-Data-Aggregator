@@ -1,0 +1,12 @@
+Sandbox Analysis for PowerShell
+Generated: 2025-06-26 16:31:56
+Application Path: /Applications/PowerShell.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- User application

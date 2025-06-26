@@ -1,0 +1,12 @@
+Sandbox Analysis for DVD Player
+Generated: 2025-06-26 16:36:27
+Application Path: /System/Library/CoreServices/Applications/DVD Player.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

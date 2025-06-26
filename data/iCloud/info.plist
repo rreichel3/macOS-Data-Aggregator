@@ -1,0 +1,48 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "iCloud",
+  "CFBundleIcons": {},
+  "CFBundleIcons~ipad": {},
+  "CFBundleIdentifier": "com.apple.CloudKit.ShareBear",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "iCloud",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H612",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H612",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSPrincipalClass": "NSApplication",
+  "SBAppTags": [
+    "hidden"
+  ],
+  "SBLaunchSuspendedAlways": true,
+  "UIBackgroundModes": [
+    "continuous"
+  ],
+  "UILaunchScreen": {
+    "UIImageName": "iCloud@2x"
+  },
+  "UIRequiredDeviceCapabilities": [
+    "armv7"
+  ],
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ]
+}

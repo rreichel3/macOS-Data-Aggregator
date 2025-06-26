@@ -1,0 +1,154 @@
+{
+  "BGTaskSchedulerPermittedIdentifiers": [
+    "com.apple.podcasts.feed-update"
+  ],
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Podcasts",
+  "CFBundleExecutable": "Podcasts",
+  "CFBundleHelpBookFolder": "podcasts.help",
+  "CFBundleHelpBookName": "com.apple.podcasts.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.podcasts",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Podcasts",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.1.0",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "Podcast Feed",
+      "CFBundleURLSchemes": [
+        "podcast",
+        "pcast",
+        "itms-podcasts"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "Podcast Spotlight",
+      "CFBundleURLSchemes": [
+        "podcasts"
+      ]
+    }
+  ],
+  "CFBundleVersion": "4023.700.3",
+  "CTIgnoreUserFonts": true,
+  "CoreSpotlightContinuation": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "podcasts",
+  "LSApplicationCategoryType": "",
+  "LSCounterpartIdentifiers": [
+    "com.apple.podcasts"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "MDItemKeywords": "Podcast, Podcasts, iTunes",
+  "MPSupportsExternallyPlayableContent": true,
+  "NSAccentColorName": "AccentColor",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2016 - 2023 Apple Inc. All rights reserved.",
+  "NSSupportsAutomaticTermination": false,
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "com.apple.podcasts.playback.podcast",
+    "com.apple.podcasts.playback.playlist",
+    "com.apple.podcasts.playback.unplayed",
+    "com.apple.podcasts.playback.episode",
+    "com.apple.podcasts.playback.store",
+    "com.apple.podcasts.playback.listenNow",
+    "com.apple.corespotlightitem",
+    "com.apple.corespotlightquerycontinuation",
+    "com.apple.podcasts.playback.NetworkMedia"
+  ],
+  "SKRespectApplicationUserInterfaceLayoutDirection": true,
+  "SupportsSharedQueue": true,
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true,
+    "UIApplicationSupportsTabbedSceneCollection": false,
+    "UISceneConfigurations": {
+      "UIWindowSceneSessionRoleApplication": [
+        {
+          "UISceneConfigurationName": "Default Configuration",
+          "UISceneDelegateClassName": "Podcasts.SceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIBackgroundModes": [
+    "audio",
+    "fetch",
+    "notif"
+  ],
+  "UIBrowsableContentSupportsSectionedBrowsing": true,
+  "UIDeviceFamily": [
+    6
+  ],
+  "UIPrerenderedIcon": true,
+  "UIRequiredDeviceCapabilities": [
+    "armv7"
+  ],
+  "UIRequiresPersistentWiFi": false,
+  "UIStateRestorationFileProtection": "NSFileProtectionCompleteUntilFirstUserAuthentication",
+  "UIStatusBarStyle": "UIStatusBarStyleDefault",
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ],
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UNUserNotificationCenter": {
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true
+    },
+    "UNUniversalApplicationIdentifier": "com.apple.podcasts"
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.content"
+      ],
+      "UTTypeDescription": "Episode",
+      "UTTypeIconFiles": [],
+      "UTTypeIdentifier": "com.apple.podcasts.episode"
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.content"
+      ],
+      "UTTypeDescription": "Show",
+      "UTTypeIconFiles": [],
+      "UTTypeIdentifier": "com.apple.podcasts.show"
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.content"
+      ],
+      "UTTypeDescription": "Station",
+      "UTTypeIconFiles": [],
+      "UTTypeIdentifier": "com.apple.podcasts.station"
+    }
+  ],
+  "_LSSupportsRemoval": true
+}

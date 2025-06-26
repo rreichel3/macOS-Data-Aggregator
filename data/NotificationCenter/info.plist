@@ -1,0 +1,33 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleExecutable": "NotificationCenter",
+  "CFBundleIdentifier": "com.apple.notificationcenterui",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "NotificationCenter",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1341.300.2",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H607",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H607",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "Application",
+  "NSSupportsAutomaticGraphicsSwitching": true,
+  "NSSupportsAutomaticTermination": false,
+  "NSSupportsSuddenTermination": false
+}

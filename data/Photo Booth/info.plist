@@ -1,0 +1,65 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "Photo Booth Library",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.photo-booth-library"
+      ],
+      "LSTypeIsPackage": true,
+      "NSDocumentClass": "ArchiveDocument"
+    }
+  ],
+  "CFBundleExecutable": "Photo Booth",
+  "CFBundleHelpBookFolder": "PhotoBooth.help",
+  "CFBundleHelpBookName": "com.apple.PhotoBooth.help",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.PhotoBooth",
+  "CFBundleInfoDictionaryVersion": "13.1",
+  "CFBundleName": "Photo Booth",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "13.1",
+  "CFBundleSignature": "PhBo",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1164.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "GPUSelectionPolicy": "automatic",
+  "HPDHelpProjectIdentifier": "photo-booth",
+  "LSApplicationCategoryType": "public.app-category.entertainment",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2005\u20132023 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "PBApplication",
+  "NSSupportsAutomaticGraphicsSwitching": true,
+  "NSSupportsSuddenTermination": "YES",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "Photo Booth Library",
+      "UTTypeIconName": "PhotoBoothLibrary",
+      "UTTypeIdentifier": "com.apple.photo-booth-library",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "PBLb"
+        ],
+        "public.filename-extension": [
+          "Photo Booth"
+        ]
+      }
+    }
+  ]
+}

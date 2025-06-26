@@ -1,0 +1,27 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleExecutable": "rcd",
+  "CFBundleGetInfoString": "361",
+  "CFBundleIdentifier": "com.apple.rcd",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "rcd",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "361",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "361",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Apple Inc., 2005-2009",
+  "NSUIElement": "1"
+}

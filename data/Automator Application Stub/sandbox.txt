@@ -1,0 +1,12 @@
+Sandbox Analysis for Automator Application Stub
+Generated: 2025-06-26 16:31:57
+Application Path: /System/Library/CoreServices/Automator Application Stub.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)

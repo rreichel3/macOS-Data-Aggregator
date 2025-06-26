@@ -1,0 +1,32 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Disk Utility",
+  "CFBundleExecutable": "Disk Utility",
+  "CFBundleHelpBookFolder": "DiskUtility.help",
+  "CFBundleHelpBookName": "com.apple.DiskUtility.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.DiskUtility",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Disk Utility",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "22.6",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "2300",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H607",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H607",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "\u00a9 2015\u20132023 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication"
+}

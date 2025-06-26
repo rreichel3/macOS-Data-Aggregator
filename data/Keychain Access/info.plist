@@ -1,0 +1,123 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFAppleHelpAnchor": "keychain",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Keychain Access",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "keychain",
+        "keychain-db"
+      ],
+      "CFBundleTypeName": "keychain",
+      "CFBundleTypeRole": "Editor",
+      "LSItemContentTypes": [
+        "com.apple.keychain"
+      ],
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cert",
+        "cer",
+        "der",
+        "crt",
+        "p7c"
+      ],
+      "CFBundleTypeName": "certificate",
+      "CFBundleTypeRole": "Editor"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "pem"
+      ],
+      "CFBundleTypeName": "printable encoded archive",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p7b"
+      ],
+      "CFBundleTypeName": "certificate bundle",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p7r"
+      ],
+      "CFBundleTypeName": "certificate request response",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p7",
+        "p7m"
+      ],
+      "CFBundleTypeName": "cryptographic message",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p7s"
+      ],
+      "CFBundleTypeName": "cryptographic signature",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p10"
+      ],
+      "CFBundleTypeName": "certificate request",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "p12",
+        "pkcs12",
+        "pfx"
+      ],
+      "CFBundleTypeName": "personal information exchange file",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Keychain Access",
+  "CFBundleHelpBookFolder": "KeychainAccess.help",
+  "CFBundleHelpBookName": "com.apple.keychainaccess.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.keychainaccess",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Keychain Access",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "11.0",
+  "CFBundleSignature": "kcmr",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "55314.140.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H619",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H619",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "keychain-access",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "MDItemKeywords": "Keychain Passwords Certificates",
+  "NSAppleScriptEnabled": "No",
+  "NSHumanReadableCopyright": "Copyright \u00a9 1998\u20132022, Apple Inc. All Rights Reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "KeychainApp",
+  "SecForcePassphrasePrompt": true
+}

@@ -1,0 +1,13 @@
+Sandbox Analysis for System Information
+Generated: 2025-06-26 16:32:40
+Application Path: /System/Applications/Utilities/System Information.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)
+- System application

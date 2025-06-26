@@ -1,0 +1,9 @@
+Code Signing Information for System Information
+Generated: 2025-06-26 16:32:40
+Application Path: /System/Applications/Utilities/System Information.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

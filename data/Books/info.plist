@@ -1,0 +1,398 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "iBooks",
+    "Apple Books"
+  ],
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Books",
+  "CFBundleDisplayName#Car": "Audiobooks",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "Electronic Publication (EPUB)",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "org.idpf.epub-container",
+        "org.idpf.epub-folder",
+        "com.apple.ibooks.epub"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Electronic Publication (Apple Books)",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.apple.ibooks-container",
+        "com.apple.ibooks-folder",
+        "com.apple.ibooks"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Portable Document Format (PDF)",
+      "CFBundleTypeRole": "Viewer",
+      "LSItemContentTypes": [
+        "com.adobe.pdf"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Protected mpeg 4 audio",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.apple.protected-mpeg-4-audio"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Protected mpeg 4 audiobook",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "YES",
+      "LSItemContentTypes": [
+        "com.apple.protected-mpeg-4-audio-b"
+      ]
+    },
+    {
+      "CFBundleTypeName": "MP4",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.mpeg-4"
+      ]
+    },
+    {
+      "CFBundleTypeName": "MP3",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.mp3"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.mpeg-4-audio",
+        "com.apple.m4a-audio"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.aac-audio"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.ac3-audio"
+      ]
+    },
+    {
+      "CFBundleTypeName": ".aif",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.aiff-audio",
+        "public.aifc-audio"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.apple.coreaudio-format"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.digidesign.sd2-audio"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "public.au-audio"
+      ]
+    },
+    {
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "No",
+      "LSItemContentTypes": [
+        "com.microsoft.waveform-audio"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Folder",
+      "CFBundleTypeRole": "Viewer",
+      "LSItemContentTypes": [
+        "public.folder"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Audible Format 4",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.audible.aa-audiobook"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Audible Enhanced",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": "Yes",
+      "LSItemContentTypes": [
+        "com.audible.aax-audiobook"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "Books",
+  "CFBundleHelpBookFolder": "iBooksX.help",
+  "CFBundleHelpBookName": "com.apple.iBooksX.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.iBooksX",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Books",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "6.4",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "iTunes Book Store URL",
+      "CFBundleURLSchemes": [
+        "itms-books",
+        "itms-bookss"
+      ]
+    },
+    {
+      "CFBundleURLName": "iTunes Book URL",
+      "CFBundleURLSchemes": [
+        "ibooks"
+      ]
+    }
+  ],
+  "CFBundleVersion": "6070.52",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "books",
+  "INAlternativeAppNames": [
+    {
+      "INAlternativeAppName": "iBooks",
+      "INAlternativeAppNamePronunciationHint": "ALTERNATIVE_APP_NAME_APPLE_IBOOKS_PRONUNCIATION_HINT"
+    },
+    {
+      "INAlternativeAppName": "ALTERNATIVE_APP_NAME_APPLE_BOOKS",
+      "INAlternativeAppNamePronunciationHint": "ALTERNATIVE_APP_NAME_APPLE_BOOKS_PRONUNCIATION_HINT",
+      "INPreferredForAppShortcuts": true
+    }
+  ],
+  "LSCounterpartIdentifiers": [
+    "com.apple.NanoBooks"
+  ],
+  "LSMinimumSystemVersion": "14.7",
+  "LSSupportsOpeningDocumentsInPlace": true,
+  "NSAccentColorName": "BrandColor",
+  "NSCameraUsageDescription": "",
+  "NSContactsUsageDescription": "This will allow your photo to be used for your account in the Books app.",
+  "NSHumanReadableCopyright": "HUMAN_READABLE_COPYRIGHT",
+  "NSLocationWhenInUseUsageDescription": "Books you read may request your location.",
+  "NSPhotoLibraryUsageDescription": "",
+  "NSRegulatoryPrivacyDisclosure": {
+    "NSRegulatoryPrivacyDisclosureOBKPrivacyBundle": "com.apple.onboarding.ibooks",
+    "NSRegulatoryPrivacyDisclosureVersion": "1.0"
+  },
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "NSUbiquitousContainers": {
+    "iCloud.com.apple.iBooks": {
+      "NSUbiquitousContainerSupportFolderLevels": "One"
+    }
+  },
+  "NSUserActivityTypes": [
+    "com.apple.iBooks.assetReading"
+  ],
+  "NSUserNotificationsUsageDescription": "NOTIFICATION_TCC_DESCRIPTION",
+  "SBAppUsesLocalNotifications": true,
+  "SKRespectApplicationUserInterfaceLayoutDirection": true,
+  "UIAppFonts": [
+    "Serif-UI-Display-Semibold.otf"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": true,
+    "UIApplicationSupportsTabbedSceneCollection": false,
+    "UISceneConfigurations": {
+      "CPTemplateApplicationSceneSessionRoleApplication": [
+        {
+          "UISceneClassName": "CPTemplateApplicationScene",
+          "UISceneConfigurationName": "Audiobooks-Car",
+          "UISceneDelegateClassName": "BKCarPlayController"
+        }
+      ],
+      "UIWindowSceneSessionRoleApplication": [
+        {
+          "UISceneClassName": "_BCWindowScene",
+          "UISceneDelegateClassName": "_BKRoutingWindowSceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIApplicationShortcutItems": [
+    {
+      "UIApplicationShortcutItemIconType": "UIApplicationShortcutIconTypeSearch",
+      "UIApplicationShortcutItemTitle": "QUICK_ACTION_SEARCH_IBOOK_STORE",
+      "UIApplicationShortcutItemType": "com.apple.iBooks.openStoreSearch"
+    }
+  ],
+  "UIBackgroundModes": [
+    "audio",
+    "fetch",
+    "remote-notification"
+  ],
+  "UIBrowsableContentSupportsSectionedBrowsing": true,
+  "UICloudStorageSupported": true,
+  "UIDeviceFamily": [
+    6
+  ],
+  "UIGlobalUserInterfaceIdiomMac": true,
+  "UILaunchStoryboardName": "LaunchScreen",
+  "UIPrerenderedIcon": true,
+  "UISplitViewControllerAutomaticMaterialsEnabled": false,
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight",
+    "UIInterfaceOrientationPortraitUpsideDown"
+  ],
+  "UIUserInterfaceIdiomMac": true,
+  "UIViewControllerBasedStatusBarAppearance": true,
+  "UIWhitePointAdaptivityStyle": "UIWhitePointAdaptivityStyleReading",
+  "UNUserNotificationCenter": {
+    "UNAutomaticallyShowSettings": true,
+    "UNDaemonShouldReceiveBackgroundResponses": true,
+    "UNDaemonShouldReceiveNotificationSettingsUpdates": true,
+    "UNDefaultSettings": {
+      "UNSettingAlerts": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true,
+      "UNSettingProvidesAppNotificationSettings": true,
+      "UNSettingSounds": true
+    }
+  },
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Electronic Publication (EPUB)",
+      "UTTypeIdentifier": "com.apple.ibooks.epub",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "epub"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Electronic Publication (EPUB)",
+      "UTTypeIdentifier": "org.idpf.epub-container",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "epub"
+        ],
+        "public.mime-type": [
+          "application/epub+zip"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Electronic Publication (EPUB)",
+      "UTTypeIdentifier": "org.idpf.epub-folder",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "epub"
+        ],
+        "public.mime-type": [
+          "application/x-epub-folder"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Electronic Publication (Apple Books)",
+      "UTTypeIdentifier": "com.apple.ibooks-container",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ibooks"
+        ],
+        "public.mime-type": [
+          "application/ibooks+zip"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package",
+        "public.composite-content"
+      ],
+      "UTTypeDescription": "Electronic Publication (Apple Books)",
+      "UTTypeIdentifier": "com.apple.ibooks-folder",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ibooks"
+        ],
+        "public.mime-type": [
+          "application/x-ibooks-folder",
+          "application/x-ibooks"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "org.idpf.epub-container"
+      ],
+      "UTTypeDescription": "Electronic Publication (Apple Books)",
+      "UTTypeIdentifier": "com.apple.ibooks",
+      "UTTypeReferenceURL": "http://www.apple.com/ipad/built-in-apps/ibooks.html",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ibooks"
+        ],
+        "public.mime-type": [
+          "application/x-ibooks+zip"
+        ]
+      }
+    }
+  ],
+  "_LSSupportsRemoval": true,
+  "kMDItemKeywords": "Apple Books"
+}

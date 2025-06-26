@@ -1,0 +1,333 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Font Book",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "TrueType font",
+      "CFBundleTypeOSTypes": [
+        "tfil"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "TTF",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.font-suitcase"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "Binary"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "dfont"
+      ],
+      "CFBundleTypeName": "Datafork TrueType font",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "DFONT",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.truetype-datafork-suitcase-font"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "otf"
+      ],
+      "CFBundleTypeName": "OpenType font",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "OTF",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.opentype-font"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ttf"
+      ],
+      "CFBundleTypeName": "TrueType font",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "TTF",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.truetype-font"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ttc"
+      ],
+      "CFBundleTypeName": "TrueType font collection",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "TTC",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.truetype-collection-font"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "otc"
+      ],
+      "CFBundleTypeName": "OpenType font collection",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "OTC",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.opentype-collection-font"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Font Suitcase",
+      "CFBundleTypeOSTypes": [
+        "FFIL"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "FFIL",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.font-suitcase"
+      ]
+    },
+    {
+      "CFBundleTypeName": "PostScript Type 1 outline font",
+      "CFBundleTypeOSTypes": [
+        "LWFN"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "LWFN",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.adobe.postscript-lwfn\u200b-font"
+      ]
+    },
+    {
+      "CFBundleTypeName": "Font Suitcase",
+      "CFBundleTypeOSTypes": [
+        "sfnt"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "SFNT",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.font-suitcase"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sfont"
+      ],
+      "CFBundleTypeName": "Composite Font Representation font",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "SFONT",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.cfr-font"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cfr"
+      ],
+      "CFBundleTypeName": "Composite Font Representation font",
+      "CFBundleTypeRole": "Viewer",
+      "ICExtension": "CFR",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.cfr-font"
+      ]
+    }
+  ],
+  "CFBundleExecutable": "Font Book",
+  "CFBundleHelpBookFolder": "fontbook.help",
+  "CFBundleHelpBookName": "com.apple.fontbook.help",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.FontBook",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Font Book",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "11.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLName": "com.apple.FontBook",
+      "CFBundleURLSchemes": [
+        "fontbook"
+      ]
+    }
+  ],
+  "CFBundleVersion": "491.5.0.1",
+  "CTFontSuppressAutoDownload": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "font-book",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "NSMainNibFile": "MainMenu",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.item"
+      ],
+      "UTTypeDescription": "Font Book Dragged Font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.FontBook.DraggableFont",
+      "UTTypeTagSpecification": {}
+    }
+  ],
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "TrueType font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "public.truetype-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ttf"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "Font suitcase",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.font-suitcase",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "tfil"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.truetype-font"
+      ],
+      "UTTypeDescription": "TrueType data fork font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.truetype-datafork-suitcase-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "dfont"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "PostScript OpenType font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "public.opentype-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "otf"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "TrueType collection font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "public.truetype-collection-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ttc"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "OpenType font collection",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "public.opentype-collection-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "otc"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "Font suitcase",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.font-suitcase",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ffil"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.adobe.postscript-\u200bfont"
+      ],
+      "UTTypeDescription": "PostScript Type 1 outline font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.adobe.postscript-lwfn\u200b-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "lwfn"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "Font suitcase",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.font-suitcase",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "sfnt"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "Composite Font Representation font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.cfr-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "sfont"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.font"
+      ],
+      "UTTypeDescription": "Composite Font Representation font",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.cfr-font",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "cfr"
+        ]
+      }
+    }
+  ]
+}

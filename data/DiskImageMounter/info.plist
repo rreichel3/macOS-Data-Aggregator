@@ -1,0 +1,244 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "dmg",
+        "udif",
+        "img"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "Disk Image",
+      "CFBundleTypeOSTypes": [
+        "devi"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "toast",
+        "dvdr",
+        "cdr"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "DVD/CD-R Master Image",
+      "CFBundleTypeOSTypes": [
+        "GImg",
+        "PImg"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "dmgpart"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "Disk Image Segment",
+      "CFBundleTypeOSTypes": [
+        "devs"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "Raw Disk Image",
+      "CFBundleTypeOSTypes": [
+        "devr",
+        "hdrv",
+        "DDim"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "PC Drive Container",
+      "CFBundleTypeOSTypes": [
+        "OPCD"
+      ],
+      "CFBundleTypeRole": "Viewer"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "iso"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "ISO Disk Image",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sparseimage",
+        "asif"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "Sparse Disk Image",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sparsebundle",
+        "backupbundle"
+      ],
+      "CFBundleTypeIconFile": "diskimage.icns",
+      "CFBundleTypeName": "Sparse Disk Image Bundle",
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true
+    }
+  ],
+  "CFBundleExecutable": "DiskImageMounter",
+  "CFBundleIconFile": "diskimage.icns",
+  "CFBundleIdentifier": "com.apple.DiskImageMounter",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "DiskImageMounter",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSignature": "ddsk",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H621",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H621",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "NSSupportsAutomaticTermination": true,
+  "NSSupportsSuddenTermination": true,
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.archive",
+        "public.data",
+        "public.disk-image"
+      ],
+      "UTTypeDescription": "Disk Image",
+      "UTTypeIdentifier": "com.apple.disk-image"
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.disk-image"
+      ],
+      "UTTypeDescription": "ISO Disk Image",
+      "UTTypeIdentifier": "public.iso-image",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": "iso"
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "Disk Image",
+      "UTTypeIdentifier": "com.apple.disk-image-udif",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "devi"
+        ],
+        "public.filename-extension": [
+          "dmg",
+          "udif",
+          "img"
+        ],
+        "public.mime-type": [
+          "application/x-apple-diskimage"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image-udif",
+      "UTTypeDescription": "Disk Image Segment",
+      "UTTypeIdentifier": "com.apple.disk-image-udif-segment",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": "devs",
+        "public.filename-extension": "dmgpart"
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "Sparse Disk Image",
+      "UTTypeIdentifier": "com.apple.disk-image-sparse",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "sparseimage",
+          "asif"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.disk-image",
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "Sparse Disk Image Bundle",
+      "UTTypeIdentifier": "com.apple.disk-image-sparse-bundle",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "sparsebundle",
+          "backupbundle"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "Generic Disk Image",
+      "UTTypeIdentifier": "com.apple.disk-image-raw",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "hdrv",
+          "DDim",
+          "devr"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "PC Drive Container",
+      "UTTypeIdentifier": "com.apple.disk-image-pc",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "OPCD"
+        ]
+      }
+    },
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "DVD/CD-R Master Image",
+      "UTTypeIdentifier": "com.apple.disk-image-cdr",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "dvdr",
+          "cdr"
+        ]
+      }
+    }
+  ],
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": "com.apple.disk-image",
+      "UTTypeDescription": "DVD/CD-R Master Image",
+      "UTTypeIdentifier": "com.roxio.disk-image-toast",
+      "UTTypeTagSpecification": {
+        "com.apple.ostype": [
+          "GImg",
+          "PImg"
+        ],
+        "public.filename-extension": [
+          "toast"
+        ]
+      }
+    }
+  ]
+}

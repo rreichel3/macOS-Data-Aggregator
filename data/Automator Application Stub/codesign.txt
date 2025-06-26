@@ -1,0 +1,9 @@
+Code Signing Information for Automator Application Stub
+Generated: 2025-06-26 16:31:57
+Application Path: /System/Library/CoreServices/Automator Application Stub.app
+
+Signature Status: Valid (Verification Failed)
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: No

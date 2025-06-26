@@ -1,0 +1,12 @@
+Sandbox Analysis for Shortcuts Events
+Generated: 2025-06-26 16:32:39
+Application Path: /System/Library/CoreServices/Shortcuts Events.app
+
+Sandboxed: Yes
+Sandbox Type: App Sandbox
+Entitlements Count: 1
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

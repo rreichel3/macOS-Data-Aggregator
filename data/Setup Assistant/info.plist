@@ -1,0 +1,33 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDevelopmentRegion - 2": "English",
+  "CFBundleExecutable": "Setup Assistant",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.SetupAssistant",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Setup Assistant",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "10.10",
+  "CFBundleSignature": "????",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "6707.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H623",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H623",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSHasLocalizedDisplayName": true,
+  "LSMinimumSystemVersion": "14.7",
+  "NSAccentColorName": "accent-color",
+  "NSDisablePersistence": true,
+  "NSHumanReadableCopyright": "Copyright \u00a9 2014 Apple Inc. All rights reserved.",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "NSApplication",
+  "Title": "macOS Setup Assistant"
+}

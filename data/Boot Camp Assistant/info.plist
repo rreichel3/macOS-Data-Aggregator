@@ -1,0 +1,59 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Boot Camp Assistant",
+  "CFBundleExecutable": "Boot Camp Assistant",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.bootcampassistant",
+  "CFBundleInfoDictionaryVersion": "6.1.0",
+  "CFBundleName": "Boot Camp Assistant",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "6.1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "6338.100.1",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "ExternalInstallOnlyModels": [
+    "MacBookAir7,1"
+  ],
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+  "NSMainStoryboardFile": "Main",
+  "NSPrincipalClass": "NSApplication",
+  "PreUEFIModels": [
+    "MacBook7",
+    "MacBookAir5",
+    "MacBookPro10",
+    "MacPro5",
+    "Macmini6",
+    "iMac13"
+  ],
+  "RS5OrHigherModels": [
+    "MacBookPro15,3"
+  ],
+  "UEFIOnlyModels": [
+    "MacBook8,1",
+    "MacBook7,1",
+    "MacBookPro11,4",
+    "MacPro6,1",
+    "iMac16,1"
+  ],
+  "USBInstallModels": [
+    "MacBook7",
+    "MacBookAir5",
+    "MacBookPro10",
+    "MacPro5",
+    "Macmini6",
+    "iMac13"
+  ]
+}

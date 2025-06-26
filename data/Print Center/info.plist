@@ -1,0 +1,50 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Print Center",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeName": "Docs",
+      "CFBundleTypeOSTypes": [
+        "****"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSTypeIsPackage": true,
+      "NSPersistentStoreTypeKey": "Binary"
+    }
+  ],
+  "CFBundleExecutable": "Print Center",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.printcenter",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "Print Center",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "621.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSApplicationCategoryType": "public.app-category.utilities",
+  "LSMinimumSystemVersion": "14.7",
+  "NSHumanReadableCopyright": "Copyright \u00a9 1995\u20132023 Apple Inc.",
+  "UTImportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "public.text"
+      ],
+      "UTTypeDescription": "JobIDs",
+      "UTTypeIcons": {},
+      "UTTypeIdentifier": "com.apple.printcenter.jobids",
+      "UTTypeTagSpecification": {}
+    }
+  ]
+}

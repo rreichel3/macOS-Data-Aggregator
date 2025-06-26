@@ -1,0 +1,13 @@
+Sandbox Analysis for Siri
+Generated: 2025-06-26 16:35:11
+Application Path: /System/Applications/Siri.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)
+- System application

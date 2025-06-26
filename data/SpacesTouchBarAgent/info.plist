@@ -1,0 +1,27 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "SpacesTouchBarAgent",
+  "CFBundleExecutable": "SpacesTouchBarAgent",
+  "CFBundleIdentifier": "com.apple.SpacesTouchBarAgent",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "SpacesTouchBarAgent",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "1.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleVersion": "2273.105.2.2",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "23H502",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23H502",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": true,
+  "NSDisablePersistence": true,
+  "NSPrincipalClass": "NSApplication"
+}

@@ -1,0 +1,186 @@
+{
+  "Application-Group": [
+    "dot-mac",
+    "exchange",
+    "CalendarApps"
+  ],
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleAlternateNames": [
+    "iCal"
+  ],
+  "CFBundleDevelopmentRegion": "English",
+  "CFBundleDisplayName": "Calendar",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "ics"
+      ],
+      "CFBundleTypeMIMETypes": [
+        "text/calendar"
+      ],
+      "CFBundleTypeName": "ICS file",
+      "CFBundleTypeOSTypes": [
+        "iCal"
+      ],
+      "CFBundleTypeRole": "Editor",
+      "LSItemContentTypes": [
+        "com.apple.ical.ics"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "vcs"
+      ],
+      "CFBundleTypeMIMETypes": [
+        "text/x-vCalendar"
+      ],
+      "CFBundleTypeName": "vCal file",
+      "CFBundleTypeOSTypes": [
+        "vCal"
+      ],
+      "CFBundleTypeRole": "Viewer",
+      "LSIsAppleDefaultForType": true,
+      "LSItemContentTypes": [
+        "com.apple.ical.vcs"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "aplmodel"
+      ],
+      "CFBundleTypeName": "APL model",
+      "CFBundleTypeRole": "None",
+      "LSTypeIsPackage": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "icbu"
+      ],
+      "CFBundleTypeName": "Calendar Backup file",
+      "CFBundleTypeRole": "Editor",
+      "LSTypeIsPackage": true
+    }
+  ],
+  "CFBundleExecutable": "Calendar",
+  "CFBundleHelpBookFolder": "iCal.help",
+  "CFBundleHelpBookName": "com.apple.iCal.help",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.iCal",
+  "CFBundleInfoDictionaryVersion": "7.0",
+  "CFBundleName": "Calendar",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "14.0",
+  "CFBundleSignature": "wrbt",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLName": "Remote Calendar URL",
+      "CFBundleURLSchemes": [
+        "webcal"
+      ]
+    },
+    {
+      "CFBundleURLIconFile": "ical",
+      "CFBundleURLName": "iCal URL",
+      "CFBundleURLSchemes": [
+        "ical"
+      ]
+    }
+  ],
+  "CFBundleVersion": "2964.4.2",
+  "CTIgnoreUserFonts": true,
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "HPDHelpProjectIdentifier": "calendar",
+  "LSApplicationCategoryType": "public.app-category.productivity",
+  "LSFileQuarantineEnabled": false,
+  "LSMinimumSystemVersion": "14.7",
+  "MDItemKeywords": "iCal",
+  "NSAccentColorName": "CalendarAccentColor",
+  "NSAppAccentColorName": "CalendarAccentColor",
+  "NSAppleScriptEnabled": true,
+  "NSDockTilePlugIn": "Calendar.docktileplugin",
+  "NSMainNibFile": "MainMenu",
+  "NSPrincipalClass": "CALApplication",
+  "NSSupportsSuddenTermination": true,
+  "NSUserActivityTypes": [
+    "com.apple.calendar.continuity.event_selection",
+    "com.apple.calendar.continuity.date_selection",
+    "INShowPersonInteractionsIntent",
+    "com.apple.calendar.event_creation"
+  ],
+  "OSAScriptingDefinition": "iCal.sdef",
+  "UTExportedTypeDeclarations": [
+    {
+      "UTTypeConformsTo": [
+        "com.apple.ical.ics"
+      ],
+      "UTTypeDescription": "Calendar Event",
+      "UTTypeIdentifier": "com.apple.ical.ics.event",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.ical.ics"
+      ],
+      "UTTypeDescription": "Reminder Todo",
+      "UTTypeIdentifier": "com.apple.ical.ics.todo",
+      "UTTypeTagSpecification": {}
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.calendar-event"
+      ],
+      "UTTypeDescription": "ICS File",
+      "UTTypeIdentifier": "com.apple.ical.ics",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "ics"
+        ],
+        "public.mime-type": "text/calendar"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "VCS File",
+      "UTTypeIdentifier": "com.apple.ical.vcs",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "vcs",
+          "vcal"
+        ],
+        "public.mime-type": "text/x-vcalendar"
+      }
+    },
+    {
+      "UTTypeConformsTo": [
+        "public.data",
+        "public.item",
+        "com.apple.package"
+      ],
+      "UTTypeDescription": "iCal Backup File",
+      "UTTypeIdentifier": "com.apple.ical.backup-package",
+      "UTTypeTagSpecification": {
+        "public.filename-extension": [
+          "icbu"
+        ]
+      }
+    }
+  ],
+  "com.apple.PreferenceSync.ExcludeSyncKeys": [
+    "Disable all alarms"
+  ]
+}

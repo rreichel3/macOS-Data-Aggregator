@@ -1,0 +1,49 @@
+{
+  "BuildMachineOSBuild": "22A380019",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "Tips",
+  "CFBundleExecutable": "Tips",
+  "CFBundleIconFile": "AppIcon",
+  "CFBundleIconName": "AppIcon",
+  "CFBundleIdentifier": "com.apple.tips",
+  "CFBundleName": "Tips",
+  "CFBundleShortVersionString": "10.0",
+  "CFBundleSupportedPlatforms": [
+    "MacOSX"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Viewer",
+      "CFBundleURLSchemes": [
+        "x-apple-tips"
+      ],
+      "LSHandlerRank": "Default",
+      "LSIsAppleDefaultForScheme": true
+    }
+  ],
+  "CFBundleVersion": "725.17",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "",
+  "DTPlatformName": "macosx",
+  "DTPlatformVersion": "14.7",
+  "DTSDKBuild": "23G1000s",
+  "DTSDKName": "macosx14.7.internal",
+  "DTXcode": "1500",
+  "DTXcodeBuild": "15E6079e",
+  "LSMinimumSystemVersion": "14.7",
+  "LSUIElement": "YES",
+  "SBMatchingApplicationGenres": [
+    "Education"
+  ],
+  "UNUserNotificationCenter": {
+    "UNAutomaticallyShowSettings": true,
+    "UNDefaultSettings": {
+      "UNSettingAlwaysShowPreviews": true,
+      "UNSettingLockScreen": true,
+      "UNSettingNotificationCenter": true
+    },
+    "UNSuppressUserAuthorizationPrompt": true
+  },
+  "UTTypeDescription": "Tips",
+  "UTTypeIdentifier": "com.apple.tips"
+}
