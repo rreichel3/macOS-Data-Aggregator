@@ -23,7 +23,6 @@ import logging
 import sys
 import json
 import plistlib
-from datetime import datetime
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -193,7 +192,6 @@ def extract_entitlements(app_path: Path) -> Optional[str]:
                 
                 # Add a header comment for clarity
                 header = f"""<!-- Entitlements for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 
 """
                 return header + formatted_xml
@@ -221,7 +219,6 @@ def extract_entitlements(app_path: Path) -> Optional[str]:
                         indent_level += 1
                 
                 header = f"""<!-- Entitlements for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 <!-- Note: XML formatting may be basic due to parsing issues -->
 
 """
@@ -264,7 +261,6 @@ def extract_info_plist(app_path: Path) -> Optional[str]:
                 
                 # Add a header comment for clarity
                 header = f"""<!-- Info.plist for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 <!-- Source: {info_plist_path} -->
 
 """
@@ -274,7 +270,6 @@ def extract_info_plist(app_path: Path) -> Optional[str]:
                 logger.debug(f"XML formatting failed for {app_path}, returning raw plutil output: {e}")
                 # Add basic header even if formatting fails
                 header = f"""<!-- Info.plist for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 <!-- Source: {info_plist_path} -->
 
 """
@@ -299,7 +294,6 @@ def extract_info_plist(app_path: Path) -> Optional[str]:
             formatted_xml = ET.tostring(root, encoding='unicode', xml_declaration=True)
             
             header = f"""<!-- Info.plist for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 <!-- Source: {info_plist_path} -->
 
 """
@@ -308,7 +302,6 @@ def extract_info_plist(app_path: Path) -> Optional[str]:
         except ET.ParseError:
             # Last resort: return raw XML with header
             header = f"""<!-- Info.plist for {app_path.name} -->
-<!-- Extracted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->
 <!-- Source: {info_plist_path} -->
 
 """
@@ -761,7 +754,6 @@ def process_application(app_path: Path, data_dir: Path) -> bool:
         codesign_info = extract_code_signing_info(app_path)
         
         codesign_text = f"""Code Signing Information for {app_name}
-Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 Application Path: {app_path}
 
 Signature Status: {codesign_info['signature_status']}
@@ -789,7 +781,7 @@ Sealed Resources: {codesign_info['sealed_resources']}
                 f.write(entitlements)
         else:
             with open(entitlements_file, 'w') as f:
-                f.write(f"No entitlements found for {app_name}\nGenerated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"No entitlements found for {app_name}\n")
         collected_data = True
         
         # 4. Collect Info.plist
@@ -802,7 +794,7 @@ Sealed Resources: {codesign_info['sealed_resources']}
                 f.write(info_plist_data)
         else:
             with open(info_plist_file, 'w') as f:
-                f.write(f"{{\n  \"error\": \"No Info.plist found or could not be read for {app_name}\",\n  \"generated\": \"{datetime.now().isoformat()}\"\n}}")
+                f.write(f"{{\n  \"error\": \"No Info.plist found or could not be read for {app_name}\"\n}}")
         collected_data = True
         
         # 5. Analyze sandbox information
@@ -810,7 +802,6 @@ Sealed Resources: {codesign_info['sealed_resources']}
         sandbox_info = analyze_sandbox_info(app_path, info_plist_data, entitlements)
         
         sandbox_text = f"""Sandbox Analysis for {app_name}
-Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 Application Path: {app_path}
 
 Sandboxed: {sandbox_info['sandboxed']}
@@ -843,7 +834,6 @@ Analysis Notes:
         manifest = {
             "name": app_name,
             "path": str(app_path),
-            "generated": datetime.now().isoformat(),
             "sdef_count": sdef_count,
             "has_icon": icon_path is not None,
             "icon_path": icon_path,
