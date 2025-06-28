@@ -6,3 +6,5 @@ Authority: Unknown
 Identifier: 59GAB85EFG
 Team Identifier: Unknown
 Sealed Resources: Yes
+
+Error: Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_15.1.app']' timed out after 30 seconds
