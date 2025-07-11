@@ -10,7 +10,7 @@
     "identifier": "59GAB85EFG",
     "team_identifier": "Unknown",
     "sealed_resources": "Yes",
-    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_15.4.app']' timed out after 30 seconds"
+    "error": null
   },
   "sandbox": {
     "sandboxed": "Unknown",
