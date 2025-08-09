@@ -219,7 +219,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>138.0.7204.168</string>
+    <string>138.0.7204.183</string>
     <key>CFBundleSignature</key>
     <string>rimZ</string>
     <key>CFBundleURLTypes</key>
@@ -243,7 +243,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>7204.168</string>
+    <string>7204.183</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTSDKBuild</key>
@@ -295,7 +295,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>3e8d82e86e9f508e88ed406c2a24657a6c691d30-refs/branch-heads/7204@{#2081}</string>
+    <string>e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}</string>
     <key>UTExportedTypeDeclarations</key>
     <array>
       <dict>
