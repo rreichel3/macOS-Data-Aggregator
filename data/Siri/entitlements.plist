@@ -1,1 +1,108 @@
-No entitlements found for Siri
+<!-- Entitlements for Siri.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.bluetooth.system</key>
+    <true />
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <array>
+        <string>com.apple.SiriNCService</string>
+      </array>
+    </dict>
+    <key>com.apple.private.assistant.analytics</key>
+    <true />
+    <key>com.apple.private.assistant.settings</key>
+    <true />
+    <key>com.apple.private.corespeech.xpc.remote</key>
+    <true />
+    <key>com.apple.private.iokit.darkwake-control</key>
+    <true />
+    <key>com.apple.private.notificationcenter.menu</key>
+    <true />
+    <key>com.apple.private.notificationcenter.siri</key>
+    <true />
+    <key>com.apple.private.notificationcenter.snippet</key>
+    <true />
+    <key>com.apple.private.notificationcenterui.alerts</key>
+    <true />
+    <key>com.apple.private.security.container-required</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>.SiriTodayViewExtension</string>
+    </array>
+    <key>com.apple.private.siri.setup</key>
+    <true />
+    <key>com.apple.private.ssr.voiceprofileservice</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAccessibility</string>
+    </array>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>.SiriTodayViewExtension</string>
+    </array>
+    <key>com.apple.security.device.microphone</key>
+    <true />
+    <key>com.apple.security.network.client</key>
+    <false />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/AppleInternal/Applications/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Assistant/</string>
+      <string>/Library/Containers/com.apple.SiriNCService/Data/Library/Preferences/</string>
+      <string>/Library/Containers/com.apple.Siri.SiriTodayExtension/Data/Library/Preferences/</string>
+      <string>/Library/VoiceTrigger/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.remoted</string>
+      <string>com.apple.assistant.settings</string>
+      <string>com.apple.assistant.analytics</string>
+      <string>com.apple.assistant.sync</string>
+      <string>com.apple.notificationcenterui.alerts</string>
+      <string>com.apple.notificationcenterui.customalerts</string>
+      <string>com.apple.notificationcenterui.siri</string>
+      <string>com.apple.notificationcenterui.snippet</string>
+      <string>com.apple.siri.analytics.assistant</string>
+      <string>com.apple.speech.speechdatainstallerd</string>
+      <string>com.apple.callkit.callcontrollerhost</string>
+      <string>com.apple.private.ssr.voiceprofileservice</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <array>
+      <string>(allow iokit-open (iokit-user-client-class "AppleKeyStoreUserClient"))</string>
+      <string>(allow hid-control)</string>
+      <string>(allow mach-register (global-name "com.apple.Siri.running"))</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.assistant</string>
+      <string>com.apple.assistant.backedup</string>
+      <string>com.apple.assistant.logging</string>
+      <string>com.apple.assistant.support</string>
+      <string>com.apple.assistant.token</string>
+      <string>com.apple.ironwood.support</string>
+      <string>com.apple.symbolichotkeys</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.Siri</string>
+      <string>com.apple.SiriNCService</string>
+      <string>com.apple.Siri.SiriTodayExtension</string>
+      <string>com.apple.speakerrecognition</string>
+      <string>com.apple.voicetrigger</string>
+    </array>
+    <key>com.apple.symptom_diagnostics.report</key>
+    <true />
+  </dict>
+</plist>
