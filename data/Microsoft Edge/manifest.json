@@ -1,13 +1,13 @@
 {
-  "name": "IDLE",
-  "path": "/Applications/Python 3.13/IDLE.app",
-  "sdef_count": 0,
+  "name": "Microsoft Edge",
+  "path": "/Applications/Microsoft Edge.app",
+  "sdef_count": 1,
   "has_icon": true,
   "icon_path": "icon.png",
   "codesign": {
     "signature_status": "Valid",
     "authority": "Unknown",
-    "identifier": "BMM5U3QVKW",
+    "identifier": "UBF8T346G9",
     "team_identifier": "Unknown",
     "sealed_resources": "Yes",
     "error": null
@@ -15,9 +15,12 @@
   "sandbox": {
     "sandboxed": "Unknown",
     "sandbox_type": "Unknown",
-    "entitlements_count": "0",
+    "entitlements_count": "13",
     "hardened_runtime": "Unknown",
-    "library_validation": "Unknown",
-    "analysis_notes": []
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Uses App Transport Security",
+      "User application"
+    ]
   }
 }

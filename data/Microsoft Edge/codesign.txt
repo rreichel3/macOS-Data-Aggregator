@@ -1,0 +1,8 @@
+Code Signing Information for Microsoft Edge
+Application Path: /Applications/Microsoft Edge.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: UBF8T346G9
+Team Identifier: Unknown
+Sealed Resources: Yes

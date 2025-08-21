@@ -1,0 +1,12 @@
+Sandbox Analysis for Microsoft Edge
+Application Path: /Applications/Microsoft Edge.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 13
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Uses App Transport Security
+- User application
