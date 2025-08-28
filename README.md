@@ -10,7 +10,7 @@ A comprehensive tool for collecting and organizing macOS application data includ
 
 ## 🌐 Live Browser
 
-**[View the interactive macOS App Data Browser →](https://rreichel3.github.io/sdef)**
+**[View the interactive macOS App Data Browser →](http://rreichel3.github.io/macOS-Data-Aggregator/)**
 
 The webapp provides an intuitive interface to:
 - Search and filter through macOS applications
