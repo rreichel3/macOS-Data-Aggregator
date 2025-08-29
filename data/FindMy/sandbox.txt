@@ -3,7 +3,7 @@ Application Path: /System/Applications/FindMy.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 77
+Entitlements Count: 83
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

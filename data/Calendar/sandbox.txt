@@ -3,7 +3,7 @@ Application Path: /System/Applications/Calendar.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 46
+Entitlements Count: 54
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -21,6 +21,8 @@
     <array>
       <string>CloudKit</string>
     </array>
+    <key>com.apple.private.accessibility.copyVoiceOverInfo</key>
+    <true />
     <key>com.apple.private.admin.writeconfig.voiceover</key>
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
@@ -41,10 +43,18 @@
     </dict>
     <key>com.apple.private.security.container-required</key>
     <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.VoiceOver</string>
+    </array>
     <key>com.apple.private.speech.synthesis.custom.voices.allow</key>
     <true />
     <key>com.apple.private.translation</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.VoiceOver</string>
+    </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.translationd</string>
@@ -52,6 +62,7 @@
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.Accessibility.Assets</string>
+      <string>com.apple.SpeakSelection</string>
     </array>
     <key>com.apple.security.system-container</key>
     <true />

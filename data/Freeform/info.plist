@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>22A380019</string>
+    <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -29,7 +29,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>2.4</string>
+    <string>3.5</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
@@ -48,37 +48,39 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>367.101.0.200.1</string>
+    <string>419.121.1</string>
     <key>CKSharingSupported</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>23H610</string>
+    <string>24F73</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>DTSDKBuild</key>
-    <string>23H610</string>
+    <string>24F73</string>
     <key>DTSDKName</key>
-    <string>macosx14.7.internal</string>
+    <string>macosx15.5.internal</string>
     <key>DTXcode</key>
-    <string>1500</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>15E6079e</string>
+    <string>16E6052g</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>freeform</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.productivity</string>
     <key>LSMinimumSystemVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>NSAccentColorName</key>
     <string>AccentColor</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This will let you use the camera to add photos to boards. You can change this later in System Settings.</string>
     <key>NSContactsUsageDescription</key>
     <string>Freeform uses Contacts to show information in your participant list.</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2022–2024 Apple Inc.
+    <string>Copyright © 2022–2025 Apple Inc.
 All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>CRLMacMainMenu</string>

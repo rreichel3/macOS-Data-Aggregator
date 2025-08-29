@@ -3,8 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>aps-connection-initiate</key>
-    <true />
     <key>com.apple.CoreRoutine.LocationOfInterest</key>
     <true />
     <key>com.apple.CoreRoutine.LocationOfInterest.Delete</key>
@@ -15,11 +13,17 @@
     <true />
     <key>com.apple.CoreRoutine.VehicleLocation</key>
     <true />
+    <key>com.apple.GeoServices.Config</key>
+    <array>
+      <string>*</string>
+    </array>
     <key>com.apple.Maps.mapspushd.geod</key>
     <true />
     <key>com.apple.Maps.tripsharing.receiving</key>
     <true />
     <key>com.apple.MapsSupport.MapsDaemon</key>
+    <true />
+    <key>com.apple.TapToRadarKit.service-access</key>
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
@@ -33,26 +37,10 @@
     <true />
     <key>com.apple.coreduetd.people</key>
     <true />
-    <key>com.apple.developer.aps-environment</key>
-    <string>production</string>
     <key>com.apple.developer.associated-domains</key>
     <array />
-    <key>com.apple.developer.icloud-container-environment</key>
-    <string>Production</string>
-    <key>com.apple.developer.icloud-container-identifiers</key>
-    <array>
-      <string>com.apple.Maps.Sync</string>
-    </array>
-    <key>com.apple.developer.icloud-services</key>
-    <array>
-      <string>CloudKit</string>
-    </array>
     <key>com.apple.developer.maps</key>
     <true />
-    <key>com.apple.developer.ubiquity-container-identifiers</key>
-    <string />
-    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
-    <string>com.apple.Maps</string>
     <key>com.apple.findmy.findmylocate.friendshipservice</key>
     <true />
     <key>com.apple.findmy.findmylocate.locationservice</key>
@@ -60,6 +48,8 @@
     <key>com.apple.findmy.findmylocate.settings</key>
     <true />
     <key>com.apple.geoanalyticsd.analytics</key>
+    <true />
+    <key>com.apple.geod.allow-user-initiated-request</key>
     <true />
     <key>com.apple.geoservices.changetilegroup</key>
     <true />
@@ -99,13 +89,6 @@
     <array>
       <string>com.apple.MobileAsset.GeoPolygonDataAssets</string>
     </array>
-    <key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
-    <dict>
-      <key>com.apple.Maps.Sync</key>
-      <string>MapsSync</string>
-      <key>com.apple.Maps.Sync.secure</key>
-      <string>com.apple.Maps.Sync.secure</string>
-    </dict>
     <key>com.apple.private.communicationsfilter</key>
     <true />
     <key>com.apple.private.contacts</key>
@@ -125,6 +108,24 @@
     <key>com.apple.private.ids.messaging.high-priority</key>
     <array>
       <string>com.apple.private.alloy.maps</string>
+    </array>
+    <key>com.apple.private.intelligenceplatform.use-cases</key>
+    <dict>
+      <key>MapsShareETAFeedback</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>MapsShare.ETAFeedback</key>
+          <dict>
+            <key>mode</key>
+            <string>read-write</string>
+          </dict>
+        </dict>
+      </dict>
+    </dict>
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.Maps</string>
     </array>
     <key>com.apple.private.security.storage.MapsSync</key>
     <true />
@@ -192,16 +193,20 @@
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
+      <string>/Library/Caches/GeoServices/RRLogs/</string>
       <string>/Library/Weather/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.TapToRadarKit.service</string>
       <string>com.apple.airportd</string>
       <string>com.apple.assistant.settings</string>
       <string>com.apple.ClipServices.clipserviced</string>
       <string>com.apple.cmfsyncagent.auth</string>
       <string>com.apple.coreduetd.people</string>
       <string>com.apple.coremedia.endpoint.xpc</string>
+      <string>com.apple.airplay.endpoint.xpc</string>
+      <string>com.apple.mediaexperience.endpoint.xpc</string>
       <string>com.apple.corerecents.recentsd</string>
       <string>com.apple.coreservices.coreservicesuihandler</string>
       <string>com.apple.duet.expertcenter</string>
@@ -236,12 +241,12 @@
       <string>com.apple.suggestd.events</string>
       <string>com.apple.telephonyutilities.callservicesdaemon.callprovidermanager</string>
       <string>com.apple.wifi.anqp</string>
-      <string>com.apple.coredatad.cloudkit</string>
       <string>com.apple.private.corewifi-xpc</string>
       <string>com.apple.remoted</string>
       <string>com.apple.Maps.xpc.MediaAPI</string>
       <string>com.apple.mobileactivationd</string>
       <string>com.apple.Maps.MapsSync.store</string>
+      <string>com.apple.Maps.MapsSync.service</string>
       <string>com.apple.geoanalyticsd</string>
       <string>com.apple.findmy.findmylocate.settings</string>
       <string>com.apple.findmy.findmylocate.friendshipservice</string>

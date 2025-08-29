@@ -3,7 +3,7 @@ Application Path: /System/Applications/Reminders.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 44
+Entitlements Count: 46
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

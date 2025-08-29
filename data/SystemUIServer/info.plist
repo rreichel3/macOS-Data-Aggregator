@@ -7,7 +7,7 @@
     <key>Application-Group</key>
     <string>AirPort</string>
     <key>BuildMachineOSBuild</key>
-    <string>22A380019</string>
+    <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDocumentTypes</key>
@@ -46,7 +46,7 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>524.100</string>
+    <string>528.1.3</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
@@ -56,19 +56,19 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>DTSDKBuild</key>
-    <string>23G1000s</string>
+    <string>24F62</string>
     <key>DTSDKName</key>
-    <string>macosx14.7.internal</string>
+    <string>macosx15.5.internal</string>
     <key>DTXcode</key>
-    <string>1500</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>15E6079e</string>
+    <string>16E6052g</string>
     <key>LSLaunchDLabel</key>
     <string>com.apple.SystemUIServer.agent</string>
     <key>LSMinimumSystemVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>LSRequiresNativeExecution</key>
     <true />
     <key>LSUIElement</key>
@@ -98,6 +98,8 @@
     </array>
     <key>NSSupportsSuddenTermination</key>
     <true />
+    <key>_STAttributionDisplayName</key>
+    <string>Screenshot</string>
     <key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
     <array>
       <string>menuExtras</string>

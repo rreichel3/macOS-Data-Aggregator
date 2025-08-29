@@ -13,9 +13,9 @@
     "error": null
   },
   "sandbox": {
-    "sandboxed": "Unknown",
+    "sandboxed": "No",
     "sandbox_type": "Unknown",
-    "entitlements_count": "10",
+    "entitlements_count": "12",
     "hardened_runtime": "Unknown",
     "library_validation": "Enabled",
     "analysis_notes": [

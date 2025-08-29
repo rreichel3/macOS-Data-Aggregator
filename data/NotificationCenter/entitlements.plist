@@ -5,6 +5,8 @@
   <dict>
     <key>com.apple.Contacts.database-allow</key>
     <true />
+    <key>com.apple.ProactiveSummarization.model-input</key>
+    <true />
     <key>com.apple.chrono.event-service-publisher</key>
     <true />
     <key>com.apple.chrono.widgetRenderer</key>
@@ -18,6 +20,8 @@
     <key>com.apple.coreduetd.context</key>
     <true />
     <key>com.apple.developer.extension-host.widget-extension</key>
+    <true />
+    <key>com.apple.feedbackd.remote-evaluation</key>
     <true />
     <key>com.apple.intents.extension.discovery</key>
     <true />
@@ -35,6 +39,13 @@
     <true />
     <key>com.apple.private.audio.notification-wake-audio</key>
     <true />
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>com.apple.notificationcenterui</string>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>Discoverability.Signals</string>
+      <string>Notification.Usage</string>
+    </array>
     <key>com.apple.private.chrono-extension-host</key>
     <true />
     <key>com.apple.private.contacts</key>
@@ -82,16 +93,23 @@
     <true />
     <key>com.apple.private.notificationcenter</key>
     <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <string>group.com.apple.chronod</string>
     <key>com.apple.private.security.storage.Safari</key>
+    <true />
+    <key>com.apple.private.suggestions.contacts</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceCalendar</string>
       <string>kTCCServiceAddressBook</string>
+      <string>kTCCServiceSystemPolicyAppBundles</string>
       <string>kTCCServiceSystemPolicyAppData</string>
     </array>
+    <key>com.apple.private.usernotifications.forwarding</key>
+    <true />
     <key>com.apple.private.windowmanager</key>
     <true />
     <key>com.apple.runningboard.assertions.chronod</key>
@@ -104,6 +122,10 @@
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.usernoted</string>
+    </array>
     <key>com.apple.security.files.downloads.read-only</key>
     <true />
     <key>com.apple.security.files.user-selected.read-only</key>
@@ -122,6 +144,9 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.ProactiveSummarization.server</string>
+      <string>com.apple.biome.access.user</string>
       <string>com.apple.siri.VoiceShortcuts.xpc</string>
       <string>com.apple.windowmanager.external</string>
       <string>com.apple.usernoted.notificationcenter</string>
@@ -138,6 +163,9 @@
       <string>com.apple.linkd.registry</string>
       <string>com.apple.linkd.mediator</string>
       <string>com.apple.linkd.transcript</string>
+      <string>com.apple.usernotificationsvendor.listener</string>
+      <string>com.apple.usernotifications.alert-coordination</string>
+      <string>com.apple.usernotifications.settings-vendor</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-register.global-name</key>
     <array>
@@ -156,6 +184,7 @@
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
+      <string>(allow distributed-notification-post)</string>
       <string>(allow file-unlink file-write*
     (home-regex #"/Library/Containers/[^/]+/Data/SystemData"))</string>
     </array>
@@ -171,6 +200,8 @@
     <key>com.apple.shortcuts.background-running</key>
     <true />
     <key>com.apple.siri.VoiceShortcuts.xpc</key>
+    <true />
+    <key>com.apple.usernotificationsvendor.listener</key>
     <true />
   </dict>
 </plist>

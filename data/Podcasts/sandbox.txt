@@ -3,7 +3,7 @@ Application Path: /System/Applications/Podcasts.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 111
+Entitlements Count: 114
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

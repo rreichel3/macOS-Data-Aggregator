@@ -33,6 +33,10 @@
     <true />
     <key>com.apple.private.hid.client.event-monitor</key>
     <true />
+    <key>com.apple.private.iomfb.set-block</key>
+    <true />
+    <key>com.apple.private.iomfb.set-block-client-profile</key>
+    <string>iomfb_internal_tool</string>
     <key>com.apple.private.security.disk-device-access</key>
     <true />
     <key>com.apple.private.touch.eeprom.access</key>

@@ -3,7 +3,7 @@ Application Path: /System/Applications/Mail.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 78
+Entitlements Count: 98
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

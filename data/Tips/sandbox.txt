@@ -1,11 +1,11 @@
 Sandbox Analysis for Tips
-Application Path: /System/Library/CoreServices/Tips.app
+Application Path: /System/Applications/Tips.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 14
+Entitlements Count: 23
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
 Analysis Notes:
-- Background app (LSUIElement)
+- System application

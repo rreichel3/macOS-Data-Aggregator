@@ -9,6 +9,8 @@
     <true />
     <key>com.apple.developer.associated-domains</key>
     <array />
+    <key>com.apple.intelligenceplatform.View</key>
+    <true />
     <key>com.apple.payment.all-access</key>
     <true />
     <key>com.apple.payment.amp-card-enrollment</key>
@@ -31,6 +33,12 @@
     <true />
     <key>com.apple.private.in-app-payments</key>
     <true />
+    <key>com.apple.private.intelligenceplatform.views.read-only</key>
+    <array>
+      <string>entityTagging</string>
+      <string>visualIdentifier</string>
+      <string>hasAssociationSubgraph</string>
+    </array>
     <key>com.apple.private.security.storage.familycircled</key>
     <true />
     <key>com.apple.private.swc.system-app</key>
@@ -40,6 +48,8 @@
       <string>kTCCServiceAddressBook</string>
     </array>
     <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.personal-information.addressbook</key>
     <true />
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
@@ -56,6 +66,8 @@
       <string>com.apple.passd.in-app-payment</string>
       <string>com.apple.passd.library</string>
       <string>com.apple.passd.payment</string>
+      <string>com.apple.intelligenceplatform.View</string>
+      <string>com.apple.contactsd.persistence</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>

@@ -1,0 +1,153 @@
+<!-- Info.plist for Passwords.app -->
+<!-- Source: /System/Applications/Passwords.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344011</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Passwords</string>
+    <key>CFBundleExecutable</key>
+    <string>Passwords</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>passwords.help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>com.apple.passwords.help</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Passwords</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Passwords</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.5</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>otpauth</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>otpauth</string>
+          <string>apple-otpauth</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>otpauth-migration</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>otpauth-migration</string>
+          <string>apple-otpauth-migration</string>
+        </array>
+        <key>LSIsAppleDefaultForScheme</key>
+        <true />
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>20621.2.5.11.8</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>24F73</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>15.5</string>
+    <key>DTSDKBuild</key>
+    <string>24F73</string>
+    <key>DTSDKName</key>
+    <string>macosx15.5.internal</string>
+    <key>DTXcode</key>
+    <string>1630</string>
+    <key>DTXcodeBuild</key>
+    <string>16E6052g</string>
+    <key>HPDHelpProjectIdentifier</key>
+    <string>passwords</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.5</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2024-2025 Apple Inc. All rights reserved.</string>
+    <key>NSRegulatoryPrivacyDisclosure</key>
+    <dict>
+      <key>NSRegulatoryPrivacyDisclosureTitle</key>
+      <string>Welcome to Passwords</string>
+      <key>NSRegulatoryPrivacyDisclosureVersion</key>
+      <string>1.0</string>
+    </dict>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>ASCredentialExchangeActivity</string>
+    </array>
+    <key>SBUninstallIconOverrideStringsFile</key>
+    <string>UninstallDialog</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true />
+      <key>UISceneConfigurations</key>
+      <dict />
+    </dict>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict>
+        <key>UIApplicationShortcutItemIconSymbolName</key>
+        <string>plus</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>New Password (Quick Action)</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>newPassword</string>
+      </dict>
+      <dict>
+        <key>UIApplicationShortcutItemIconSymbolName</key>
+        <string>magnifyingglass</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>Search (Quick Action)</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>search</string>
+      </dict>
+      <dict>
+        <key>UIApplicationShortcutItemIconSymbolName</key>
+        <string>lock.badge.clock</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>Verification Codes (Quick Action)</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>verificationCodes</string>
+      </dict>
+    </array>
+    <key>UILaunchScreen</key>
+    <dict />
+    <key>UIRequiresFullScreen</key>
+    <false />
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UNUserNotificationCenter</key>
+    <dict />
+  </dict>
+</plist>

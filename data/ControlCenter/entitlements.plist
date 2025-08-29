@@ -5,6 +5,8 @@
   <dict>
     <key>com.apple.CompanionLink</key>
     <true />
+    <key>com.apple.HearingModeService</key>
+    <true />
     <key>com.apple.PairingManager.HomeKit</key>
     <true />
     <key>com.apple.PairingManager.Read</key>
@@ -36,10 +38,6 @@
     <key>com.apple.bluetooth.internal</key>
     <true />
     <key>com.apple.bluetooth.system</key>
-    <true />
-    <key>com.apple.coreduetd.allow</key>
-    <true />
-    <key>com.apple.coreduetd.context</key>
     <true />
     <key>com.apple.coremedia.allow-mpeg4streaming</key>
     <true />
@@ -80,6 +78,12 @@
     <true />
     <key>com.apple.private.avfoundation.capture.allow-set-any-user-preferred-camera</key>
     <true />
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>com.apple.controlcenter</string>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>Discoverability.Signals</string>
+    </array>
     <key>com.apple.private.cmcapture.frame-receiver</key>
     <true />
     <key>com.apple.private.commerce</key>
@@ -144,6 +148,10 @@
       <string>com.apple.controlcenter.dnd</string>
       <string>com.apple.focus.activity-manager</string>
     </array>
+    <key>com.apple.private.driverkit.driver-access</key>
+    <array>
+      <string>com.apple.private.wifi.driverkit</string>
+    </array>
     <key>com.apple.private.fpsd.client</key>
     <true />
     <key>com.apple.private.imcore.spi.database-access</key>
@@ -151,6 +159,8 @@
     <key>com.apple.private.interstellar.data-access</key>
     <string>collaborations</string>
     <key>com.apple.private.iokit.batterydata</key>
+    <true />
+    <key>com.apple.private.iokit.updatemodepreference</key>
     <true />
     <key>com.apple.private.messages.collaboration-initiate-send</key>
     <true />
@@ -168,6 +178,12 @@
     <true />
     <key>com.apple.private.screencapturekit.sharingsessionsystemui</key>
     <true />
+    <key>com.apple.private.screencapturekit.suppress-screen-indicator</key>
+    <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.portrait.BackgroundReplacement</string>
+    </array>
     <key>com.apple.private.security.storage.Messages</key>
     <true />
     <key>com.apple.private.security.storage.universalaccess</key>
@@ -210,12 +226,19 @@
     <true />
     <key>com.apple.private.windowmanager</key>
     <true />
+    <key>com.apple.private.windowmirroring</key>
+    <true />
     <key>com.apple.rapport.Client</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.portrait.BackgroundReplacement</string>
+    </array>
     <key>com.apple.security.device.bluetooth</key>
     <true />
     <key>com.apple.security.exception.iokit-user-client-class</key>
     <array>
+      <string>IOMobileFramebufferUserClient</string>
       <string>IOTimeSyncClockManagerUserClient</string>
       <string>IOTimeSyncgPTPManagerUserClient</string>
       <string>IOTimeSyncDomainUserClient</string>
@@ -243,8 +266,14 @@
     <true />
     <key>com.apple.security.personal-information.addressbook</key>
     <true />
+    <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
+    <array>
+      <string>IOUserUserClient</string>
+      <string>IO80211APIUserClient</string>
+    </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.HearingModeService</string>
       <string>com.apple.donotdisturb.service</string>
       <string>com.apple.donotdisturb.service.non-launching</string>
       <string>com.apple.intelligentroutingd.xpc.media</string>
@@ -254,7 +283,10 @@
       <string>com.apple.Bluetooth</string>
       <string>com.apple.Sharing</string>
       <string>com.apple.shortcuts.runningUIDefaults</string>
+      <string>com.apple.coremedia</string>
     </array>
+    <key>com.apple.selectivesharing.session_system</key>
+    <true />
     <key>com.apple.selectivesharing.system</key>
     <true />
     <key>com.apple.siri.VoiceShortcuts.xpc</key>

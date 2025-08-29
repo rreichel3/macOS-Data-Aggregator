@@ -7,8 +7,6 @@
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
-    <key>com.apple.bluetooth.system</key>
-    <true />
     <key>com.apple.developer.extension-host.systemprefsapp.appleid</key>
     <true />
     <key>com.apple.developer.extension-host.systemprefsapp.privacy</key>

@@ -1,0 +1,8 @@
+Code Signing Information for iPhone Mirroring
+Application Path: /System/Applications/iPhone Mirroring.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

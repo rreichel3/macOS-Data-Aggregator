@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Dock.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 22
+Entitlements Count: 26
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

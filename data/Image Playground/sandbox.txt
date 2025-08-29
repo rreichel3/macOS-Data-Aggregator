@@ -1,0 +1,11 @@
+Sandbox Analysis for Image Playground
+Application Path: /System/Applications/Image Playground.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 63
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

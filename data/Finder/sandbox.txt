@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Finder.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 86
+Entitlements Count: 91
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

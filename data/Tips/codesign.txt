@@ -1,5 +1,5 @@
 Code Signing Information for Tips
-Application Path: /System/Library/CoreServices/Tips.app
+Application Path: /System/Applications/Tips.app
 
 Signature Status: Valid
 Authority: Unknown

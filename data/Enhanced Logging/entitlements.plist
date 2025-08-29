@@ -1,0 +1,33 @@
+<!-- Entitlements for Enhanced Logging.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>application-identifier</key>
+    <string>com.apple.EnhancedLogging</string>
+    <key>com.apple.AppleServiceToolkit.host</key>
+    <true />
+    <key>com.apple.EnhancedLoggingState.client</key>
+    <true />
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+      <string>CloudKit</string>
+    </array>
+    <key>com.apple.diagnosticextensionsd.xpcclient</key>
+    <true />
+    <key>com.apple.mobileactivationd.device-identifiers</key>
+    <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.cloudkit.setEnvironment</key>
+    <true />
+    <key>com.apple.private.security.no-sandbox</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <false />
+    <key>com.apple.security.attestation.access</key>
+    <true />
+  </dict>
+</plist>

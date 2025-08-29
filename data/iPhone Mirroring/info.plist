@@ -1,0 +1,61 @@
+<!-- Info.plist for iPhone Mirroring.app -->
+<!-- Source: /System/Applications/iPhone Mirroring.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344011</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>iPhone Mirroring</string>
+    <key>CFBundleExecutable</key>
+    <string>iPhone Mirroring</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.ScreenContinuity</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>iPhone Mirroring</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>50.5.4</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string />
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>15.5</string>
+    <key>DTSDKBuild</key>
+    <string>24F62</string>
+    <key>DTSDKName</key>
+    <string>macosx15.5.internal</string>
+    <key>DTXcode</key>
+    <string>1630</string>
+    <key>DTXcodeBuild</key>
+    <string>16E6052g</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.5</string>
+    <key>LSRequiredFeatureFlags</key>
+    <dict>
+      <key>Oneness/App</key>
+      <true />
+    </dict>
+    <key>NSDockTilePlugIn</key>
+    <string>OnenessDockTile.docktileplugin</string>
+  </dict>
+</plist>

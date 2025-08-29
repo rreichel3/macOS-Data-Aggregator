@@ -3,7 +3,7 @@ Application Path: /System/Applications/Maps.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 82
+Entitlements Count: 81
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

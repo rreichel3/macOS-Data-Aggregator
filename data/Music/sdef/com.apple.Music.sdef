@@ -434,7 +434,7 @@
 			<property name="disc count" code="pDsC" type="integer" description="the total number of discs in the source album"/>
 			<property name="disc number" code="pDsN" type="integer" description="the index of the disc containing this track on the source album"/>
 			<property name="disliked" code="pHat" type="boolean" description="is this track disliked?"/>
-			<property name="downloader Apple ID" code="pDAI" type="text" access="r" description="the Apple ID of the person who downloaded this track"/>
+			<property name="downloader account" code="pDAI" type="text" access="r" description="the account of the person who downloaded this track"/>
 			<property name="downloader name" code="pDNm" type="text" access="r" description="the name of the person who downloaded this track"/>
 			<property name="duration" code="pDur" type="real" access="r" description="the length of the track in seconds"/>
 			<property name="enabled" code="enbl" type="boolean" description="is this track checked for playback?"/>
@@ -456,7 +456,7 @@
 			<property name="movement number" code="pMvN" type="integer" description="the index of the movement in the work"/>
 			<property name="played count" code="pPlC" type="integer" description="number of times this track has been played"/>
 			<property name="played date" code="pPlD" type="date" description="the date and time this track was last played"/>
-			<property name="purchaser Apple ID" code="pPAI" type="text" access="r" description="the Apple ID of the person who purchased this track"/>
+			<property name="purchaser account" code="pPAI" type="text" access="r" description="the account of the person who purchased this track"/>
 			<property name="purchaser name" code="pPNm" type="text" access="r" description="the name of the person who purchased this track"/>
 			<property name="rating" code="pRte" type="integer" description="the rating of this track (0 to 100)"/>
 			<property name="rating kind" code="pRtk" type="eRtK" access="r" description="the rating kind of this track"/>

@@ -3,7 +3,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.private.LocalAuthentication.SaveExtractableCredential</key>
+    <true />
     <key>com.apple.private.managedclient.configurationprofiles.purgatory</key>
+    <true />
+    <key>com.apple.private.managedclient.mdmclient-private</key>
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
@@ -14,6 +18,7 @@
       <string>/Library/Managed Preferences/com.apple.mdmclient.plist</string>
       <string>/Library/Managed Preferences/com.apple.mcxtools.plist</string>
       <string>/Library/Managed Preferences/com.apple.MCXDebug.plist</string>
+      <string>/Library/Preferences/com.apple.MCXDebug.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
     <array>
@@ -22,6 +27,8 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.mdmclient.agent</string>
+      <string>com.apple.mdmclient.daemon</string>
       <string>com.apple.mdmclient.agent.unrestricted</string>
       <string>com.apple.mdmclient.daemon.unrestricted</string>
     </array>
@@ -29,7 +36,8 @@
     <array>
       <string>com.apple.mdmclient</string>
       <string>com.apple.mcxtools</string>
-      <string>com.apple.MCXDebug</string>
+      <string>/Library/Managed Preferences/com.apple.mdmclient.plist</string>
+      <string>/Library/Preferences/com.apple.MCXDebug.plist</string>
     </array>
   </dict>
 </plist>

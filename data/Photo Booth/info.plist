@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>22A380019</string>
+    <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDocumentTypes</key>
@@ -52,7 +52,7 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>1164.1</string>
+    <string>1165</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -60,15 +60,15 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>DTSDKBuild</key>
-    <string>23G1000s</string>
+    <string>24F62</string>
     <key>DTSDKName</key>
-    <string>macosx14.7.internal</string>
+    <string>macosx15.5.internal</string>
     <key>DTXcode</key>
-    <string>1500</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>15E6079e</string>
+    <string>16E6052g</string>
     <key>GPUSelectionPolicy</key>
     <string>automatic</string>
     <key>HPDHelpProjectIdentifier</key>
@@ -76,7 +76,7 @@
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.entertainment</string>
     <key>LSMinimumSystemVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2005–2023 Apple Inc. All rights reserved.</string>
     <key>NSMainNibFile</key>

@@ -1,0 +1,11 @@
+Sandbox Analysis for liquiddetectiond
+Application Path: /System/Library/CoreServices/liquiddetectiond.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 4
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

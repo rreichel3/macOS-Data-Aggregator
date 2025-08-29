@@ -3,7 +3,7 @@ Application Path: /System/Applications/Utilities/Terminal.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 2
+Entitlements Count: 3
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

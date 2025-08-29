@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Spotlight.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 77
+Entitlements Count: 88
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -69,6 +69,8 @@
     <true />
     <key>com.apple.mediaremote.remote-control-discovery</key>
     <true />
+    <key>com.apple.mediaremote.request-bless</key>
+    <true />
     <key>com.apple.mediaremote.send-commands</key>
     <true />
     <key>com.apple.mediaremote.set-playback-state</key>
@@ -114,6 +116,8 @@
     <true />
     <key>com.apple.private.cfnetwork.har-capture-amp</key>
     <true />
+    <key>com.apple.private.coreaudio.viewInterruptorName.allow</key>
+    <true />
     <key>com.apple.private.coreservices.alwaysEligibleEvenWhenInBackground</key>
     <true />
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
@@ -132,7 +136,7 @@
       <dict>
         <key>Sets</key>
         <dict>
-          <key>Podcasts.Entity</key>
+          <key>Podcasts.Podcast</key>
           <dict>
             <key>mode</key>
             <string>read-write</string>
@@ -150,8 +154,14 @@
     <true />
     <key>com.apple.private.rtcreportingd</key>
     <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
     <key>com.apple.private.security.container-required</key>
     <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>243LU875E5.groups.com.apple.podcasts</string>
+    </array>
     <key>com.apple.private.security.storage.os_eligibility.readonly</key>
     <true />
     <key>com.apple.private.security.system-application</key>
@@ -167,7 +177,6 @@
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceMediaLibrary</string>
-      <string>kTCCServiceCamera</string>
       <string>kTCCServiceFaceID</string>
     </array>
     <key>com.apple.private.tcc.allow-or-regional-prompt</key>
@@ -202,6 +211,7 @@
       <string>/Library/NanoMusicSync/</string>
       <string>/Library/Caches/com.apple.AppleMediaServices/</string>
       <string>/Media/ContentKeys/</string>
+      <string>/Media/iTunes_Control/Music/</string>
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
@@ -234,7 +244,6 @@
       <string>com.apple.timesync.expositor</string>
       <string>com.apple.timesync.manager</string>
       <string>com.apple.timesync.ptp.manager</string>
-      <string>com.apple.siriknowledged.koa.donate</string>
       <string>com.apple.symptom_diagnostics</string>
       <string>com.apple.xpc.amsengagementd</string>
       <string>com.apple.passd.library</string>
@@ -243,6 +252,7 @@
       <string>com.apple.SetStoreUpdateService</string>
       <string>com.apple.biome.access.user</string>
       <string>com.apple.biome.access.system</string>
+      <string>com.apple.absd</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -280,7 +290,6 @@
       <string>com.apple.chrono.avocadocontrollerconnection</string>
       <string>com.apple.coreidvd.proofing</string>
       <string>com.apple.xpc.amsengagementd</string>
-      <string>com.apple.siriknowledged.koa.donate</string>
       <string>com.apple.SetStoreUpdateService</string>
       <string>com.apple.biome.access.user</string>
       <string>com.apple.biome.access.system</string>
@@ -294,8 +303,6 @@
       <string>com.apple.SocialLayer</string>
       <string>com.apple.iTunes</string>
     </array>
-    <key>com.apple.siri.koa.donate.internal</key>
-    <true />
     <key>com.apple.springboard.activateassistant</key>
     <true />
     <key>com.apple.springboard.opensensitiveurl</key>

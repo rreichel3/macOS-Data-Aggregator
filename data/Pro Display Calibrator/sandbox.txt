@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Pro Display Calibrator.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 27
+Entitlements Count: 29
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

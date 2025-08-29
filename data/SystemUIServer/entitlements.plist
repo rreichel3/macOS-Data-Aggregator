@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceCalendar</string>

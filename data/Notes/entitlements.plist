@@ -7,6 +7,8 @@
     <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.Notes</string>
+    <key>com.apple.assistant.dictation.prerecorded</key>
+    <true />
     <key>com.apple.authkit.client.internal</key>
     <true />
     <key>com.apple.chrono.invalidate-timelines</key>
@@ -14,9 +16,12 @@
     <key>com.apple.corespotlight.search.allowed.bundleIDs</key>
     <array>
       <string>com.apple.reminders</string>
+      <string>com.apple.Photos</string>
     </array>
     <key>com.apple.developer.aps-environment</key>
     <string>production</string>
+    <key>com.apple.developer.hardened-process</key>
+    <true />
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
     <key>com.apple.developer.icloud-container-identifiers</key>
@@ -31,6 +36,14 @@
     <true />
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
     <string>com.apple.Notes</string>
+    <key>com.apple.generativeexperiences.availabilityService</key>
+    <true />
+    <key>com.apple.generativeexperiences.availabilityService.waitlistStatus</key>
+    <true />
+    <key>com.apple.generativeexperiences.summarization</key>
+    <true />
+    <key>com.apple.generativeexperiences.textcomposition</key>
+    <true />
     <key>com.apple.pds.clientid</key>
     <string>Notes</string>
     <key>com.apple.private.CloudSharing.SPI</key>
@@ -43,6 +56,10 @@
     <true />
     <key>com.apple.private.applemediaservices</key>
     <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.UAF.FM.Visual</string>
+    </array>
     <key>com.apple.private.ckks</key>
     <true />
     <key>com.apple.private.cloudkit.customAccounts</key>
@@ -81,6 +98,10 @@
     <true />
     <key>com.apple.private.exchangesyncd</key>
     <true />
+    <key>com.apple.private.feedback.drafting</key>
+    <true />
+    <key>com.apple.private.feedbacklogger</key>
+    <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.iaaccounts</key>
@@ -115,6 +136,7 @@
       <string>kTCCServiceScreenCapture</string>
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceCalendar</string>
+      <string>kTCCServiceMicrophone</string>
       <string>kTCCServiceReminders</string>
       <string>kTCCServicePhotos</string>
       <string>kTCCServicePhotosAdd</string>
@@ -123,12 +145,25 @@
     <array>
       <string>com.apple.notes.analytics</string>
     </array>
+    <key>com.apple.proactive.PersonalizationPortrait.Contact</key>
+    <true />
+    <key>com.apple.sage.summarization</key>
+    <true />
+    <key>com.apple.sage.textcomposition</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.notes</string>
       <string>group.com.apple.notes.import</string>
+    </array>
+    <key>com.apple.security.device.audio-input</key>
+    <true />
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.calculator</string>
+      <string>com.apple.applicationaccess</string>
     </array>
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
@@ -146,6 +181,10 @@
     <array>
       <string>/Library/Preferences/com.apple.internetaccounts.plist</string>
       <string>/Library/Preferences/com.apple.screensaver.plist</string>
+      <string>/Library/Managed Preferences/</string>
+      <string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_FM_Visual/purpose_auto/</string>
+      <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_Visual/</string>
+      <string>/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_UAF_FM_Visual/</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
     <array>
@@ -159,6 +198,10 @@
       <string>com.apple.CrashReporterSupportHelper</string>
       <string>com.apple.dprivacyd</string>
       <string>com.apple.exchange.exchangesyncd</string>
+      <string>com.apple.generativeexperiences.summarization</string>
+      <string>com.apple.generativeexperiences.textcomposition</string>
+      <string>com.apple.generativeexperiences.availabilityService</string>
+      <string>com.apple.sage.textcomposition</string>
       <string>com.apple.icbaccountsd</string>
       <string>com.apple.ind.xpc</string>
       <string>com.apple.mobile.keybagd.UserManager.xpc</string>
@@ -167,9 +210,16 @@
       <string>com.apple.synapse.add-link-context-service</string>
       <string>com.apple.security.octagon</string>
       <string>com.apple.securityd.ckks</string>
+      <string>com.apple.sage.summarization</string>
       <string>com.apple.synapse.DocumentWorkflowsService</string>
       <string>com.apple.spotlight.CSExattrCryptoService</string>
       <string>com.apple.commcenter.coretelephony.xpc</string>
+      <string>com.apple.LinkPresentation.LinkSnapshotGeneratorService</string>
+      <string>com.apple.proactive.PersonalizationPortrait.Contact</string>
+      <string>com.apple.handwritingd.remoterecognition</string>
+      <string>com.apple.feedbacklogger</string>
+      <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.extensionkitservice</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -179,6 +229,11 @@
     <array>
       <string>com.apple.cloud.quota</string>
       <string>com.apple.SocialLayer</string>
+      <string>com.apple.gms.availability</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.siri.generativeassistantsettings</string>
     </array>
     <key>com.apple.spotlight.documentunderstanding.entitledattributes</key>
     <true />

@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Setup Assistant.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 105
+Entitlements Count: 121
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

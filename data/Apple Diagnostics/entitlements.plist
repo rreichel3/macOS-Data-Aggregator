@@ -1,0 +1,17 @@
+<!-- Entitlements for Apple Diagnostics.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.private.DiagnosticsSessionAvailability.client</key>
+    <true />
+    <key>com.apple.private.security.no-sandbox</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <false />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.DiagnosticsSessionAvailabilityService.xpc</string>
+    </array>
+  </dict>
+</plist>

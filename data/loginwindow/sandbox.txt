@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/loginwindow.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 73
+Entitlements Count: 78
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

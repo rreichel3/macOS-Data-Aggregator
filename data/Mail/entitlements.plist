@@ -3,15 +3,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.PerfPowerServices.data-donation</key>
+    <true />
+    <key>com.apple.ProactiveSummarization.feedback</key>
+    <true />
+    <key>com.apple.ProactiveSummarization.model-input</key>
+    <true />
+    <key>com.apple.ProactiveSummarization.summarization</key>
+    <true />
     <key>com.apple.UNCUserNotification</key>
     <true />
     <key>com.apple.accounts.inactive.fullaccess</key>
     <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.mail</string>
+    <key>com.apple.assistant.cdm.client</key>
+    <true />
     <key>com.apple.authkit.client.internal</key>
     <true />
     <key>com.apple.authkit.client.private</key>
+    <true />
+    <key>com.apple.businessservicesd.businessmetadata</key>
     <true />
     <key>com.apple.coreduetd.allow</key>
     <true />
@@ -37,6 +49,18 @@
     <true />
     <key>com.apple.finance.private</key>
     <true />
+    <key>com.apple.generativeexperiences.availabilityService</key>
+    <true />
+    <key>com.apple.generativeexperiences.textcomposition</key>
+    <true />
+    <key>com.apple.icloudmailagent.secret.xpc</key>
+    <true />
+    <key>com.apple.intelligenceplatform.EntityResolution</key>
+    <true />
+    <key>com.apple.intelligenceplatform.View</key>
+    <true />
+    <key>com.apple.modelmanager.inference</key>
+    <true />
     <key>com.apple.private.MobileContainerManager.lookup</key>
     <dict>
       <key>appData</key>
@@ -46,9 +70,17 @@
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
-    <key>com.apple.private.assets.accessible-asset-types</key>
+    <key>com.apple.private.biome.pruner</key>
     <array>
-      <string>com.apple.MobileAsset.MailDynamicData</string>
+      <string>Mail.Categorization</string>
+    </array>
+    <key>com.apple.private.biome.read-write</key>
+    <array>
+      <string>Mail.Categorization</string>
+      <string>Mail.Recategorization</string>
+      <string>Mail.CategorizationAnalytics.Receive</string>
+      <string>Mail.CategorizationAnalytics.Read</string>
+      <string>Mail.CategorizationAnalytics.Recategorize</string>
     </array>
     <key>com.apple.private.calendar.allow-suggestions</key>
     <true />
@@ -73,16 +105,33 @@
     <true />
     <key>com.apple.private.dark-wake-network-reachability</key>
     <true />
+    <key>com.apple.private.dnssd.resolver-override</key>
+    <true />
     <key>com.apple.private.dprivacyd.allow</key>
     <true />
     <key>com.apple.private.email</key>
     <true />
     <key>com.apple.private.familycontrols</key>
     <true />
+    <key>com.apple.private.feedback.drafting</key>
+    <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.imcore.imagent</key>
     <true />
+    <key>com.apple.private.intelligenceplatform.views.read-only</key>
+    <array>
+      <string>appEntityRelevanceRanking</string>
+      <string>entityAliasECR</string>
+      <string>entitySubgraph</string>
+      <string>entitySummary</string>
+      <string>eventSubgraph</string>
+      <string>inferenceFeaturesECR</string>
+      <string>loiEntityRelevanceRanking</string>
+      <string>peopleSubgraph</string>
+      <string>personEntityRelevanceRanking</string>
+      <string>visualIdentifier</string>
+    </array>
     <key>com.apple.private.kvs.ignore-quota</key>
     <true />
     <key>com.apple.private.launchservices.changedefaulthandlers</key>
@@ -96,6 +145,8 @@
     <key>com.apple.private.network.socket-delegate</key>
     <true />
     <key>com.apple.private.networkserviceproxy</key>
+    <true />
+    <key>com.apple.private.notificationcenter.preference</key>
     <true />
     <key>com.apple.private.persona.read</key>
     <true />
@@ -135,7 +186,11 @@
       <string>com.apple.mail.listUnsubscribeInfo</string>
       <string>com.apple.mail.remindMe</string>
       <string>com.apple.mail.senders</string>
+      <string>com.apple.mail.businesses</string>
+      <string>com.apple.mail.mailboxCategories</string>
     </array>
+    <key>com.apple.proactive.PersonalizationPortrait.Contact</key>
+    <true />
     <key>com.apple.proactive.eventtracker</key>
     <true />
     <key>com.apple.rootless.storage.Mail</key>
@@ -173,6 +228,10 @@
     <array>
       <string>/Library/Managed Preferences/</string>
     </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+    <array>
+      <string>/Library/Caches/com.apple.businessservicesd/</string>
+    </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
       <string>/Library/Application Support/Mail/</string>
@@ -181,10 +240,13 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.assistant.cdm</string>
       <string>com.apple.awdd</string>
       <string>com.apple.coreduetd</string>
       <string>com.apple.coreduetd.people</string>
       <string>com.apple.powerlog.plxpclogger.xpc</string>
+      <string>com.apple.PerfPowerTelemetryClientRegistrationService</string>
       <string>com.apple.symptom_diagnostics</string>
       <string>com.apple.dprivacyd</string>
       <string>com.apple.CrashReporterSupportHelper</string>
@@ -193,6 +255,10 @@
       <string>com.apple.networkserviceproxy</string>
       <string>com.apple.biome.PublicStreamAccessService</string>
       <string>com.apple.ind.cloudfeatures</string>
+      <string>com.apple.intelligenceplatform.EntityResolution</string>
+      <string>com.apple.intelligenceplatform.Feedback</string>
+      <string>com.apple.intelligenceplatform.View</string>
+      <string>com.apple.aa.daemon.xpc</string>
       <string>com.apple.ak.privateemail.xpc</string>
       <string>com.apple.email.maild</string>
       <string>com.apple.financed.service.financestore</string>
@@ -200,6 +266,18 @@
       <string>com.apple.spotlight.CSExattrCryptoService</string>
       <string>com.apple.webprivacyd</string>
       <string>com.apple.synapse.DocumentWorkflowsService</string>
+      <string>com.apple.modelmanager</string>
+      <string>com.apple.generativeexperiences.textcomposition</string>
+      <string>com.apple.duetactivityscheduler</string>
+      <string>com.apple.ProactiveSummarization.server</string>
+      <string>com.apple.proactive.PersonalizationPortrait.Contact</string>
+      <string>com.apple.icloudmailagent.secret.xpc</string>
+      <string>com.apple.usernoted.prefs</string>
+      <string>com.apple.businessservicesd</string>
+      <string>com.apple.generativeexperiences.availabilityService</string>
+      <string>com.apple.usernotifications.usernotificationsettingsservice</string>
+      <string>com.apple.identityservicesd.desktop.auth</string>
+      <string>com.apple.biome.access.user</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -210,14 +288,21 @@
     <array>
       <string>com.apple.suggestions</string>
       <string>com.apple.parsecd</string>
+      <string>com.apple.gms.availability</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.mail-shared</string>
+      <string>com.apple.onetimepasscodes</string>
+      <string>com.apple.siri.generativeassistantsettings</string>
     </array>
     <key>com.apple.spotlight.scopes</key>
     <array>
       <string>~/Library/Mail</string>
+    </array>
+    <key>com.apple.trial.client</key>
+    <array>
+      <string>337</string>
     </array>
     <key>com.apple.usermanagerd.persona.background</key>
     <true />

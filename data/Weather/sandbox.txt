@@ -3,7 +3,7 @@ Application Path: /System/Applications/Weather.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 51
+Entitlements Count: 55
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -21,6 +21,8 @@
     <string>com.apple.Music</string>
     <key>com.apple.authkit.client.internal</key>
     <true />
+    <key>com.apple.authkit.client.private</key>
+    <true />
     <key>com.apple.avfoundation.allow-system-wide-context</key>
     <true />
     <key>com.apple.avfoundation.allows-access-to-device-list</key>
@@ -51,7 +53,17 @@
     <true />
     <key>com.apple.mediaremote.remote-control-discovery</key>
     <true />
+    <key>com.apple.mobileactivationd.spi</key>
+    <true />
+    <key>com.apple.payment.amp-card-enrollment</key>
+    <true />
+    <key>com.apple.payment.card-on-file</key>
+    <true />
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
     <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.appfirewallclient</key>
     <true />
     <key>com.apple.private.applemediaservices</key>
     <true />
@@ -113,6 +125,11 @@
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.itunescloud.music-subscription-status-service</string>
+      <string>com.apple.passd.payment</string>
+      <string>com.apple.askpermissiond</string>
+      <string>com.apple.passd.in-app-payment</string>
+      <string>com.apple.passd.library</string>
+      <string>com.apple.xpc.amsaccountsd</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>

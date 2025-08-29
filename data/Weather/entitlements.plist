@@ -5,6 +5,8 @@
   <dict>
     <key>application-identifier</key>
     <string>com.apple.weather</string>
+    <key>com.apple.CoreRoutine.LocationOfInterest</key>
+    <true />
     <key>com.apple.SystemConfiguration.SCPreferences-read-access</key>
     <array>
       <string>com.apple.radios.plist</string>
@@ -59,7 +61,7 @@
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
     <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
-    <true />
+    <false />
     <key>com.apple.private.applemediaservices</key>
     <true />
     <key>com.apple.private.appstored</key>
@@ -85,6 +87,8 @@
     </array>
     <key>com.apple.private.cloudkit.systemService</key>
     <true />
+    <key>com.apple.private.coreservices.canmanagebackgroundtasks</key>
+    <true />
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
     <true />
     <key>com.apple.private.coreservices.canopenactivity</key>
@@ -96,6 +100,8 @@
     <key>com.apple.private.iad.news-client</key>
     <true />
     <key>com.apple.private.mobileinstall.xpc-services-enabled</key>
+    <true />
+    <key>com.apple.private.network.socket-delegate</key>
     <true />
     <key>com.apple.private.security.container-required</key>
     <true />
@@ -125,6 +131,8 @@
     <true />
     <key>com.apple.security.network.server</key>
     <true />
+    <key>com.apple.security.personal-information.addressbook</key>
+    <true />
     <key>com.apple.security.personal-information.location</key>
     <true />
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
@@ -138,10 +146,15 @@
       <string>com.apple.ak.anisette.xpc</string>
       <string>com.apple.weatherd.weatherkit</string>
       <string>com.apple.weatherd.notifications</string>
+      <string>com.apple.weatherd.summary-strings</string>
       <string>com.apple.ak.anisette.xpc</string>
       <string>com.apple.ap.promotedcontent.pcinterface</string>
       <string>com.apple.ap.promotedcontent.mescalinterface</string>
       <string>com.apple.ap.promotedcontent.metrics</string>
+      <string>com.apple.routined.registration</string>
+      <string>com.apple.AddressBook.ContactsAccountsService</string>
+      <string>com.apple.backgroundtaskmanagement</string>
+      <string>com.apple.backgroundtaskmanagement.sfl</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
@@ -150,6 +163,7 @@
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.weather.internal</string>
+      <string>com.apple.weather.sensitive</string>
       <string>kCFPreferencesAnyApplication</string>
       <string>com.apple.newscore2</string>
       <string>com.apple.newscore</string>

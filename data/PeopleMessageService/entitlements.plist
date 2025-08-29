@@ -80,6 +80,8 @@
     <key>com.apple.springboard.openurlinbackground</key>
     <true />
     <key>com.apple.trial.client</key>
-    <true />
+    <array>
+      <string>406</string>
+    </array>
   </dict>
 </plist>

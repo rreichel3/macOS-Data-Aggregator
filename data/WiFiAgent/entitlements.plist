@@ -11,10 +11,8 @@
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
-    <key>com.apple.developer.driverkit.userclient-access</key>
-    <array>
-      <string>com.apple.DriverKit-AppleBCMWLAN</string>
-    </array>
+    <key>com.apple.developer.hardened-process</key>
+    <true />
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
     <string>com.apple.wifid.known-networks</string>
     <key>com.apple.keystore.access-keychain-keys</key>
@@ -35,7 +33,15 @@
     <true />
     <key>com.apple.private.corewifi.internal</key>
     <true />
+    <key>com.apple.private.corewifi.mac-addr</key>
+    <true />
+    <key>com.apple.private.driverkit.driver-access</key>
+    <array>
+      <string>com.apple.private.wifi.driverkit</string>
+    </array>
     <key>com.apple.private.lockdownmoded.read</key>
+    <true />
+    <key>com.apple.private.managedclient.configurationprofiles</key>
     <true />
     <key>com.apple.private.notificationcenter-system</key>
     <array>
@@ -61,7 +67,6 @@
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
       <string>AirPort</string>
-      <string>group.com.apple.wifi.logs</string>
     </array>
     <key>com.apple.private.system-keychain</key>
     <true />
@@ -87,6 +92,7 @@
       <string>com.apple.usernotifications.usernotificationservice</string>
       <string>com.apple.usernotifications.listener</string>
       <string>com.apple.CompanionLink</string>
+      <string>com.apple.coreservices.launchservicesd</string>
     </array>
     <key>com.apple.security.network.server</key>
     <true />

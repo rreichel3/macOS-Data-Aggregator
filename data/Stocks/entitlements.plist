@@ -77,6 +77,14 @@
     </array>
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
+    <key>com.apple.private.appintents-attribution-override</key>
+    <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework</string>
+      <string>/System/Library/PrivateFrameworks/StocksCore.framework</string>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/StocksUI.framework</string>
+    </array>
     <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
     <true />
     <key>com.apple.private.applemediaservices</key>
@@ -144,6 +152,7 @@
     <array>
       <string>group.com.apple.stocks</string>
       <string>group.com.apple.stocks-news</string>
+      <string>group.com.apple.news</string>
     </array>
     <key>com.apple.private.security.storage.Stocks</key>
     <true />
@@ -185,6 +194,7 @@
       <string>com.apple.ap.adservicesd.server</string>
       <string>com.apple.ap.adprivacyd.attribution</string>
       <string>com.apple.ap.adprivacyd.opt-out</string>
+      <string>com.apple.ap.adservicesd.statusconditionservice</string>
       <string>com.apple.ak.anisette.xpc</string>
       <string>com.apple.newsd.analytics</string>
       <string>com.apple.ap.promotedcontent.pcinterface</string>
@@ -201,6 +211,9 @@
       <string>com.apple.passd.library</string>
       <string>com.apple.passd.payment</string>
       <string>com.apple.xpc.amsaccountsd</string>
+      <string>com.apple.identityservicesd.embedded.auth</string>
+      <string>com.apple.symptom_diagnostics</string>
+      <string>com.apple.aa.daemon.xpc</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>

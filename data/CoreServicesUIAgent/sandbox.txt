@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/CoreServicesUIAgent.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 18
+Entitlements Count: 24
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -25,11 +25,17 @@
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/Library/PrivateFrameworks/CalendarLink.framework</string>
+    </array>
     <key>com.apple.private.associated-domains</key>
     <true />
     <key>com.apple.private.calendar</key>
     <true />
     <key>com.apple.private.calendar.allow-diagnostics-collection</key>
+    <true />
+    <key>com.apple.private.calendar.allow-integrations</key>
     <true />
     <key>com.apple.private.calendar.allow-suggestions</key>
     <true />
@@ -58,6 +64,18 @@
     </array>
     <key>com.apple.private.mailservice.delivery</key>
     <true />
+    <key>com.apple.private.remindd</key>
+    <dict>
+      <key>sync</key>
+      <true />
+      <key>userInteractive</key>
+      <true />
+    </dict>
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.reminders</string>
+      <string>group.com.apple.calendar</string>
+    </array>
     <key>com.apple.private.suggestions.contacts</key>
     <true />
     <key>com.apple.private.suggestions.events</key>
@@ -72,8 +90,17 @@
     <array>
       <string>kTCCServiceCalendar</string>
     </array>
+    <key>com.apple.private.usernotifications.bundle-identifiers</key>
+    <array>
+      <string>com.apple.reminders</string>
+    </array>
     <key>com.apple.security.app-sandbox</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.reminders</string>
+      <string>group.com.apple.calendar</string>
+    </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.CalendarAgent</string>
@@ -114,6 +141,7 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.familycircle.agent</string>
       <string>com.apple.exchange.exchangesyncd</string>
       <string>com.apple.CalendarAgent</string>
       <string>com.apple.calaccessd</string>
@@ -125,6 +153,10 @@
       <string>com.apple.duetknowledged.activity</string>
       <string>com.apple.coreduetd.people</string>
       <string>com.apple.ak.auth.xpc</string>
+      <string>com.apple.remindd</string>
+      <string>com.apple.remindd.userInteractive</string>
+      <string>com.apple.locationd.desktop.synchronous</string>
+      <string>com.apple.locationd.desktop.registration</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
@@ -139,6 +171,7 @@
       <string>com.apple.calviewmodel</string>
       <string>com.apple.suggestions</string>
       <string>com.apple.DataAccess.BehaviorOptions</string>
+      <string>com.apple.remindd</string>
     </array>
     <key>keychain-access-groups</key>
     <array>

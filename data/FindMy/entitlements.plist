@@ -35,6 +35,10 @@
     <true />
     <key>com.apple.bluetooth.system</key>
     <true />
+    <key>com.apple.chrono.invalidate-timelines</key>
+    <true />
+    <key>com.apple.chronoservices</key>
+    <true />
     <key>com.apple.coreduetd.allow</key>
     <true />
     <key>com.apple.coreduetd.people</key>
@@ -47,6 +51,8 @@
     </array>
     <key>com.apple.developer.usernotifications.time-sensitive</key>
     <true />
+    <key>com.apple.findmy.findmylocate.fenceservice</key>
+    <true />
     <key>com.apple.findmy.findmylocate.friendshipservice</key>
     <true />
     <key>com.apple.findmy.findmylocate.locationservice</key>
@@ -54,6 +60,8 @@
     <key>com.apple.findmy.findmylocate.settings</key>
     <true />
     <key>com.apple.icloud.FindMyDevice.FindMyDeviceHelperXPCService.access</key>
+    <true />
+    <key>com.apple.icloud.FindMyDevice.FindMyDeviceSharedConfiguration.access</key>
     <true />
     <key>com.apple.icloud.findmydeviced.access</key>
     <true />
@@ -132,6 +140,10 @@
     </array>
     <key>com.apple.private.octagon</key>
     <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.icloud.findmydevice.shared-configuration</string>
+    </array>
     <key>com.apple.private.security.storage.FindMy</key>
     <true />
     <key>com.apple.private.security.system-application</key>
@@ -161,6 +173,7 @@
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.icloud.fm</string>
+      <string>group.com.apple.icloud.findmydevice.shared-configuration</string>
     </array>
     <key>com.apple.security.device.bluetooth</key>
     <true />
@@ -169,6 +182,10 @@
       <string>/tmp/findmydeviced-sandbox-violation</string>
       <string>/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SharingDeviceAssets/</string>
       <string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_SharingDeviceAssets/</string>
+    </array>
+    <key>com.apple.security.exception.iokit-user-client-class</key>
+    <array>
+      <string>IOSurfaceAcceleratorParavirtClient</string>
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
@@ -195,6 +212,7 @@
       <string>com.apple.findmy.findmylocate.friendshipservice</string>
       <string>com.apple.findmy.findmylocate.settings</string>
       <string>com.apple.findmy.findmylocate.locationservice</string>
+      <string>com.apple.findmy.findmylocate.fenceservice</string>
       <string>com.apple.biome.PublicStreamAccessService</string>
       <string>com.apple.icloud.searchpartyuseragent.beaconmanager.simplebeacon</string>
       <string>com.apple.icloud.searchparty.locationfetch.items</string>
@@ -222,6 +240,7 @@
       <string>com.apple.server.bluetooth</string>
       <string>com.apple.SharingServices</string>
       <string>com.apple.server.bluetooth.general.xpc</string>
+      <string>com.apple.icloud.findmydeviced.findmydevice-user-agent</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>

@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/WidgetKit Simulator.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 18
+Entitlements Count: 20
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -1,5 +1,5 @@
 Code Signing Information for Keychain Access
-Application Path: /System/Applications/Utilities/Keychain Access.app
+Application Path: /System/Library/CoreServices/Applications/Keychain Access.app
 
 Signature Status: Valid
 Authority: Unknown

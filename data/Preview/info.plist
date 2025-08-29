@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>22A380019</string>
+    <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
@@ -372,6 +372,20 @@
       </dict>
       <dict>
         <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.jpeg-xl</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVImageContainer</string>
+        <key>NSIsRelatedItemType</key>
+        <true />
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>LSIsAppleDefaultForType</key>
         <true />
@@ -586,6 +600,26 @@
           <string>com.pixar.universal-scene-description-mobile</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>org.khronos.gltf</string>
+          <string>org.khronos.glb</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>org.khronos.gltf</string>
+          <string>org.khronos.glb</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleExecutable</key>
     <string>Preview</string>
@@ -614,7 +648,7 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>1056.5.1</string>
+    <string>1069.5.2</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -622,15 +656,15 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>DTSDKBuild</key>
-    <string>23G1000s</string>
+    <string>24F62</string>
     <key>DTSDKName</key>
-    <string>macosx14.7.internal</string>
+    <string>macosx15.5.internal</string>
     <key>DTXcode</key>
-    <string>1500</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>15E6079e</string>
+    <string>16E6052g</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>preview</string>
     <key>LSApplicationCategoryType</key>
@@ -638,7 +672,7 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>NSAppleScriptEnabled</key>
     <true />
     <key>NSMainNibFile</key>
@@ -819,6 +853,49 @@
           <key>public.filename-extension</key>
           <array>
             <string>blank</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.json</string>
+          <string>public.3d-content</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>GL Transmission Format - JSON</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.khronos.gltf</string>
+        <key>UTTypeReferenceURL</key>
+        <string>https://www.khronos.org/gltf/</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>gltf</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+          <string>public.3d-content</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>GL Transmission Format - Binary</string>
+        <key>UTTypeIdentifier</key>
+        <string>org.khronos.glb</string>
+        <key>UTTypeReferenceURL</key>
+        <string>https://www.khronos.org/gltf/</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>glb</string>
           </array>
         </dict>
       </dict>

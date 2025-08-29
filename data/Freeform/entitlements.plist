@@ -5,16 +5,18 @@
   <dict>
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
+    <key>com.apple.accounts.idms.fullaccess</key>
+    <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.freeform</string>
+    <key>com.apple.authkit.client.internal</key>
+    <true />
     <key>com.apple.authkit.client.private</key>
-    <true />
-    <key>com.apple.coreduetd.allow</key>
-    <true />
-    <key>com.apple.coreduetd.context</key>
     <true />
     <key>com.apple.developer.aps-environment</key>
     <string>production</string>
+    <key>com.apple.developer.associated-domains</key>
+    <array />
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
     <key>com.apple.developer.icloud-container-identifiers</key>
@@ -32,6 +34,10 @@
     <true />
     <key>com.apple.locationd.authorizeapplications</key>
     <true />
+    <key>com.apple.managedconfiguration.profiled.set</key>
+    <array>
+      <string>Passcode</string>
+    </array>
     <key>com.apple.private.CloudSharing.SPI</key>
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
@@ -40,15 +46,24 @@
     <true />
     <key>com.apple.private.applemediaservices</key>
     <true />
+    <key>com.apple.private.biome.read-write</key>
+    <array>
+      <string>Discoverability.Signals</string>
+      <string>Discoverability.Usage</string>
+    </array>
     <key>com.apple.private.clouddocs.sharing.private-interface</key>
     <true />
     <key>com.apple.private.cloudkit.realTimeOperations</key>
+    <true />
+    <key>com.apple.private.cloudkit.setEnvironment</key>
     <true />
     <key>com.apple.private.cloudkit.spi</key>
     <true />
     <key>com.apple.private.copresence</key>
     <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
+    <true />
+    <key>com.apple.private.hsa-authentication-processing</key>
     <true />
     <key>com.apple.private.ind.client</key>
     <true />
@@ -57,6 +72,8 @@
     <key>com.apple.private.sociallayer.highlights</key>
     <true />
     <key>com.apple.private.suggestions.contacts</key>
+    <true />
+    <key>com.apple.private.swc.system-app</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
@@ -84,6 +101,8 @@
     <true />
     <key>com.apple.security.network.client</key>
     <true />
+    <key>com.apple.security.octagon</key>
+    <true />
     <key>com.apple.security.personal-information.addressbook</key>
     <true />
     <key>com.apple.security.print</key>
@@ -91,6 +110,10 @@
     <key>com.apple.security.restricted-application-groups</key>
     <array>
       <string>group.com.apple.freeform</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Logs/AppAnalytics/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
@@ -108,6 +131,8 @@
     <array>
       <string>com.apple.freeform</string>
     </array>
+    <key>fairplay-client</key>
+    <string>511712240</string>
     <key>platform-application</key>
     <true />
   </dict>

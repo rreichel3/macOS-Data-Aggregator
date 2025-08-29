@@ -1,0 +1,8 @@
+Code Signing Information for liquiddetectiond
+Application Path: /System/Library/CoreServices/liquiddetectiond.app
+
+Signature Status: Valid (Verification Failed)
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: No

@@ -9,7 +9,6 @@
     <true />
     <key>com.apple.private.AuthorizationServices</key>
     <array>
-      <string>com.apple.uninstalld.uninstall</string>
       <string>system.install.app-store-software</string>
       <string>com.apple.security.assessment.update</string>
     </array>
@@ -26,6 +25,8 @@
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
+    <key>com.apple.private.backgroundtaskmanagement.manage</key>
+    <true />
     <key>com.apple.private.coreservices.canaccessanysharedfilelist</key>
     <string>read-write</string>
     <key>com.apple.private.coreservices.lsuseractivityd.bestappsuggestion</key>
@@ -33,6 +34,10 @@
     <key>com.apple.private.dmd.policy</key>
     <true />
     <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.screencapturekit.suppress-screen-indicator</key>
     <true />
     <key>com.apple.private.security.storage.Safari</key>
     <true />
@@ -47,6 +52,8 @@
       <string>kTCCServiceSystemPolicyAllFiles</string>
       <string>kTCCServiceScreenCapture</string>
     </array>
+    <key>com.apple.private.uninstalld.client</key>
+    <true />
     <key>com.apple.private.universalcontrol</key>
     <true />
     <key>com.apple.private.wallpaper</key>

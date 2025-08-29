@@ -3,7 +3,7 @@ Application Path: /System/Applications/System Settings.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 23
+Entitlements Count: 22
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

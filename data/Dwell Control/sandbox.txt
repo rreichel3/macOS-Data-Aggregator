@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Dwell Control.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 6
+Entitlements Count: 7
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

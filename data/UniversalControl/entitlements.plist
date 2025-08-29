@@ -5,10 +5,6 @@
   <dict>
     <key>com.apple.CompanionLink</key>
     <true />
-    <key>com.apple.coreduetd.allow</key>
-    <true />
-    <key>com.apple.coreduetd.context</key>
-    <true />
     <key>com.apple.developer.device-information.user-assigned-device-name</key>
     <true />
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
@@ -17,6 +13,12 @@
     <true />
     <key>com.apple.nearbyinteraction.background</key>
     <true />
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>com.apple.universalcontrol</string>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>Discoverability.Signals</string>
+    </array>
     <key>com.apple.private.hid.client.admin</key>
     <true />
     <key>com.apple.private.hid.client.event-dispatch</key>

@@ -2,8 +2,8 @@
   "name": "Spotlight",
   "path": "/System/Library/CoreServices/Spotlight.app",
   "sdef_count": 0,
-  "has_icon": true,
-  "icon_path": "icon.png",
+  "has_icon": false,
+  "icon_path": null,
   "codesign": {
     "signature_status": "Valid",
     "authority": "Unknown",
@@ -15,7 +15,7 @@
   "sandbox": {
     "sandboxed": "Unknown",
     "sandbox_type": "Unknown",
-    "entitlements_count": "77",
+    "entitlements_count": "88",
     "hardened_runtime": "Unknown",
     "library_validation": "Enabled",
     "analysis_notes": [

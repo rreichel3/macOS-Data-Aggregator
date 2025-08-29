@@ -7,6 +7,8 @@
     <true />
     <key>aps-environment</key>
     <string>development</string>
+    <key>com.apple.accessibility.AccessibilityPersonalVoiceUsageOverride</key>
+    <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.VoiceOver</string>
     <key>com.apple.developer.aps-environment</key>
@@ -31,7 +33,7 @@
     <true />
     <key>com.apple.private.accessibility.inspection</key>
     <true />
-    <key>com.apple.private.accessibility.systemSetup</key>
+    <key>com.apple.private.accessibility.remoteDeviceContent</key>
     <true />
     <key>com.apple.private.accessibility.visuals</key>
     <true />
@@ -56,6 +58,8 @@
     </dict>
     <key>com.apple.private.contacts</key>
     <true />
+    <key>com.apple.private.corewifi.readonly</key>
+    <true />
     <key>com.apple.private.hid.client.event-dispatch</key>
     <true />
     <key>com.apple.private.hid.client.event-monitor</key>
@@ -66,6 +70,10 @@
     <true />
     <key>com.apple.private.security.container-required</key>
     <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.VoiceOver</string>
+    </array>
     <key>com.apple.private.security.storage.universalaccess</key>
     <true />
     <key>com.apple.private.skylight.unconditional-activation</key>
@@ -78,6 +86,7 @@
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
+      <string>kTCCServiceVoiceBanking</string>
       <string>kTCCServiceAccessibility</string>
       <string>kTCCServiceScreenCapture</string>
       <string>kTCCServiceListenEvent</string>
@@ -88,6 +97,10 @@
     <true />
     <key>com.apple.private.windowmanager</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.VoiceOver</string>
+    </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.translationd</string>
@@ -96,6 +109,9 @@
     </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
+      <string>com.apple.accessibility.voicebanking</string>
+      <string>com.apple.accessibility</string>
+      <string>com.apple.SpeakSelection</string>
       <string>com.apple.Accessibility.Assets</string>
       <string>com.apple.universalaccess</string>
       <string>com.apple.WindowManager</string>

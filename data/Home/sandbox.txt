@@ -3,7 +3,7 @@ Application Path: /System/Applications/Home.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 145
+Entitlements Count: 173
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

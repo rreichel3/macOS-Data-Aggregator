@@ -3,7 +3,7 @@ Application Path: /System/Applications/Messages.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 117
+Entitlements Count: 135
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

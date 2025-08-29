@@ -7,6 +7,8 @@
     <string>com.apple.keychainaccess</string>
     <key>com.apple.authorization.extract-password</key>
     <true />
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
     <key>com.apple.private.octagon</key>
     <true />
     <key>keychain-access-groups</key>

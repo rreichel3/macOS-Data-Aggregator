@@ -1,0 +1,17 @@
+<!-- Entitlements for liquiddetectiond.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.iokit.IOPort.user-access</key>
+    <true />
+    <key>com.apple.iokit.IOPortFamily</key>
+    <true />
+    <key>com.apple.iokit.IOPortFeature.LDCM</key>
+    <true />
+    <key>com.apple.security.iokit-user-client-class</key>
+    <array>
+      <string>IOPortFeatureLDCMUserClient</string>
+    </array>
+  </dict>
+</plist>

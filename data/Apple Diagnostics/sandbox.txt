@@ -1,0 +1,11 @@
+Sandbox Analysis for Apple Diagnostics
+Application Path: /System/Library/CoreServices/Apple Diagnostics.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 4
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

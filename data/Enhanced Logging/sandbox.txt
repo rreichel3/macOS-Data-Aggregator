@@ -1,0 +1,11 @@
+Sandbox Analysis for Enhanced Logging
+Application Path: /System/Library/CoreServices/Enhanced Logging.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 12
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

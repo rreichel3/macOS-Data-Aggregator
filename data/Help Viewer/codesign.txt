@@ -1,8 +1,0 @@
-Code Signing Information for Help Viewer
-Application Path: /System/Library/CoreServices/Help Viewer.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

@@ -9,7 +9,7 @@
       <string>com.apple.stocks.backgroundFetchManager</string>
     </array>
     <key>BuildMachineOSBuild</key>
-    <string>22A380019</string>
+    <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -33,7 +33,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>6.2.3</string>
+    <string>7.3</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
@@ -50,7 +50,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1374</string>
+    <string>1571</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
@@ -60,15 +60,15 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>DTSDKBuild</key>
-    <string>23G1000s</string>
+    <string>24F62</string>
     <key>DTSDKName</key>
-    <string>macosx14.7.internal</string>
+    <string>macosx15.5.internal</string>
     <key>DTXcode</key>
-    <string>1500</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>15E6079e</string>
+    <string>16E6052g</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>stocks</string>
     <key>LSApplicationCategoryType</key>
@@ -78,7 +78,7 @@
       <string>com.apple.stocks.watchapp</string>
     </array>
     <key>LSMinimumSystemVersion</key>
-    <string>14.7</string>
+    <string>15.5</string>
     <key>NSCalendarsFullAccessUsageDescription</key>
     <string>This will let you add earnings reports to your calendar.</string>
     <key>NSCalendarsWriteOnlyAccessUsageDescription</key>
@@ -100,8 +100,8 @@
     <true />
     <key>NSUserActivityTypes</key>
     <array>
-      <string>StockIntent</string>
-      <string>StocksOverviewIntent</string>
+      <string>OpenSymbolIntent</string>
+      <string>OpenWatchlistIntent</string>
       <string>com.apple.stocks.basic</string>
       <string>com.apple.stocks.v2.ForYouFeed</string>
       <string>com.apple.stocks.v2.StockList</string>
@@ -167,12 +167,11 @@
     </array>
     <key>UIGlobalUserInterfaceIdiomMac</key>
     <true />
-    <key>UILaunchStoryboardName</key>
-    <string>LaunchScreen</string>
-    <key>UILaunchStoryboardName~iphone</key>
-    <string>LaunchScreen~iphone</string>
-    <key>UILaunchStoryboardName~ipod</key>
-    <string>LaunchScreen~iphone</string>
+    <key>UILaunchScreen</key>
+    <dict>
+      <key>UIColorName</key>
+      <string>LaunchScreenBackground</string>
+    </dict>
     <key>UIMenuBarItemTitleAbout</key>
     <string>About Stocks</string>
     <key>UIMenuBarItemTitleHelp</key>
@@ -204,6 +203,8 @@
     <array>
       <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>UISupportsDynamicType</key>
+    <true />
     <key>UIUserInterfaceIdiomMac</key>
     <true />
     <key>UIUserInterfaceStyle</key>

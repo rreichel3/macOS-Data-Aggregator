@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/PreviewShell.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 14
+Entitlements Count: 17
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

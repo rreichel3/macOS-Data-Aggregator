@@ -78,6 +78,12 @@
     <true />
     <key>com.apple.managedconfiguration.profiled-access</key>
     <true />
+    <key>com.apple.private.appintents-attribution-override</key>
+    <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/Library/PrivateFrameworks/WorkflowEditor.framework</string>
+    </array>
     <key>com.apple.private.appintents-handle-in-process</key>
     <array>
       <string>com.apple.ShortcutsActions</string>
@@ -120,6 +126,8 @@
     <string>com.apple.focus.activity-manager</string>
     <key>com.apple.private.donotdisturb.state.updates.client-identifiers</key>
     <string>com.apple.focus.activity-manager</string>
+    <key>com.apple.private.healthkit</key>
+    <true />
     <key>com.apple.private.healthkit.source.identities</key>
     <array>
       <string>com.apple.shortcuts</string>
@@ -138,6 +146,8 @@
       <string>group.is.workflow.my.app</string>
       <string>group.is.workflow.shortcuts</string>
     </array>
+    <key>com.apple.private.security.storage.proactivepredictions</key>
+    <true />
     <key>com.apple.private.security.system-application</key>
     <true />
     <key>com.apple.private.shortcuts.IntentsAvailableDuringBuddy</key>
@@ -195,11 +205,6 @@
     </array>
     <key>com.apple.security.automation.apple-events</key>
     <true />
-    <key>com.apple.security.exception.files.home-relative-path.read-only</key>
-    <array>
-      <string>/Library/Assets/com_apple_MobileAsset_VoiceServicesVocalizerVoice</string>
-      <string>/Library/VoiceServices/Assets</string>
-    </array>
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
     <key>com.apple.security.network.client</key>
@@ -240,6 +245,7 @@
       <string>com.apple.BTServer.le</string>
       <string>com.apple.Music.MPMusicPlayerControllerInternal</string>
       <string>com.apple.SharingServices</string>
+      <string>com.apple.airplay.endpoint.xpc</string>
       <string>com.apple.amp.library.framework</string>
       <string>com.apple.audio.AURemoteIOServer</string>
       <string>com.apple.audio.AudioComponentPrefs</string>
@@ -253,18 +259,20 @@
       <string>com.apple.donotdisturb.service</string>
       <string>com.apple.donotdisturb.service.non-launching</string>
       <string>com.apple.homed.xpc</string>
+      <string>com.apple.linkd.autoShortcut</string>
       <string>com.apple.linkd.extension</string>
       <string>com.apple.linkd.mediator</string>
       <string>com.apple.linkd.registry</string>
       <string>com.apple.linkd.transcript</string>
+      <string>com.apple.mediaexperience.endpoint.xpc</string>
       <string>com.apple.photos.service</string>
       <string>com.apple.proactive.ProactiveSuggestionClientModel.xpc</string>
       <string>com.apple.server.bluetooth.general.xpc</string>
+      <string>com.apple.shortcutsautomationd.xpc</string>
       <string>com.apple.siri.VoiceShortcuts.xpc</string>
       <string>com.apple.siri.tts.TTSAsset.TrialProxy</string>
+      <string>com.apple.siriactionsd.xpc</string>
       <string>com.apple.sirittsd</string>
-      <string>com.apple.voiceservices.keepalive</string>
-      <string>com.apple.voiceservices.tts</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -293,11 +301,13 @@
     <true />
     <key>com.apple.shortcuts.mac-helper</key>
     <true />
+    <key>com.apple.shortcuts.trigger-editing</key>
+    <true />
     <key>com.apple.siri.VoiceShortcuts.xpc</key>
     <true />
-    <key>com.apple.soundscapes.picker</key>
+    <key>com.apple.sirittsd.can-dump-audio</key>
     <true />
-    <key>com.apple.voiced.can-dump-audio</key>
+    <key>com.apple.soundscapes.picker</key>
     <true />
     <key>keychain-access-groups</key>
     <array>

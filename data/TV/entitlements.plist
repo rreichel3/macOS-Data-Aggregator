@@ -37,6 +37,8 @@
     <true />
     <key>com.apple.itunescloud.in-app-message-service</key>
     <true />
+    <key>com.apple.launchservices.receivereferrerrurl</key>
+    <true />
     <key>com.apple.mediaremote.allow</key>
     <array>
       <string>TVPairing</string>
@@ -50,6 +52,8 @@
     <key>com.apple.private.CoreAuthentication.SPI</key>
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
+    <true />
+    <key>com.apple.private.appfirewallclient</key>
     <true />
     <key>com.apple.private.applemediaservices</key>
     <true />
@@ -106,6 +110,7 @@
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceAppleEvents</string>
       <string>kTCCServiceCamera</string>
+      <string>kTCCServiceMediaLibrary</string>
     </array>
     <key>com.apple.private.tcc.allow-prompting</key>
     <array>
@@ -117,6 +122,8 @@
     <array>
       <string>com.apple.TV</string>
     </array>
+    <key>com.apple.runningboard.jetengine</key>
+    <true />
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.tv.sharedcontainer</string>
@@ -128,6 +135,7 @@
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.aa.daemon.xpc</string>
       <string>com.apple.adid</string>
       <string>com.apple.amsaccountsd.security</string>
       <string>com.apple.askpermissiond</string>
@@ -143,6 +151,8 @@
       <string>com.apple.proactive.PersonalizationPortrait.SocialHighlight</string>
       <string>com.apple.passd.payment</string>
       <string>com.apple.sportsd.xpc</string>
+      <string>com.apple.mdmclient.agent.unrestricted</string>
+      <string>com.apple.mdmclient.daemon.unrestricted</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>

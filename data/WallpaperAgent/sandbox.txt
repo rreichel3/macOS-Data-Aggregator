@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/WallpaperAgent.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 14
+Entitlements Count: 17
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

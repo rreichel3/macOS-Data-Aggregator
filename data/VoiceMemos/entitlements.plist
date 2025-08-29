@@ -15,6 +15,8 @@
     <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.VoiceMemos</string>
+    <key>com.apple.assistant.dictation.prerecorded</key>
+    <true />
     <key>com.apple.avfoundation.allow-system-wide-context</key>
     <true />
     <key>com.apple.avfoundation.allows-access-to-device-list</key>
@@ -31,9 +33,13 @@
     <true />
     <key>com.apple.frontboard.launchapplications</key>
     <true />
+    <key>com.apple.itunesstored.private</key>
+    <true />
     <key>com.apple.locationd.effective_bundle</key>
     <true />
     <key>com.apple.locationd.place_inference</key>
+    <true />
+    <key>com.apple.private.applemediaservices</key>
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
@@ -84,6 +90,7 @@
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
       <string>/Library/Application Support/com.apple.voicememos/</string>
+      <string>/Library/Logs/AppAnalytics/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
@@ -102,6 +109,7 @@
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
+      <string>com.apple.ironwood.support</string>
       <string>com.apple.MobileSMS</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
@@ -120,6 +128,8 @@
     <array>
       <string>access-calls</string>
     </array>
+    <key>fairplay-client</key>
+    <string>511712240</string>
     <key>platform-application</key>
     <true />
   </dict>

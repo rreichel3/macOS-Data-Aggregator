@@ -1,11 +1,11 @@
 Sandbox Analysis for Keychain Access
-Application Path: /System/Applications/Utilities/Keychain Access.app
+Application Path: /System/Library/CoreServices/Applications/Keychain Access.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 6
+Entitlements Count: 7
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
 Analysis Notes:
-- System application
+- No additional notes

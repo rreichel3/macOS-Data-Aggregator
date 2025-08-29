@@ -22,15 +22,37 @@
       <string>kTCCServiceMediaLibrary</string>
       <string>kTCCServiceMotion</string>
     </array>
-    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.iokit-user-client-class</key>
     <array>
-      <string>com.apple.tipsd</string>
+      <string>AGXCommandQueue</string>
+      <string>AGXDevice</string>
+      <string>AGXDeviceUserClient</string>
+      <string>AGXSharedUserClient</string>
+      <string>IOAccelContext</string>
+      <string>IOAccelContext2</string>
+      <string>IOAccelDevice</string>
+      <string>IOAccelDevice2</string>
+      <string>IOAccelSharedUserClient</string>
+      <string>IOAccelSharedUserClient2</string>
+      <string>IOAccelSubmitter2</string>
+      <string>IOMobileFramebufferUserClient</string>
+      <string>IOSurfaceRootUserClient</string>
     </array>
+    <key>com.apple.security.network.client</key>
+    <true />
     <key>com.apple.security.personal-information.location</key>
     <true />
-    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>/System/Library/PrivateFrameworks/ToneKit.framework</string>
+      <string>com.apple.lsd.xpc</string>
+      <string>com.apple.MobileTimer.sleepmodeserver</string>
+      <string>com.apple.MobileTimer.timerserver</string>
+      <string>com.apple.MobileTimer.alarmserver</string>
+      <string>com.apple.MobileTimer.stopwatchserver</string>
+      <string>com.apple.tipsd</string>
+      <string>com.apple.MobileTimer.sessionserver</string>
     </array>
   </dict>
 </plist>

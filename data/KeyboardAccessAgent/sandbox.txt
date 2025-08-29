@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/KeyboardAccessAgent.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 30
+Entitlements Count: 32
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

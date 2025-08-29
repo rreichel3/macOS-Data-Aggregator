@@ -5,6 +5,8 @@
   <dict>
     <key>com.apple.private.kernel.global-proc-info</key>
     <true />
+    <key>com.apple.private.quarantine.control-add</key>
+    <true />
     <key>com.apple.private.tcc.allow-prompting</key>
     <array>
       <string>kTCCServiceAll</string>

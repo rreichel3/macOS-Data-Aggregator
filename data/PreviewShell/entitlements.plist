@@ -7,6 +7,13 @@
     <true />
     <key>com.apple.osanalytics.canusediagnosticmonitor</key>
     <true />
+    <key>com.apple.private.MobileContainerManager.lookup</key>
+    <dict>
+      <key>appData</key>
+      <true />
+      <key>pluginData</key>
+      <true />
+    </dict>
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
     <true />
     <key>com.apple.private.oop-jit.loader</key>

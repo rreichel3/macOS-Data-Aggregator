@@ -1,0 +1,11 @@
+Sandbox Analysis for iPhone Mirroring
+Application Path: /System/Applications/iPhone Mirroring.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 25
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

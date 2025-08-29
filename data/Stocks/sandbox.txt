@@ -3,7 +3,7 @@ Application Path: /System/Applications/Stocks.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 82
+Entitlements Count: 84
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

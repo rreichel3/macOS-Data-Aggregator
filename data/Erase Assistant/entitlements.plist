@@ -61,6 +61,8 @@
     <true />
     <key>com.apple.private.librarian.container-proxy</key>
     <true />
+    <key>com.apple.private.lockdownmoded.read-write</key>
+    <true />
     <key>com.apple.private.photos.service.internal.cloud</key>
     <true />
     <key>com.apple.private.security.bootpolicy</key>

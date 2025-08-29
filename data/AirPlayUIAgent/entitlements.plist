@@ -11,6 +11,10 @@
     <true />
     <key>com.apple.private.SkyLight.screencapturedirect</key>
     <true />
+    <key>com.apple.private.screencapturekit.noprompt</key>
+    <true />
+    <key>com.apple.private.screencapturekit.suppress-screen-indicator</key>
+    <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceScreenCapture</string>

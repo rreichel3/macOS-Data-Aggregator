@@ -29,6 +29,8 @@
     <string>ZL6BUSYGB3.com.apple.news</string>
     <key>com.apple.appstored.manage-iap</key>
     <true />
+    <key>com.apple.authkit.authorization-bundle-identifier-proxy</key>
+    <true />
     <key>com.apple.authkit.client.internal</key>
     <true />
     <key>com.apple.authkit.client.private</key>
@@ -117,6 +119,18 @@
     <true />
     <key>com.apple.private.ad.analytics</key>
     <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework</string>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI2.framework</string>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/CookingSupport.framework</string>
+    </array>
+    <key>com.apple.private.appintents-bundle-relative-paths</key>
+    <array>
+      <string>Frameworks/NewsArticles.framework</string>
+      <string>Frameworks/NewsUI2.framework</string>
+      <string>Frameworks/CookingSupport.framework</string>
+    </array>
     <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
     <true />
     <key>com.apple.private.appleevents.allowedtosend</key>
@@ -187,6 +201,21 @@
     <true />
     <key>com.apple.private.in-app-payments</key>
     <true />
+    <key>com.apple.private.intelligenceplatform.client-identifier</key>
+    <string>com.apple.news</string>
+    <key>com.apple.private.intelligenceplatform.use-cases</key>
+    <dict>
+      <key>AutoFavorites</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>App.InFocus</key>
+          <true />
+          <key>App.WebUsage</key>
+          <true />
+        </dict>
+      </dict>
+    </dict>
     <key>com.apple.private.iosmac.unscaled</key>
     <true />
     <key>com.apple.private.mobileinstall.upgrade-enabled</key>
@@ -199,6 +228,7 @@
     <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
+      <string>group.tvappservices.container</string>
       <string>group.com.apple.newsd</string>
       <string>group.com.apple.news</string>
       <string>group.com.apple.stocks-news</string>
@@ -292,6 +322,10 @@
       <string>com.apple.ap.adprivacyd.attribution</string>
       <string>com.apple.xpc.amsengagementd</string>
       <string>com.apple.askpermissiond</string>
+      <string>com.apple.symptom_diagnostics</string>
+      <string>com.apple.biome.access.user</string>
+      <string>com.apple.aa.daemon.xpc</string>
+      <string>com.apple.identityservicesd.embedded.auth</string>
     </array>
     <key>com.apple.security.exception.process-info</key>
     <true />

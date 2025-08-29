@@ -9,6 +9,8 @@
     <true />
     <key>com.apple.private.amd.performance-spi</key>
     <true />
+    <key>com.apple.private.gputools.client</key>
+    <true />
     <key>com.apple.private.mcc.bwstats-access</key>
     <true />
     <key>com.apple.private.pmp.performance-spi</key>

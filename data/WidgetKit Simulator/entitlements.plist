@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.chronod.toolservices</key>
+    <true />
     <key>com.apple.chronoservices</key>
     <true />
     <key>com.apple.intents.extension.discovery</key>
@@ -31,6 +33,8 @@
     <key>com.apple.runningboard.assertions.chronod</key>
     <true />
     <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.process-state</key>
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />

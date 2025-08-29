@@ -11,6 +11,8 @@
     <true />
     <key>com.apple.private.accessibility.forceBundleLoad</key>
     <true />
+    <key>com.apple.private.accessibility.remoteDeviceContent</key>
+    <true />
     <key>com.apple.private.security.storage.universalaccess</key>
     <true />
     <key>com.apple.private.tcc.allow</key>

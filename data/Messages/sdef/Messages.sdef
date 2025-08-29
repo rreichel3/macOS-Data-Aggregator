@@ -7,6 +7,7 @@
 		<enumeration name="service type" code="styp">
 			<enumerator name="SMS" code="ssms"/>
 			<enumerator name="iMessage" code="sims"/>
+            <enumerator name="RCS" code="srcs"/>
 		</enumeration>
 		<enumeration name="direction" code="FTdr">
 			<enumerator name="incoming" code="FTic"/>

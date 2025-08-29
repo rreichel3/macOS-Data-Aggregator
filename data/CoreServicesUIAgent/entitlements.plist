@@ -9,12 +9,18 @@
     <array>
       <string>com.apple.security.assessment.update</string>
     </array>
+    <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.CallerName</key>
+    <true />
     <key>com.apple.private.MobileContainerManager.lookup</key>
     <dict>
       <key>appData</key>
       <true />
     </dict>
     <key>com.apple.private.OAHSoftwareUpdate</key>
+    <true />
+    <key>com.apple.private.app-translocation.create</key>
     <true />
     <key>com.apple.private.appstored</key>
     <array>
@@ -38,6 +44,12 @@
     <key>com.apple.private.launchservices.istemplateapplicationmanager</key>
     <true />
     <key>com.apple.private.security.appbundle-authority</key>
+    <true />
+    <key>com.apple.private.security.storage.LaunchServicesTemplateApp</key>
+    <true />
+    <key>com.apple.private.security.syspolicy.gatekeeper.override-source</key>
+    <true />
+    <key>com.apple.private.syspolicy.malware-sampling</key>
     <true />
     <key>com.apple.private.system_installd.connection</key>
     <true />

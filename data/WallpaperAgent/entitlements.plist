@@ -19,6 +19,7 @@
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceSystemPolicyAllFiles</string>
+      <string>kTCCServicePhotos</string>
     </array>
     <key>com.apple.private.usernotifications.bundle-identifiers</key>
     <array>
@@ -28,11 +29,17 @@
     <true />
     <key>com.apple.private.wallpaper.extension-host</key>
     <true />
+    <key>com.apple.runningboard.underlyingassertion</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
-    <false />
+    <true />
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
     <array>
       <string>/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Application Support/com.apple.wallpaper/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
@@ -48,6 +55,9 @@
     <array>
       <string>com.apple.desktop</string>
       <string>com.apple.screensaver</string>
+    </array>
+    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
+    <array>
       <string>com.apple.wallpaper</string>
     </array>
   </dict>

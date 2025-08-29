@@ -12,6 +12,7 @@
       <string>kTCCServiceCamera</string>
       <string>kTCCServiceMicrophone</string>
       <string>kTCCServiceAddressBook</string>
+      <string>kTCCServicePhotos</string>
     </array>
     <key>com.apple.security.app-sandbox</key>
     <true />

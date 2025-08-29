@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/SystemUIServer.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 3
+Entitlements Count: 4
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

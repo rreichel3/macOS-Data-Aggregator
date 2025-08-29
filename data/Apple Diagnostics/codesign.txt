@@ -1,0 +1,8 @@
+Code Signing Information for Apple Diagnostics
+Application Path: /System/Library/CoreServices/Apple Diagnostics.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

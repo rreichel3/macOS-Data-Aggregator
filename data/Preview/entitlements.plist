@@ -19,6 +19,8 @@
     <true />
     <key>com.apple.private.hydrars</key>
     <true />
+    <key>com.apple.private.imagecapturecore.authorization_bypass</key>
+    <true />
     <key>com.apple.private.metadata.exattrs</key>
     <true />
     <key>com.apple.private.screencapture.allow</key>

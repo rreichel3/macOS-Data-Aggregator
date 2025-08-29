@@ -3,7 +3,7 @@ Application Path: /System/Applications/TV.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 55
+Entitlements Count: 58
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

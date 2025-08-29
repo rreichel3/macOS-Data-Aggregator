@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Erase Assistant.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 34
+Entitlements Count: 35
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

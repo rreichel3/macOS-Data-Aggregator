@@ -10,9 +10,13 @@
         <string>State:/Users/ConsoleUser</string>
       </array>
     </dict>
+    <key>com.apple.TapToRadarKit.service-access</key>
+    <true />
     <key>com.apple.ahp</key>
     <true />
     <key>com.apple.authorization.extract-password</key>
+    <true />
+    <key>com.apple.bluetooth.system</key>
     <true />
     <key>com.apple.icloud.findmydeviced.access</key>
     <true />
@@ -114,6 +118,8 @@
     <true />
     <key>com.apple.private.screencapturekit.noprompt</key>
     <true />
+    <key>com.apple.private.screencapturekit.suppress-screen-indicator</key>
+    <true />
     <key>com.apple.private.security.clear-library-validation</key>
     <true />
     <key>com.apple.private.security.nvram.recovery-boot-mode</key>
@@ -149,6 +155,10 @@
     <key>com.apple.rootless.xpc.effective-root</key>
     <true />
     <key>com.apple.securebackupd.access</key>
+    <true />
+    <key>com.apple.selectivesharing.session_system</key>
+    <true />
+    <key>com.apple.selectivesharing.system</key>
     <true />
     <key>com.apple.systemstatus.domains</key>
     <array>

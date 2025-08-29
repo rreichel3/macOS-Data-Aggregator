@@ -3,7 +3,7 @@ Application Path: /System/Applications/News.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 116
+Entitlements Count: 125
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -28,7 +28,11 @@
     <true />
     <key>com.apple.launchservices.receivereferrerrurl</key>
     <true />
+    <key>com.apple.payment.all-access</key>
+    <true />
     <key>com.apple.payment.amp-card-enrollment</key>
+    <true />
+    <key>com.apple.payment.card-on-file</key>
     <true />
     <key>com.apple.private.CoreAuthentication.SPI</key>
     <true />
@@ -53,6 +57,8 @@
       <string>IAPHistory</string>
       <string>Install</string>
     </array>
+    <key>com.apple.private.biometrickit.allow-default</key>
+    <true />
     <key>com.apple.private.commerce</key>
     <array>
       <string>Accounts</string>
@@ -99,12 +105,15 @@
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceCamera</string>
     </array>
+    <key>com.apple.runningboard.jetengine</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.device.camera</key>
     <true />
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
+      <string>com.apple.AppStore</string>
       <string>com.apple.AppleMediaServices</string>
       <string>com.apple.gamecenter</string>
     </array>
@@ -122,6 +131,7 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.storagekitd</string>
       <string>com.apple.commerce</string>
       <string>com.apple.appstored.xpc.storequeue</string>
       <string>com.apple.ak.auth.xpc</string>
@@ -137,6 +147,8 @@
       <string>com.apple.corefollowup.agent</string>
       <string>com.apple.appstorecomponentsd.xpc</string>
       <string>com.apple.xpc.amsengagementd</string>
+      <string>com.apple.AMSUIPaymentViewService</string>
+      <string>com.apple.ap.promotedcontent.identifiermanager</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -194,7 +206,6 @@
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
-      <string>com.apple.appstored</string>
       <string>com.apple.storeagent</string>
       <string>com.apple.appstore</string>
       <string>com.apple.commerce</string>
@@ -208,6 +219,7 @@
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.AppleMediaServices</string>
+      <string>com.apple.appstored</string>
     </array>
     <key>com.apple.storekit.client-override</key>
     <true />

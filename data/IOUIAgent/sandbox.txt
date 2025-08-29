@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/IOUIAgent.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 8
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
