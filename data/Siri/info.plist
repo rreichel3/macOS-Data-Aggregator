@@ -1,5 +1,5 @@
 <!-- Info.plist for Siri.app -->
-<!-- Source: /System/Library/CoreServices/Siri.app/Contents/Info.plist -->
+<!-- Source: /System/Applications/Siri.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -7,7 +7,9 @@
     <key>BuildMachineOSBuild</key>
     <string>23A344011</string>
     <key>CFBundleDevelopmentRegion</key>
-    <string>en</string>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Siri</string>
     <key>CFBundleExecutable</key>
     <string>Siri</string>
     <key>CFBundleIconFile</key>
@@ -15,7 +17,7 @@
     <key>CFBundleIconName</key>
     <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
-    <string>com.apple.Siri</string>
+    <string>com.apple.siri.launcher</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -23,15 +25,15 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>3405.23.2.14.1</string>
+    <string>1.0</string>
     <key>CFBundleSignature</key>
-    <string>????</string>
+    <string>dlet</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>3405.23.2.14.1</string>
+    <string>61</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -48,27 +50,15 @@
     <string>1630</string>
     <key>DTXcodeBuild</key>
     <string>16E6052g</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
     <key>LSMinimumSystemVersion</key>
     <string>15.5</string>
     <key>LSUIElement</key>
     <true />
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2015 Apple Inc. All rights reserved.</string>
-    <key>NSMainStoryboardFile</key>
-    <string>Main</string>
+    <string>Copyright © 2016-2024 Apple Inc.\nAll rights reserved.</string>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
-    <key>UNUserNotificationCenter</key>
-    <dict>
-      <key>UNHideSettings</key>
-      <true />
-      <key>UNNotificationIcons</key>
-      <dict>
-        <key>UNNotificationIconDefault</key>
-        <string>SiriNotification</string>
-      </dict>
-      <key>UNSuppressUserAuthorizationPrompt</key>
-      <true />
-    </dict>
   </dict>
 </plist>
