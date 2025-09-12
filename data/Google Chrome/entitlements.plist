@@ -27,6 +27,7 @@
     <array>
       <string>EQHXZ8M8AV.com.google.common.folsom</string>
       <string>EQHXZ8M8AV.com.google.Chrome.devicetrust</string>
+      <string>EQHXZ8M8AV.com.google.Chrome.secure-payment-confirmation</string>
       <string>EQHXZ8M8AV.com.google.Chrome.unexportable-keys</string>
       <string>EQHXZ8M8AV.com.google.Chrome.webauthn</string>
       <string>EQHXZ8M8AV.com.google.Chrome.webauthn-uvk</string>

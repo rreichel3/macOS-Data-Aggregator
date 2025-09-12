@@ -37,6 +37,7 @@
     <array>
       <string>UBF8T346G9.com.google.common.folsom</string>
       <string>UBF8T346G9.com.microsoft.edgemac.devicetrust</string>
+      <string>UBF8T346G9.com.microsoft.edgemac.secure-payment-confirmation</string>
       <string>UBF8T346G9.com.microsoft.edgemac.unexportable-keys</string>
       <string>UBF8T346G9.com.microsoft.edgemac.webauthn</string>
       <string>UBF8T346G9.com.microsoft.identity.universalstorage</string>
