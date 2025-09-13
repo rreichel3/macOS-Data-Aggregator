@@ -49,6 +49,12 @@
     <true />
     <key>com.apple.modelmanager.inference</key>
     <true />
+    <key>com.apple.payment.all-access</key>
+    <true />
+    <key>com.apple.payment.amp-card-enrollment</key>
+    <true />
+    <key>com.apple.payment.card-on-file</key>
+    <true />
     <key>com.apple.photos.bourgeoisie</key>
     <true />
     <key>com.apple.private.CacheDelete</key>
@@ -106,6 +112,8 @@
     <key>com.apple.private.iaaccounts</key>
     <true />
     <key>com.apple.private.imagecapturecore.authorization_bypass</key>
+    <true />
+    <key>com.apple.private.in-app-payments</key>
     <true />
     <key>com.apple.private.ind.client</key>
     <true />
@@ -320,6 +328,9 @@
       <string>com.apple.generativeexperiences.availabilityService</string>
       <string>com.apple.extensionkitservice</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.passd.in-app-payment</string>
+      <string>com.apple.passd.library</string>
+      <string>com.apple.passd.payment</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>

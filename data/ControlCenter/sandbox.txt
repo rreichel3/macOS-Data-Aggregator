@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/ControlCenter.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 114
+Entitlements Count: 115
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

@@ -10,7 +10,7 @@
       <string>com.apple.coreservices.appleidauthentication.keychainaccessgroup</string>
     </array>
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -241,7 +241,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1732.6.3</string>
+    <string>1732.6.4</string>
     <key>CSResourcesFileMapped</key>
     <true />
     <key>DTCompiler</key>
@@ -251,11 +251,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F62</string>
+    <string>24G78</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -280,7 +280,7 @@
     <key>LSLaunchDLabel</key>
     <string>com.apple.Finder</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>LSProcessControlValue</key>
     <string>None</string>
     <key>LSRequiresNativeExecution</key>

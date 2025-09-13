@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -29,7 +29,7 @@
     <key>CFBundlePackageType</key>
     <string>XPC!</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.5</string>
+    <string>1.6</string>
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -62,19 +62,19 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>20621.2.5.11.8</string>
+    <string>20621.3.11.11.3</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24F73</string>
+    <string>24G83</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F73</string>
+    <string>24G83</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -82,7 +82,7 @@
     <key>HPDHelpProjectIdentifier</key>
     <string>passwords</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2024-2025 Apple Inc. All rights reserved.</string>
     <key>NSRegulatoryPrivacyDisclosure</key>

@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -25,13 +25,13 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>6.6.0</string>
+    <string>6.8.0</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>660.5.1</string>
+    <string>680.1.1</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -39,11 +39,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F62</string>
+    <string>24G78</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -53,7 +53,7 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>NSMainStoryboardFile</key>
     <string>Main</string>
     <key>NSPrincipalClass</key>

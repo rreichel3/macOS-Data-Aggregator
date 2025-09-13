@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -52,7 +52,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>415.25.2.11.24</string>
+    <string>415.26.4.2.13</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
@@ -62,11 +62,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F62</string>
+    <string>24G78</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -85,7 +85,7 @@
       </dict>
     </array>
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>NSContactsUsageDescription</key>
     <string>See InfoPlist.strings</string>
     <key>NSLocationWhenInUseUsageDescription</key>

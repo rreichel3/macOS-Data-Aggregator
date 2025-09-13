@@ -11,7 +11,7 @@
       <string>CalendarApps</string>
     </array>
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CFBundleAlternateNames</key>
     <array>
       <string>iCal</string>
@@ -143,7 +143,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>2995.6.1</string>
+    <string>2995.7.1</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
@@ -153,11 +153,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F62</string>
+    <string>24G78</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -169,7 +169,7 @@
     <key>LSFileQuarantineEnabled</key>
     <false />
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>MDItemKeywords</key>
     <string>iCal</string>
     <key>NSAccentColorName</key>

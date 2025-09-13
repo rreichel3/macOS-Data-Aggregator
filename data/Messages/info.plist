@@ -7,7 +7,7 @@
     <key>AppleEventSupported</key>
     <true />
     <key>BuildMachineOSBuild</key>
-    <string>23A344011</string>
+    <string>23A344014</string>
     <key>CAProcessCanAccessGPU</key>
     <true />
     <key>CFBundleAllowMixedLocalizations</key>
@@ -158,21 +158,21 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1402.600.41.1.5</string>
+    <string>1402.700.63</string>
     <key>CoreSpotlightContinuation</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24F70</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>DTSDKBuild</key>
-    <string>24F70</string>
+    <string>24G78</string>
     <key>DTSDKName</key>
-    <string>macosx15.5.internal</string>
+    <string>macosx15.6.internal</string>
     <key>DTXcode</key>
     <string>1630</string>
     <key>DTXcodeBuild</key>
@@ -199,7 +199,7 @@
     <key>LSEligibilityDeletionDomain</key>
     <integer>34</integer>
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>MDItemKeywords</key>
     <string>Messages iChat iMessage</string>
     <key>NSAppleScriptEnabled</key>
@@ -209,7 +209,7 @@
     <key>NSFocusStatusUsageDescription</key>
     <string>When you’re using Do Not Disturb or another Focus, Messages will let your contacts know that you have notifications silenced.</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2002–2024 Apple Inc. All rights reserved.</string>
+    <string>Copyright © 2002–2025 Apple Inc. All rights reserved.</string>
     <key>NSLocationTemporaryUsageDescriptionDictionary</key>
     <dict>
       <key>SendLocationDescription</key>

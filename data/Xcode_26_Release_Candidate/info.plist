@@ -1,5 +1,5 @@
-<!-- Info.plist for Xcode_26_beta_7.app -->
-<!-- Source: /Applications/Xcode_26_beta_7.app/Contents/Info.plist -->
+<!-- Info.plist for Xcode_26_Release_Candidate.app -->
+<!-- Source: /Applications/Xcode_26_Release_Candidate.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -1241,13 +1241,6 @@
         <string>GPU Utilities Document</string>
         <key>CFBundleTypeRole</key>
         <string>None</string>
-        <key>Icons</key>
-        <dict>
-          <key>Badge</key>
-          <string>hammer-badge</string>
-          <key>Text</key>
-          <string>dtools</string>
-        </dict>
         <key>LSIsAppleDefaultForType</key>
         <true />
         <key>LSItemContentTypes</key>
@@ -1838,9 +1831,9 @@
     <key>CFBundleExecutable</key>
     <string>Xcode</string>
     <key>CFBundleIconFile</key>
-    <string>XcodeBeta</string>
+    <string>Xcode</string>
     <key>CFBundleIconName</key>
-    <string>XcodeBeta</string>
+    <string>Xcode</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.dt.Xcode</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -1911,7 +1904,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>24208.14</string>
+    <string>24225</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -1929,11 +1922,11 @@
     <key>DTXcode</key>
     <string>2600</string>
     <key>DTXcodeBuild</key>
-    <string>17A5305j</string>
+    <string>17A320</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.developer-tools</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.5</string>
+    <string>15.6</string>
     <key>LSRequiresNativeExecution</key>
     <true />
     <key>NSAppleScriptEnabled</key>
@@ -2107,6 +2100,21 @@
     <true />
     <key>UTExportedTypeDeclarations</key>
     <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>com.apple.application-icon</string>
+        <key>UTTypeDescription</key>
+        <string>Xcode Cloud Icon</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconName</key>
+          <string>XcodeCloud</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.dt.XcodeCloud.icon</string>
+        <key>UTTypeTagSpecification</key>
+        <dict />
+      </dict>
       <dict>
         <key>UTTypeConformsTo</key>
         <array>
@@ -2379,13 +2387,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Scheme</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>scheme</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.dt.document.scheme</string>
         <key>UTTypeTagSpecification</key>
@@ -2404,13 +2405,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Toolchain</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>toolchain</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.dt.document.toolchain</string>
         <key>UTTypeTagSpecification</key>
@@ -2588,13 +2582,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Messages Sticker Pack</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>stickerpack</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.dt.messages-sticker-pack</string>
         <key>UTTypeTagSpecification</key>
@@ -2612,13 +2599,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Plugin Data</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>plugindata</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.plugindata</string>
         <key>UTTypeTagSpecification</key>
@@ -2636,13 +2616,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Compiled Plugin Data</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>plugindata</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.plugindata.compiled</string>
         <key>UTTypeTagSpecification</key>
@@ -2912,13 +2885,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Apple Push Notification Service</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>apns</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.dt.document.apns</string>
         <key>UTTypeTagSpecification</key>
@@ -2963,13 +2929,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Project Data</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>project</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.projectdata</string>
         <key>UTTypeReferenceURL</key>
@@ -2999,13 +2958,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode User Data</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>user</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.usersettings</string>
         <key>UTTypeReferenceURL</key>
@@ -3025,13 +2977,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Xcode Configuration Settings</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>config</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.configsettings</string>
         <key>UTTypeReferenceURL</key>
@@ -3212,13 +3157,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>API Notes</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>apinotes</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.apinotes</string>
         <key>UTTypeTagSpecification</key>
@@ -3236,13 +3174,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Text-Based Dynamic Library Definition</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>tbd</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.text-based-dylib</string>
         <key>UTTypeTagSpecification</key>
@@ -3738,13 +3669,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>GPU Debug Document</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>gtdbg</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.gputools.gtdbg</string>
         <key>UTTypeTagSpecification</key>
@@ -4445,13 +4369,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Shader Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>glsl</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl-source</string>
         <key>UTTypeTagSpecification</key>
@@ -4469,13 +4386,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Vertex Shader Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>vert</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl.vertex-shader</string>
         <key>UTTypeTagSpecification</key>
@@ -4496,13 +4406,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Fragment Shader Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>frag</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl.fragment-shader</string>
         <key>UTTypeTagSpecification</key>
@@ -4524,13 +4427,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Geometry Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>geom</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl.geometry-shader</string>
         <key>UTTypeTagSpecification</key>
@@ -4551,13 +4447,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Tessellation Control Shader Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>ctrl</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl.tess-control-shader</string>
         <key>UTTypeTagSpecification</key>
@@ -4575,13 +4464,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>OpenGL Tessellation Evaluation Shader Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>eval</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>org.khronos.glsl.tess-evaluation-shader</string>
         <key>UTTypeTagSpecification</key>
@@ -5079,13 +4961,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Geometry Definition File Format</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>obj</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.geometry-definition-format</string>
         <key>UTTypeTagSpecification</key>
@@ -5104,13 +4979,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Standard Tesselated Geometry File Format</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>stl</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.standard-tesselated-geometry-format</string>
         <key>UTTypeTagSpecification</key>
@@ -5129,13 +4997,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Polygon File Format</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>ply</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.polygon-file-format</string>
         <key>UTTypeTagSpecification</key>
@@ -5529,13 +5390,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>YACC Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>yacc</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.yacc-source</string>
         <key>UTTypeTagSpecification</key>
@@ -5558,13 +5412,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Lex Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>lex</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.lex-source</string>
         <key>UTTypeTagSpecification</key>
@@ -5587,13 +5434,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Mach Interface Generator Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>mig</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.mig-source</string>
         <key>UTTypeTagSpecification</key>
@@ -5635,13 +5475,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Python Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>python</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.python-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5659,13 +5492,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>PHP Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>php</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.php-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5683,13 +5509,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Perl Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>perl</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.perl-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5707,13 +5526,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Make Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>make</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.make-source</string>
         <key>UTTypeTagSpecification</key>
@@ -5733,13 +5545,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Bourne-Again Shell Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>bash</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.bash-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5757,13 +5562,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>C Shell Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>csh</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.csh-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5781,13 +5579,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Korn Shell Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>ksh</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.ksh-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5805,13 +5596,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Tenex C Shell Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>tcsh</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.tcsh-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5829,13 +5613,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Z Shell Script</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>zsh</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.zsh-script</string>
         <key>UTTypeTagSpecification</key>
@@ -5877,13 +5654,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>XML Text</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>xml</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.xml</string>
         <key>UTTypeTagSpecification</key>
@@ -5932,13 +5702,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>JavaScript Object Notation</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>json</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.json</string>
         <key>UTTypeTagSpecification</key>
@@ -5958,13 +5721,6 @@
         <string>public.text</string>
         <key>UTTypeDescription</key>
         <string>YAML</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>yaml</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.yaml</string>
         <key>UTTypeTagSpecification</key>
@@ -5985,13 +5741,6 @@
         <string>public.text</string>
         <key>UTTypeDescription</key>
         <string>CSS</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>css</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.css</string>
         <key>UTTypeTagSpecification</key>
@@ -6013,13 +5762,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Debug Symbols</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>dsym</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.xcode.dsym</string>
         <key>UTTypeReferenceURL</key>
@@ -6039,13 +5781,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Instruments Package Definition</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>instrapkg</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.instruments.package-definition</string>
         <key>UTTypeTagSpecification</key>
@@ -6080,13 +5815,6 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Tightbeam Interface Source</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconBadgeName</key>
-          <string>hammer-badge</string>
-          <key>UTTypeIconText</key>
-          <string>tb</string>
-        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.tightbeam-source</string>
         <key>UTTypeTagSpecification</key>

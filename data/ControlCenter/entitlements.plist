@@ -90,6 +90,8 @@
     <array>
       <string>Accounts</string>
     </array>
+    <key>com.apple.private.controlcenter.helper</key>
+    <true />
     <key>com.apple.private.corewifi</key>
     <true />
     <key>com.apple.private.disable.screencapturekit.alert</key>

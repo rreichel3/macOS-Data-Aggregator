@@ -3,7 +3,7 @@ Application Path: /System/Applications/Photos.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 102
+Entitlements Count: 106
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
