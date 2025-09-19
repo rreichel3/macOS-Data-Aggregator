@@ -1,6 +1,6 @@
 {
-  "name": "Xcode_26_Release_Candidate",
-  "path": "/Applications/Xcode_26_Release_Candidate.app",
+  "name": "Xcode_26",
+  "path": "/Applications/Xcode_26.app",
   "sdef_count": 3,
   "has_icon": true,
   "icon_path": "icon.png",
@@ -10,7 +10,7 @@
     "identifier": "59GAB85EFG",
     "team_identifier": "Unknown",
     "sealed_resources": "Yes",
-    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_26_Release_Candidate.app']' timed out after 30 seconds"
+    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_26.app']' timed out after 30 seconds"
   },
   "sandbox": {
     "sandboxed": "Unknown",
