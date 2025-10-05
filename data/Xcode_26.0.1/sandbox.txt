@@ -1,0 +1,11 @@
+Sandbox Analysis for Xcode_26.0.1
+Application Path: /Applications/Xcode_26.0.1.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 57
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- User application
