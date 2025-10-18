@@ -1,6 +1,6 @@
 {
-  "name": "Xcode_26.1_beta",
-  "path": "/Applications/Xcode_26.1_beta.app",
+  "name": "Xcode_26.1_beta_2",
+  "path": "/Applications/Xcode_26.1_beta_2.app",
   "sdef_count": 3,
   "has_icon": true,
   "icon_path": "icon.png",
@@ -10,7 +10,7 @@
     "identifier": "59GAB85EFG",
     "team_identifier": "Unknown",
     "sealed_resources": "Yes",
-    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_26.1_beta.app']' timed out after 30 seconds"
+    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_26.1_beta_2.app']' timed out after 30 seconds"
   },
   "sandbox": {
     "sandboxed": "Unknown",

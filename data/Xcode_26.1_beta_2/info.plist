@@ -1,5 +1,5 @@
-<!-- Info.plist for Xcode_26.1_beta.app -->
-<!-- Source: /Applications/Xcode_26.1_beta.app/Contents/Info.plist -->
+<!-- Info.plist for Xcode_26.1_beta_2.app -->
+<!-- Source: /Applications/Xcode_26.1_beta_2.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -1904,25 +1904,25 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>24423.5</string>
+    <string>24434.5</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25A317x</string>
+    <string>25B38</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.0</string>
+    <string>26.1</string>
     <key>DTSDKBuild</key>
-    <string>25A317x</string>
+    <string>25B38</string>
     <key>DTSDKName</key>
-    <string>macosx26.0.internal</string>
+    <string>macosx26.1.internal</string>
     <key>DTXPCServiceClientToken</key>
     <string>c1e60dd26e097f6657bde1c75be96c0bcbfb9ada</string>
     <key>DTXcode</key>
     <string>2610</string>
     <key>DTXcodeBuild</key>
-    <string>17B5025e</string>
+    <string>17B5035e</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.developer-tools</string>
     <key>LSMinimumSystemVersion</key>
