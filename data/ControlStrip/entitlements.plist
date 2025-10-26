@@ -6,11 +6,15 @@
     <key>com.apple.private.DFRSystemExtra</key>
     <array>
       <string>com.apple.system.do-not-disturb</string>
-      <string>com.apple.system.show-desktop</string>
       <string>com.apple.system.launchpad</string>
       <string>com.apple.system.mission-control</string>
       <string>com.apple.system.notification-center</string>
       <string>com.apple.system.screencapture</string>
+      <string>com.apple.system.screen-saver</string>
+      <string>com.apple.system.show-desktop</string>
+      <string>com.apple.system.search</string>
+      <string>com.apple.system.sleep</string>
+      <string>com.apple.system.workflows</string>
     </array>
     <key>com.apple.private.controlstrip</key>
     <true />

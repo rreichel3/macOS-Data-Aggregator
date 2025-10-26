@@ -1,5 +1,5 @@
-<!-- Info.plist for Xcode_26.1_beta_2.app -->
-<!-- Source: /Applications/Xcode_26.1_beta_2.app/Contents/Info.plist -->
+<!-- Info.plist for Xcode_26.1_beta_3.app -->
+<!-- Source: /Applications/Xcode_26.1_beta_3.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -1904,7 +1904,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>24434.5</string>
+    <string>24444.4</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -1922,7 +1922,7 @@
     <key>DTXcode</key>
     <string>2610</string>
     <key>DTXcodeBuild</key>
-    <string>17B5035e</string>
+    <string>17B5045e</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.developer-tools</string>
     <key>LSMinimumSystemVersion</key>
