@@ -1,5 +1,5 @@
 <!-- Info.plist for IDLE.app -->
-<!-- Source: /Applications/Python 3.13/IDLE.app/Contents/Info.plist -->
+<!-- Source: /Applications/Python 3.12/IDLE.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -41,7 +41,7 @@
     <key>CFBundleExecutable</key>
     <string>IDLE</string>
     <key>CFBundleGetInfoString</key>
-    <string>3.13.9, © 2001-2024 Python Software Foundation</string>
+    <string>3.12.10, © 2001-2023 Python Software Foundation</string>
     <key>CFBundleIconFile</key>
     <string>IDLE.icns</string>
     <key>CFBundleIdentifier</key>
@@ -53,11 +53,11 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>3.13.9</string>
+    <string>3.12.10</string>
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>3.13.9</string>
+    <string>3.12.10</string>
     <key>NSHighResolutionCapable</key>
     <true />
   </dict>
