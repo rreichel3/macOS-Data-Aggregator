@@ -1,5 +1,5 @@
-<!-- Info.plist for Xcode_26.1_beta_3.app -->
-<!-- Source: /Applications/Xcode_26.1_beta_3.app/Contents/Info.plist -->
+<!-- Info.plist for Xcode_26.1_Release_Candidate.app -->
+<!-- Source: /Applications/Xcode_26.1_Release_Candidate.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -1831,9 +1831,9 @@
     <key>CFBundleExecutable</key>
     <string>Xcode</string>
     <key>CFBundleIconFile</key>
-    <string>XcodeBeta</string>
+    <string>Xcode</string>
     <key>CFBundleIconName</key>
-    <string>XcodeBeta</string>
+    <string>Xcode</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.dt.Xcode</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -1904,7 +1904,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>24444.4</string>
+    <string>24453</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -1922,7 +1922,7 @@
     <key>DTXcode</key>
     <string>2610</string>
     <key>DTXcodeBuild</key>
-    <string>17B5045e</string>
+    <string>17B53</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.developer-tools</string>
     <key>LSMinimumSystemVersion</key>

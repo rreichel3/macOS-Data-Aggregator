@@ -1,5 +1,5 @@
-Sandbox Analysis for Xcode_26.1_beta_3
-Application Path: /Applications/Xcode_26.1_beta_3.app
+Sandbox Analysis for Xcode_26.1_Release_Candidate
+Application Path: /Applications/Xcode_26.1_Release_Candidate.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown

@@ -161,7 +161,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>141.0.7390.122</string>
+    <string>142.0.7444.59</string>
     <key>CFBundleSignature</key>
     <string>rimZ</string>
     <key>CFBundleURLTypes</key>
@@ -185,17 +185,17 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>7390.122</string>
+    <string>7444.59</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTSDKBuild</key>
-    <string>24F74</string>
+    <string>25A352</string>
     <key>DTSDKName</key>
-    <string>macosx15.5</string>
+    <string>macosx26.0</string>
     <key>DTXcode</key>
-    <string>1640</string>
+    <string>2601</string>
     <key>DTXcodeBuild</key>
-    <string>16F6</string>
+    <string>17A400</string>
     <key>GPUEjectPolicy</key>
     <string>wait</string>
     <key>LSEnvironment</key>
@@ -237,7 +237,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>b477534e7e10d193e916cd4e2967c589383625b2-refs/branch-heads/7390@{#2667}</string>
+    <string>4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}</string>
     <key>UTExportedTypeDeclarations</key>
     <array>
       <dict>

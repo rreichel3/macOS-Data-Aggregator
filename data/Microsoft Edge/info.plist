@@ -161,7 +161,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>141.0.3537.92</string>
+    <string>142.0.3595.53</string>
     <key>CFBundleSignature</key>
     <string>EDGE</string>
     <key>CFBundleURLTypes</key>
@@ -186,19 +186,19 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>141.3537.25101992</string>
+    <string>142.3595.25103053</string>
     <key>CSFlags</key>
     <string>runtime,restrict,library-validation,kill</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTSDKBuild</key>
-    <string>24F74</string>
+    <string>25A352</string>
     <key>DTSDKName</key>
-    <string>macosx15.5</string>
+    <string>macosx26.0</string>
     <key>DTXcode</key>
-    <string>1640</string>
+    <string>2601</string>
     <key>DTXcodeBuild</key>
-    <string>16F6</string>
+    <string>17A400</string>
     <key>GPUEjectPolicy</key>
     <string>wait</string>
     <key>LSEnvironment</key>
@@ -223,7 +223,7 @@
     <key>MSEUProductType</key>
     <string>universal</string>
     <key>MSEUVersion</key>
-    <string>141.3537.25101992</string>
+    <string>142.3595.25103053</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
@@ -250,7 +250,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>180f8c4bc30332bf85da01c6c4d1d679225b5449</string>
+    <string>e9d637e9672ec1e9386e16d27f47c1384f2bae93</string>
     <key>SMPrivilegedExecutables</key>
     <dict>
       <key>com.microsoft.EdgeUpdater.helper</key>
