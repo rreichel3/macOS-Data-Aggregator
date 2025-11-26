@@ -10,7 +10,7 @@
     "identifier": "59GAB85EFG",
     "team_identifier": "Unknown",
     "sealed_resources": "Yes",
-    "error": null
+    "error": "Command '['codesign', '--verify', '--verbose', '/Applications/Xcode_26.1_Release_Candidate.app']' timed out after 30 seconds"
   },
   "sandbox": {
     "sandboxed": "Unknown",
