@@ -241,19 +241,19 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1732.6.4</string>
+    <string>1732.6.4.1</string>
     <key>CSResourcesFileMapped</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>24G322</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
     <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>24G322</string>
     <key>DTSDKName</key>
     <string>macosx15.7.internal</string>
     <key>DTXcode</key>

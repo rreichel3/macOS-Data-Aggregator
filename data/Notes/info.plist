@@ -201,19 +201,19 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>2998.63</string>
+    <string>2998.63.0.1</string>
     <key>CKSharingSupported</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>24G311</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
     <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>24G311</string>
     <key>DTSDKName</key>
     <string>macosx15.7.internal</string>
     <key>DTXcode</key>

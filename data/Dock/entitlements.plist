@@ -49,8 +49,13 @@
     <array>
       <string>kTCCServicePostEvent</string>
       <string>kTCCServiceAppleEvents</string>
-      <string>kTCCServiceSystemPolicyAllFiles</string>
+      <string>kTCCServiceFileProviderDomain</string>
       <string>kTCCServiceScreenCapture</string>
+      <string>kTCCServiceSystemPolicyDesktopFolder</string>
+      <string>kTCCServiceSystemPolicyDocumentsFolder</string>
+      <string>kTCCServiceSystemPolicyDownloadsFolder</string>
+      <string>kTCCServiceSystemPolicyNetworkVolumes</string>
+      <string>kTCCServiceSystemPolicyRemovableVolumes</string>
     </array>
     <key>com.apple.private.uninstalld.client</key>
     <true />

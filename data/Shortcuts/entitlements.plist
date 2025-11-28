@@ -299,6 +299,8 @@
     <true />
     <key>com.apple.shortcuts.background-running</key>
     <true />
+    <key>com.apple.shortcuts.file-bookmarks</key>
+    <true />
     <key>com.apple.shortcuts.mac-helper</key>
     <true />
     <key>com.apple.shortcuts.trigger-editing</key>
