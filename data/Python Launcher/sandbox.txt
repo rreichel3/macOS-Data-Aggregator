@@ -1,10 +1,10 @@
 Sandbox Analysis for Python Launcher
-Application Path: /Applications/Python 3.14/Python Launcher.app
+Application Path: /Applications/Python 3.12/Python Launcher.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 7
-Hardened Runtime: Yes (with exceptions)
+Entitlements Count: 4
+Hardened Runtime: Yes
 Library Validation: Disabled
 
 Analysis Notes:
