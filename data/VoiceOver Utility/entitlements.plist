@@ -23,6 +23,8 @@
     </array>
     <key>com.apple.private.accessibility.copyVoiceOverInfo</key>
     <true />
+    <key>com.apple.private.accessibility.scrod</key>
+    <true />
     <key>com.apple.private.admin.writeconfig.voiceover</key>
     <true />
     <key>com.apple.private.aps-connection-initiate</key>

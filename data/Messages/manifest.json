@@ -15,7 +15,7 @@
   "sandbox": {
     "sandboxed": "No",
     "sandbox_type": "Unknown",
-    "entitlements_count": "135",
+    "entitlements_count": "136",
     "hardened_runtime": "Unknown",
     "library_validation": "Enabled",
     "analysis_notes": [

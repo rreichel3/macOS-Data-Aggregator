@@ -161,7 +161,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>143.0.3650.80</string>
+    <string>143.0.3650.96</string>
     <key>CFBundleSignature</key>
     <string>EDGE</string>
     <key>CFBundleURLTypes</key>
@@ -186,7 +186,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>143.3650.25121080</string>
+    <string>143.0.3650.96</string>
     <key>CSFlags</key>
     <string>runtime,restrict,library-validation,kill</string>
     <key>DTCompiler</key>
@@ -223,7 +223,7 @@
     <key>MSEUProductType</key>
     <string>universal</string>
     <key>MSEUVersion</key>
-    <string>143.3650.25121080</string>
+    <string>143.0.3650.96</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
@@ -250,7 +250,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>788579717f688c0cf5ee6a0a56386924d0af7ae8</string>
+    <string>d55fe85d014134f7b4677688f46db9d610ddcfd5</string>
     <key>SMPrivilegedExecutables</key>
     <dict>
       <key>com.microsoft.EdgeUpdater.helper</key>

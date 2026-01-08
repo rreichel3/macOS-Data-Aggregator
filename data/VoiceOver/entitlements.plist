@@ -35,6 +35,8 @@
     <true />
     <key>com.apple.private.accessibility.remoteDeviceContent</key>
     <true />
+    <key>com.apple.private.accessibility.scrod</key>
+    <true />
     <key>com.apple.private.accessibility.visuals</key>
     <true />
     <key>com.apple.private.admin.writeconfig.voiceover</key>

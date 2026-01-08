@@ -25,17 +25,17 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>331.4.4</string>
+    <string>331.4.4.100</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>24G405</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
     <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>24G405</string>
     <key>DTSDKName</key>
     <string>macosx15.7.internal</string>
     <key>DTXcode</key>

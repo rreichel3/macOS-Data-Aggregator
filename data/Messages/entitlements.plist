@@ -91,6 +91,8 @@
     <true />
     <key>com.apple.mediaanalysisd.client</key>
     <true />
+    <key>com.apple.message-payload-provider.host</key>
+    <true />
     <key>com.apple.messages.sticker-sharing-level</key>
     <string>messages</string>
     <key>com.apple.mobileactivationd.device-identifiers</key>

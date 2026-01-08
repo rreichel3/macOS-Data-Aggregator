@@ -10,6 +10,8 @@
     </array>
     <key>com.apple.private.SoftwareUpdate.Client</key>
     <true />
+    <key>com.apple.private.amfi.version-restriction</key>
+    <integer>1</integer>
     <key>com.apple.private.securityd.stash</key>
     <true />
     <key>com.apple.private.softwareupdate.disablescan</key>
