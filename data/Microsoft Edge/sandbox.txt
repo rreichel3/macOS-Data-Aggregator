@@ -3,7 +3,7 @@ Application Path: /Applications/Microsoft Edge.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 13
+Entitlements Count: 14
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
