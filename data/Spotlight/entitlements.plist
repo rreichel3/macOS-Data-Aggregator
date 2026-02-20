@@ -34,6 +34,8 @@
     <true />
     <key>com.apple.icloud.fmfd.access</key>
     <true />
+    <key>com.apple.intelligenceflow.context</key>
+    <true />
     <key>com.apple.intelligenceplatform.EntityResolution</key>
     <true />
     <key>com.apple.intelligenceplatform.Knosis</key>
@@ -45,6 +47,8 @@
       <string>stableGraphIndex</string>
       <string>eventGraphIndex</string>
     </array>
+    <key>com.apple.linkd.registry</key>
+    <true />
     <key>com.apple.locationd.activity</key>
     <true />
     <key>com.apple.locationd.effective_bundle</key>
@@ -119,8 +123,51 @@
     <true />
     <key>com.apple.private.dmd.policy</key>
     <true />
+    <key>com.apple.private.dock.spotlight</key>
+    <true />
+    <key>com.apple.private.email</key>
+    <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
+    <key>com.apple.private.intelligenceplatform.use-cases</key>
+    <dict>
+      <key>AppInFocusHeartbeat</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>App.InFocus</key>
+          <dict>
+            <key>mode</key>
+            <string>read-only</string>
+          </dict>
+        </dict>
+      </dict>
+      <key>Pasteboard</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>Pasteboard.Change</key>
+          <dict>
+            <key>mode</key>
+            <string>read-only</string>
+          </dict>
+        </dict>
+      </dict>
+      <key>ProactiveAppPrediction</key>
+      <dict>
+        <key>Streams</key>
+        <array>
+          <string>App.InFocus</string>
+        </array>
+      </dict>
+      <key>SpotlightEngagementData</key>
+      <dict>
+        <key>Streams</key>
+        <array>
+          <string>App.InFocus</string>
+        </array>
+      </dict>
+    </dict>
     <key>com.apple.private.intelligenceplatform.views.read-only</key>
     <array>
       <string>siriRemembers</string>
@@ -143,13 +190,23 @@
     <true />
     <key>com.apple.private.librarian.container-proxy</key>
     <true />
+    <key>com.apple.private.menubar.allow</key>
+    <true />
     <key>com.apple.private.mobiletimerd</key>
     <true />
     <key>com.apple.private.network.socket-delegate</key>
     <true />
     <key>com.apple.private.parsec.default-client</key>
     <string>com.apple.spotlight</string>
+    <key>com.apple.private.persona.adopt.any</key>
+    <true />
+    <key>com.apple.private.photos.service.internal.cloud</key>
+    <true />
+    <key>com.apple.private.replicator.controller</key>
+    <true />
     <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.screencontinuity.app-launch</key>
     <true />
     <key>com.apple.private.screentime-downtime</key>
     <true />
@@ -168,6 +225,10 @@
     <key>com.apple.private.security.storage.PhotosLibraries</key>
     <true />
     <key>com.apple.private.security.storage.triald</key>
+    <true />
+    <key>com.apple.private.sharing.unlock-manager</key>
+    <true />
+    <key>com.apple.private.spotlight.cep-engagement-data</key>
     <true />
     <key>com.apple.private.spotlight.parsec</key>
     <true />
@@ -197,9 +258,17 @@
     <true />
     <key>com.apple.proactive.PersonalizationPortrait.Topic.readOnly</key>
     <true />
+    <key>com.apple.proactive.appDirectory</key>
+    <true />
+    <key>com.apple.proactive.client.predictions</key>
+    <true />
     <key>com.apple.proactive.eventtracker</key>
     <true />
     <key>com.apple.rootless.storage.shortcuts</key>
+    <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.process-state</key>
     <true />
     <key>com.apple.security.application-groups</key>
     <array>

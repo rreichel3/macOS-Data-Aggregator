@@ -189,7 +189,7 @@
     <key>CFBundleExecutable</key>
     <string>firefox</string>
     <key>CFBundleGetInfoString</key>
-    <string>Firefox 147.0.3</string>
+    <string>Firefox 147.0.4</string>
     <key>CFBundleIconFile</key>
     <string>firefox.icns</string>
     <key>CFBundleIconName</key>
@@ -203,7 +203,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>147.0.3</string>
+    <string>147.0.4</string>
     <key>CFBundleSignature</key>
     <string>MOZB</string>
     <key>CFBundleURLTypes</key>
@@ -238,7 +238,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>14726.2.3</string>
+    <string>14726.2.12</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.productivity</string>
     <key>LSEnvironment</key>

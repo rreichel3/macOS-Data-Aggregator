@@ -1,5 +1,5 @@
 <!-- Info.plist for Python Launcher.app -->
-<!-- Source: /Applications/Python 3.13/Python Launcher.app/Contents/Info.plist -->
+<!-- Source: /Applications/Python 3.14/Python Launcher.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
@@ -42,7 +42,7 @@
     <key>CFBundleExecutable</key>
     <string>Python Launcher</string>
     <key>CFBundleGetInfoString</key>
-    <string>3.13.12, © 2001-2024 Python Software Foundation</string>
+    <string>3.14.3, © 2001 Python Software Foundation</string>
     <key>CFBundleIconFile</key>
     <string>PythonLauncher.icns</string>
     <key>CFBundleIdentifier</key>
@@ -54,15 +54,15 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>3.13.12</string>
+    <string>3.14.3</string>
     <key>CFBundleSignature</key>
     <string>PytL</string>
     <key>CFBundleVersion</key>
-    <string>3.13.12</string>
+    <string>3.14.3</string>
     <key>NSAppleEventsUsageDescription</key>
     <string>Python Launcher uses Apple events to launch your Python script in a Terminal window.</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2001-2024 Python Software Foundation</string>
+    <string>Copyright © 2001 Python Software Foundation</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>
