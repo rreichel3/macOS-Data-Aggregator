@@ -145,6 +145,14 @@
           <string>org.chromium.shortcut</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.avif</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleExecutable</key>
     <string>Microsoft Edge</string>
@@ -161,7 +169,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>145.0.3800.82</string>
+    <string>146.0.3856.72</string>
     <key>CFBundleSignature</key>
     <string>EDGE</string>
     <key>CFBundleURLTypes</key>
@@ -186,7 +194,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>145.0.3800.82</string>
+    <string>146.0.3856.72</string>
     <key>CSFlags</key>
     <string>runtime,restrict,library-validation,kill</string>
     <key>DTCompiler</key>
@@ -223,7 +231,7 @@
     <key>MSEUProductType</key>
     <string>universal</string>
     <key>MSEUVersion</key>
-    <string>145.0.3800.82</string>
+    <string>146.0.3856.72</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
@@ -250,7 +258,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>de59ede99663129e87924961f3ae546d1d819793</string>
+    <string>a825c519de68e522b4f78eb405b48f3d47d4f124</string>
     <key>SMPrivilegedExecutables</key>
     <dict>
       <key>com.microsoft.EdgeUpdater.helper</key>
@@ -716,6 +724,30 @@
           <string>pdf</string>
           <key>public.mime-type</key>
           <string>application/pdf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <string>public.heif-standard</string>
+        <key>UTTypeDescription</key>
+        <string>AV1 Image File Format</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBadgeName</key>
+          <string>Icon</string>
+          <key>UTTypeIconText</key>
+          <string>AVIF</string>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>public.avif</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>com.apple.ostype</key>
+          <string>AVIF</string>
+          <key>public.filename-extension</key>
+          <string>avif</string>
+          <key>public.mime-type</key>
+          <string>image/avif</string>
         </dict>
       </dict>
     </array>
