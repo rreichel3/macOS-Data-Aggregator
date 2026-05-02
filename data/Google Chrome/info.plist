@@ -169,7 +169,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>147.0.7727.102</string>
+    <string>147.0.7727.117</string>
     <key>CFBundleSignature</key>
     <string>rimZ</string>
     <key>CFBundleURLTypes</key>
@@ -201,7 +201,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>7727.102</string>
+    <string>7727.117</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTSDKBuild</key>
@@ -225,7 +225,7 @@
     <key>KSUpdateURL</key>
     <string>https://tools.google.com/service/update2</string>
     <key>KSVersion</key>
-    <string>147.0.7727.102</string>
+    <string>147.0.7727.117</string>
     <key>LSEnvironment</key>
     <dict>
       <key>MallocNanoZone</key>
@@ -265,7 +265,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>3f2fe84a9b32a7b3430c73e52da571b0b2c18dd5-refs/branch-heads/7727@{#2928}</string>
+    <string>474cc805edd6b22006509896c910f6b6da2427ad-refs/branch-heads/7727_111@{#4}</string>
     <key>SMPrivilegedExecutables</key>
     <dict>
       <key>com.google.Chrome.UpdaterPrivilegedHelper</key>
