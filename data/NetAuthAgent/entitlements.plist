@@ -5,6 +5,10 @@
   <dict>
     <key>com.apple.private.amfi.version-restriction</key>
     <integer>1</integer>
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.NetworkAuthorization.ServerMarkers</string>
+    </array>
     <key>keychain-access-groups</key>
     <array>
       <string>NetAuth</string>
