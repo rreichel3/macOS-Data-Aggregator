@@ -19,8 +19,6 @@
     </array>
     <key>com.apple.Contacts.database-allow</key>
     <true />
-    <key>com.apple.FindMyDevice.FindMyServiceValidation.access</key>
-    <true />
     <key>com.apple.SystemConfiguration.SCPreferences-write-access</key>
     <array>
       <string>com.apple.radios.plist</string>

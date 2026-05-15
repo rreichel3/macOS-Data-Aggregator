@@ -6,8 +6,6 @@
   <dict>
     <key>ASWebAuthenticationSessionWebBrowserSupportCapabilities</key>
     <dict>
-      <key>CallbackURLMatchingIsSupported</key>
-      <true />
       <key>EphemeralBrowserSessionIsSupported</key>
       <true />
       <key>IsSupported</key>
@@ -171,7 +169,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>148.0.3967.54</string>
+    <string>147.0.3912.86</string>
     <key>CFBundleSignature</key>
     <string>EDGE</string>
     <key>CFBundleURLTypes</key>
@@ -196,7 +194,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>148.0.3967.54</string>
+    <string>147.0.3912.86</string>
     <key>CSFlags</key>
     <string>runtime,restrict,library-validation,kill</string>
     <key>DTCompiler</key>
@@ -233,7 +231,7 @@
     <key>MSEUProductType</key>
     <string>universal</string>
     <key>MSEUVersion</key>
-    <string>148.0.3967.54</string>
+    <string>147.0.3912.86</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
@@ -260,7 +258,7 @@
     <key>OSAScriptingDefinition</key>
     <string>scripting.sdef</string>
     <key>SCMRevision</key>
-    <string>c994e204927e169f407ef8cd1bd301774deefc6e</string>
+    <string>3a0d90fcf938b1203f4e1336ee027f2e0cb539f6</string>
     <key>SMPrivilegedExecutables</key>
     <dict>
       <key>com.microsoft.EdgeUpdater.helper</key>
