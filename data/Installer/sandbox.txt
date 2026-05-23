@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/Installer.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 4
+Entitlements Count: 5
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

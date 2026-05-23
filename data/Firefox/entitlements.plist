@@ -7,6 +7,10 @@
     <string>43AQ936H96.org.mozilla.firefox</string>
     <key>com.apple.developer.web-browser.public-key-credential</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>43AQ936H96.org.mozilla.firefox.browserprofiles</string>
+    </array>
     <key>com.apple.security.cs.allow-jit</key>
     <true />
     <key>com.apple.security.cs.disable-library-validation</key>
@@ -14,6 +18,8 @@
     <key>com.apple.security.device.audio-input</key>
     <true />
     <key>com.apple.security.device.camera</key>
+    <true />
+    <key>com.apple.security.device.usb</key>
     <true />
     <key>com.apple.security.personal-information.location</key>
     <true />
