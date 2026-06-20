@@ -1,11 +1,11 @@
 <!-- Info.plist for Python Launcher.app -->
-<!-- Source: /Applications/Python 3.12/Python Launcher.app/Contents/Info.plist -->
+<!-- Source: /Applications/Python 3.14/Python Launcher.app/Contents/Info.plist -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
     <key>CFBundleDevelopmentRegion</key>
-    <string>en</string>
+    <string>English</string>
     <key>CFBundleDocumentTypes</key>
     <array>
       <dict>
@@ -41,8 +41,6 @@
     </array>
     <key>CFBundleExecutable</key>
     <string>Python Launcher</string>
-    <key>CFBundleGetInfoString</key>
-    <string>3.12.10, © 2001-2023 Python Software Foundation</string>
     <key>CFBundleIconFile</key>
     <string>PythonLauncher.icns</string>
     <key>CFBundleIdentifier</key>
@@ -54,15 +52,19 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>3.12.10</string>
+    <string>3.14.5</string>
     <key>CFBundleSignature</key>
     <string>PytL</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
     <key>CFBundleVersion</key>
-    <string>3.12.10</string>
+    <string>3.14.5</string>
     <key>NSAppleEventsUsageDescription</key>
     <string>Python Launcher uses Apple events to launch your Python script in a Terminal window.</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2001-2023 Python Software Foundation</string>
+    <string>Copyright © 2001 Python Software Foundation. All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>
