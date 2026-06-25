@@ -5,13 +5,13 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleExecutable</key>
     <string>Audio MIDI Setup</string>
     <key>CFBundleGetInfoString</key>
-    <string>3.6, Copyright 2002–2024 Apple Inc.</string>
+    <string>3.8, Copyright 2002–2026 Apple Inc.</string>
     <key>CFBundleHelpBookFolder</key>
     <string>AudioMIDISetup.help</string>
     <key>CFBundleHelpBookName</key>
@@ -29,7 +29,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>3.6</string>
+    <string>3.8</string>
     <key>CFBundleSignature</key>
     <string>AMDS</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -37,23 +37,23 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>3.6</string>
+    <string>3.8</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>25E223</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E223</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>audio-midi-setup</string>
     <key>LSApplicationCategoryType</key>
@@ -61,7 +61,7 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>MDItemKeywords</key>
     <string>midi</string>
     <key>NSBluetoothAlwaysUsageDescription</key>

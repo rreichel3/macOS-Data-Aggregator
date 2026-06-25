@@ -1,0 +1,11 @@
+Sandbox Analysis for Phone
+Application Path: /System/Applications/Phone.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 164
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

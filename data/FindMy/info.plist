@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -52,25 +52,25 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>415.26.4.2.16</string>
+    <string>442.24.7.18.33</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24G612</string>
+    <string>25E223</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G612</string>
+    <string>25E223</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>findmy-mac</string>
     <key>INAlternativeAppNames</key>
@@ -85,7 +85,7 @@
       </dict>
     </array>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSContactsUsageDescription</key>
     <string>See InfoPlist.strings</string>
     <key>NSLocationWhenInUseUsageDescription</key>
@@ -124,6 +124,23 @@
     </array>
     <key>SBUninstallIconOverrideStringsFile</key>
     <string>Uninstall</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false />
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>FindMy.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
     <key>UIApplicationSupportsIndirectInputEvents</key>
     <true />
     <key>UIDeviceFamily</key>
@@ -131,9 +148,7 @@
       <integer>6</integer>
     </array>
     <key>UILaunchStoryboardName</key>
-    <string>LaunchScreen~iphone</string>
-    <key>UILaunchStoryboardName~ipad</key>
-    <string>LaunchScreen-ipad</string>
+    <string>LaunchScreen</string>
     <key>UIRequiredDeviceCapabilities</key>
     <array>
       <string>armv7</string>
@@ -184,6 +199,8 @@
               <true />
               <key>UNActionIdentifier</key>
               <string>SHARE_ACTION_ID</string>
+              <key>UNActionSystemIconName</key>
+              <string>location</string>
               <key>UNActionTitle</key>
               <string>NOTIFICATION_SHARE</string>
             </dict>
@@ -192,6 +209,8 @@
               <true />
               <key>UNActionIdentifier</key>
               <string>SHARE_ONE_HOUR_ACTION_ID</string>
+              <key>UNActionSystemIconName</key>
+              <string>clock</string>
               <key>UNActionTitle</key>
               <string>NOTIFICATION_OFFER_ONE_HOUR</string>
             </dict>
@@ -200,6 +219,8 @@
               <true />
               <key>UNActionIdentifier</key>
               <string>SHARE_EOD_ACTION_ID</string>
+              <key>UNActionSystemIconName</key>
+              <string>calendar</string>
               <key>UNActionTitle</key>
               <string>NOTIFICATION_OFFER_EOD</string>
             </dict>
@@ -208,6 +229,8 @@
               <true />
               <key>UNActionIdentifier</key>
               <string>SHARE_INDEFINITELY_ACTION_ID</string>
+              <key>UNActionSystemIconName</key>
+              <string>infinity</string>
               <key>UNActionTitle</key>
               <string>NOTIFICATION_OFFER_FOREVER</string>
             </dict>
@@ -216,6 +239,8 @@
               <true />
               <key>UNActionIdentifier</key>
               <string>DISMISS_ACTION_ID</string>
+              <key>UNActionSystemIconName</key>
+              <string>location.slash</string>
               <key>UNActionTitle</key>
               <string>NOTIFICATION_DONT_SHARE</string>
             </dict>

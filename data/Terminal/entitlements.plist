@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.private.CFPasteboard.get-paste-source</key>
+    <true />
     <key>com.apple.private.kernel.global-proc-info</key>
     <true />
     <key>com.apple.private.quarantine.control-add</key>

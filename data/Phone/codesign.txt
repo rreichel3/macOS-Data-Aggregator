@@ -1,0 +1,8 @@
+Code Signing Information for Phone
+Application Path: /System/Applications/Phone.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

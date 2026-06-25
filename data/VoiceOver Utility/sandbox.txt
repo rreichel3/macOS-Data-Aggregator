@@ -3,7 +3,7 @@ Application Path: /System/Applications/Utilities/VoiceOver Utility.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 29
+Entitlements Count: 30
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

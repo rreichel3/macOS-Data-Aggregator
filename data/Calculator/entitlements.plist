@@ -15,6 +15,10 @@
     <array>
       <string>com.apple.calculator</string>
     </array>
+    <key>com.apple.security.exception.shared-preference.read-write</key>
+    <array>
+      <string>com.apple.internal.testplatform</string>
+    </array>
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
     <key>com.apple.security.network.client</key>
@@ -24,6 +28,12 @@
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
     <array>
       <string>/Library/Managed Preferences/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.managedconfiguration.profiled</string>
+      <string>com.apple.ManagedSettingsAgent</string>
+      <string>com.apple.internal.xctestinternalangel.sessions</string>
     </array>
     <key>file-read-data</key>
     <true />

@@ -3,8 +3,38 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>com.apple.security.network.client</key>
+    <key>application-identifier</key>
+    <string>com.apple.printcenter</string>
+    <key>com.apple.private.sessionkit.bypassAuthorizationUI</key>
     <true />
+    <key>com.apple.private.sessionkit.custom-platter-target</key>
+    <true />
+    <key>com.apple.private.sessionkit.listener</key>
+    <true />
+    <key>com.apple.private.sessionkit.permitMultipleProcessInputs</key>
+    <true />
+    <key>com.apple.private.sessionkit.presentationAssertionRequester</key>
+    <true />
+    <key>com.apple.private.sessionkit.remoteActivityAccessor</key>
+    <true />
+    <key>com.apple.private.sessionkit.sessionRequest</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.printcenter</string>
+    </array>
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.sessionservices</string>
+    </array>
+    <key>com.apple.security.print</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.sessionservices</string>
+    </array>
     <key>com.apple.shortcuts.droplet-creation</key>
     <true />
   </dict>

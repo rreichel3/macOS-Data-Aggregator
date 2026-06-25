@@ -1,0 +1,8 @@
+Code Signing Information for Accessibility Reader
+Application Path: /System/Library/CoreServices/Accessibility Reader.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

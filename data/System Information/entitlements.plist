@@ -60,6 +60,10 @@
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
+    <key>com.apple.private.assets.accessible-asset-types</key>
+    <array>
+      <string>com.apple.MobileAsset.RegulatoryCertification</string>
+    </array>
     <key>com.apple.private.bmk.allow</key>
     <true />
     <key>com.apple.private.cloudkit.systemService</key>
