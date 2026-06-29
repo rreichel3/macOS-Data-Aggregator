@@ -11,20 +11,12 @@
     <array>
       <string>com.apple.activitymonitor.kill</string>
     </array>
-    <key>com.apple.private.SkyLight.user-accessibility-report</key>
-    <true />
-    <key>com.apple.private.backgroundtaskmanagement.manage</key>
-    <true />
-    <key>com.apple.private.controlcenter.controlcentermodule</key>
-    <true />
     <key>com.apple.private.gpuwrangler</key>
     <true />
     <key>com.apple.private.launchservices.allowedtoget.LSActivePageUserVisibleOriginsKey</key>
     <true />
     <key>com.apple.private.launchservices.allowedtoget.LSPluginBundleIdentifierKey</key>
     <true />
-    <key>com.apple.private.xpc.launchd.job-manager</key>
-    <string>com.apple.ActivityMonitor</string>
     <key>com.apple.sysmond.client</key>
     <true />
   </dict>

@@ -2,8 +2,8 @@
   "name": "DiskImageMounter",
   "path": "/System/Library/CoreServices/DiskImageMounter.app",
   "sdef_count": 0,
-  "has_icon": false,
-  "icon_path": null,
+  "has_icon": true,
+  "icon_path": "icon.png",
   "codesign": {
     "signature_status": "Valid",
     "authority": "Unknown",

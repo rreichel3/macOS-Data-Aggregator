@@ -11,14 +11,10 @@
     <true />
     <key>com.apple.accounts.idms.fullaccess</key>
     <true />
-    <key>com.apple.application-identifier</key>
-    <string>com.apple.appleseed.FeedbackAssistant</string>
     <key>com.apple.authkit.client.internal</key>
     <true />
     <key>com.apple.developer.aps-environment</key>
     <string>production</string>
-    <key>com.apple.developer.associated-domains</key>
-    <array />
     <key>com.apple.developer.siri</key>
     <true />
     <key>com.apple.diagnosticextensionsd.xpcclient</key>
@@ -37,8 +33,6 @@
     <array>
       <string>group.com.apple.feedback</string>
     </array>
-    <key>com.apple.private.swc.system-app</key>
-    <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServiceAddressBook</string>

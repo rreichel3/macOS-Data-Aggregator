@@ -11,8 +11,6 @@
     <true />
     <key>com.apple.ProactiveSummarization.summarization</key>
     <true />
-    <key>com.apple.TextUnderstanding.process</key>
-    <true />
     <key>com.apple.UNCUserNotification</key>
     <true />
     <key>com.apple.accounts.inactive.fullaccess</key>
@@ -29,8 +27,6 @@
     <true />
     <key>com.apple.coreduetd.allow</key>
     <true />
-    <key>com.apple.coreduetd.context</key>
-    <true />
     <key>com.apple.coreduetd.people</key>
     <true />
     <key>com.apple.developer.icloud-container-environment</key>
@@ -39,10 +35,6 @@
     <array>
       <string>com.apple.mail</string>
       <string>com.apple.mail.preferences</string>
-    </array>
-    <key>com.apple.developer.icloud-extended-share-access</key>
-    <array>
-      <string>InProcessShareOwnerParticipantInfo</string>
     </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
@@ -77,8 +69,6 @@
     <key>com.apple.private.SkyLight.screencapturedirect</key>
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
-    <true />
-    <key>com.apple.private.accounts.configuration-resolve</key>
     <true />
     <key>com.apple.private.biome.pruner</key>
     <array>
@@ -129,42 +119,6 @@
     <true />
     <key>com.apple.private.imcore.imagent</key>
     <true />
-    <key>com.apple.private.intelligenceplatform.use-cases</key>
-    <dict>
-      <key>MailSearchQuery</key>
-      <dict>
-        <key>Streams</key>
-        <dict>
-          <key>Mail.Search.Query</key>
-          <dict>
-            <key>mode</key>
-            <string>read-write</string>
-          </dict>
-        </dict>
-      </dict>
-      <key>MailSearchRankerEvent</key>
-      <dict>
-        <key>Streams</key>
-        <dict>
-          <key>Mail.Search.RankerEvent</key>
-          <dict>
-            <key>mode</key>
-            <string>read-write</string>
-          </dict>
-        </dict>
-      </dict>
-      <key>MailSearchUIEvent</key>
-      <dict>
-        <key>Streams</key>
-        <dict>
-          <key>Mail.Search.UIEvent</key>
-          <dict>
-            <key>mode</key>
-            <string>read-write</string>
-          </dict>
-        </dict>
-      </dict>
-    </dict>
     <key>com.apple.private.intelligenceplatform.views.read-only</key>
     <array>
       <string>appEntityRelevanceRanking</string>
@@ -234,7 +188,6 @@
       <string>com.apple.mail.senders</string>
       <string>com.apple.mail.businesses</string>
       <string>com.apple.mail.mailboxCategories</string>
-      <string>com.apple.accounts.sync.suggestion</string>
     </array>
     <key>com.apple.proactive.PersonalizationPortrait.Contact</key>
     <true />
@@ -287,15 +240,11 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.mobile.usermanagerd.xpc</string>
-      <string>com.apple.mobile.keybagd.UserManager.xpc</string>
-      <string>com.apple.email.AccountsUISupportService</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
       <string>com.apple.assistant.cdm</string>
       <string>com.apple.awdd</string>
       <string>com.apple.coreduetd</string>
       <string>com.apple.coreduetd.people</string>
-      <string>com.apple.coreduetd.context</string>
       <string>com.apple.powerlog.plxpclogger.xpc</string>
       <string>com.apple.PerfPowerTelemetryClientRegistrationService</string>
       <string>com.apple.symptom_diagnostics</string>
@@ -326,7 +275,6 @@
       <string>com.apple.usernoted.prefs</string>
       <string>com.apple.businessservicesd</string>
       <string>com.apple.generativeexperiences.availabilityService</string>
-      <string>com.apple.TextUnderstanding.process</string>
       <string>com.apple.usernotifications.usernotificationsettingsservice</string>
       <string>com.apple.identityservicesd.desktop.auth</string>
       <string>com.apple.biome.access.user</string>

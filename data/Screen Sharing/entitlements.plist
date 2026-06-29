@@ -24,12 +24,6 @@
     <true />
     <key>com.apple.private.ac</key>
     <true />
-    <key>com.apple.private.accessibility.copyVoiceOverInfo</key>
-    <true />
-    <key>com.apple.private.accessibility.sendVoiceOverCommand</key>
-    <true />
-    <key>com.apple.private.accessibility.visuals</key>
-    <true />
     <key>com.apple.private.aps-client-cert-access</key>
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
@@ -49,8 +43,6 @@
     <key>com.apple.private.hid.client.service-protected</key>
     <true />
     <key>com.apple.private.icfcallserver</key>
-    <true />
-    <key>com.apple.private.ids.firewall</key>
     <true />
     <key>com.apple.private.ids.identityservicesd</key>
     <true />
@@ -164,7 +156,6 @@
       <string>com.apple.telephonyutilities.callservicesdaemon.momentscontroller</string>
       <string>com.apple.videoconference.camera</string>
       <string>com.apple.iohideventsystem</string>
-      <string>com.apple.AccessibilityVisualsAgent</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>

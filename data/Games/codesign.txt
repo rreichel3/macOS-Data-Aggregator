@@ -1,8 +1,0 @@
-Code Signing Information for Games
-Application Path: /System/Applications/Games.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

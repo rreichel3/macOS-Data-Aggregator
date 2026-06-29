@@ -41,8 +41,6 @@
     <array />
     <key>com.apple.developer.maps</key>
     <true />
-    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
-    <string>com.apple.Maps</string>
     <key>com.apple.findmy.findmylocate.friendshipservice</key>
     <true />
     <key>com.apple.findmy.findmylocate.locationservice</key>
@@ -168,12 +166,6 @@
     </array>
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
-    <key>com.apple.security.hardened-process</key>
-    <true />
-    <key>com.apple.security.hardened-process.checked-allocations</key>
-    <true />
-    <key>com.apple.security.hardened-process.checked-allocations.soft-mode</key>
-    <true />
     <key>com.apple.security.network.client</key>
     <true />
     <key>com.apple.security.personal-information.addressbook</key>
@@ -198,10 +190,6 @@
       <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
       <string>/AppleInternal/Library/Application Support/Maps/</string>
       <string>/AppleInternal/Library/Frameworks/MapsInternal.framework/</string>
-    </array>
-    <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
-    <array>
-      <string>/Library/Trial/</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
@@ -263,15 +251,9 @@
       <string>com.apple.findmy.findmylocate.settings</string>
       <string>com.apple.findmy.findmylocate.friendshipservice</string>
       <string>com.apple.findmy.findmylocate.locationservice</string>
-      <string>com.apple.kvsd</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <string>(allow system-socket network-inbound (require-all (socket-domain AF_SYSTEM) (socket-protocol 1)))</string>
-    <key>com.apple.trial.client</key>
-    <array>
-      <string>MAPS_SRP_AUTOCOMPLETE</string>
-      <string>2020</string>
-    </array>
     <key>com.apple.wifi.priority.id</key>
     <string>maps</string>
     <key>com.apple.wifi.priority.internal</key>

@@ -1,9 +1,9 @@
 Sandbox Analysis for Print Center
 Application Path: /System/Applications/Utilities/Print Center.app
 
-Sandboxed: No
+Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 14
+Entitlements Count: 2
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

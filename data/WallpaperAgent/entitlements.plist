@@ -3,8 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>com.apple.chrono.controls</key>
-    <true />
     <key>com.apple.developer.extension-host.screensaver</key>
     <true />
     <key>com.apple.extensionkit.host.extension-point-identifiers</key>
@@ -14,20 +12,9 @@
     </array>
     <key>com.apple.idleassetsd.screen-saver-service</key>
     <true />
-    <key>com.apple.private.CacheDelete</key>
-    <array>
-      <string>PURGEABLE_ENTITLEMENT</string>
-      <string>CLIENT_ENTITLEMENT</string>
-      <string>ITEMIZED_PURGEABLE_ENTITLEMENT</string>
-      <string>SERVICE_ENTITLEMENT</string>
-      <string>NOTIFICATION_ENTITLEMENT</string>
-      <string>PURGE_ENTITLEMENT</string>
-    </array>
     <key>com.apple.private.coreservices.definesExtensionPoint</key>
     <true />
     <key>com.apple.private.dock.spaces</key>
-    <true />
-    <key>com.apple.private.skylight.desktop-effects</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
@@ -50,19 +37,14 @@
     <array>
       <string>/</string>
     </array>
-    <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
-    <array>
-      <string>/Library/Application Support/com.apple.idleassetsd/</string>
-    </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
       <string>/Library/Application Support/com.apple.wallpaper/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.chronoservices</string>
+      <string>com.apple.idleassetsd.xpc</string>
       <string>com.apple.wallpaper.export</string>
-      <string>com.apple.cache_delete</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-register.global-name</key>
     <array>
@@ -73,12 +55,10 @@
     <array>
       <string>com.apple.desktop</string>
       <string>com.apple.screensaver</string>
-      <string>com.apple.systempreferences</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.wallpaper</string>
-      <string>com.apple.wallpaper.aerial</string>
     </array>
   </dict>
 </plist>

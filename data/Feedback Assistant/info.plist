@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -50,33 +50,33 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>617.4</string>
+    <string>577.4</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E223</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E223</string>
+    <string>24G201t</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>FBKUsePersistentStore</key>
     <true />
     <key>HPDHelpProjectIdentifier</key>
     <string>feedback-assistant</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>NSAppAccentColorName</key>
     <string>AppAccentColor</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2017–2026 Apple Inc. All rights reserved.</string>
+    <string>Copyright © 2017–2023 Apple Inc. All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>
@@ -85,22 +85,6 @@
     <dict>
       <key>com.apple.appleseed.fbahelperd</key>
       <string>identifier com.apple.appleseed.fbahelperd and anchor apple</string>
-    </dict>
-    <key>UNUserNotificationCenter</key>
-    <dict>
-      <key>UNDefaultSettings</key>
-      <dict>
-        <key>UNSettingAlerts</key>
-        <true />
-        <key>UNSettingBadges</key>
-        <true />
-        <key>UNSettingLockScreen</key>
-        <true />
-        <key>UNSettingNotificationCenter</key>
-        <true />
-        <key>UNSettingSounds</key>
-        <false />
-      </dict>
     </dict>
   </dict>
 </plist>

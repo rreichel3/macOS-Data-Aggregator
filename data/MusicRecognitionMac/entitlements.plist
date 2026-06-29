@@ -3,21 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>application-identifier</key>
-    <string>com.apple.musicrecognition.mac</string>
-    <key>com.apple.private.ShazamKit</key>
-    <true />
-    <key>com.apple.private.applemediaservices</key>
-    <true />
-    <key>com.apple.private.security.system-application</key>
-    <true />
-    <key>com.apple.private.shortcuts.IntentsAvailableDuringBuddy</key>
-    <true />
-    <key>com.apple.private.tcc.allow</key>
-    <array>
-      <string>kTCCServiceMediaLibrary</string>
-      <string>kTCCServiceMicrophone</string>
-    </array>
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.files.user-selected.read-only</key>

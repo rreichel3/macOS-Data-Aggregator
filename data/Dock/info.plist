@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
@@ -17,9 +17,7 @@
     <key>CFBundleGetInfoString</key>
     <string>Dock 1.8</string>
     <key>CFBundleIconFile</key>
-    <string>AppIcon</string>
-    <key>CFBundleIconName</key>
-    <string>AppIcon</string>
+    <string>Dock.icns</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.dock</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -37,29 +35,29 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>2427.4.7</string>
+    <string>2341.6.1.102</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E224</string>
+    <string>24G313</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E224</string>
+    <string>24G313</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>LSApplicationCategoryType</key>
     <string />
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>LSRequiresNativeExecution</key>
     <true />
     <key>LSUIElement</key>

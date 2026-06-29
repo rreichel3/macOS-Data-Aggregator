@@ -1,8 +1,0 @@
-Code Signing Information for Apps
-Application Path: /System/Applications/Apps.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

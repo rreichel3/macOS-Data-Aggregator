@@ -2,8 +2,8 @@
   "name": "Migration Assistant",
   "path": "/System/Applications/Utilities/Migration Assistant.app",
   "sdef_count": 0,
-  "has_icon": true,
-  "icon_path": "icon.png",
+  "has_icon": false,
+  "icon_path": null,
   "codesign": {
     "signature_status": "Valid",
     "authority": "Unknown",
