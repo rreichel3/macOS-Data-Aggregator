@@ -7,7 +7,7 @@
     <key>AppleEventSupported</key>
     <true />
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CAProcessCanAccessGPU</key>
     <true />
     <key>CFBundleAllowMixedLocalizations</key>
@@ -78,7 +78,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>14.0</string>
+    <string>26.0</string>
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -158,25 +158,25 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1402.700.63.1.28</string>
+    <string>1450.500.221.1.7</string>
     <key>CoreSpotlightContinuation</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24G718</string>
+    <string>25E231</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G718</string>
+    <string>25E231</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>messages</string>
     <key>INAlternativeAppNames</key>
@@ -199,7 +199,7 @@
     <key>LSEligibilityDeletionDomain</key>
     <integer>34</integer>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>MDItemKeywords</key>
     <string>Messages iChat iMessage</string>
     <key>NSAppleScriptEnabled</key>
@@ -301,13 +301,22 @@
             <string>CKStarkManager</string>
           </dict>
         </array>
-        <key>UIWindowSceneSessionRoleSimplifiedApplication</key>
+        <key>UIWindowSceneSessionRoleAssistiveAccessApplication</key>
         <array>
           <dict>
             <key>UISceneConfigurationName</key>
             <string>Messages-ClarityUI</string>
             <key>UISceneDelegateClassName</key>
             <string>CKClarityUISceneDelegate</string>
+          </dict>
+        </array>
+        <key>com.apple.PosterBoardUIServices.editor-overlay</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Messages-EditorOverlayConfiguration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>ChatKit.PosterEditorOverlaySceneDelegate</string>
           </dict>
         </array>
       </dict>
@@ -340,7 +349,7 @@
         <key>Height</key>
         <integer>720</integer>
         <key>Width</key>
-        <integer>760</integer>
+        <integer>880</integer>
       </dict>
     </dict>
     <key>UILaunchStoryboardName</key>
@@ -372,7 +381,7 @@
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
-    <key>UISupportsClarityUI</key>
+    <key>UISupportsAssistiveAccess</key>
     <true />
     <key>UIUserInterfaceIdiomMac</key>
     <true />

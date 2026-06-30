@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/ManagedClient.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 35
+Entitlements Count: 39
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

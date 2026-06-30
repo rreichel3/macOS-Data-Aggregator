@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>FairPlay-Classic-Client</key>
+    <true />
     <key>adi-client</key>
     <string>821141022</string>
     <key>application-identifier</key>
@@ -108,11 +110,15 @@
       <key>value</key>
       <string>com.apple.podcasts</string>
     </dict>
+    <key>com.apple.private.biometrickit.allow-default</key>
+    <true />
     <key>com.apple.private.bmk.allow</key>
     <true />
     <key>com.apple.private.canGetAppLinkInfo</key>
     <true />
     <key>com.apple.private.canModifyAppLinkPermissions</key>
+    <true />
+    <key>com.apple.private.catalyst-openURL-source</key>
     <true />
     <key>com.apple.private.cfnetwork.har-capture-amp</key>
     <true />
@@ -145,6 +151,8 @@
       </dict>
     </dict>
     <key>com.apple.private.iosmac.unscaled</key>
+    <true />
+    <key>com.apple.private.jetpackassetd</key>
     <true />
     <key>com.apple.private.mobileinstall.upgrade-enabled</key>
     <true />
@@ -189,6 +197,10 @@
     <true />
     <key>com.apple.proactive.PersonalizationPortrait.Topic.readOnly</key>
     <true />
+    <key>com.apple.runningboard.assertions.coredata</key>
+    <true />
+    <key>com.apple.runningboard.jetengine</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.application-groups</key>
@@ -212,6 +224,7 @@
       <string>/Library/Caches/com.apple.AppleMediaServices/</string>
       <string>/Media/ContentKeys/</string>
       <string>/Media/iTunes_Control/Music/</string>
+      <string>/Media/MotionAssets/</string>
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
@@ -253,6 +266,8 @@
       <string>com.apple.biome.access.user</string>
       <string>com.apple.biome.access.system</string>
       <string>com.apple.absd</string>
+      <string>com.apple.fairplayd.xpc</string>
+      <string>com.apple.jetpackassetd.xpc</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -272,6 +287,7 @@
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
     <array>
       <string>/AppleInternal/Library/Jet/</string>
+      <string>/private/var/db/os_eligibility/eligibility.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
     <array>
@@ -293,6 +309,12 @@
       <string>com.apple.SetStoreUpdateService</string>
       <string>com.apple.biome.access.user</string>
       <string>com.apple.biome.access.system</string>
+      <string>com.apple.symptom_analytics</string>
+      <string>com.apple.commcenter.coretelephony.xpc</string>
+      <string>com.apple.appstoreagent.xpc</string>
+      <string>com.apple.itunescloud.music-subscription-status-service</string>
+      <string>com.apple.cache_delete</string>
+      <string>com.apple.jetpackassetd.xpc</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>

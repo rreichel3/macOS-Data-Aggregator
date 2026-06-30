@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>com.apple.chrono.controls</key>
+    <true />
     <key>com.apple.private.SkyLight.screencapturedirect</key>
     <true />
     <key>com.apple.private.appleevents.allowedtosend</key>
@@ -10,6 +12,12 @@
       <key>com.apple.private.appleevents.allowed.aevt.quit</key>
       <true />
     </dict>
+    <key>com.apple.private.biome.client-identifier</key>
+    <string>com.apple.windowmanager</string>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>WindowManager.StageManager.Toggled</string>
+    </array>
     <key>com.apple.private.hid.client.event-monitor</key>
     <true />
     <key>com.apple.private.skylight.capturegroupmodifier</key>

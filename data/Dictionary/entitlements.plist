@@ -5,6 +5,7 @@
   <dict>
     <key>com.apple.private.assets.accessible-asset-types</key>
     <array>
+      <string>com.apple.MobileAsset.DictionaryServices.dictionary3macOS</string>
       <string>com.apple.MobileAsset.DictionaryServices.dictionaryOSX</string>
     </array>
     <key>com.apple.security.app-sandbox</key>

@@ -3,7 +3,7 @@ Application Path: /System/Applications/FaceTime.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 147
+Entitlements Count: 171
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

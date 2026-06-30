@@ -23,15 +23,23 @@
     <true />
     <key>com.apple.private.admin.writeconfig</key>
     <true />
+    <key>com.apple.private.amfi.version-restriction</key>
+    <integer>1</integer>
     <key>com.apple.private.applecredentialmanager.allow</key>
+    <true />
+    <key>com.apple.private.applecredentialmanager.contextdataextendedmaxage.allow</key>
     <true />
     <key>com.apple.private.aps-client-cert-access</key>
     <true />
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
-    <key>com.apple.private.bmk.allow</key>
+    <key>com.apple.private.biometrickit.allow-config</key>
+    <true />
+    <key>com.apple.private.biometrickit.allow-connect</key>
     <true />
     <key>com.apple.private.configurationprofiles.bootstraptoken.readwrite</key>
+    <true />
+    <key>com.apple.private.diskarbitration.disk_set_adoption</key>
     <true />
     <key>com.apple.private.logind.spi</key>
     <true />

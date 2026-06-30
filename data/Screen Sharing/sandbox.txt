@@ -3,7 +3,7 @@ Application Path: /System/Applications/Utilities/Screen Sharing.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 53
+Entitlements Count: 57
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

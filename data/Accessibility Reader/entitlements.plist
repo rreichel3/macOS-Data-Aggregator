@@ -1,0 +1,41 @@
+<!-- Entitlements for Accessibility Reader.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.accessibility.AccessibilityPersonalVoiceUsageOverride</key>
+    <true />
+    <key>com.apple.corespeech.corespeechd.xpc</key>
+    <true />
+    <key>com.apple.corespeech.xpc</key>
+    <true />
+    <key>com.apple.private.SkyLight.accessibility.ui</key>
+    <true />
+    <key>com.apple.private.accessibility.accessProtectedContent</key>
+    <true />
+    <key>com.apple.private.accessibility.forceBundleLoad</key>
+    <true />
+    <key>com.apple.private.corespeech.corespeechd.xpc</key>
+    <true />
+    <key>com.apple.private.corespeech.xpc</key>
+    <true />
+    <key>com.apple.private.hid.client.event-monitor</key>
+    <true />
+    <key>com.apple.private.security.storage.universalaccess</key>
+    <true />
+    <key>com.apple.private.speech.synthesis.custom.voices.allow</key>
+    <true />
+    <key>com.apple.private.tcc.allow</key>
+    <array>
+      <string>kTCCServiceAccessibility</string>
+    </array>
+    <key>com.apple.security.device.audio-input</key>
+    <true />
+    <key>com.apple.security.temporary-exception.audio-unit-host</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.accessibility.voices</string>
+    </array>
+  </dict>
+</plist>

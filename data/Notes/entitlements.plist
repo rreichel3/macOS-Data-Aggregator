@@ -20,13 +20,15 @@
     </array>
     <key>com.apple.developer.aps-environment</key>
     <string>production</string>
-    <key>com.apple.developer.hardened-process</key>
-    <true />
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
     <key>com.apple.developer.icloud-container-identifiers</key>
     <array>
       <string>com.apple.notes</string>
+    </array>
+    <key>com.apple.developer.icloud-extended-share-access</key>
+    <array>
+      <string>InProcessShareOwnerParticipantInfo</string>
     </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
@@ -43,6 +45,8 @@
     <key>com.apple.generativeexperiences.summarization</key>
     <true />
     <key>com.apple.generativeexperiences.textcomposition</key>
+    <true />
+    <key>com.apple.modelmanager.assertion</key>
     <true />
     <key>com.apple.pds.clientid</key>
     <string>Notes</string>
@@ -124,16 +128,18 @@
     <array>
       <string>group.com.apple.notes</string>
       <string>group.com.apple.notes.import</string>
+      <string>group.com.apple.telephonyutilities.callservicesd</string>
     </array>
     <key>com.apple.private.security.storage.Notes</key>
     <true />
     <key>com.apple.private.security.storage.PhotosLibraries</key>
     <true />
+    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
+    <true />
     <key>com.apple.private.sociallayer.highlights</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
-      <string>kTCCServiceScreenCapture</string>
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceCalendar</string>
       <string>kTCCServiceMicrophone</string>
@@ -157,15 +163,24 @@
     <array>
       <string>group.com.apple.notes</string>
       <string>group.com.apple.notes.import</string>
+      <string>group.com.apple.telephonyutilities.callservicesd</string>
     </array>
     <key>com.apple.security.device.audio-input</key>
     <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.containermanagerd</string>
+    </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
       <string>com.apple.calculator</string>
       <string>com.apple.applicationaccess</string>
     </array>
     <key>com.apple.security.files.user-selected.read-write</key>
+    <true />
+    <key>com.apple.security.hardened-process</key>
+    <true />
+    <key>com.apple.security.hardened-process.checked-allocations.soft-mode</key>
     <true />
     <key>com.apple.security.network.client</key>
     <true />
@@ -185,6 +200,7 @@
       <string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_FM_Visual/purpose_auto/</string>
       <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_Visual/</string>
       <string>/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_UAF_FM_Visual/</string>
+      <string>/private/var/db/os_eligibility/eligibility.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
     <array>
@@ -243,6 +259,11 @@
     <true />
     <key>com.apple.synapse.allowAddLinkContextRequests</key>
     <true />
+    <key>com.apple.trial.client</key>
+    <array>
+      <string>SIML_ADM_PERSONALIZATION</string>
+      <string>SIML_ADM_PERSONALIZATION_GP</string>
+    </array>
     <key>keychain-access-groups</key>
     <array>
       <string>apple</string>
