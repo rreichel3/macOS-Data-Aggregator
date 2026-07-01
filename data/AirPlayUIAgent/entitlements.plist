@@ -35,7 +35,6 @@
       <string>com.apple.VirtualDisplay</string>
       <string>com.apple.telephonyutilities.callservicesdaemon.conversationmanager</string>
       <string>com.apple.telephonyutilities.callservicesdaemon.callstatecontroller</string>
-      <string>com.apple.coremedia.systemcontroller.xpc</string>
     </array>
     <key>com.apple.selectivesharing.session_system</key>
     <true />

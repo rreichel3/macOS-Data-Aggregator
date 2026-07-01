@@ -1,8 +1,0 @@
-Code Signing Information for LinkedNotesUIService
-Application Path: /System/Library/Frameworks/PaperKit.framework/Contents/LinkedNotesUIService.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

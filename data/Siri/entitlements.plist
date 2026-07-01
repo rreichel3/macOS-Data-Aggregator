@@ -15,8 +15,6 @@
     <true />
     <key>com.apple.feedbackd.remote-evaluation</key>
     <true />
-    <key>com.apple.generativeexperiences.ExternalPartnerCredentialStorage</key>
-    <true />
     <key>com.apple.icloud.searchpartyd.securelocations.access</key>
     <true />
     <key>com.apple.intents.uiextension.discovery</key>
@@ -71,29 +69,11 @@
     <true />
     <key>com.apple.private.iaaccounts</key>
     <true />
-    <key>com.apple.private.intelligenceplatform.use-cases</key>
-    <dict>
-      <key>Assistant</key>
-      <dict>
-        <key>Streams</key>
-        <dict>
-          <key>Siri.Service</key>
-          <dict>
-            <key>mode</key>
-            <string>read-write</string>
-          </dict>
-        </dict>
-      </dict>
-    </dict>
     <key>com.apple.private.iokit.darkwake-control</key>
     <true />
     <key>com.apple.private.launchpad.list</key>
     <true />
     <key>com.apple.private.mailservice.all</key>
-    <true />
-    <key>com.apple.private.network.socket-delegate</key>
-    <true />
-    <key>com.apple.private.network.system-token-fetch</key>
     <true />
     <key>com.apple.private.notificationcenter.menu</key>
     <true />
@@ -146,8 +126,6 @@
     <key>com.apple.private.viewbridge.window.child.transparent</key>
     <true />
     <key>com.apple.private.viewbridge.window.level</key>
-    <true />
-    <key>com.apple.private.xpc.launchd.per-user-lookup</key>
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
@@ -284,7 +262,6 @@
       <string>com.apple.notificationcenterui.siri</string>
       <string>com.apple.notificationcenterui.snippet</string>
       <string>com.apple.callkit.callcontrollerhost</string>
-      <string>com.apple.generativeexperiences.ExternalPartnerCredentialStorage</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -306,13 +283,11 @@
       <string>com.apple.Notes</string>
       <string>com.apple.speech.recognition.AppleSpeechRecognition.prefs</string>
       <string>com.apple.voicetrigger</string>
+      <string>MobileMeAccounts</string>
       <string>com.apple.ironwood.support</string>
-      <string>com.apple.siri.internal</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
-      <string>com.apple.siri.generativeassistantsettings</string>
-      <string>com.apple.generativepartnerservicesettings</string>
       <string>com.apple.assistant</string>
       <string>kCFPreferencesAnyApplication</string>
       <string>com.apple.CoreGraphics</string>
@@ -333,10 +308,5 @@
     <true />
     <key>com.apple.wifi.set_power</key>
     <true />
-    <key>keychain-access-groups</key>
-    <array>
-      <string>apple</string>
-      <string>com.apple.openai</string>
-    </array>
   </dict>
 </plist>

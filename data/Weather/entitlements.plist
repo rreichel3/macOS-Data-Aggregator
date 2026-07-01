@@ -3,8 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>adi-client</key>
-    <string>628765583</string>
     <key>application-identifier</key>
     <string>com.apple.weather</string>
     <key>com.apple.CoreRoutine.LocationOfInterest</key>
@@ -41,7 +39,6 @@
       <string>com.apple.news.public.demo2</string>
       <string>com.apple.news.private.demo2</string>
       <string>com.apple.news.private.secure.demo2</string>
-      <string>com.apple.weather.fallback</string>
     </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
@@ -114,8 +111,6 @@
     </array>
     <key>com.apple.private.security.storage.Weather</key>
     <true />
-    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
-    <true />
     <key>com.apple.private.security.system-application</key>
     <true />
     <key>com.apple.private.swc.system-app</key>
@@ -130,10 +125,6 @@
     <array>
       <string>group.com.apple.weather</string>
     </array>
-    <key>com.apple.security.exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/private/var/db/os_eligibility/</string>
-    </array>
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
     <key>com.apple.security.network.client</key>
@@ -144,10 +135,6 @@
     <true />
     <key>com.apple.security.personal-information.location</key>
     <true />
-    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/AppleInternal/Library/Bundles/WeatherInternalExtras.bundle/</string>
-    </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
       <string>/Library/Caches/com.apple.AppleMediaServices/</string>
@@ -160,8 +147,6 @@
       <string>com.apple.weatherd.weatherkit</string>
       <string>com.apple.weatherd.notifications</string>
       <string>com.apple.weatherd.summary-strings</string>
-      <string>com.apple.weatherd.database</string>
-      <string>com.apple.weatherd.predicted-locations</string>
       <string>com.apple.ak.anisette.xpc</string>
       <string>com.apple.ap.promotedcontent.pcinterface</string>
       <string>com.apple.ap.promotedcontent.mescalinterface</string>
@@ -172,7 +157,9 @@
       <string>com.apple.backgroundtaskmanagement.sfl</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
-    <array />
+    <array>
+      <string>/AppleInternal/Library/Bundles/WeatherInternalExtras.bundle/</string>
+    </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.weather.internal</string>

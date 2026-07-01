@@ -1,8 +1,0 @@
-Code Signing Information for PreviewShellMac
-Application Path: /System/Library/CoreServices/PreviewShellMac.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

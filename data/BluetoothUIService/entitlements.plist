@@ -11,15 +11,8 @@
     <true />
     <key>com.apple.bannerkit.post</key>
     <true />
-    <key>com.apple.frontboard.launchapplications</key>
-    <true />
-    <key>com.apple.private.coreservices.canmaplsdatabase</key>
-    <true />
-    <key>com.apple.private.feedback.drafting</key>
-    <true />
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.frontboard.systemappservices</string>
       <string>com.apple.coremedia.asset.xpc</string>
       <string>com.apple.coremedia.mediaplaybackd.asset.xpc</string>
       <string>com.apple.audio.AudioSession</string>
@@ -33,7 +26,6 @@
       <string>com.apple.iconservices</string>
       <string>com.apple.TVSystemUIService.banners</string>
       <string>com.apple.coremedia.endpoint.xpc</string>
-      <string>com.apple.extensionkitservice</string>
     </array>
     <key>com.apple.security.iokit-user-client-class</key>
     <array>
@@ -51,8 +43,6 @@
       <string>IOMobileFramebufferUserClient</string>
       <string>IOSurfaceRootUserClient</string>
     </array>
-    <key>com.apple.springboard.remote-alert</key>
-    <true />
     <key>com.apple.springboard.requestScene-daemon</key>
     <true />
     <key>platform-application</key>

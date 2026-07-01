@@ -19,11 +19,7 @@
     <true />
     <key>com.apple.bluetooth.system</key>
     <true />
-    <key>com.apple.businessservicesd.businessmetadata</key>
-    <true />
     <key>com.apple.coreduetd.allow</key>
-    <true />
-    <key>com.apple.coreduetd.context</key>
     <true />
     <key>com.apple.developer.associated-domains</key>
     <array />
@@ -70,12 +66,6 @@
     <true />
     <key>com.apple.homekit.private-spi-access</key>
     <true />
-    <key>com.apple.intelligenceplatform.InternalBiome</key>
-    <true />
-    <key>com.apple.intelligenceplatform.KnowledgeConstruction</key>
-    <true />
-    <key>com.apple.intelligenceplatform.View</key>
-    <true />
     <key>com.apple.intents.extension.discovery</key>
     <true />
     <key>com.apple.intents.uiextension.discovery</key>
@@ -87,12 +77,6 @@
     <key>com.apple.locationd.effective_bundle</key>
     <true />
     <key>com.apple.managedconfiguration.profiled-access</key>
-    <true />
-    <key>com.apple.modelcatalog.full-access</key>
-    <true />
-    <key>com.apple.modelmanager.inference</key>
-    <true />
-    <key>com.apple.private.accounts.allaccounts</key>
     <true />
     <key>com.apple.private.appintents-attribution-override</key>
     <true />
@@ -114,15 +98,6 @@
       <key>com.apple.private.appleevents.allowed.aevt.quit</key>
       <true />
     </dict>
-    <key>com.apple.private.assets.accessible-asset-types</key>
-    <array>
-      <string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
-      <string>com.apple.MobileAsset.UAF.FM.Overrides</string>
-    </array>
-    <key>com.apple.private.biome.read-write</key>
-    <array>
-      <string>GenerativeModels.GenerativeFunctions.Instrumentation</string>
-    </array>
     <key>com.apple.private.cloudkit.masquerade</key>
     <true />
     <key>com.apple.private.cloudkit.setEnvironment</key>
@@ -136,8 +111,6 @@
     <key>com.apple.private.corerecents</key>
     <true />
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
-    <true />
-    <key>com.apple.private.corewifi</key>
     <true />
     <key>com.apple.private.donotdisturb.mode.assertion.client-identifiers</key>
     <string>com.apple.focus.activity-manager</string>
@@ -153,10 +126,6 @@
     <string>com.apple.focus.activity-manager</string>
     <key>com.apple.private.donotdisturb.state.updates.client-identifiers</key>
     <string>com.apple.focus.activity-manager</string>
-    <key>com.apple.private.email</key>
-    <true />
-    <key>com.apple.private.feedback.drafting</key>
-    <true />
     <key>com.apple.private.healthkit</key>
     <true />
     <key>com.apple.private.healthkit.source.identities</key>
@@ -167,39 +136,16 @@
     <true />
     <key>com.apple.private.homekit</key>
     <true />
-    <key>com.apple.private.intelligenceplatform.use-cases</key>
-    <dict>
-      <key>DataActionsUsecase</key>
-      <dict>
-        <key>Databases</key>
-        <array>
-          <string>IntelligencePlatform.Entity</string>
-        </array>
-      </dict>
-    </dict>
-    <key>com.apple.private.intelligenceplatform.views.read-only</key>
-    <array>
-      <string>holidayEvent</string>
-      <string>sportsTeams</string>
-    </array>
-    <key>com.apple.private.mobiletimerd</key>
-    <true />
     <key>com.apple.private.network.socket-delegate</key>
-    <true />
-    <key>com.apple.private.network.system-token-fetch</key>
     <true />
     <key>com.apple.private.networkextension.configuration</key>
     <true />
-    <key>com.apple.private.proactiveagentplatform.group-identifier</key>
-    <string>com.apple.shortcuts</string>
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
       <string>group.com.apple.shortcuts</string>
       <string>group.is.workflow.my.app</string>
       <string>group.is.workflow.shortcuts</string>
     </array>
-    <key>com.apple.private.security.storage.MobileAssetGenerativeModels</key>
-    <true />
     <key>com.apple.private.security.storage.proactivepredictions</key>
     <true />
     <key>com.apple.private.security.system-application</key>
@@ -233,18 +179,10 @@
     </array>
     <key>com.apple.private.translation</key>
     <true />
-    <key>com.apple.private.xpc.launchd.per-user-lookup</key>
-    <true />
     <key>com.apple.proactive.ProactiveSuggestionClientModel.xpc</key>
     <true />
     <key>com.apple.proactive.eventtracker</key>
     <true />
-    <key>com.apple.proactiveagentplatform.orchestrator</key>
-    <true />
-    <key>com.apple.proactiveagentplatform.orchestrator.features</key>
-    <array>
-      <string>executable-session</string>
-    </array>
     <key>com.apple.rootless.storage.coreduet_knowledge_store</key>
     <true />
     <key>com.apple.rootless.storage.shortcuts</key>
@@ -266,8 +204,6 @@
       <string>group.is.workflow.shortcuts</string>
     </array>
     <key>com.apple.security.automation.apple-events</key>
-    <true />
-    <key>com.apple.security.files.bookmarks.app-scope</key>
     <true />
     <key>com.apple.security.files.user-selected.read-write</key>
     <true />
@@ -292,19 +228,10 @@
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
     <array>
       <string>/AppleInternal/Library/Shortcuts/PPTTestContent.bundle/</string>
-      <string>/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_UAF_FM_GenerativeModels/</string>
-      <string>/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_UAF_FM_Overrides/</string>
       <string>/private/etc/shells</string>
-      <string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/</string>
-      <string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_FM_Overrides/purpose_auto/</string>
-      <string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/</string>
-      <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_GenerativeModels/</string>
-      <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_Overrides/</string>
-      <string>/private/var/mobile/Library/com.apple.modelcatalog/sideload/</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
     <array>
-      <string>/Library/Caches/com.apple.businessservicesd/</string>
       <string>/Library/UserConfigurationProfiles/</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
@@ -316,19 +243,14 @@
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.BTServer.le</string>
-      <string>com.apple.MobileTimer.alarmserver</string>
       <string>com.apple.Music.MPMusicPlayerControllerInternal</string>
       <string>com.apple.SharingServices</string>
-      <string>com.apple.accessibility.voices</string>
       <string>com.apple.airplay.endpoint.xpc</string>
       <string>com.apple.amp.library.framework</string>
       <string>com.apple.audio.AURemoteIOServer</string>
       <string>com.apple.audio.AudioComponentPrefs</string>
       <string>com.apple.audio.AudioComponentRegistrar</string>
       <string>com.apple.audio.AudioQueueServer</string>
-      <string>com.apple.biome.access.user</string>
-      <string>com.apple.businessservicesd</string>
-      <string>com.apple.coreduetd.context</string>
       <string>com.apple.coreduetd.knowledge</string>
       <string>com.apple.coremedia.endpoint.xpc</string>
       <string>com.apple.coremedia.routediscoverer.xpc</string>
@@ -336,33 +258,19 @@
       <string>com.apple.coremedia.volumecontroller.xpc</string>
       <string>com.apple.donotdisturb.service</string>
       <string>com.apple.donotdisturb.service.non-launching</string>
-      <string>com.apple.email.maild</string>
-      <string>com.apple.feedbackd.centralized-feedback</string>
-      <string>com.apple.generativeexperiences.generativeexperiencessession</string>
       <string>com.apple.homed.xpc</string>
-      <string>com.apple.intelligenceplatform.InternalBiome</string>
-      <string>com.apple.intelligenceplatform.KnowledgeConstruction</string>
-      <string>com.apple.intelligenceplatform.View</string>
       <string>com.apple.linkd.autoShortcut</string>
       <string>com.apple.linkd.extension</string>
       <string>com.apple.linkd.mediator</string>
       <string>com.apple.linkd.registry</string>
       <string>com.apple.linkd.transcript</string>
       <string>com.apple.mediaexperience.endpoint.xpc</string>
-      <string>com.apple.mobileasset.autoasset</string>
-      <string>com.apple.mobileassetd.v2</string>
-      <string>com.apple.modelcatalog.catalog</string>
-      <string>com.apple.modelmanager</string>
       <string>com.apple.photos.service</string>
-      <string>com.apple.powerui.smartChargeManager</string>
-      <string>com.apple.private.corewifi-xpc</string>
       <string>com.apple.proactive.ProactiveSuggestionClientModel.xpc</string>
-      <string>com.apple.proactiveagentplatform.orchestrator</string>
       <string>com.apple.server.bluetooth.general.xpc</string>
       <string>com.apple.shortcutsautomationd.xpc</string>
       <string>com.apple.siri.VoiceShortcuts.xpc</string>
       <string>com.apple.siri.tts.TTSAsset.TrialProxy</string>
-      <string>com.apple.siri.uaf.service</string>
       <string>com.apple.siriactionsd.xpc</string>
       <string>com.apple.sirittsd</string>
     </array>
@@ -374,19 +282,14 @@
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
-      <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
       <string>com.apple.SpeakSelection</string>
       <string>com.apple.TimeMachine</string>
-      <string>com.apple.UnifiedAssetFramework</string>
-      <string>com.apple.modelcatalog.ajax</string>
       <string>com.apple.voiceservices</string>
       <string>com.apple.voicetrigger</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
-      <string>com.apple.generativepartnerservicesettings</string>
       <string>com.apple.shortcuts</string>
-      <string>com.apple.siri.generativeassistantsettings</string>
       <string>com.apple.siri.shortcuts</string>
       <string>com.apple.spotlightui</string>
       <string>group.is.workflow.my.app</string>
@@ -413,7 +316,6 @@
       <string>V568VXD5P8.is.workflow.my.app</string>
       <string>apple</string>
       <string>com.apple.MediaRemote.pairing</string>
-      <string>com.apple.openai</string>
       <string>com.apple.sharing.appleidauthentication</string>
     </array>
   </dict>

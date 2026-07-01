@@ -9,6 +9,8 @@
     <true />
     <key>com.apple.QuartzCore.secure-mode</key>
     <true />
+    <key>com.apple.UIKit.vends-view-services</key>
+    <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
     <key>com.apple.application-identifier</key>
@@ -49,7 +51,6 @@
     <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
-      <string>group.com.apple.tipsnext</string>
       <string>group.com.apple.VoiceMemos.shared</string>
     </array>
     <key>com.apple.private.security.storage.VoiceMemos</key>
@@ -78,7 +79,6 @@
     <true />
     <key>com.apple.security.application-groups</key>
     <array>
-      <string>group.com.apple.tipsnext</string>
       <string>group.com.apple.VoiceMemos.shared</string>
     </array>
     <key>com.apple.security.device.audio-input</key>
@@ -120,6 +120,8 @@
     <true />
     <key>com.apple.springboard.opensensitiveurl</key>
     <true />
+    <key>com.apple.springboard.secureAppAssertion</key>
+    <true />
     <key>com.apple.springboard.statusbarstyleoverrides</key>
     <true />
     <key>com.apple.telephonyutilities.callservicesd</key>
@@ -128,10 +130,6 @@
     </array>
     <key>fairplay-client</key>
     <string>511712240</string>
-    <key>keychain-access-groups</key>
-    <array>
-      <string>group.com.apple.VoiceMemos.shared</string>
-    </array>
     <key>platform-application</key>
     <true />
   </dict>

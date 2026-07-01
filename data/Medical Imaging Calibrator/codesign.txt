@@ -1,8 +1,0 @@
-Code Signing Information for Medical Imaging Calibrator
-Application Path: /System/Library/CoreServices/Medical Imaging Calibrator.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

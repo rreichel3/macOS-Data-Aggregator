@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -13,9 +13,9 @@
     <key>CFBundleExecutable</key>
     <string>Game Center</string>
     <key>CFBundleIconFile</key>
-    <string>GCAppIcon</string>
+    <string>AppIcon</string>
     <key>CFBundleIconName</key>
-    <string>GCAppIcon</string>
+    <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.gamecenter</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -35,23 +35,25 @@
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E232</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E232</string>
+    <string>24G201t</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.games</string>
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>LSUIElement</key>
     <true />
     <key>NSHumanReadableCopyright</key>
@@ -60,25 +62,5 @@
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
-    <key>UTExportedTypeDeclarations</key>
-    <array>
-      <dict>
-        <key>UTTypeConformsTo</key>
-        <array>
-          <string>com.apple.application-icon</string>
-        </array>
-        <key>UTTypeDescription</key>
-        <string>Game Center Bubbles Icon</string>
-        <key>UTTypeIcons</key>
-        <dict>
-          <key>UTTypeIconName</key>
-          <string>GCAppIcon</string>
-        </dict>
-        <key>UTTypeIdentifier</key>
-        <string>com.apple.gamecenter.bubbles</string>
-        <key>UTTypeTagSpecification</key>
-        <dict />
-      </dict>
-    </array>
   </dict>
 </plist>

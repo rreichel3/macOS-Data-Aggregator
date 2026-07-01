@@ -11,7 +11,5 @@
     <array>
       <string>kTCCServiceAll</string>
     </array>
-    <key>com.apple.private.wallpaper</key>
-    <true />
   </dict>
 </plist>

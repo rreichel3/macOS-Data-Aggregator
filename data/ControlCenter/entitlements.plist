@@ -3,10 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>FairPlay-Classic-Client</key>
-    <true />
-    <key>com.apple.AudioAccessoryServices</key>
-    <true />
     <key>com.apple.CompanionLink</key>
     <true />
     <key>com.apple.HearingModeService</key>
@@ -43,12 +39,6 @@
     <true />
     <key>com.apple.bluetooth.system</key>
     <true />
-    <key>com.apple.chrono.controls</key>
-    <true />
-    <key>com.apple.chrono.widgetRenderer</key>
-    <true />
-    <key>com.apple.chronoservices</key>
-    <true />
     <key>com.apple.coremedia.allow-mpeg4streaming</key>
     <true />
     <key>com.apple.coremedia.allow-protected-content-playback</key>
@@ -61,8 +51,6 @@
     </array>
     <key>com.apple.developer.ubiquity-container-identifiers</key>
     <string />
-    <key>com.apple.duetexpertd.ControlCenter</key>
-    <true />
     <key>com.apple.imagent</key>
     <true />
     <key>com.apple.imdpersistence.IMDPersistenceAgent-GroupMetadata</key>
@@ -70,8 +58,6 @@
     <key>com.apple.intelligentrouting.recommendationservice</key>
     <true />
     <key>com.apple.mediaremote.send-commands</key>
-    <true />
-    <key>com.apple.powerui.smartcharging</key>
     <true />
     <key>com.apple.private.CommandAndControl.utility</key>
     <true />
@@ -86,15 +72,11 @@
     </dict>
     <key>com.apple.private.ShazamKit</key>
     <true />
-    <key>com.apple.private.SkyLight.event.monitor</key>
-    <true />
     <key>com.apple.private.airdrop.discovery</key>
     <true />
     <key>com.apple.private.airdrop.settings</key>
     <true />
     <key>com.apple.private.avfoundation.capture.allow-set-any-user-preferred-camera</key>
-    <true />
-    <key>com.apple.private.backgroundtaskmanagement.manage</key>
     <true />
     <key>com.apple.private.biome.client-identifier</key>
     <string>com.apple.controlcenter</string>
@@ -102,8 +84,6 @@
     <array>
       <string>Discoverability.Signals</string>
     </array>
-    <key>com.apple.private.chrono-extension-host</key>
-    <true />
     <key>com.apple.private.cmcapture.frame-receiver</key>
     <true />
     <key>com.apple.private.commerce</key>
@@ -111,8 +91,6 @@
       <string>Accounts</string>
     </array>
     <key>com.apple.private.controlcenter.helper</key>
-    <true />
-    <key>com.apple.private.controlcenter.ringlighthelper</key>
     <true />
     <key>com.apple.private.corewifi</key>
     <true />
@@ -196,8 +174,6 @@
     <true />
     <key>com.apple.private.notificationcenter.menu</key>
     <true />
-    <key>com.apple.private.replicator.controller</key>
-    <true />
     <key>com.apple.private.rtcreportingd</key>
     <true />
     <key>com.apple.private.screencapturekit</key>
@@ -208,33 +184,17 @@
     <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
-      <string>group.com.apple.chronod</string>
       <string>group.com.apple.portrait.BackgroundReplacement</string>
-      <string>group.com.apple.controlcenter</string>
     </array>
     <key>com.apple.private.security.storage.Messages</key>
     <true />
     <key>com.apple.private.security.storage.universalaccess</key>
     <true />
-    <key>com.apple.private.sessionkit.alertPresenter</key>
-    <true />
-    <key>com.apple.private.sessionkit.listener</key>
-    <true />
-    <key>com.apple.private.sessionkit.presentationAssertionRequester</key>
-    <true />
-    <key>com.apple.private.sessionkit.sessionFinisher</key>
-    <true />
     <key>com.apple.private.shared-with-you.on-screen-content</key>
-    <true />
-    <key>com.apple.private.sharing.unlock-manager</key>
-    <true />
-    <key>com.apple.private.skylight.avmodule</key>
     <true />
     <key>com.apple.private.skylight.expanse</key>
     <true />
     <key>com.apple.private.skylight.privacy-indicator</key>
-    <true />
-    <key>com.apple.private.skylight.statusbar</key>
     <true />
     <key>com.apple.private.sociallayer.highlights</key>
     <true />
@@ -249,7 +209,6 @@
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceCalendar</string>
       <string>kTCCServiceMicrophone</string>
-      <string>kTCCServiceSystemPolicyAppData</string>
     </array>
     <key>com.apple.private.tcc.manager.get-identity-for-credential</key>
     <true />
@@ -265,8 +224,6 @@
       <string>com.apple.controlcenter.notifications.airplay</string>
       <string>com.apple.controlcenter.notifications.focus</string>
     </array>
-    <key>com.apple.private.usernotifications.forwarding</key>
-    <true />
     <key>com.apple.private.wifi-ui.join-delegate</key>
     <true />
     <key>com.apple.private.windowmanager</key>
@@ -275,16 +232,9 @@
     <true />
     <key>com.apple.rapport.Client</key>
     <true />
-    <key>com.apple.runningboard.assertions.chronod</key>
-    <true />
-    <key>com.apple.runningboard.assertions.frontboard</key>
-    <true />
-    <key>com.apple.runningboard.process-state</key>
-    <true />
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.portrait.BackgroundReplacement</string>
-      <string>group.com.apple.controlcenter</string>
     </array>
     <key>com.apple.security.device.bluetooth</key>
     <true />
@@ -309,14 +259,13 @@
       <string>com.apple.replaykit.sharingsession.notification</string>
       <string>com.apple.imdpersistence.IMDPersistenceAgent</string>
       <string>com.apple.imagent.desktop.auth</string>
-      <string>com.apple.fairplayd.xpc</string>
-      <string>com.apple.sessionservices</string>
-      <string>com.apple.AudioAccessoryServices</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
       <string>com.apple.SocialLayer</string>
     </array>
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
     <key>com.apple.security.personal-information.addressbook</key>
     <true />
     <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
@@ -330,7 +279,6 @@
       <string>com.apple.donotdisturb.service</string>
       <string>com.apple.donotdisturb.service.non-launching</string>
       <string>com.apple.intelligentroutingd.xpc.media</string>
-      <string>com.apple.replicatorservices</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>

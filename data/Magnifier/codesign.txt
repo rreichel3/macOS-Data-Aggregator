@@ -1,8 +1,0 @@
-Code Signing Information for Magnifier
-Application Path: /System/Applications/Utilities/Magnifier.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

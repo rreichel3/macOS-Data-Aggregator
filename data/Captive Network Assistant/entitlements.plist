@@ -3,10 +3,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
-    <key>com.apple.private.corewifi</key>
-    <true />
-    <key>com.apple.private.corewifi.keychain</key>
-    <true />
     <key>com.apple.private.necp.match</key>
     <true />
     <key>com.apple.security.app-sandbox</key>
@@ -16,7 +12,6 @@
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.networking.captivenetworksupport</string>
-      <string>com.apple.private.corewifi-xpc</string>
     </array>
   </dict>
 </plist>
