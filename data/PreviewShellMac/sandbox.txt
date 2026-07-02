@@ -1,0 +1,11 @@
+Sandbox Analysis for PreviewShellMac
+Application Path: /System/Library/CoreServices/PreviewShellMac.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 16
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- Background app (LSUIElement)

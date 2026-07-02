@@ -17,6 +17,8 @@
     <array>
       <string>CloudKit</string>
     </array>
+    <key>com.apple.generativeexperiences.generativeexperiencessession</key>
+    <true />
     <key>com.apple.private.SkyLight.accessibility.ui</key>
     <true />
     <key>com.apple.private.accessibility.accessProtectedContent</key>
@@ -76,6 +78,7 @@
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.windowmanager.external</string>
+      <string>com.apple.generativeexperiences.generativeexperiencessession</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>

@@ -3,11 +3,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>adi-client</key>
+    <string>409835401</string>
     <key>com.apple.PairingManager.Read</key>
     <true />
     <key>com.apple.PairingManager.RemovePeer</key>
     <true />
     <key>com.apple.PairingManager.Write</key>
+    <true />
+    <key>com.apple.TapToRadarKit.service-access</key>
     <true />
     <key>com.apple.amp.artwork.client</key>
     <true />
@@ -57,11 +61,23 @@
     <true />
     <key>com.apple.private.applemediaservices</key>
     <true />
+    <key>com.apple.private.appstorecomponents</key>
+    <true />
+    <key>com.apple.private.appstorecomponents.build-lockup-from-mapi-response</key>
+    <true />
+    <key>com.apple.private.appstored </key>
+    <array>
+      <string>Install</string>
+      <string>Queue</string>
+      <string>Library</string>
+    </array>
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
     <key>com.apple.private.associated-domains</key>
     <true />
     <key>com.apple.private.audio.notification-wake-audio</key>
+    <true />
+    <key>com.apple.private.biometrickit.allow-default</key>
     <true />
     <key>com.apple.private.bmk.allow</key>
     <true />
@@ -78,6 +94,8 @@
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.in-app-payments</key>
+    <true />
+    <key>com.apple.private.jetpackassetd</key>
     <true />
     <key>com.apple.private.notificationcenter-system</key>
     <array>
@@ -153,6 +171,10 @@
       <string>com.apple.sportsd.xpc</string>
       <string>com.apple.mdmclient.agent.unrestricted</string>
       <string>com.apple.mdmclient.daemon.unrestricted</string>
+      <string>com.apple.jetpackassetd.xpc</string>
+      <string>com.apple.appstored.xpc.storequeue</string>
+      <string>com.apple.appstoreagent.xpc</string>
+      <string>com.apple.appstorecomponentsd.xpc</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -161,6 +183,10 @@
     </array>
     <key>com.apple.security.personal-information.location</key>
     <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.TapToRadarKit.service</string>
+    </array>
     <key>com.apple.watchlist.private</key>
     <true />
     <key>com.apple.watchlist.private.playback-report</key>

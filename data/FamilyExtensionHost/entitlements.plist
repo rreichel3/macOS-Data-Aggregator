@@ -1,0 +1,41 @@
+<!-- Entitlements for FamilyExtensionHost.app -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
+    <key>com.apple.developer.declared-age-range</key>
+    <true />
+    <key>com.apple.family.ageRange</key>
+    <true />
+    <key>com.apple.private.contacts</key>
+    <true />
+    <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.familycircle</key>
+    <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.screentime-setup</key>
+    <true />
+    <key>com.apple.security.app-sandbox</key>
+    <true />
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.family.ageRange.xpc</string>
+      <string>com.apple.ScreenTimeAgent.Contacts</string>
+      <string>com.apple.accessibility.AXSpringBoardServer</string>
+      <string>com.apple.ScreenTimeAgent.setup</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-only</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.family.ageRange.xpc</string>
+      <string>com.apple.ScreenTimeAgent.Contacts</string>
+      <string>com.apple.accessibility.AXSpringBoardServer</string>
+      <string>com.apple.ScreenTimeAgent.setup</string>
+    </array>
+  </dict>
+</plist>

@@ -1,0 +1,11 @@
+Sandbox Analysis for Magnifier
+Application Path: /System/Applications/Utilities/Magnifier.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 39
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

@@ -4,8 +4,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.apple.GenerativePlaygroundApp.*</string>
+    </array>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleAlternateNames</key>
     <array>
       <string>Image Playground</string>
@@ -19,8 +23,10 @@
       <dict>
         <key>CFBundleTypeName</key>
         <string>Image</string>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
         <key>LSHandlerRank</key>
-        <string>None</string>
+        <string>Alternate</string>
         <key>LSItemContentTypes</key>
         <array>
           <string>public.image</string>
@@ -59,23 +65,23 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1</string>
+    <string>148.4.3.4.1</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>25E228</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E228</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.entertainment</string>
     <key>LSDefaultSystemHidden</key>
@@ -83,16 +89,13 @@
     <key>LSInstallByDefault</key>
     <false />
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
-    <key>LSRequiredFeatureFlags</key>
-    <dict>
-      <key>GenerativePlayground/App</key>
-      <true />
-    </dict>
+    <string>26.4</string>
     <key>LSSupportsOpeningDocumentsInPlace</key>
     <true />
     <key>NSAccentColorName</key>
     <string>AccentColor</string>
+    <key>NSApplicationUpdateCycleEnabled</key>
+    <true />
     <key>NSCameraUsageDescription</key>
     <string>Capture a photo to get image to modify</string>
     <key>NSHumanReadableCopyright</key>

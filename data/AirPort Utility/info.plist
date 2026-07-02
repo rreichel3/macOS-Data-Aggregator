@@ -10,7 +10,7 @@
       <string>AirPortDisk</string>
     </array>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -57,7 +57,7 @@
     <key>CFBundleExecutable</key>
     <string>AirPort Utility</string>
     <key>CFBundleGetInfoString</key>
-    <string>6.3.9, Copyright 2001 -2024 Apple Inc.</string>
+    <string>6.3.9, Copyright 2001 -2025 Apple Inc.</string>
     <key>CFBundleHelpBookFolder</key>
     <string>AirPortUtility.help</string>
     <key>CFBundleHelpBookName</key>
@@ -93,7 +93,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>639.26</string>
+    <string>639.29</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -101,23 +101,23 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E222</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>aputility</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.utilities</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2001 -2024 Apple Inc. All rights reserved.</string>
+    <string>Copyright © 2001 -2025 Apple Inc. All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>

@@ -9,6 +9,8 @@
     <true />
     <key>com.apple.developer.associated-domains</key>
     <array />
+    <key>com.apple.family.ageRange</key>
+    <true />
     <key>com.apple.intelligenceplatform.View</key>
     <true />
     <key>com.apple.payment.all-access</key>

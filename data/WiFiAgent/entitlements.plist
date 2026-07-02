@@ -33,7 +33,11 @@
     <true />
     <key>com.apple.private.corewifi.internal</key>
     <true />
+    <key>com.apple.private.corewifi.keychain</key>
+    <true />
     <key>com.apple.private.corewifi.mac-addr</key>
+    <true />
+    <key>com.apple.private.corewifi.user-agent</key>
     <true />
     <key>com.apple.private.driverkit.driver-access</key>
     <array>
@@ -59,6 +63,10 @@
       </dict>
       <dict>
         <key>identifier</key>
+        <string>com.apple.wifi.usernotifications.recommend</string>
+      </dict>
+      <dict>
+        <key>identifier</key>
         <string>com.apple.wifip2pd.UserNotification</string>
       </dict>
     </array>
@@ -68,6 +76,10 @@
     <array>
       <string>AirPort</string>
     </array>
+    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
+    <true />
+    <key>com.apple.private.security.storage.wifi</key>
+    <true />
     <key>com.apple.private.system-keychain</key>
     <true />
     <key>com.apple.private.ubiquity-kvstore-access</key>
@@ -79,6 +91,7 @@
       <string>com.apple.wifi.usernotifications.autohotspot</string>
       <string>com.apple.wifi.usernotifications.diagnostics</string>
       <string>com.apple.wifi.usernotifications.join</string>
+      <string>com.apple.wifi.usernotifications.recommend</string>
       <string>com.apple.wifip2pd.UserNotification</string>
     </array>
     <key>com.apple.private.wifi.known-networks-access</key>
@@ -87,12 +100,18 @@
     <array>
       <string>AirPort</string>
     </array>
+    <key>com.apple.security.exception.files.absolute-path.read-only</key>
+    <array>
+      <string>/private/var/db/os_eligibility/eligibility.plist</string>
+    </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
       <string>com.apple.usernotifications.usernotificationservice</string>
       <string>com.apple.usernotifications.listener</string>
       <string>com.apple.CompanionLink</string>
       <string>com.apple.coreservices.launchservicesd</string>
+      <string>com.apple.private.corewifi.user-agent-xpc</string>
+      <string>com.apple.private.corewifi.internal-xpc</string>
     </array>
     <key>com.apple.security.network.server</key>
     <true />

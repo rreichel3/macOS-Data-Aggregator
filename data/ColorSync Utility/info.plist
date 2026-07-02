@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFAppleHelpAnchor</key>
     <string>csync001</string>
     <key>CFBundleDevelopmentRegion</key>
@@ -400,7 +400,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>12.1.0</string>
+    <string>12.2.0</string>
     <key>CFBundleSignature</key>
     <string>csut</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -416,15 +416,15 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E222</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>colorsync-utility</string>
     <key>LSApplicationCategoryType</key>
@@ -432,9 +432,9 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2014–2024 Apple Inc.
+    <string>Copyright © 2014–2025 Apple Inc.
 All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>

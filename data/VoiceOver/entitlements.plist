@@ -17,12 +17,14 @@
     <string>Development</string>
     <key>com.apple.developer.icloud-container-identifiers</key>
     <array>
-      <string>com.apple.accessibility.VoiceOverPunctuation</string>
+      <string>com.apple.VoiceOver.Braille</string>
     </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
-      <string>CloudKit</string>
+      <string>CloudDocuments</string>
     </array>
+    <key>com.apple.generativeexperiences.generativeexperiencessession</key>
+    <true />
     <key>com.apple.private.SkyLight.accessibility.ui</key>
     <true />
     <key>com.apple.private.accessibility.accessProtectedContent</key>
@@ -108,6 +110,7 @@
       <string>com.apple.translationd</string>
       <string>com.apple.sociallayerd</string>
       <string>com.apple.windowmanager.external</string>
+      <string>com.apple.generativeexperiences.generativeexperiencessession</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
@@ -122,5 +125,9 @@
     <true />
     <key>com.apple.security.temporary-exception.audio-unit-host</key>
     <true />
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Accessibility/</string>
+    </array>
   </dict>
 </plist>

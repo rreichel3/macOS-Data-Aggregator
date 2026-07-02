@@ -12,6 +12,8 @@
     </dict>
     <key>com.apple.TapToRadarKit.service-access</key>
     <true />
+    <key>com.apple.accounts.appleaccount.fullaccess</key>
+    <true />
     <key>com.apple.ahp</key>
     <true />
     <key>com.apple.authorization.extract-password</key>
@@ -34,11 +36,17 @@
     <true />
     <key>com.apple.mobileactivationd.spi</key>
     <true />
+    <key>com.apple.private.AuthenticationServicesAgent.fileVaultRecoveryKeys</key>
+    <true />
     <key>com.apple.private.AuthorizationServices</key>
     <array>
       <string>com.apple.opendirectoryd.linkidentity</string>
     </array>
     <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.ExtractCredential</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.SaveExtractableCredential</key>
     <true />
     <key>com.apple.private.LocalAuthentication.Storage</key>
     <true />
@@ -55,6 +63,8 @@
     <true />
     <key>com.apple.private.SkyLight.screencapturedirect</key>
     <true />
+    <key>com.apple.private.SkyLight.user-accessibility-report</key>
+    <true />
     <key>com.apple.private.appleevents.allowedtobesystemprocess</key>
     <true />
     <key>com.apple.private.applefdekeystore.deletepassphrase</key>
@@ -65,6 +75,8 @@
     <true />
     <key>com.apple.private.aqua.createSession</key>
     <true />
+    <key>com.apple.private.backgroundtaskmanagement.manage</key>
+    <true />
     <key>com.apple.private.bmk.allow</key>
     <true />
     <key>com.apple.private.boot-time-install</key>
@@ -72,6 +84,8 @@
     <key>com.apple.private.commercekit.appstore</key>
     <true />
     <key>com.apple.private.configurationprofiles.bootstraptoken.readonly</key>
+    <true />
+    <key>com.apple.private.controlcenter.controlcentermodule</key>
     <true />
     <key>com.apple.private.coreservices.canmanagebackgroundtasks</key>
     <true />
@@ -93,9 +107,13 @@
     <true />
     <key>com.apple.private.launchservices.allowedtosetconnection.csuiagent</key>
     <true />
+    <key>com.apple.private.launchservices.quithandler</key>
+    <true />
     <key>com.apple.private.logind.spi</key>
     <true />
     <key>com.apple.private.managedclient.configurationprofiles</key>
+    <true />
+    <key>com.apple.private.mobileinboxupdater.xpc</key>
     <true />
     <key>com.apple.private.netfs.server.control</key>
     <true />
@@ -106,9 +124,13 @@
         <string>com.apple.loginwindow</string>
       </dict>
     </array>
+    <key>com.apple.private.octagon</key>
+    <true />
     <key>com.apple.private.opendirectoryd.BootstrapToken</key>
     <true />
     <key>com.apple.private.opendirectoryd.identity</key>
+    <true />
+    <key>com.apple.private.opendirectoryd.securetoken</key>
     <true />
     <key>com.apple.private.platformsso.agent</key>
     <true />
@@ -124,6 +146,10 @@
     <true />
     <key>com.apple.private.security.nvram.recovery-boot-mode</key>
     <true />
+    <key>com.apple.private.security.restricted-application-groups</key>
+    <array>
+      <string>group.com.apple.loginwindow.persistent-apps</string>
+    </array>
     <key>com.apple.private.security.storage.Trash</key>
     <true />
     <key>com.apple.private.security.storage.universalaccess</key>
@@ -150,12 +176,35 @@
     </array>
     <key>com.apple.private.wallpaper</key>
     <true />
+    <key>com.apple.private.xpc.launchd.job-manager</key>
+    <array>
+      <string>com.apple.loginwindow</string>
+    </array>
+    <key>com.apple.private.xpc.launchd.job-manager-remove-any</key>
+    <true />
     <key>com.apple.private.xpc.launchd.service-hold</key>
     <true />
     <key>com.apple.rootless.xpc.effective-root</key>
     <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
     <key>com.apple.securebackupd.access</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.loginwindow.persistent-apps</string>
+    </array>
+    <key>com.apple.security.exception.process-info-listpids</key>
+    <true />
+    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.CoreAuthentication.daemon.libxpc</string>
+      <string>com.apple.mdmclient.daemon</string>
+      <string>com.apple.security.octagon</string>
+      <string>com.apple.AuthenticationServices.AuthenticationServicesAgent.FileVaultRecoveryKeys</string>
+    </array>
+    <key>com.apple.security.temporary-exception.sbpl</key>
+    <string>(allow process-info-listpids)</string>
     <key>com.apple.selectivesharing.session_system</key>
     <true />
     <key>com.apple.selectivesharing.system</key>

@@ -3,7 +3,7 @@ Application Path: /System/Applications/Music.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 53
+Entitlements Count: 62
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

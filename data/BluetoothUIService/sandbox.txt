@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/BluetoothUIService.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 8
+Entitlements Count: 12
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
