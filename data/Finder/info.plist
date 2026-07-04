@@ -10,7 +10,7 @@
       <string>com.apple.coreservices.appleidauthentication.keychainaccessgroup</string>
     </array>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -179,7 +179,7 @@
     <key>CFBundlePackageType</key>
     <string>FNDR</string>
     <key>CFBundleShortVersionString</key>
-    <string>26.4</string>
+    <string>15.5</string>
     <key>CFBundleSignature</key>
     <string>MACS</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -241,25 +241,25 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1828.4.10</string>
+    <string>1732.6.4.2</string>
     <key>CSResourcesFileMapped</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E224</string>
+    <string>24G701s</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E224</string>
+    <string>24G701s</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>INAlternativeAppNames</key>
     <array>
       <dict>
@@ -280,7 +280,7 @@
     <key>LSLaunchDLabel</key>
     <string>com.apple.Finder</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>LSProcessControlValue</key>
     <string>None</string>
     <key>LSRequiresNativeExecution</key>
@@ -375,24 +375,6 @@
     </array>
     <key>OSAScriptingDefinition</key>
     <string>Finder.sdef</string>
-    <key>UNUserNotificationCenter</key>
-    <dict>
-      <key>UNAutomaticallyShowSettings</key>
-      <true />
-      <key>UNDefaultSettings</key>
-      <dict>
-        <key>UNSettingAlerts</key>
-        <true />
-        <key>UNSettingBadges</key>
-        <true />
-        <key>UNSettingNotificationCenter</key>
-        <true />
-        <key>UNSettingSounds</key>
-        <true />
-      </dict>
-      <key>UNSuppressUserAuthorizationPrompt</key>
-      <true />
-    </dict>
     <key>UTExportedTypeDeclarations</key>
     <array>
       <dict>

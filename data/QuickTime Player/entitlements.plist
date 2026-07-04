@@ -17,15 +17,9 @@
     </array>
     <key>com.apple.private.avkit.qtpx</key>
     <true />
-    <key>com.apple.private.coreaudio.mxsessionPropertyPipe</key>
-    <true />
     <key>com.apple.private.fpsd.client</key>
     <true />
-    <key>com.apple.private.mediaexperience.smartRoutingScore.allow</key>
-    <true />
     <key>com.apple.private.screencapturekit.noprompt</key>
-    <true />
-    <key>com.apple.private.screencapturekit.systemRecording</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
     <array>

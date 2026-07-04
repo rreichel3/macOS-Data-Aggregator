@@ -9,8 +9,6 @@
     <true />
     <key>com.apple.PairingManager.Write</key>
     <true />
-    <key>com.apple.TapToRadarKit.service-access</key>
-    <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
     <key>com.apple.accounts.appleidauthentication.defaultaccess</key>
@@ -41,8 +39,6 @@
     </array>
     <key>com.apple.icloud.findmydeviced.access</key>
     <true />
-    <key>com.apple.keystore.device.smart-card</key>
-    <true />
     <key>com.apple.keystore.filevault</key>
     <true />
     <key>com.apple.keystore.sik.access</key>
@@ -69,8 +65,6 @@
     <true />
     <key>com.apple.payment.all-access</key>
     <true />
-    <key>com.apple.private.AppSSO.extensionhost</key>
-    <true />
     <key>com.apple.private.AuthorizationServices</key>
     <array>
       <string>system.services.systemconfiguration.network</string>
@@ -83,13 +77,7 @@
     <true />
     <key>com.apple.private.DKHelperDaemon</key>
     <true />
-    <key>com.apple.private.LocalAuthentication.CallerName</key>
-    <true />
-    <key>com.apple.private.LocalAuthentication.ContextData.ExtendedMaxAge</key>
-    <true />
     <key>com.apple.private.LocalAuthentication.ExtractCredential</key>
-    <true />
-    <key>com.apple.private.LocalAuthentication.SaveExtractableCredential</key>
     <true />
     <key>com.apple.private.LocalAuthentication.Storage</key>
     <true />
@@ -115,8 +103,6 @@
     </array>
     <key>com.apple.private.assets.accessible-asset-types</key>
     <array>
-      <string>com.apple.MobileAsset.VoiceTriggerAssets</string>
-      <string>com.apple.MobileAsset.SetupAssistantNewFeaturesIntroduction</string>
       <string>com.apple.MobileAsset.UAF.Siri.Understanding</string>
       <string>com.apple.MobileAsset.VoiceTriggerAssetsMac</string>
     </array>
@@ -141,8 +127,6 @@
     <key>com.apple.private.contacts</key>
     <true />
     <key>com.apple.private.contactsui</key>
-    <true />
-    <key>com.apple.private.coreservices.canmaplsdatabase</key>
     <true />
     <key>com.apple.private.coreservices.lsuseractivityd.LSAlwaysPick</key>
     <true />
@@ -177,8 +161,6 @@
     <true />
     <key>com.apple.private.kernel.system-override</key>
     <true />
-    <key>com.apple.private.logging.preferences</key>
-    <true />
     <key>com.apple.private.managedclient.configurationprofiles</key>
     <true />
     <key>com.apple.private.managedclient.configurationprofiles.installsource</key>
@@ -202,13 +184,7 @@
     <true />
     <key>com.apple.private.opendirectoryd.securetoken</key>
     <true />
-    <key>com.apple.private.platformsso.agent</key>
-    <true />
-    <key>com.apple.private.platformsso.passwordchange</key>
-    <true />
     <key>com.apple.private.remotemanagement.enrollment</key>
-    <true />
-    <key>com.apple.private.screen-time</key>
     <true />
     <key>com.apple.private.security.storage.os_eligibility.readonly</key>
     <true />
@@ -243,8 +219,6 @@
       <string>kTCCServiceMicrophone</string>
       <string>kTCCServiceLiverpool</string>
     </array>
-    <key>com.apple.private.tips.allow</key>
-    <true />
     <key>com.apple.private.usernotifications.settings</key>
     <array>
       <string>read</string>
@@ -252,11 +226,7 @@
     </array>
     <key>com.apple.private.wallpaper</key>
     <true />
-    <key>com.apple.private.xpc.launchd.per-user-lookup</key>
-    <true />
     <key>com.apple.rootless.storage.CoreSpeech</key>
-    <true />
-    <key>com.apple.rootless.storage.ExtensibleSSO</key>
     <true />
     <key>com.apple.rootless.storage.SystemMigration</key>
     <true />
@@ -265,7 +235,6 @@
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.CoreSpeech</string>
-      <string>group.com.apple.VoiceOver</string>
     </array>
     <key>com.apple.security.attestation.access</key>
     <true />
@@ -273,18 +242,13 @@
     <true />
     <key>com.apple.security.device.microphone</key>
     <true />
-    <key>com.apple.security.exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/private/var/db/assetsubscriptiond/</string>
-    </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.seserviced.storage-management-presentation</string>
       <string>com.apple.ind.cloudfeatures</string>
       <string>com.apple.siri.uaf.service</string>
-      <string>com.apple.siri.uaf.subscription.service</string>
-      <string>com.apple.system.opendirectoryd.api</string>
       <string>com.apple.usernoted.prefs</string>
+      <string>com.apple.system.opendirectoryd.api</string>
+      <string>com.apple.siri.uaf.subscription.service</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -306,18 +270,10 @@
       <string>com.apple.remoted</string>
       <string>com.apple.speech.synthesis.SpeakingHotKeyPort</string>
       <string>com.apple.SharingServices</string>
-      <string>com.apple.PlatformSSO.daemon-xpc</string>
-      <string>com.apple.AppSSO.service-xpc</string>
-      <string>com.apple.PlatformSSO.login.service-xpc</string>
-      <string>com.apple.PlatformSSO.service-xpc</string>
-      <string>com.apple.lsd.mapdb</string>
-      <string>com.apple.TapToRadarKit.service</string>
     </array>
     <key>com.apple.seeding.client-helper</key>
     <true />
     <key>com.apple.seld.tsmmanager</key>
-    <true />
-    <key>com.apple.seserviced.storage-management</key>
     <true />
     <key>com.apple.sharing.Client</key>
     <true />
@@ -341,10 +297,6 @@
     <true />
     <key>com.apple.wifi.events.private</key>
     <true />
-    <key>com.apple.wifi.keychain</key>
-    <true />
-    <key>com.apple.wifi.restore_join_configuration</key>
-    <true />
     <key>com.apple.wifi.scan</key>
     <true />
     <key>com.apple.wifi.scan.live</key>
@@ -359,8 +311,6 @@
       <string>com.apple.loginwindow.minibuddyitem</string>
       <string>com.apple.corespeech</string>
       <string>apple</string>
-      <string>com.apple.PlatformSSO</string>
-      <string>com.apple.PlatformSSO.auth</string>
     </array>
   </dict>
 </plist>

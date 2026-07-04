@@ -23,13 +23,9 @@
     <true />
     <key>com.apple.private.corewifi</key>
     <true />
-    <key>com.apple.private.mediaexperience.smartRoutingScore.allow</key>
-    <true />
     <key>com.apple.private.network.socket-delegate</key>
     <true />
     <key>com.apple.private.notificationcenter.preferences</key>
-    <true />
-    <key>com.apple.private.octagon</key>
     <true />
     <key>com.apple.private.replicator.controller</key>
     <true />
@@ -55,8 +51,6 @@
     <array>
       <string>/private/var/db/os_eligibility/eligibility.plist</string>
       <string>/Library/Managed Preferences/</string>
-      <string>/Library/Preferences/</string>
-      <string>/private/var/db/ConfigurationProfiles/Settings/.deviceConfigurationBits</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
@@ -71,7 +65,6 @@
       <string>com.apple.server.bluetooth.le.att.xpc</string>
       <string>com.apple.usernotifications.settings-vendor</string>
       <string>com.apple.rtcreportingd</string>
-      <string>com.apple.security.octagon</string>
     </array>
     <key>com.apple.videoconference.allow-conferencing</key>
     <true />

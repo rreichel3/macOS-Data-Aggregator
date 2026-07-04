@@ -9,8 +9,6 @@
     <string>1134096173</string>
     <key>aps-connection-initiate</key>
     <true />
-    <key>com.apple.AudioAccessoryAssetManagement</key>
-    <true />
     <key>com.apple.AutoWake-write-access</key>
     <true />
     <key>com.apple.CallHistory.sync.allow</key>
@@ -64,15 +62,6 @@
     <array>
       <string>access-calls</string>
     </array>
-    <key>com.apple.callintelligenced</key>
-    <array>
-      <string>smart-holding</string>
-    </array>
-    <key>com.apple.communicationtrustd</key>
-    <array>
-      <string>read</string>
-      <string>write</string>
-    </array>
     <key>com.apple.coreaudio.allow-amr-decode</key>
     <true />
     <key>com.apple.coreaudio.allow-opus-codec</key>
@@ -89,10 +78,6 @@
     <array />
     <key>com.apple.developer.healthkit</key>
     <true />
-    <key>com.apple.developer.sensitivecontentanalysis.client</key>
-    <array>
-      <string>analysis</string>
-    </array>
     <key>com.apple.developer.usernotifications.communication</key>
     <true />
     <key>com.apple.facetimemessagestored.service</key>
@@ -116,8 +101,6 @@
     <key>com.apple.itunesstored.private</key>
     <true />
     <key>com.apple.media.ringtones.read-only</key>
-    <true />
-    <key>com.apple.mediaanalysisd.client</key>
     <true />
     <key>com.apple.mobilemail.mailservices</key>
     <true />
@@ -211,20 +194,6 @@
     <true />
     <key>com.apple.private.imcore.spi.database-access</key>
     <true />
-    <key>com.apple.private.intelligenceplatform.use-cases</key>
-    <dict>
-      <key>TranslationLanguageDonation</key>
-      <dict>
-        <key>Streams</key>
-        <dict>
-          <key>Translation.Communication.LanguageCode</key>
-          <dict>
-            <key>mode</key>
-            <string>read-write</string>
-          </dict>
-        </dict>
-      </dict>
-    </dict>
     <key>com.apple.private.interstellar.data-access</key>
     <string>collaborations</string>
     <key>com.apple.private.iokit.darkwake-control</key>
@@ -237,14 +206,8 @@
       <string>facetime-group</string>
       <string>facetime-open-link</string>
     </array>
-    <key>com.apple.private.managed-settings.effective-read</key>
-    <true />
     <key>com.apple.private.messages.collaboration-initiate-send</key>
     <true />
-    <key>com.apple.private.notificationcenterui.nchostable</key>
-    <array>
-      <string>com.apple.mobilephone</string>
-    </array>
     <key>com.apple.private.persona.read</key>
     <true />
     <key>com.apple.private.persona.write</key>
@@ -264,22 +227,13 @@
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
       <string>group.com.apple.ManagedSettings</string>
-      <string>group.com.apple.FaceTime</string>
     </array>
     <key>com.apple.private.security.storage.CallHistory</key>
     <true />
     <key>com.apple.private.security.storage.MessagesMetaData</key>
     <true />
-    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
-    <true />
     <key>com.apple.private.security.system-application</key>
     <true />
-    <key>com.apple.private.sensitivecontentanalysis.client</key>
-    <array>
-      <string>analyze</string>
-      <string>analysis-history-read</string>
-      <string>analysis-history-write</string>
-    </array>
     <key>com.apple.private.shared-with-you.on-screen-content</key>
     <true />
     <key>com.apple.private.skylight.unconditional-activation</key>
@@ -308,25 +262,13 @@
     </array>
     <key>com.apple.private.tipsd.discoverability</key>
     <true />
-    <key>com.apple.private.translation</key>
-    <true />
     <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
     <array>
       <string>com.apple.tipsd</string>
     </array>
-    <key>com.apple.rootless.storage.remotemanagementd</key>
-    <true />
-    <key>com.apple.runningboard.assertions.angeltarget</key>
-    <true />
-    <key>com.apple.runningboard.assertions.frontboard</key>
-    <true />
     <key>com.apple.runningboard.facetime</key>
     <true />
-    <key>com.apple.runningboard.launchprocess</key>
-    <true />
     <key>com.apple.runningboard.posterkit.host</key>
-    <true />
-    <key>com.apple.runningboard.trustedtarget</key>
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
@@ -334,16 +276,11 @@
     <array>
       <string>group.com.apple.ManagedSettings</string>
       <string>group.com.apple.tipsnext</string>
-      <string>group.com.apple.FaceTime</string>
     </array>
     <key>com.apple.security.device.camera</key>
     <true />
     <key>com.apple.security.device.microphone</key>
     <true />
-    <key>com.apple.security.exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/private/var/db/os_eligibility/eligibility.plist</string>
-    </array>
     <key>com.apple.security.exception.files.absolute-path.read-write</key>
     <array>
       <string>/private/var/tmp/com.apple.messages/</string>
@@ -356,7 +293,6 @@
       <string>/Media/Purchases/</string>
       <string>/Media/iTunes_Control/Ringtones/</string>
       <string>/Library/MessagesMetaData/NickNameCache/</string>
-      <string>/Library/Messages/NickNameCache/</string>
       <string>/Library/CallServices/</string>
       <string>/Library/Preferences/com.apple.facetime.bag.plist</string>
     </array>
@@ -366,15 +302,10 @@
       <string>/Library/Preferences/com.apple.mobilephone.speeddial.plist</string>
       <string>/Library/Preferences/com.apple.PeoplePicker.plist</string>
       <string>/Library/ContactsMetadata/</string>
-      <string>/Media/Purchases/</string>
     </array>
     <key>com.apple.security.exception.iokit-user-client-class</key>
     <array>
       <string>RootDomainUserClient</string>
-    </array>
-    <key>com.apple.security.exception.mach-lookup.global-name</key>
-    <array>
-      <string>com.apple.contacts.poster.api</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -393,7 +324,6 @@
       <string>com.apple.messages.nicknames</string>
       <string>com.apple.FaceTime</string>
       <string>com.apple.security</string>
-      <string>com.apple.SensitiveContentAnalysis</string>
     </array>
     <key>com.apple.security.files.bookmarks.app-scope</key>
     <true />
@@ -414,7 +344,6 @@
       <string>/Library/Preferences/com.apple.applepushserviced.plist</string>
       <string>/Library/Preferences/com.apple.apsd.plist</string>
       <string>/AppleInternal/Library/Monaco/Environments.plist</string>
-      <string>/private/var/db/com.apple.countryd/countryCodeCache.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
     <array>
@@ -427,19 +356,11 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.avatarsd</string>
-      <string>com.apple.avatar.support</string>
-      <string>com.apple.avatar.service</string>
-      <string>com.apple.notificationcenterui.customalerts</string>
-      <string>com.apple.SensitiveContentAnalysis.analysishistory</string>
       <string>com.apple.appprotectiond.read</string>
       <string>com.apple.containermanagerd</string>
       <string>com.apple.replaykit.sharingsession.notification</string>
       <string>com.apple.replaykit.sharingsession</string>
       <string>com.apple.corerecents.recentsd</string>
-      <string>com.apple.ScreenTimeAgent</string>
-      <string>com.apple.ScreenTimeAgent.communication</string>
-      <string>com.apple.ManagedSettingsAgent</string>
       <string>com.apple.ManagedSettingsAgent.publisher</string>
       <string>com.apple.coreduetd.people</string>
       <string>com.apple.coreduetd.knowledge</string>
@@ -463,7 +384,6 @@
       <string>com.apple.telephonyutilities.callservicesdaemon.callhistorycontroller</string>
       <string>com.apple.idsremoteurlconnectionagent.embedded.auth</string>
       <string>com.apple.suggestd.contacts</string>
-      <string>com.apple.communicationtrustd.service</string>
       <string>com.apple.ak.auth.xpc</string>
       <string>com.apple.absd</string>
       <string>com.apple.absinthed</string>
@@ -482,13 +402,6 @@
       <string>com.apple.distributed_notifications</string>
       <string>com.apple.photolibraryd</string>
       <string>com.apple.CalendarAgent.proxy</string>
-      <string>com.apple.translationd</string>
-      <string>com.apple.AudioAccessoryAssetManagementXPCService</string>
-      <string>com.apple.callintelligenced.service</string>
-      <string>com.apple.biome.access.user</string>
-      <string>com.apple.biome.compute.source</string>
-      <string>com.apple.biome.compute.publisher.service.user</string>
-      <string>com.apple.mediaanalysisd.analysis</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -513,7 +426,6 @@
       <string>com.apple.communicationSafetySettings</string>
       <string>com.apple.applicationaccess</string>
       <string>com.apple.security</string>
-      <string>com.apple.ironwood.support</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
@@ -527,8 +439,6 @@
       <string>com.apple.TelephonyUtilities</string>
       <string>com.apple.Accessibility</string>
     </array>
-    <key>com.apple.sensitivecontentanalysis.intervention.host</key>
-    <true />
     <key>com.apple.springboard.allowallcallurls</key>
     <true />
     <key>com.apple.springboard.opensensitiveurl</key>
@@ -557,23 +467,12 @@
     <array>
       <string>modify-calls</string>
       <string>access-calls</string>
-      <string>background-calls</string>
       <string>access-call-providers</string>
       <string>access-call-capabilities</string>
       <string>modify-call-capabilities</string>
       <string>screen-sharing-remote-control</string>
       <string>access-media-priorities</string>
       <string>access-participant-reactions</string>
-      <string>screen-calls</string>
-      <string>access-screen-calls</string>
-      <string>record-calls</string>
-      <string>translate-calls</string>
-      <string>smart-holding</string>
-    </array>
-    <key>com.apple.usersafety.service</key>
-    <array>
-      <string>contacts</string>
-      <string>videoVoiceMail</string>
     </array>
     <key>com.apple.videoconference.allow-conferencing</key>
     <true />

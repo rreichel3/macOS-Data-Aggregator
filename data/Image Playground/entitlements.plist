@@ -5,6 +5,8 @@
   <dict>
     <key>application-identifier</key>
     <string>com.apple.GenerativePlaygroundApp</string>
+    <key>com.apple.VE.CVCalibration.client</key>
+    <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.GenerativePlaygroundApp</string>
     <key>com.apple.appprotectiond.guard.access</key>
@@ -17,15 +19,12 @@
     <array>
       <string>com.apple.mobileslideshow</string>
       <string>com.apple.Photos</string>
-      <string>com.apple.Stickers</string>
     </array>
     <key>com.apple.duet.activityscheduler.allow</key>
     <true />
     <key>com.apple.generativeexperiences.availabilityService</key>
     <true />
     <key>com.apple.generativeexperiences.availabilityService.waitlistStatus</key>
-    <true />
-    <key>com.apple.generativeexperiences.generativeexperiencessession</key>
     <true />
     <key>com.apple.generativeexperiences.summarization</key>
     <true />
@@ -45,6 +44,10 @@
     <true />
     <key>com.apple.photos.bourgeoisie</key>
     <true />
+    <key>com.apple.private.arkit.authorization</key>
+    <array>
+      <string>worldTracking</string>
+    </array>
     <key>com.apple.private.assets.accessible-asset-types</key>
     <array>
       <string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
@@ -61,10 +64,6 @@
       <string>GenerativeModels.GenerativeFunctions.Instrumentation</string>
     </array>
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
-    <true />
-    <key>com.apple.private.corespotlight.internal</key>
-    <true />
-    <key>com.apple.private.corespotlight.search.internal</key>
     <true />
     <key>com.apple.private.feedback.drafting</key>
     <true />
@@ -106,6 +105,11 @@
     <true />
     <key>com.apple.private.photos.service.librarymanagement</key>
     <true />
+    <key>com.apple.private.security.arkit</key>
+    <array>
+      <string>allowImmersiveExemption</string>
+      <string>allowBackgroundPoseData</string>
+    </array>
     <key>com.apple.private.security.container-required</key>
     <true />
     <key>com.apple.private.security.storage.MobileAssetGenerativeModels</key>
@@ -116,8 +120,6 @@
     <true />
     <key>com.apple.private.security.system-application</key>
     <true />
-    <key>com.apple.private.stickers</key>
-    <true />
     <key>com.apple.private.tcc.allow</key>
     <array>
       <string>kTCCServicePhotos</string>
@@ -127,6 +129,8 @@
     <array>
       <string>kTCCServiceCamera</string>
     </array>
+    <key>com.apple.sage.summarization</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.application-groups</key>
@@ -163,9 +167,7 @@
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.stickers.recency</string>
       <string>com.apple.photos.ImageConversionService</string>
-      <string>com.apple.stickers.api</string>
       <string>com.apple.assistant.cdm</string>
       <string>com.apple.modelmanager</string>
       <string>com.apple.modelcatalog.catalog</string>
@@ -188,7 +190,8 @@
       <string>com.apple.ind.cloudfeatures</string>
       <string>com.apple.duetactivityscheduler</string>
       <string>com.apple.biome.access.user</string>
-      <string>com.apple.generativeexperiences.generativeexperiencessession</string>
+      <string>com.apple.realitysimulation.apps</string>
+      <string>com.apple.ve.cvcalibrationd.xpc</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -197,18 +200,8 @@
       <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
       <string>com.apple.gms.availability</string>
       <string>kCFPreferencesAnyApplication</string>
-      <string>com.apple.anvil</string>
-      <string>com.apple.modelcatalog.catalog</string>
-    </array>
-    <key>com.apple.security.exception.shared-preference.read-write</key>
-    <array>
-      <string>com.apple.generativepartnerservicesettings</string>
-      <string>com.apple.siri.generativeassistantsettings</string>
-      <string>com.apple.anvil</string>
     </array>
     <key>com.apple.security.files.user-selected.read-only</key>
-    <true />
-    <key>com.apple.security.files.user-selected.read-write</key>
     <true />
     <key>com.apple.security.iokit-user-client-class</key>
     <array>
@@ -216,10 +209,6 @@
       <string>AGXDeviceUserClient</string>
     </array>
     <key>com.apple.security.network.client</key>
-    <true />
-    <key>com.apple.security.personal-information.addressbook</key>
-    <true />
-    <key>com.apple.security.print</key>
     <true />
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
     <array>
@@ -243,7 +232,6 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.stickers.api</string>
       <string>com.apple.assistant.cdm</string>
       <string>com.apple.modelmanager</string>
       <string>com.apple.modelcatalog.catalog</string>
@@ -261,9 +249,6 @@
       <string>com.apple.duetactivityscheduler</string>
       <string>com.apple.ind.cloudfeatures</string>
       <string>com.apple.biome.access.user</string>
-      <string>com.apple.stickers.recency</string>
-      <string>com.apple.stickers.api</string>
-      <string>com.apple.generativeexperiences.generativeexperiencessession</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
@@ -272,30 +257,10 @@
       <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
       <string>com.apple.gms.availability</string>
       <string>kCFPreferencesAnyApplication</string>
-      <string>com.apple.anvil</string>
-      <string>com.apple.modelcatalog.catalog</string>
-    </array>
-    <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
-    <array>
-      <string>com.apple.generativepartnerservicesettings</string>
-      <string>com.apple.siri.generativeassistantsettings</string>
-      <string>com.apple.anvil</string>
-      <string>com.apple.EmojiPreferences</string>
     </array>
     <key>com.apple.spotlight.photos.entitledattributes</key>
     <true />
     <key>com.apple.springboard.opensensitiveurl</key>
     <true />
-    <key>com.apple.trial.client</key>
-    <array>
-      <string>SIML_ADM_PERSONALIZATION</string>
-      <string>SIML_ADM_PERSONALIZATION_GP</string>
-    </array>
-    <key>com.apple.vfx-provider</key>
-    <true />
-    <key>keychain-access-groups</key>
-    <array>
-      <string>com.apple.openai</string>
-    </array>
   </dict>
 </plist>

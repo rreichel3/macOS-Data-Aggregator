@@ -590,7 +590,7 @@
 				<cocoa key="isRead"/>
 			</property>
 			<property name="message id" code="meid" type="text" access="r" description="The unique message ID string">
-				<cocoa key="scriptedMessageIDHeader"/>
+				<cocoa key="messageIDHeader"/>
 			</property>
 			<property name="source" code="raso" type="text" access="r" description="Raw source of the message">
 				<cocoa key="rawSource"/>

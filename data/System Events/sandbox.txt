@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/System Events.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 4
+Entitlements Count: 3
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

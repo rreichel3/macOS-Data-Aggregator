@@ -1,0 +1,8 @@
+Code Signing Information for Launchpad
+Application Path: /System/Applications/Launchpad.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

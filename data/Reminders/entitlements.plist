@@ -27,10 +27,6 @@
       <string>com.apple.reminders</string>
       <string>com.apple.reminders.fdb</string>
     </array>
-    <key>com.apple.developer.icloud-extended-share-access</key>
-    <array>
-      <string>InProcessShareOwnerParticipantInfo</string>
-    </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
       <string>CloudKit</string>
@@ -54,8 +50,6 @@
     <key>com.apple.private.corerecents</key>
     <true />
     <key>com.apple.private.coreservices.canopenactivity</key>
-    <true />
-    <key>com.apple.private.feedback.drafting</key>
     <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
@@ -121,7 +115,6 @@
       <string>com.apple.remindd.userInteractive</string>
       <string>com.apple.suggestd.reminders</string>
       <string>com.apple.chrono.widgetcenterconnection</string>
-      <string>com.apple.stickers.recency</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
