@@ -5,11 +5,14 @@
   <dict>
     <key>com.apple.coremedia.allow-protected-content-playback</key>
     <true />
+    <key>com.apple.frontboard.launchapplications</key>
+    <true />
     <key>com.apple.itunesstored.private</key>
     <true />
     <key>com.apple.private.appintents-bundle-absolute-paths</key>
     <array>
       <string>/System/Library/PrivateFrameworks/MobileTimerSupport.framework</string>
+      <string>/System/Library/PrivateFrameworks/ClockAppIntentsSupport.framework</string>
     </array>
     <key>com.apple.private.appshortcuts-allow-omit-appname</key>
     <true />

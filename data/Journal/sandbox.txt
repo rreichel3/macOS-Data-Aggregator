@@ -1,0 +1,11 @@
+Sandbox Analysis for Journal
+Application Path: /System/Applications/Journal.app
+
+Sandboxed: No
+Sandbox Type: Unknown
+Entitlements Count: 60
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- System application

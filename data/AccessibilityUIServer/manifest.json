@@ -1,0 +1,25 @@
+{
+  "name": "AccessibilityUIServer",
+  "path": "/System/Library/CoreServices/AccessibilityUIServer.app",
+  "sdef_count": 0,
+  "has_icon": true,
+  "icon_path": "icon.png",
+  "codesign": {
+    "signature_status": "Valid",
+    "authority": "Unknown",
+    "identifier": "not set",
+    "team_identifier": "Unknown",
+    "sealed_resources": "Yes",
+    "error": null
+  },
+  "sandbox": {
+    "sandboxed": "Unknown",
+    "sandbox_type": "Unknown",
+    "entitlements_count": "180",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
+    "analysis_notes": [
+      "Background app (LSUIElement)"
+    ]
+  }
+}

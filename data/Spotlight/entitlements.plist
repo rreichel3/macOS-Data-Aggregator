@@ -49,6 +49,8 @@
     </array>
     <key>com.apple.linkd.registry</key>
     <true />
+    <key>com.apple.linkd.transcript.privileged</key>
+    <true />
     <key>com.apple.locationd.activity</key>
     <true />
     <key>com.apple.locationd.effective_bundle</key>
@@ -252,6 +254,8 @@
     <array>
       <string>com.apple.tipsd</string>
     </array>
+    <key>com.apple.proactive.AppPrediction.predictions</key>
+    <true />
     <key>com.apple.proactive.PersonalizationPortrait.Contact</key>
     <true />
     <key>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</key>
@@ -295,11 +299,25 @@
       <string>com.apple.StatusKit.subscribe</string>
       <string>com.apple.ScreenTimeAgent.downtime</string>
       <string>com.apple.coreduetd.knowledge</string>
+      <string>com.apple.intelligenceflow.context</string>
+      <string>com.apple.biome.access.system</string>
+      <string>com.apple.proactive.AppPrediction.predictions</string>
+      <string>com.apple.email.maild</string>
+    </array>
+    <key>com.apple.security.exception.shared-preference.read-only</key>
+    <array>
+      <string>com.apple.assistant.settings</string>
+      <string>com.apple.generativepartnerservicesettings</string>
+      <string>com.apple.siri.generativeassistantsettings</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.AppStoreComponents</string>
     </array>
+    <key>com.apple.security.hardened-process</key>
+    <true />
+    <key>com.apple.security.hardened-process.checked-allocations</key>
+    <true />
     <key>com.apple.security.network.client</key>
     <true />
     <key>com.apple.security.personal-information.addressbook</key>
@@ -336,6 +354,9 @@
       <string>com.apple.StatusKit.subscribe</string>
       <string>com.apple.ScreenTimeAgent.downtime</string>
       <string>com.apple.sleepd.sleepserver</string>
+      <string>com.apple.toolbox.indexing-service</string>
+      <string>com.apple.biome.compute.publisher.service.user</string>
+      <string>com.apple.proactive.client.predictions</string>
     </array>
     <key>com.apple.shortcuts.background-running</key>
     <true />
@@ -346,6 +367,8 @@
     <key>com.apple.siri.VoiceShortcuts.xpc</key>
     <true />
     <key>com.apple.spotlight.photos.entitledattributes</key>
+    <true />
+    <key>com.apple.toolkit.request-reindex.allow</key>
     <true />
     <key>com.apple.watchlist.private</key>
     <true />

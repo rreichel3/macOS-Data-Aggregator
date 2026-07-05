@@ -3,7 +3,7 @@ Application Path: /System/Applications/Utilities/Activity Monitor.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 7
+Entitlements Count: 11
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

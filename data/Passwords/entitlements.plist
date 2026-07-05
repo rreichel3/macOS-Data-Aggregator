@@ -42,6 +42,10 @@
     <string>com.apple.Passwords</string>
     <key>com.apple.private.appstorecomponents.media-client-version</key>
     <string>1</string>
+    <key>com.apple.private.associated-domains</key>
+    <true />
+    <key>com.apple.private.backgroundtaskmanagement.manage</key>
+    <true />
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
     <true />
     <key>com.apple.private.corewifi</key>
@@ -53,6 +57,8 @@
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.imcore.imagent</key>
+    <true />
+    <key>com.apple.private.keychain.inet_expansion_fields</key>
     <true />
     <key>com.apple.private.keychain.kcsharing.client</key>
     <true />
@@ -83,6 +89,10 @@
     <array>
       <string>/Library/Safari/AutoFillQuirks.plist</string>
     </array>
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
+    <array>
+      <string>com.apple.SharedWebCredentials</string>
+    </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.AppStoreComponents</string>
@@ -110,6 +120,8 @@
     <array>
       <string>com.apple.security.octagon</string>
       <string>com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.CredentialExchange</string>
+      <string>com.apple.AuthenticationServices.AutoFill</string>
+      <string>com.apple.backgroundtaskmanagement</string>
       <string>com.apple.Safari.PasswordBreachHelper</string>
       <string>com.apple.Safari.History.Service</string>
       <string>com.apple.security.kcsharing</string>
@@ -123,6 +135,7 @@
       <string>com.apple.appstorecomponentsd.xpc</string>
       <string>com.apple.private.corewifi-xpc</string>
       <string>com.apple.cdp.daemon</string>
+      <string>com.apple.ak.privateemail.xpc</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -153,6 +166,8 @@
       <string>com.apple.webkit.webauthn.testing</string>
       <string>com.apple.password-manager.website-metadata</string>
       <string>com.apple.password-manager.website-metadata.testing</string>
+      <string>com.apple.Passwords.LocalState</string>
+      <string>com.apple.Passwords.LocalState.testing</string>
       <string>com.apple.sharing.safaripasswordsharing</string>
       <string>com.apple.sharing.safaripasswordsharing.testing</string>
       <string>com.apple.safari.history</string>
@@ -169,6 +184,8 @@
       <string>com.apple.password-manager.personal-recently-deleted.testing</string>
       <string>com.apple.password-manager.generated-passwords</string>
       <string>com.apple.password-manager.generated-passwords.testing</string>
+      <string>com.apple.password-manager.password-evaluations</string>
+      <string>com.apple.password-manager.password-evaluations.testing</string>
     </array>
   </dict>
 </plist>

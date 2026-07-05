@@ -126,12 +126,6 @@
     <array>
       <string>group.com.apple.usernoted</string>
     </array>
-    <key>com.apple.security.files.downloads.read-only</key>
-    <true />
-    <key>com.apple.security.files.user-selected.read-only</key>
-    <true />
-    <key>com.apple.security.files.user-selected.read-write</key>
-    <true />
     <key>com.apple.security.personal-information.addressbook</key>
     <true />
     <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
@@ -144,6 +138,7 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.SystemBannerService</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
       <string>com.apple.ProactiveSummarization.server</string>
       <string>com.apple.biome.access.user</string>
@@ -171,13 +166,8 @@
     <array>
       <string>com.apple.widget-observation</string>
       <string>com.apple.notificationcenterui.siri</string>
-      <string>com.apple.chrono.widgetcenterconnection</string>
-      <string>com.apple.chronoservices</string>
       <string>com.apple.notificationcenterui.menu</string>
-      <string>com.apple.notificationcenterui.snippet</string>
       <string>com.apple.notificationcenterui.pip</string>
-      <string>com.apple.notificationcetnerui.ping</string>
-      <string>com.apple.notificationcenterui.tcc</string>
       <string>com.apple.notificationcenterui.nctool</string>
       <string>com.apple.notificationcenterui.customalerts</string>
       <string>com.apple.notificationcenterui.main</string>
@@ -192,10 +182,12 @@
     <array>
       <string>com.apple.BatteryCenter.BatteryWidget</string>
       <string>com.apple.chronod</string>
+      <string>com.apple.windowmanager</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>com.apple.widgets</string>
+      <string>com.apple.controlcenter</string>
     </array>
     <key>com.apple.shortcuts.background-running</key>
     <true />

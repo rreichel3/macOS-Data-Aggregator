@@ -1,8 +1,0 @@
-Code Signing Information for AskToMessagesHost
-Application Path: /System/Library/CoreServices/AskToMessagesHost.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

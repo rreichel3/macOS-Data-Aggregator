@@ -11,6 +11,8 @@
     <true />
     <key>com.apple.PerfPowerServices.data-donation</key>
     <true />
+    <key>com.apple.SensitiveContentAnalysis.intervention.host</key>
+    <true />
     <key>com.apple.SocialLayer</key>
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
@@ -31,6 +33,10 @@
     <array />
     <key>com.apple.developer.maps</key>
     <true />
+    <key>com.apple.developer.sensitivecontentanalysis.client</key>
+    <array>
+      <string>analysis</string>
+    </array>
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
     <string>com.apple.photos.kvstore</string>
     <key>com.apple.generativeexperiences.availabilityService</key>
@@ -86,6 +92,7 @@
       <string>com.apple.MobileAsset.UAF.Photos.MagicCleanup</string>
       <string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
       <string>com.apple.MobileAsset.UAF.FM.Overrides</string>
+      <string>com.apple.MobileAsset.Trial.Siri.SiriUnderstandingMorphun</string>
     </array>
     <key>com.apple.private.biome.read-write</key>
     <array>
@@ -93,15 +100,62 @@
       <string>Discoverability.Signals</string>
       <string>Discoverability.Usage</string>
     </array>
+    <key>com.apple.private.biome.writer</key>
+    <array>
+      <string>SensitiveContentAnalysis.UIInteraction</string>
+      <string>SensitiveContentAnalysis.MediaAnalysis</string>
+      <string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+      <string>SensitiveContentAnalysis.ResourcesInteraction</string>
+    </array>
+    <key>com.apple.private.cmphoto.decodeallowlist</key>
+    <dict>
+      <key>DICOM</key>
+      <array>
+        <integer>1684237600</integer>
+      </array>
+      <key>HEIF</key>
+      <array>
+        <integer>1635148593</integer>
+        <integer>1752589105</integer>
+        <integer>1635135537</integer>
+        <integer>1634743416</integer>
+        <integer>1634743400</integer>
+        <integer>1634755432</integer>
+        <integer>1634755438</integer>
+        <integer>1634755443</integer>
+        <integer>1634755439</integer>
+        <integer>1634759278</integer>
+        <integer>1634759272</integer>
+        <integer>1634742888</integer>
+        <integer>1634742376</integer>
+        <integer>1634759276</integer>
+        <integer>1936484717</integer>
+        <integer>1835821411</integer>
+        <integer>1785750887</integer>
+      </array>
+      <key>JFIF</key>
+      <array>
+        <integer>1785750887</integer>
+      </array>
+      <key>JPEG-XL</key>
+      <array>
+        <integer>1786276963</integer>
+        <integer>1786276896</integer>
+      </array>
+    </dict>
     <key>com.apple.private.contacts</key>
     <true />
     <key>com.apple.private.contactsui</key>
+    <true />
+    <key>com.apple.private.coreaudio.mxsessionPropertyPipe</key>
     <true />
     <key>com.apple.private.coreservices.canmaplsdatabase</key>
     <true />
     <key>com.apple.private.coreservices.definesExtensionPoint</key>
     <true />
     <key>com.apple.private.corespotlight.internal</key>
+    <true />
+    <key>com.apple.private.corespotlight.search.internal</key>
     <true />
     <key>com.apple.private.corewifi</key>
     <true />
@@ -117,6 +171,22 @@
     <true />
     <key>com.apple.private.ind.client</key>
     <true />
+    <key>com.apple.private.intelligenceplatform.client-identifier</key>
+    <string>com.apple.Photos</string>
+    <key>com.apple.private.intelligenceplatform.use-cases</key>
+    <dict>
+      <key>com.apple.AppleIntelligence.Reporting.Invocation.Step</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>AppleIntelligence.Reporting.Invocation.Step</key>
+          <dict>
+            <key>mode</key>
+            <string>read-write</string>
+          </dict>
+        </dict>
+      </dict>
+    </dict>
     <key>com.apple.private.intelligenceplatform.views.read-only</key>
     <array>
       <string>visualIdentifier</string>
@@ -131,9 +201,13 @@
       <string>loiEntityRelevanceRanking</string>
       <string>hasAssociationSubgraph</string>
     </array>
+    <key>com.apple.private.managed-settings.effective-read</key>
+    <true />
     <key>com.apple.private.mediaanalysisd.datamanagement.embedding</key>
     <true />
     <key>com.apple.private.mediaanalysisd.datamanagement.vuindex</key>
+    <true />
+    <key>com.apple.private.mediaexperience.smartRoutingScore.allow</key>
     <true />
     <key>com.apple.private.messages.associated-message-extension-bundle-identifiers</key>
     <array>
@@ -146,6 +220,8 @@
     <key>com.apple.private.photolibrarymigrationutility.write-access</key>
     <true />
     <key>com.apple.private.photos.allowassetexpunge</key>
+    <true />
+    <key>com.apple.private.photos.allowcollectionshare</key>
     <true />
     <key>com.apple.private.photos.allowdirectdbwrite</key>
     <true />
@@ -172,6 +248,10 @@
     <key>com.apple.private.photos.service.notification</key>
     <true />
     <key>com.apple.private.rtcreportingd</key>
+    <true />
+    <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.screentime-communication</key>
     <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
@@ -204,6 +284,8 @@
     </array>
     <key>com.apple.proactive.eventtracker</key>
     <true />
+    <key>com.apple.rootless.storage.remotemanagementd</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.application-groups</key>
@@ -230,6 +312,7 @@
       <string>com.apple.OmniSearch</string>
       <string>com.apple.gms.availability</string>
       <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
+      <string>com.apple.siri.morphun</string>
       <string>com.apple.UnifiedAssetFramework</string>
       <string>com.apple.modelcatalog.ajax</string>
     </array>
@@ -302,6 +385,7 @@
       <string>com.apple.private.corewifi-xpc</string>
       <string>com.apple.xpc.amsaccountsd</string>
       <string>com.apple.biome.access.user</string>
+      <string>com.apple.biome.access.system</string>
       <string>com.apple.generativeexperiences.availabilityService</string>
       <string>com.apple.powerlog.plxpclogger.xpc</string>
       <string>com.apple.PerfPowerTelemetryClientRegistrationService</string>
@@ -328,6 +412,12 @@
       <string>com.apple.generativeexperiences.availabilityService</string>
       <string>com.apple.extensionkitservice</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.ManagedSettingsAgent</string>
+      <string>com.apple.ManagedSettingsAgent.publisher</string>
+      <string>com.apple.ScreenTimeAgent</string>
+      <string>com.apple.ScreenTimeAgent.communication</string>
+      <string>com.apple.biome.compute.source</string>
+      <string>com.apple.familycircle.agent</string>
       <string>com.apple.passd.in-app-payment</string>
       <string>com.apple.passd.library</string>
       <string>com.apple.passd.payment</string>
@@ -341,7 +431,6 @@
     <array>
       <string>com.apple.preferences.extensions.PhotoEditing</string>
       <string>com.apple.preferences.extensions.PhotoProjects</string>
-      <string>MobileMeAccounts</string>
       <string>com.apple.SocialLayer</string>
       <string>com.apple.icloud.managed</string>
       <string>com.apple.Desktop</string>
@@ -351,11 +440,13 @@
       <string>com.apple.modelcatalog.ajax</string>
       <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
       <string>com.apple.gms.availability</string>
+      <string>com.apple.communicationSafetySettings</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
       <string>kCFPreferencesAnyApplication</string>
       <string>com.apple.photos.shareddefaults</string>
+      <string>com.apple.communicationSafetySettings</string>
     </array>
     <key>com.apple.spotlight.photos.entitledattributes</key>
     <true />
@@ -372,6 +463,7 @@
       <string>392</string>
       <string>393</string>
       <string>394</string>
+      <string>755</string>
     </array>
     <key>keychain-access-groups</key>
     <array>

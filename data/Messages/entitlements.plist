@@ -5,6 +5,8 @@
   <dict>
     <key>application-identifier</key>
     <string>com.apple.MobileSMS</string>
+    <key>com.apple.AudioAccessoryAssetManagement</key>
+    <true />
     <key>com.apple.Contacts.database-allow</key>
     <true />
     <key>com.apple.CoreRoutine.SafetyMonitor</key>
@@ -27,9 +29,17 @@
       <string>com.apple.focus.status</string>
       <string>com.apple.offgrid.status</string>
     </array>
+    <key>com.apple.TextUnderstanding.process</key>
+    <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.MobileSMS</string>
     <key>com.apple.appstored.install-apps</key>
+    <true />
+    <key>com.apple.askto.responseui.host</key>
+    <true />
+    <key>com.apple.asktod</key>
+    <true />
+    <key>com.apple.assistant.cdm.client</key>
     <true />
     <key>com.apple.authkit.client.internal</key>
     <true />
@@ -39,6 +49,11 @@
     <true />
     <key>com.apple.bluetooth.system</key>
     <true />
+    <key>com.apple.communicationtrustd</key>
+    <array>
+      <string>read</string>
+      <string>write</string>
+    </array>
     <key>com.apple.coreaudio.allow-amr-decode</key>
     <true />
     <key>com.apple.coreaudio.allow-amr-encode</key>
@@ -47,6 +62,10 @@
     <true />
     <key>com.apple.coreduetd.people</key>
     <true />
+    <key>com.apple.corespotlight.search.allowed.bundleIDs</key>
+    <array>
+      <string>com.apple.Stickers</string>
+    </array>
     <key>com.apple.developer.applesignin</key>
     <array>
       <string />
@@ -59,6 +78,10 @@
     <true />
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
+    <key>com.apple.developer.icloud-extended-share-access</key>
+    <array>
+      <string>InProcessShareOwnerParticipantInfo</string>
+    </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
       <string>CloudKit</string>
@@ -77,6 +100,8 @@
     </array>
     <key>com.apple.feedbackd.remote-evaluation</key>
     <true />
+    <key>com.apple.fileprovider.enumerate</key>
+    <true />
     <key>com.apple.fileprovider.share</key>
     <true />
     <key>com.apple.findmy.findmylocate.friendshipservice</key>
@@ -88,6 +113,8 @@
     <key>com.apple.generativeexperiences.textcomposition</key>
     <true />
     <key>com.apple.imagent.chat</key>
+    <true />
+    <key>com.apple.lightsourcesupport.listener</key>
     <true />
     <key>com.apple.mediaanalysisd.client</key>
     <true />
@@ -128,11 +155,15 @@
       <string>CommunicationSafetyResultWithoutImage</string>
       <string>Discoverability.Signals</string>
       <string>Discoverability.Usage</string>
+      <string>Messages.Search.Event</string>
     </array>
     <key>com.apple.private.biome.writer</key>
     <array>
       <string>SensitiveContentAnalysis.UIInteraction</string>
       <string>SensitiveContentAnalysis.MediaAnalysis</string>
+      <string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+      <string>SensitiveContentAnalysis.ResourcesInteraction</string>
+      <string>MLSE.ShareSheet.ConversationUserInteraction</string>
     </array>
     <key>com.apple.private.canGetAppLinkInfo</key>
     <true />
@@ -180,6 +211,8 @@
     <array>
       <string>com.apple.messages</string>
     </array>
+    <key>com.apple.private.feedback.drafting</key>
+    <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.ids.idquery-cache</key>
@@ -189,11 +222,14 @@
       <string>com.apple.private.alloy.biz</string>
       <string>com.apple.madrid</string>
       <string>com.apple.madrid.lite</string>
+      <string>com.apple.madrid.lite.relay</string>
     </array>
     <key>com.apple.private.ids.registration</key>
     <array>
       <string>com.apple.private.alloy.biz</string>
     </array>
+    <key>com.apple.private.imcore.imdpersistence.database-access</key>
+    <true />
     <key>com.apple.private.imcore.imremoteurlconnection</key>
     <true />
     <key>com.apple.private.imcore.imtranscoderservice</key>
@@ -222,10 +258,17 @@
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
       <string>group.com.apple.ManagedSettings</string>
+      <string>group.com.apple.tipsnext</string>
+      <string>group.com.apple.mobileslideshow.PhotosFileProvider</string>
+      <string>group.com.apple.Photos.PhotosFileProvider</string>
     </array>
     <key>com.apple.private.security.storage.Messages</key>
     <true />
     <key>com.apple.private.security.storage.MessagesMetaData</key>
+    <true />
+    <key>com.apple.private.security.storage.PhotosLibraries</key>
+    <true />
+    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
     <true />
     <key>com.apple.private.sociallayer.collaboration-handshake</key>
     <true />
@@ -260,15 +303,30 @@
     <array>
       <string>kTCCServiceFocusStatus</string>
     </array>
+    <key>com.apple.private.tipsd.discoverability</key>
+    <true />
+    <key>com.apple.private.translation</key>
+    <true />
     <key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
     <array>
       <string>com.apple.MobileSMS</string>
+      <string>com.apple.tipsd</string>
     </array>
     <key>com.apple.private.voicememod.client</key>
     <true />
     <key>com.apple.remindd</key>
     <true />
     <key>com.apple.rootless.storage.remotemanagementd</key>
+    <true />
+    <key>com.apple.runningboard.assertions.angeltarget</key>
+    <true />
+    <key>com.apple.runningboard.assertions.frontboard</key>
+    <true />
+    <key>com.apple.runningboard.launchprocess</key>
+    <true />
+    <key>com.apple.runningboard.posterkit.host</key>
+    <true />
+    <key>com.apple.runningboard.trustedtarget</key>
     <true />
     <key>com.apple.sage.textcomposition</key>
     <true />
@@ -277,6 +335,8 @@
     <key>com.apple.security.application-groups</key>
     <array>
       <string>group.com.apple.ManagedSettings</string>
+      <string>group.com.apple.tipsnext</string>
+      <string>group.com.apple.Photos.PhotosFileProvider</string>
     </array>
     <key>com.apple.security.attestation.access</key>
     <true />
@@ -288,11 +348,20 @@
     </array>
     <key>com.apple.security.exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.lightsourcesupport.lightstate</string>
       <string>com.apple.ScreenTimeAgent.communication</string>
+      <string>com.apple.assistant.cdm</string>
       <string>com.apple.ManagedSettingsAgent.publisher</string>
       <string>com.apple.ManagedSettingsAgent</string>
       <string>com.apple.ScreenTimeAgent</string>
       <string>com.apple.mobileactivationd</string>
+      <string>com.apple.tipsd</string>
+      <string>com.apple.photos.ImageConversionService</string>
+      <string>com.apple.contactsd</string>
+      <string>com.apple.asktod</string>
+      <string>com.apple.AudioAccessoryAssetManagementXPCService</string>
+      <string>com.apple.biome.access.user</string>
+      <string>com.apple.communicationtrustd.service</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
     <array>
@@ -313,6 +382,7 @@
       <string>com.apple.nanolifestyle.privacy</string>
       <string>PUICNPSPreferences</string>
       <string>com.apple.communicationSafetySettings</string>
+      <string>com.apple.CommunicationTrust</string>
     </array>
     <key>com.apple.security.files.downloads.read-write</key>
     <true />
@@ -332,6 +402,7 @@
       <string>/AppleInternal/Messages/extra_strings.plist</string>
       <string>/Library/Audio/Tunings/Generic/AU/aufx-epvd-appl.plist</string>
       <string>/Library/Audio/Plug-Ins/RemoteInput</string>
+      <string>/private/var/db/os_eligibility/eligibility.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
     <array>
@@ -358,11 +429,13 @@
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
+      <string>com.apple.AudioAccessoryAssetManagementXPCService</string>
       <string>com.apple.mobileactivationd</string>
       <string>com.apple.SharedWebCredentials</string>
       <string>com.apple.systemstatus.publisher</string>
       <string>com.apple.voicememod.xpc</string>
       <string>com.apple.webprivacyd</string>
+      <string>com.apple.assistant.cdm</string>
       <string>com.apple.xpc.amsaccountsd</string>
       <string>com.apple.coreduetd.people.user</string>
       <string>com.apple.BTLEAudioController.xpc</string>
@@ -401,6 +474,7 @@
       <string>com.apple.findmy.findmylocate.friendshipservice</string>
       <string>com.apple.findmy.findmylocate.locationservice</string>
       <string>com.apple.findmy.findmylocate.settings</string>
+      <string>com.apple.findmy.findmylocate.fenceservice</string>
       <string>com.apple.identityservicesd.embedded.auth</string>
       <string>com.apple.lsd.xpc</string>
       <string>com.apple.Safari.SafeBrowsing.Service</string>
@@ -437,6 +511,14 @@
       <string>com.apple.businessservicesd</string>
       <string>com.apple.audio.AudioConverterService</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
+      <string>com.apple.translationd</string>
+      <string>com.apple.photos.VideoConversionService</string>
+      <string>com.apple.contactsd</string>
+      <string>com.apple.asktod</string>
+      <string>com.apple.TextUnderstanding.process</string>
+      <string>com.apple.stickers.recency</string>
+      <string>com.apple.stickers.api</string>
+      <string>com.apple.communicationtrustd.service</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -559,6 +641,7 @@ SYS_recvfrom
 SYS_recvfrom_nocancel
 SYS_recvmsg
 SYS_rename
+SYS_renameatx_np
 SYS_rmdir
 SYS_sendmsg
 SYS_sendmsg_nocancel

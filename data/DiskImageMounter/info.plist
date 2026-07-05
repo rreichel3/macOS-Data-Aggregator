@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDocumentTypes</key>
@@ -17,8 +17,8 @@
           <string>udif</string>
           <string>img</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>Disk Image</string>
         <key>CFBundleTypeOSTypes</key>
@@ -37,8 +37,8 @@
           <string>dvdr</string>
           <string>cdr</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>DVD/CD-R Master Image</string>
         <key>CFBundleTypeOSTypes</key>
@@ -56,8 +56,8 @@
         <array>
           <string>dmgpart</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>Disk Image Segment</string>
         <key>CFBundleTypeOSTypes</key>
@@ -70,8 +70,8 @@
         <true />
       </dict>
       <dict>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>Raw Disk Image</string>
         <key>CFBundleTypeOSTypes</key>
@@ -86,8 +86,8 @@
         <true />
       </dict>
       <dict>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>PC Drive Container</string>
         <key>CFBundleTypeOSTypes</key>
@@ -102,8 +102,8 @@
         <array>
           <string>iso</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>ISO Disk Image</string>
         <key>CFBundleTypeRole</key>
@@ -117,8 +117,8 @@
           <string>sparseimage</string>
           <string>asif</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>Sparse Disk Image</string>
         <key>CFBundleTypeRole</key>
@@ -132,8 +132,8 @@
           <string>sparsebundle</string>
           <string>backupbundle</string>
         </array>
-        <key>CFBundleTypeIconFile</key>
-        <string>diskimage.icns</string>
+        <key>CFBundleTypeIconName</key>
+        <string>dmg</string>
         <key>CFBundleTypeName</key>
         <string>Sparse Disk Image Bundle</string>
         <key>CFBundleTypeRole</key>
@@ -144,8 +144,8 @@
     </array>
     <key>CFBundleExecutable</key>
     <string>DiskImageMounter</string>
-    <key>CFBundleIconFile</key>
-    <string>diskimage.icns</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.DiskImageMounter</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -167,21 +167,21 @@
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24G718</string>
+    <string>25E245</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G718</string>
+    <string>25E245</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>LSUIElement</key>
     <true />
     <key>NSHumanReadableCopyright</key>
@@ -205,6 +205,11 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Disk Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image</string>
       </dict>
@@ -215,6 +220,11 @@
         </array>
         <key>UTTypeDescription</key>
         <string>ISO Disk Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>public.iso-image</string>
         <key>UTTypeTagSpecification</key>
@@ -228,14 +238,15 @@
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>Disk Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-udif</string>
         <key>UTTypeTagSpecification</key>
         <dict>
-          <key>com.apple.ostype</key>
-          <array>
-            <string>devi</string>
-          </array>
           <key>public.filename-extension</key>
           <array>
             <string>dmg</string>
@@ -253,12 +264,15 @@
         <string>com.apple.disk-image-udif</string>
         <key>UTTypeDescription</key>
         <string>Disk Image Segment</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-udif-segment</string>
         <key>UTTypeTagSpecification</key>
         <dict>
-          <key>com.apple.ostype</key>
-          <string>devs</string>
           <key>public.filename-extension</key>
           <string>dmgpart</string>
         </dict>
@@ -268,6 +282,11 @@
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>Sparse Disk Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-sparse</string>
         <key>UTTypeTagSpecification</key>
@@ -287,6 +306,11 @@
         </array>
         <key>UTTypeDescription</key>
         <string>Sparse Disk Image Bundle</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-sparse-bundle</string>
         <key>UTTypeTagSpecification</key>
@@ -303,38 +327,37 @@
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>Generic Disk Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-raw</string>
-        <key>UTTypeTagSpecification</key>
-        <dict>
-          <key>com.apple.ostype</key>
-          <array>
-            <string>hdrv</string>
-            <string>DDim</string>
-            <string>devr</string>
-          </array>
-        </dict>
       </dict>
       <dict>
         <key>UTTypeConformsTo</key>
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>PC Drive Container</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-pc</string>
-        <key>UTTypeTagSpecification</key>
-        <dict>
-          <key>com.apple.ostype</key>
-          <array>
-            <string>OPCD</string>
-          </array>
-        </dict>
       </dict>
       <dict>
         <key>UTTypeConformsTo</key>
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>DVD/CD-R Master Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.apple.disk-image-cdr</string>
         <key>UTTypeTagSpecification</key>
@@ -354,15 +377,15 @@
         <string>com.apple.disk-image</string>
         <key>UTTypeDescription</key>
         <string>DVD/CD-R Master Image</string>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>UTTypeIconBackgroundName</key>
+          <string>dmg</string>
+        </dict>
         <key>UTTypeIdentifier</key>
         <string>com.roxio.disk-image-toast</string>
         <key>UTTypeTagSpecification</key>
         <dict>
-          <key>com.apple.ostype</key>
-          <array>
-            <string>GImg</string>
-            <string>PImg</string>
-          </array>
           <key>public.filename-extension</key>
           <array>
             <string>toast</string>

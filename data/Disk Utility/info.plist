@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -37,30 +37,52 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>2401</string>
+    <string>2511.1</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>25E223</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E223</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSHumanReadableCopyright</key>
     <string>© 2015–2023 Apple Inc. All rights reserved.</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>UTDiskImage</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>ASIF diskimage</string>
+        <key>UTTypeIcons</key>
+        <dict />
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.Diskutility.diskimage.asif</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>asif</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
   </dict>
 </plist>
