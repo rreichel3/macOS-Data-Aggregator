@@ -13,12 +13,6 @@
     <true />
     <key>com.apple.bluetooth.system</key>
     <true />
-    <key>com.apple.developer.associated-domains</key>
-    <array />
-    <key>com.apple.developer.icloud-extended-share-access</key>
-    <array>
-      <string>InProcessShareOwnerParticipantInfo</string>
-    </array>
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
     <string>com.apple.finder</string>
     <key>com.apple.dock.add-item</key>
@@ -41,8 +35,6 @@
     <array>
       <string>com.apple.security.assessment.update</string>
     </array>
-    <key>com.apple.private.CloudSharing.SPI</key>
-    <true />
     <key>com.apple.private.IMCore.share-extension-recipient-access</key>
     <true />
     <key>com.apple.private.MobileContainerManager.allowed</key>
@@ -88,10 +80,6 @@
     <true />
     <key>com.apple.private.clouddocs.can-infer-session-from-url</key>
     <true />
-    <key>com.apple.private.clouddocs.rfa-notification-handling</key>
-    <true />
-    <key>com.apple.private.communicationsfilter</key>
-    <true />
     <key>com.apple.private.contactsui</key>
     <true />
     <key>com.apple.private.coreservices.canaccessanysharedfilelist</key>
@@ -104,16 +92,12 @@
     <true />
     <key>com.apple.private.corespotlight.search.internal</key>
     <true />
-    <key>com.apple.private.diskarbitrationd.disk_set_adoption</key>
-    <true />
     <key>com.apple.private.dmd.policy</key>
     <true />
     <key>com.apple.private.driverkit.driver-access</key>
     <array>
       <string>com.apple.private.wifi.driverkit</string>
     </array>
-    <key>com.apple.private.fileprovider.launch-items-permissions-repair</key>
-    <true />
     <key>com.apple.private.foundation.filecoordination-debug</key>
     <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
@@ -152,10 +136,6 @@
     <true />
     <key>com.apple.private.screencapturekit.sharingsessionsystemui</key>
     <true />
-    <key>com.apple.private.security.restricted-application-groups</key>
-    <array>
-      <string>group.com.apple.sharingd</string>
-    </array>
     <key>com.apple.private.security.storage.mobilesync</key>
     <true />
     <key>com.apple.private.security.user-intent-authority</key>
@@ -167,8 +147,6 @@
     <key>com.apple.private.spotlight.search.internal</key>
     <true />
     <key>com.apple.private.storagekitd.destructive</key>
-    <true />
-    <key>com.apple.private.swc.system-app</key>
     <true />
     <key>com.apple.private.syspolicy.gatekeeper-block-bypass</key>
     <true />
@@ -208,10 +186,6 @@
     <true />
     <key>com.apple.private.windowmanager.desktopwindowowner</key>
     <true />
-    <key>com.apple.security.application-groups</key>
-    <array>
-      <string>group.com.apple.sharingd</string>
-    </array>
     <key>com.apple.security.personal-information.addressbook</key>
     <true />
     <key>com.apple.security.temporary-exception.iokit-user-client-class</key>

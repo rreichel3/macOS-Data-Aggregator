@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -222,36 +222,13 @@
     <key>CFBundleHelpBookName</key>
     <string>com.apple.fontbook.help</string>
     <key>CFBundleIconFile</key>
-    <string>fontbook</string>
+    <string>AppIcon</string>
     <key>CFBundleIconName</key>
-    <string>fontbook</string>
+    <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>com.apple.FontBook</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
-    <key>CFBundleLocalizations</key>
-    <array>
-      <string>ar</string>
-      <string>bn</string>
-      <string>gu</string>
-      <string>he</string>
-      <string>hi</string>
-      <string>ja</string>
-      <string>kn</string>
-      <string>ko</string>
-      <string>la</string>
-      <string>ml</string>
-      <string>mr</string>
-      <string>or</string>
-      <string>pa</string>
-      <string>si</string>
-      <string>ta</string>
-      <string>te</string>
-      <string>th</string>
-      <string>zh_CN</string>
-      <string>zh_HK</string>
-      <string>zh_TW</string>
-    </array>
     <key>CFBundleName</key>
     <string>Font Book</string>
     <key>CFBundlePackageType</key>
@@ -276,33 +253,31 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>526.4.0.1</string>
+    <string>506.6.0.1</string>
     <key>CTFontSuppressAutoDownload</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E224</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E224</string>
+    <string>24G201t</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>font-book</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.utilities</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
-    <key>NSApplicationUpdateCycleEnabled</key>
-    <true />
+    <string>15.7</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>UTExportedTypeDeclarations</key>

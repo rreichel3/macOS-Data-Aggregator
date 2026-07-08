@@ -1,0 +1,8 @@
+Code Signing Information for ODSAgent
+Application Path: /System/Library/CoreServices/ODSAgent.app
+
+Signature Status: Valid
+Authority: Unknown
+Identifier: not set
+Team Identifier: Unknown
+Sealed Resources: Yes

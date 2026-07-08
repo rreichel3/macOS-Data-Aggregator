@@ -1,8 +1,0 @@
-Code Signing Information for AccessibilityUIServer
-Application Path: /System/Library/CoreServices/AccessibilityUIServer.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

@@ -7,7 +7,7 @@
     <key>ATSApplicationFontsPath</key>
     <string>Fonts/</string>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -225,7 +225,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>11.0</string>
+    <string>10.0</string>
     <key>CFBundleSignature</key>
     <string>Phts</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -248,29 +248,29 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>841.0.101</string>
+    <string>770.0.172</string>
     <key>CKSharingSupported</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E226</string>
+    <string>24G704</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E226</string>
+    <string>24G704</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.photography</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>MediaClientInfo</key>
     <dict>
       <key>API</key>
@@ -290,8 +290,6 @@
     </dict>
     <key>NSAppleScriptEnabled</key>
     <true />
-    <key>NSApplicationUpdateCycleEnabled</key>
-    <true />
     <key>NSExtensionSDK</key>
     <dict>
       <key>com.apple.Photos.MacMusicPickerExtension</key>
@@ -310,7 +308,7 @@
       </dict>
     </dict>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2015–2025 Apple Inc. All rights reserved.</string>
+    <string>Copyright © 2015–2024 Apple Inc. All rights reserved.</string>
     <key>NSLocationUsageDescription</key>
     <string>Your location is used when generating Photo Memories.</string>
     <key>NSMainNibFile</key>
@@ -437,16 +435,6 @@
         </array>
         <key>UTTypeIdentifier</key>
         <string>com.apple.photos.object-reference.person</string>
-        <key>UTTypeTagSpecification</key>
-        <dict />
-      </dict>
-      <dict>
-        <key>UTTypeConformsTo</key>
-        <array>
-          <string>com.apple.photos.object-reference</string>
-        </array>
-        <key>UTTypeIdentifier</key>
-        <string>com.apple.photos.object-reference.socialgroup</string>
         <key>UTTypeTagSpecification</key>
         <dict />
       </dict>

@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/WindowManager.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 12
+Entitlements Count: 9
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

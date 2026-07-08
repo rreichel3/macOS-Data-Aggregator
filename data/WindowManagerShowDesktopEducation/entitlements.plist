@@ -7,7 +7,7 @@
     <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
-    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+    <key>com.apple.security.exception.mach-lookup.global-name</key>
     <string>com.apple.windowmanager.external</string>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>

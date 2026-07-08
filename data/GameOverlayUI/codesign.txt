@@ -1,8 +1,0 @@
-Code Signing Information for GameOverlayUI
-Application Path: /System/Library/CoreServices/GameOverlayUI.app
-
-Signature Status: Valid
-Authority: Unknown
-Identifier: not set
-Team Identifier: Unknown
-Sealed Resources: Yes

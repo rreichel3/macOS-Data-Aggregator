@@ -17,8 +17,6 @@
     <string>production</string>
     <key>com.apple.developer.associated-domains</key>
     <array />
-    <key>com.apple.developer.declared-age-range</key>
-    <true />
     <key>com.apple.developer.icloud-container-environment</key>
     <string>Production</string>
     <key>com.apple.developer.icloud-container-identifiers</key>
@@ -26,18 +24,12 @@
       <string>com.apple.freeform</string>
       <string>iCloud.com.apple.freeform</string>
     </array>
-    <key>com.apple.developer.icloud-extended-share-access</key>
-    <array>
-      <string>InProcessShareOwnerParticipantInfo</string>
-    </array>
     <key>com.apple.developer.icloud-services</key>
     <array>
       <string>CloudKit</string>
     </array>
     <key>com.apple.developer.ubiquity-kvstore-identifier</key>
     <string>com.apple.freeform</string>
-    <key>com.apple.feedbackd.remote-evaluation</key>
-    <true />
     <key>com.apple.freeform.USD-renderer-remote-UI-entitlement</key>
     <true />
     <key>com.apple.locationd.authorizeapplications</key>
@@ -69,8 +61,6 @@
     <true />
     <key>com.apple.private.copresence</key>
     <true />
-    <key>com.apple.private.feedback.drafting</key>
-    <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.hsa-authentication-processing</key>
@@ -78,10 +68,6 @@
     <key>com.apple.private.ind.client</key>
     <true />
     <key>com.apple.private.metadata.exattrs</key>
-    <true />
-    <key>com.apple.private.network.system-token-fetch</key>
-    <true />
-    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
     <true />
     <key>com.apple.private.sociallayer.highlights</key>
     <true />
@@ -93,7 +79,6 @@
     <array>
       <string>kTCCServiceAddressBook</string>
       <string>kTCCServiceLiverpool</string>
-      <string>kTCCServicePhotos</string>
     </array>
     <key>com.apple.runningboard.freeform.USD-renderer-remote-UI</key>
     <true />
@@ -126,26 +111,15 @@
     <array>
       <string>group.com.apple.freeform</string>
     </array>
-    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/AppleInternal/Library/Jet/</string>
-      <string>/Library/Preferences/com.apple.MobileStoreDemo.test.plist</string>
-      <string>/private/var/db/ConfigurationProfiles/Settings/.deviceConfigurationBits</string>
-      <string>/private/var/db/os_eligibility/eligibility.plist</string>
-      <string>/System/Library/Jet/</string>
-    </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
     <array>
       <string>/Library/Logs/AppAnalytics/</string>
     </array>
     <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
     <array>
-      <string>com.apple.feedbackd.centralized-feedback</string>
       <string>com.apple.ind.xpc</string>
       <string>com.apple.AppleMediaServicesUIDynamicService</string>
-      <string>com.apple.networkserviceproxy.fetch-token</string>
       <string>com.apple.synapse.DocumentWorkflowsService</string>
-      <string>com.apple.xpc.amsaccountsd</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
@@ -159,11 +133,6 @@
     </array>
     <key>fairplay-client</key>
     <string>511712240</string>
-    <key>keychain-access-groups</key>
-    <array>
-      <string>L6VBL6N964.com.apple.freeform</string>
-      <string>CXZ9PY4T4T.group.com.analytics.shared.teams</string>
-    </array>
     <key>platform-application</key>
     <true />
   </dict>

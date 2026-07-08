@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344017</string>
+    <string>23A344014</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
@@ -43,7 +43,9 @@
         <string>Telephony URL</string>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>tel</string>
           <string>facetime</string>
+          <string>facetime-audio</string>
           <string>facetime-group</string>
           <string>facetime-open-link</string>
           <string>system-call-controls</string>
@@ -55,19 +57,19 @@
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E225</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>DTSDKBuild</key>
-    <string>25E225</string>
+    <string>24G201t</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx15.7.internal</string>
     <key>DTXcode</key>
-    <string>2630</string>
+    <string>1630</string>
     <key>DTXcodeBuild</key>
-    <string>17E6107</string>
+    <string>16E6052g</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.social-networking</string>
     <key>LSCounterpartIdentifiers</key>
@@ -75,7 +77,7 @@
       <string>com.apple.tincan</string>
     </array>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>15.7</string>
     <key>NSDockTilePlugIn</key>
     <string>FaceTimeCatalyst.docktileplugin</string>
     <key>NSPrincipalClass</key>
@@ -149,6 +151,15 @@
             <string>FaceTimeMacSceneDelegate</string>
           </dict>
         </array>
+        <key>UIWindowSceneSessionRoleSimplifiedApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>ClarityUI Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>CNKClarityUISceneDelegate</string>
+          </dict>
+        </array>
       </dict>
     </dict>
     <key>UIApplicationShortcutItemsVersion</key>
@@ -190,6 +201,8 @@
     <array>
       <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>UISupportsClarityUI</key>
+    <true />
     <key>UIViewServiceUsesNSXPCConnection</key>
     <true />
     <key>UIWhitePointAdaptivityStyle</key>

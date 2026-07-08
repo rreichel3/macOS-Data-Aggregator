@@ -9,8 +9,6 @@
     <true />
     <key>com.apple.authorization.extract-password</key>
     <true />
-    <key>com.apple.diskimages.creator-root</key>
-    <true />
     <key>com.apple.private.CoreAuthentication.SPI</key>
     <true />
     <key>com.apple.private.asr</key>
@@ -22,10 +20,6 @@
     <key>com.apple.private.storagekitd.destructive</key>
     <true />
     <key>com.apple.private.tcc.allow</key>
-    <array>
-      <string>kTCCServiceSystemPolicyRemovableVolumes</string>
-    </array>
-    <key>com.apple.private.tcc.check-allow-on-responsible-process</key>
     <array>
       <string>kTCCServiceSystemPolicyRemovableVolumes</string>
     </array>

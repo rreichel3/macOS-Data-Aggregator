@@ -1,0 +1,12 @@
+Sandbox Analysis for Launchpad
+Application Path: /System/Applications/Launchpad.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 0
+Hardened Runtime: Unknown
+Library Validation: Unknown
+
+Analysis Notes:
+- Background app (LSUIElement)
+- System application

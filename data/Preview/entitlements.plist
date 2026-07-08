@@ -13,42 +13,6 @@
     </array>
     <key>com.apple.private.bookkit</key>
     <true />
-    <key>com.apple.private.cmphoto.decodeallowlist</key>
-    <dict>
-      <key>DICOM</key>
-      <array>
-        <integer>1684237600</integer>
-      </array>
-      <key>HEIF</key>
-      <array>
-        <integer>1635148593</integer>
-        <integer>1752589105</integer>
-        <integer>1635135537</integer>
-        <integer>1634743416</integer>
-        <integer>1634743400</integer>
-        <integer>1634755432</integer>
-        <integer>1634755438</integer>
-        <integer>1634755443</integer>
-        <integer>1634755439</integer>
-        <integer>1634759278</integer>
-        <integer>1634759272</integer>
-        <integer>1634742888</integer>
-        <integer>1634742376</integer>
-        <integer>1634759276</integer>
-        <integer>1936484717</integer>
-        <integer>1835821411</integer>
-        <integer>1785750887</integer>
-      </array>
-      <key>JFIF</key>
-      <array>
-        <integer>1785750887</integer>
-      </array>
-      <key>JPEG-XL</key>
-      <array>
-        <integer>1786276963</integer>
-        <integer>1786276896</integer>
-      </array>
-    </dict>
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
     <true />
     <key>com.apple.private.hydraresourcecoordinator.api-access</key>

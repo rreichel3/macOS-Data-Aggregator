@@ -9,8 +9,6 @@
     <array>
       <string>TestFlightFeedback</string>
     </array>
-    <key>com.apple.private.menubar.allow</key>
-    <true />
     <key>com.apple.private.security.restricted-application-groups</key>
     <array>
       <string>group.com.apple.screencapture</string>

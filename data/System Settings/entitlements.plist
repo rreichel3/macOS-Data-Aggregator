@@ -47,8 +47,6 @@
     <array>
       <string>com.apple.systempreferences.cache</string>
     </array>
-    <key>com.apple.private.skylight.plugin-power</key>
-    <true />
     <key>com.apple.private.systempreferences</key>
     <true />
     <key>com.apple.private.viewbridge.host.command-equivalent.attempt-at-will</key>
