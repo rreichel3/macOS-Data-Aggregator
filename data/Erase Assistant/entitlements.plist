@@ -23,11 +23,17 @@
     <true />
     <key>com.apple.payment.all-access</key>
     <true />
+    <key>com.apple.private.CoreAnalytics.ManagementCommands.allow</key>
+    <true />
+    <key>com.apple.private.CoreAnalytics.RolloverEvents.allow</key>
+    <true />
     <key>com.apple.private.CoreAuthentication.BackgroundUI</key>
     <true />
     <key>com.apple.private.CoreAuthentication.SPI</key>
     <true />
     <key>com.apple.private.DKHelperDaemon</key>
+    <true />
+    <key>com.apple.private.LocalAuthentication.ContextData.ExtendedMaxAge</key>
     <true />
     <key>com.apple.private.LocalAuthentication.ExtractCredential</key>
     <true />
@@ -62,6 +68,8 @@
     <key>com.apple.private.librarian.container-proxy</key>
     <true />
     <key>com.apple.private.lockdownmoded.read-write</key>
+    <true />
+    <key>com.apple.private.osanalytics.SubmitLogs.allow</key>
     <true />
     <key>com.apple.private.photos.service.internal.cloud</key>
     <true />

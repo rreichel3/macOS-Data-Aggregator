@@ -70,6 +70,10 @@
     <true />
     <key>com.apple.security.temporary-exception.audio-unit-host</key>
     <true />
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+      <string>/Library/Accessibility/</string>
+    </array>
     <key>com.apple.shortcuts.background-running</key>
     <true />
     <key>com.apple.shortcuts.library-read-access</key>

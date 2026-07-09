@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
@@ -620,6 +620,96 @@
           <string>org.khronos.glb</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>io.aswf.materialx</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>io.aswf.materialx</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.alembic</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>public.alembic</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.standard-tesselated-geometry-format</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>public.standard-tesselated-geometry-format</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.geometry-definition-format</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>public.geometry-definition-format</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true />
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>public.polygon-file-format</string>
+        </array>
+        <key>NSDocumentClass</key>
+        <string>PVHydraContainer</string>
+        <key>NSExportableTypes</key>
+        <array>
+          <string>public.polygon-file-format</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleExecutable</key>
     <string>Preview</string>
@@ -648,23 +738,23 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>1069.7.1</string>
+    <string>1113.5.3</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string />
+    <string>25E223</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G201t</string>
+    <string>25E223</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>preview</string>
     <key>LSApplicationCategoryType</key>
@@ -672,7 +762,7 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSAppleScriptEnabled</key>
     <true />
     <key>NSMainNibFile</key>
@@ -853,49 +943,6 @@
           <key>public.filename-extension</key>
           <array>
             <string>blank</string>
-          </array>
-        </dict>
-      </dict>
-    </array>
-    <key>UTImportedTypeDeclarations</key>
-    <array>
-      <dict>
-        <key>UTTypeConformsTo</key>
-        <array>
-          <string>public.json</string>
-          <string>public.3d-content</string>
-        </array>
-        <key>UTTypeDescription</key>
-        <string>GL Transmission Format - JSON</string>
-        <key>UTTypeIdentifier</key>
-        <string>org.khronos.gltf</string>
-        <key>UTTypeReferenceURL</key>
-        <string>https://www.khronos.org/gltf/</string>
-        <key>UTTypeTagSpecification</key>
-        <dict>
-          <key>public.filename-extension</key>
-          <array>
-            <string>gltf</string>
-          </array>
-        </dict>
-      </dict>
-      <dict>
-        <key>UTTypeConformsTo</key>
-        <array>
-          <string>public.data</string>
-          <string>public.3d-content</string>
-        </array>
-        <key>UTTypeDescription</key>
-        <string>GL Transmission Format - Binary</string>
-        <key>UTTypeIdentifier</key>
-        <string>org.khronos.glb</string>
-        <key>UTTypeReferenceURL</key>
-        <string>https://www.khronos.org/gltf/</string>
-        <key>UTTypeTagSpecification</key>
-        <dict>
-          <key>public.filename-extension</key>
-          <array>
-            <string>glb</string>
           </array>
         </dict>
       </dict>

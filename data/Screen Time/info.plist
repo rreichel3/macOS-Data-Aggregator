@@ -5,7 +5,7 @@
 <plist version="1.0">
   <dict>
     <key>BuildMachineOSBuild</key>
-    <string>23A344014</string>
+    <string>23A344017</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -31,27 +31,27 @@
       <string>MacOSX</string>
     </array>
     <key>CFBundleVersion</key>
-    <string>537.5.8.1</string>
+    <string>605.4.18.1</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>24G403</string>
+    <string>25E225</string>
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>DTSDKBuild</key>
-    <string>24G403</string>
+    <string>25E225</string>
     <key>DTSDKName</key>
-    <string>macosx15.7.internal</string>
+    <string>macosx26.4.internal</string>
     <key>DTXcode</key>
-    <string>1630</string>
+    <string>2630</string>
     <key>DTXcodeBuild</key>
-    <string>16E6052g</string>
+    <string>17E6107</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.utilities</string>
     <key>LSMinimumSystemVersion</key>
-    <string>15.7</string>
+    <string>26.4</string>
     <key>NSSupportsAutomaticTermination</key>
     <true />
     <key>NSSupportsSuddenTermination</key>
@@ -66,5 +66,74 @@
     </array>
     <key>UIRequiresFullScreen</key>
     <true />
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.graphic-icon</string>
+        </array>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>ISGraphicIconConfiguration</key>
+          <dict>
+            <key>ISEnclosureColor</key>
+            <string>white</string>
+            <key>ISRenderingMode</key>
+            <string>monochrome</string>
+            <key>ISSymbolColor</key>
+            <string>blue</string>
+            <key>ISSymbolName</key>
+            <string>screen-distance</string>
+          </dict>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.screen-time.screen-distance</string>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.graphic-icon</string>
+        </array>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>ISGraphicIconConfiguration</key>
+          <dict>
+            <key>ISEnclosureColor</key>
+            <string>green</string>
+            <key>ISRenderingMode</key>
+            <string>monochrome</string>
+            <key>ISSymbolColor</key>
+            <string>white</string>
+            <key>ISSymbolName</key>
+            <string>lock.fill</string>
+          </dict>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.screen-time.screen-time-management</string>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.graphic-icon</string>
+        </array>
+        <key>UTTypeIcons</key>
+        <dict>
+          <key>ISGraphicIconConfiguration</key>
+          <dict>
+            <key>ISEnclosureColor</key>
+            <string>green</string>
+            <key>ISRenderingMode</key>
+            <string>monochrome</string>
+            <key>ISSymbolColor</key>
+            <string>white</string>
+            <key>ISSymbolName</key>
+            <string>lock.badge.clock.fill</string>
+          </dict>
+        </dict>
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.screen-time.passcode-activity</string>
+      </dict>
+    </array>
   </dict>
 </plist>

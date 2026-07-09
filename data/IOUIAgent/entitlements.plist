@@ -17,6 +17,8 @@
     <true />
     <key>com.apple.security.files.user-selected.read-only</key>
     <true />
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <string>/private/var/logs/ldcm/</string>
     <key>com.apple.security.temporary-exception.iokit-user-client-class</key>
     <array>
       <string>IOPortUserClient</string>

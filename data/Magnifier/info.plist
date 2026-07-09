@@ -1,0 +1,132 @@
+<!-- Info.plist for Magnifier.app -->
+<!-- Source: /System/Applications/Utilities/Magnifier.app/Contents/Info.plist -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<plist version="1.0">
+  <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344017</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Magnifier</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>magnifier</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>Magnifier Document</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>????</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.magnifier.document</string>
+        </array>
+        <key>LSTypeIsPackage</key>
+        <true />
+        <key>NSUbiquitousDocumentUserActivityType</key>
+        <string>com.apple.magnifier.document</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Magnifier</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIconMac</string>
+    <key>CFBundleIconName</key>
+    <string>AppIconMac</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.Magnifier</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Magnifier</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CanInheritApplicationStateFromOtherProcesses</key>
+    <true />
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>25E223</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>26.4</string>
+    <key>DTSDKBuild</key>
+    <string>25E223</string>
+    <key>DTSDKName</key>
+    <string>macosx26.4.internal</string>
+    <key>DTXcode</key>
+    <string>2630</string>
+    <key>DTXcodeBuild</key>
+    <string>17E6107</string>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSMinimumSystemVersion</key>
+    <string>26.4</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true />
+    <key>NSCameraUsageDescription</key>
+    <string>Magnifier uses the camera to display a live feed and run detection mode.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2025 Apple Inc. All rights reserved.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string />
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Magnifier can store captured images in your Photo Library.</string>
+    <key>NSRegulatoryPrivacyDisclosure</key>
+    <dict>
+      <key>NSRegulatoryPrivacyDisclosureVersion</key>
+      <string>1.0</string>
+    </dict>
+    <key>SBMatchingApplicationGenres</key>
+    <array>
+      <string>Utilities</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UISupportsDynamicType</key>
+    <true />
+    <key>UIUserInterfaceStyle</key>
+    <string>Dark</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>com.apple.package</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Magnifier Document</string>
+        <key>UTTypeIconFiles</key>
+        <array />
+        <key>UTTypeIdentifier</key>
+        <string>com.apple.magnifier.document</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>magnifier</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

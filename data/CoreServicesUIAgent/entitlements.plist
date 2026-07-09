@@ -29,6 +29,10 @@
     </array>
     <key>com.apple.private.assessment.recording</key>
     <true />
+    <key>com.apple.private.backgroundtaskmanagement.manage</key>
+    <true />
+    <key>com.apple.private.backgroundtaskmanagement.register</key>
+    <true />
     <key>com.apple.private.iscsuia</key>
     <true />
     <key>com.apple.private.launchservices.allowedtosetconnection.csuiagent</key>
@@ -37,9 +41,7 @@
     <true />
     <key>com.apple.private.launchservices.changedefaulthandlers</key>
     <array>
-      <string>http</string>
-      <string>https</string>
-      <string>public.html</string>
+      <string>*</string>
     </array>
     <key>com.apple.private.launchservices.istemplateapplicationmanager</key>
     <true />

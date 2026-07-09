@@ -1,0 +1,11 @@
+Sandbox Analysis for Accessibility Reader
+Application Path: /System/Library/CoreServices/Accessibility Reader.app
+
+Sandboxed: Unknown
+Sandbox Type: Unknown
+Entitlements Count: 15
+Hardened Runtime: Unknown
+Library Validation: Enabled
+
+Analysis Notes:
+- No additional notes

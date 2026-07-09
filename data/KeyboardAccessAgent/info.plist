@@ -4,6 +4,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344017</string>
     <key>CFBundleAllowMixedLocalizations</key>
     <true />
     <key>CFBundleDevelopmentRegion</key>
@@ -26,14 +28,34 @@
     <string>10</string>
     <key>CFBundleSignature</key>
     <string>????</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>MacOSX</string>
+    </array>
     <key>CFBundleVersion</key>
-    <string>964.12.11</string>
+    <string>993</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTPlatformBuild</key>
+    <string>25E230</string>
+    <key>DTPlatformName</key>
+    <string>macosx</string>
+    <key>DTPlatformVersion</key>
+    <string>26.4</string>
+    <key>DTSDKBuild</key>
+    <string>25E230</string>
+    <key>DTSDKName</key>
+    <string>macosx26.4.internal</string>
+    <key>DTXcode</key>
+    <string>2630</string>
+    <key>DTXcodeBuild</key>
+    <string>17E6107</string>
     <key>LSBackgroundOnly</key>
     <true />
     <key>LSLaunchDLabel</key>
     <string>com.apple.KeyboardAccessAgent</string>
     <key>LSMinimumSystemVersion</key>
-    <string>10.7.0</string>
+    <string>26.4</string>
     <key>LSUIElement</key>
     <string>1</string>
     <key>NSAppleScriptEnabled</key>
@@ -41,7 +63,7 @@
     <key>NSHighResolutionCapable</key>
     <true />
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2020-2024 Apple Inc. All Rights Reserved.</string>
+    <string>Copyright © 2020-2025 Apple Inc. All Rights Reserved.</string>
     <key>NSSupportsSuddenTermination</key>
     <string>YES</string>
     <key>POSIXSpawnType</key>

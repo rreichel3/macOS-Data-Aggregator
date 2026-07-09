@@ -121,14 +121,14 @@
     <true />
     <key>com.apple.private.appintents-bundle-absolute-paths</key>
     <array>
-      <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework</string>
       <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI2.framework</string>
+      <string>/System/iOSSupport/System/Library/PrivateFrameworks/NewsFeed.framework</string>
       <string>/System/iOSSupport/System/Library/PrivateFrameworks/CookingSupport.framework</string>
     </array>
     <key>com.apple.private.appintents-bundle-relative-paths</key>
     <array>
-      <string>Frameworks/NewsArticles.framework</string>
       <string>Frameworks/NewsUI2.framework</string>
+      <string>Frameworks/NewsFeed.framework</string>
       <string>Frameworks/CookingSupport.framework</string>
     </array>
     <key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
@@ -205,6 +205,14 @@
     <string>com.apple.news</string>
     <key>com.apple.private.intelligenceplatform.use-cases</key>
     <dict>
+      <key>AnalyticsReporting</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>OSAnalytics.Stability.Crash</key>
+          <true />
+        </dict>
+      </dict>
       <key>AutoFavorites</key>
       <dict>
         <key>Streams</key>
@@ -220,7 +228,11 @@
     <true />
     <key>com.apple.private.mobileinstall.upgrade-enabled</key>
     <true />
+    <key>com.apple.private.mobiletimerd</key>
+    <true />
     <key>com.apple.private.networkextension.configuration</key>
+    <true />
+    <key>com.apple.private.news-push-notification</key>
     <true />
     <key>com.apple.private.safari.can-use-launch-agent</key>
     <true />
@@ -299,6 +311,7 @@
       <string>com.apple.coreduetd.knowledge</string>
       <string>com.apple.newsd.analytics</string>
       <string>com.apple.newsd.download</string>
+      <string>com.apple.newsd.push-notification</string>
       <string>com.apple.newsd.today-feed</string>
       <string>com.apple.routined.registration</string>
       <string>com.apple.routined.internal</string>
@@ -314,6 +327,7 @@
       <string>com.apple.ap.promotedcontent.mescalinterface</string>
       <string>com.apple.ap.promotedcontent.metrics</string>
       <string>com.apple.ap.promotedcontent.supportinterface</string>
+      <string>com.apple.ap.promotedcontent.configurationsystem</string>
       <string>com.apple.passd.in-app-payment</string>
       <string>com.apple.xpc.amsaccountsd</string>
       <string>com.apple.itunescloud.in-app-message-service</string>
@@ -381,6 +395,7 @@
       <string>com.apple.coreduetd.knowledge</string>
       <string>com.apple.newsd.analytics</string>
       <string>com.apple.newsd.download</string>
+      <string>com.apple.newsd.push-notification</string>
       <string>com.apple.newsd.today-feed</string>
       <string>com.apple.routined.registration</string>
       <string>com.apple.routined.internal</string>
@@ -394,8 +409,14 @@
       <string>com.apple.ap.promotedcontent.metrics</string>
       <string>com.apple.parsecd</string>
       <string>com.apple.ap.promotedcontent.supportinterface</string>
+      <string>com.apple.ap.promotedcontent.configurationsystem</string>
       <string>com.apple.ap.adprivacyd.attribution</string>
       <string>com.apple.xpc.amsengagementd</string>
+      <string>com.apple.biome.access.user</string>
+      <string>com.apple.sessionservices</string>
+      <string>com.apple.ScreenTimeAgent</string>
+      <string>com.apple.cache_delete</string>
+      <string>com.apple.MobileTimer.timerserver</string>
     </array>
     <key>com.apple.security.temporary-exception.process-info</key>
     <true />

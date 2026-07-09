@@ -3,7 +3,7 @@ Application Path: /System/Applications/Shortcuts.app
 
 Sandboxed: No
 Sandbox Type: Unknown
-Entitlements Count: 103
+Entitlements Count: 128
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

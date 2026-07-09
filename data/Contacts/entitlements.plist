@@ -3,6 +3,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plist version="1.0">
   <dict>
+    <key>application-identifier</key>
+    <string>com.apple.AddressBook</string>
     <key>com.apple.CommCenter.fine-grained</key>
     <array>
       <string>spi</string>
@@ -28,9 +30,17 @@
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
+    <key>com.apple.private.appintents-attribution-override</key>
+    <true />
+    <key>com.apple.private.appintents-bundle-absolute-paths</key>
+    <array>
+      <string>/System/Library/PrivateFrameworks/ContactsUICore.framework</string>
+    </array>
     <key>com.apple.private.aps-connection-initiate</key>
     <true />
     <key>com.apple.private.backupd.session</key>
+    <true />
+    <key>com.apple.private.communicationsfilter</key>
     <true />
     <key>com.apple.private.contacts</key>
     <true />
@@ -48,6 +58,8 @@
     <true />
     <key>com.apple.private.iaaccounts</key>
     <true />
+    <key>com.apple.private.imcore.imagent</key>
+    <true />
     <key>com.apple.private.imcore.imdpersistence.data-detection-access</key>
     <true />
     <key>com.apple.private.imcore.imdpersistence.database-access</key>
@@ -59,6 +71,8 @@
     <key>com.apple.private.persona.write</key>
     <true />
     <key>com.apple.private.screen-time</key>
+    <true />
+    <key>com.apple.private.security.storage.MessagesMetaData</key>
     <true />
     <key>com.apple.private.suggestions</key>
     <true />
@@ -77,6 +91,8 @@
     <array>
       <string>kTCCServiceAddressBook</string>
     </array>
+    <key>com.apple.rapport.Client</key>
+    <true />
     <key>com.apple.security.app-sandbox</key>
     <true />
     <key>com.apple.security.assets.pictures.read-only</key>
@@ -152,6 +168,9 @@
       <string>com.apple.ak.anisette.xpc</string>
       <string>com.apple.marco</string>
       <string>com.apple.storeaccountd</string>
+      <string>com.apple.identityservicesd.desktop.auth</string>
+      <string>com.apple.stickers.recency</string>
+      <string>com.apple.sharingd.pairedcontactmanager</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>
@@ -161,6 +180,7 @@
     <array>
       <string>com.apple.AddressBook.CardDAVPlugin</string>
       <string>com.apple.icloud.managed</string>
+      <string>/Library/MessagesMetaData/NickNameCache/</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
@@ -168,6 +188,7 @@
       <string>com.apple.suggestions</string>
       <string>.GlobalPreferences</string>
       <string>MobileMeAccounts</string>
+      <string>com.apple.messages.nicknames</string>
     </array>
     <key>com.apple.system.get-alert-tone</key>
     <true />
