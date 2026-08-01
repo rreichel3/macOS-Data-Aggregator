@@ -15,6 +15,8 @@
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
+    <key>com.apple.accounts.idms.fullaccess</key>
+    <true />
     <key>com.apple.authkit.client.internal</key>
     <true />
     <key>com.apple.authkit.client.private</key>

@@ -5,9 +5,9 @@
   <dict>
     <key>com.apple.private.AUHelperService.XPC</key>
     <true />
-    <key>com.apple.private.AUQuarantineService.XPC</key>
-    <true />
     <key>com.apple.private.ArchiveService.XPC</key>
+    <true />
+    <key>com.apple.private.QuarantineService.XPC</key>
     <true />
     <key>com.apple.private.app-sandbox.unquarantine</key>
     <true />

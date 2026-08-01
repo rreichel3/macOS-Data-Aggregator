@@ -51,6 +51,10 @@
     <array>
       <string>/System/Library/PrivateFrameworks/CalendarLink.framework</string>
     </array>
+    <key>com.apple.private.appintents.allowed-bundle-identifiers</key>
+    <array>
+      <string>com.apple.iCal</string>
+    </array>
     <key>com.apple.private.assets.accessible-asset-types</key>
     <array>
       <string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
@@ -228,6 +232,7 @@
       <string>com.apple.routined.registration</string>
       <string>com.apple.intelligenceplatform.EntityResolution</string>
       <string>com.apple.intelligenceplatform.View</string>
+      <string>com.apple.linkd.application-service</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>

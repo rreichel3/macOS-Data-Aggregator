@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/GameOverlayUI.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 71
+Entitlements Count: 72
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

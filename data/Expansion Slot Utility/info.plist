@@ -41,17 +41,17 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25E222</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
     <string>17E6107</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>NSMainNibFile</key>
     <string>MainMenu</string>
     <key>NSPrincipalClass</key>

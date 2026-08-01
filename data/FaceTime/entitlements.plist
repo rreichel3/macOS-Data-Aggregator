@@ -340,10 +340,6 @@
     <true />
     <key>com.apple.security.device.microphone</key>
     <true />
-    <key>com.apple.security.exception.files.absolute-path.read-only</key>
-    <array>
-      <string>/private/var/db/os_eligibility/eligibility.plist</string>
-    </array>
     <key>com.apple.security.exception.files.absolute-path.read-write</key>
     <array>
       <string>/private/var/tmp/com.apple.messages/</string>
@@ -415,6 +411,7 @@
       <string>/Library/Preferences/com.apple.apsd.plist</string>
       <string>/AppleInternal/Library/Monaco/Environments.plist</string>
       <string>/private/var/db/com.apple.countryd/countryCodeCache.plist</string>
+      <string>/private/var/db/os_eligibility/eligibility.plist</string>
     </array>
     <key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
     <array>
@@ -489,6 +486,7 @@
       <string>com.apple.biome.compute.source</string>
       <string>com.apple.biome.compute.publisher.service.user</string>
       <string>com.apple.mediaanalysisd.analysis</string>
+      <string>com.apple.familycircle.agent</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>
     <array>

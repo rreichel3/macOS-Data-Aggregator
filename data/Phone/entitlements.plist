@@ -458,6 +458,7 @@
       <string>com.apple.photolibraryd</string>
       <string>com.apple.CalendarAgent.proxy</string>
       <string>com.apple.translationd</string>
+      <string>com.apple.familycircle.agent</string>
       <string>com.apple.AudioAccessoryAssetManagementXPCService</string>
       <string>com.apple.group-activities.conversationmanagerhost</string>
       <string>com.apple.biome.access.user</string>

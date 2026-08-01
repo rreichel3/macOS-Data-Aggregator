@@ -37,15 +37,15 @@
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E230</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25E230</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -55,7 +55,7 @@
     <key>LSLaunchDLabel</key>
     <string>com.apple.KeyboardAccessAgent</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>LSUIElement</key>
     <string>1</string>
     <key>NSAppleScriptEnabled</key>

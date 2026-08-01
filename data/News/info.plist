@@ -37,7 +37,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>11.4</string>
+    <string>11.5</string>
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleSupportedPlatforms</key>
@@ -59,21 +59,21 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>5871</string>
+    <string>5883</string>
     <key>CTIgnoreUserFonts</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E227</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25E227</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -97,7 +97,7 @@
       <string>com.apple.nanonews</string>
     </array>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>LSSupportedRegions</key>
     <array>
       <string>US</string>
@@ -114,7 +114,7 @@
     <key>NSContactsUsageDescription</key>
     <string />
     <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2025 Apple Inc. All rights reserved.</string>
+    <string>Copyright © 2026 Apple Inc. All rights reserved.</string>
     <key>NSLocationDefaultAccuracyReduced</key>
     <true />
     <key>NSLocationUsageDescription</key>

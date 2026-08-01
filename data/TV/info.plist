@@ -134,7 +134,7 @@
     <key>CFBundleExecutable</key>
     <string>TV</string>
     <key>CFBundleGetInfoString</key>
-    <string>TV 1.6.4.88, © 2019–2026 Apple Inc. All rights reserved.</string>
+    <string>TV 1.6.5.10, © 2019–2026 Apple Inc. All rights reserved.</string>
     <key>CFBundleHelpBookFolder</key>
     <string>TV.help</string>
     <key>CFBundleHelpBookName</key>
@@ -154,7 +154,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.6.4</string>
+    <string>1.6.5</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
@@ -202,7 +202,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1.6.4</string>
+    <string>1.6.5</string>
     <key>CPGroupActivities</key>
     <array>
       <dict>
@@ -219,27 +219,27 @@
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E224</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25E224</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
     <string>17E6107</string>
     <key>FullVersion</key>
-    <string>1.6.4.88</string>
+    <string>1.6.5.10</string>
     <key>HPDHelpProjectIdentifier</key>
     <string>tvapp-mac</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.video</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>LSRegisterWhenRegionChanges</key>
     <true />
     <key>LSRequiresNativeExecution</key>

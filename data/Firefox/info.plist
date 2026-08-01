@@ -189,7 +189,7 @@
     <key>CFBundleExecutable</key>
     <string>firefox</string>
     <key>CFBundleGetInfoString</key>
-    <string>Firefox 152.0.6</string>
+    <string>Firefox 153.0</string>
     <key>CFBundleIconFile</key>
     <string>firefox.icns</string>
     <key>CFBundleIconName</key>
@@ -203,7 +203,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>152.0.6</string>
+    <string>153.0</string>
     <key>CFBundleSignature</key>
     <string>MOZB</string>
     <key>CFBundleURLTypes</key>
@@ -238,7 +238,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>15226.7.13</string>
+    <string>15326.7.15</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.productivity</string>
     <key>LSEnvironment</key>
@@ -252,12 +252,20 @@
     <true />
     <key>LSMinimumSystemVersion</key>
     <string>10.15.0</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Firefox uses Apple Events to communicate with other applications.</string>
     <key>NSAppleScriptEnabled</key>
     <true />
     <key>NSCameraReactionEffectGesturesEnabledDefault</key>
     <false />
     <key>NSCameraUsageDescription</key>
     <string>Only sites you allow within Firefox will be able to use the camera.</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>Firefox needs access to your Desktop folder to open and save files at your request.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>Firefox needs access to your Documents folder to open and save files at your request.</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>Firefox needs access to your Downloads folder to save and manage downloaded files.</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>Only sites you allow within Firefox will be able to use location services.</string>
     <key>NSLocationUsageDescription</key>
@@ -266,8 +274,12 @@
     <string>Only sites you allow within Firefox will be able to use location services.</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Only sites you allow within Firefox will be able to use the microphone.</string>
+    <key>NSNetworkVolumesUsageDescription</key>
+    <string>Firefox needs access to network volumes to open and save files at your request.</string>
     <key>NSPrincipalClass</key>
     <string>GeckoNSApplication</string>
+    <key>NSRemovableVolumesUsageDescription</key>
+    <string>Firefox needs access to removable volumes to open and save files at your request.</string>
     <key>NSRequiresAquaSystemAppearance</key>
     <false />
     <key>NSSupportsAutomaticGraphicsSwitching</key>

@@ -67,21 +67,21 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>49.100.9</string>
+    <string>49.120.2</string>
     <key>CoreSpotlightContinuation</key>
     <true />
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
-    <string>25E223</string>
+    <string />
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25E223</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.4.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -91,7 +91,7 @@
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.healthcare-fitness</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.4</string>
+    <string>26.5</string>
     <key>LSRequiredFeatureFlags</key>
     <dict>
       <key>Journal/macOS</key>

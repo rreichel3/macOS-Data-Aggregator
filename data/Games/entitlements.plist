@@ -11,6 +11,8 @@
     <true />
     <key>com.apple.accounts.appleaccount.fullaccess</key>
     <true />
+    <key>com.apple.accounts.idms.fullaccess</key>
+    <true />
     <key>com.apple.application-identifier</key>
     <string>com.apple.games</string>
     <key>com.apple.authkit.client.internal</key>
@@ -40,6 +42,10 @@
     <key>com.apple.private.ClipServices.request-install-clips</key>
     <true />
     <key>com.apple.private.CoreAuthentication.SPI</key>
+    <true />
+    <key>com.apple.private.InstallCoordination.allowed</key>
+    <true />
+    <key>com.apple.private.InstallCoordination.uninstall</key>
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
     <true />
@@ -169,6 +175,7 @@
       <string>com.apple.passd.payment</string>
       <string>com.apple.payment.all-access</string>
       <string>com.apple.xpc.amsaccountsd</string>
+      <string>com.apple.installcoordinationd</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-write</key>
     <array>

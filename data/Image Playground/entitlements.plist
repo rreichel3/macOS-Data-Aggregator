@@ -72,6 +72,17 @@
     <true />
     <key>com.apple.private.intelligenceplatform.use-cases</key>
     <dict>
+      <key>GeneratedImageImageGeneration</key>
+      <dict>
+        <key>Streams</key>
+        <dict>
+          <key>GenerativeExperiences.GeneratedImageFeatures.ImageGeneration</key>
+          <dict>
+            <key>mode</key>
+            <string>read-write</string>
+          </dict>
+        </dict>
+      </dict>
       <key>GeneratedImageUserInteraction</key>
       <dict>
         <key>Streams</key>
