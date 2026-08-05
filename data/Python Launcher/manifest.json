@@ -1,6 +1,6 @@
 {
   "name": "Python Launcher",
-  "path": "/Applications/Python 3.12/Python Launcher.app",
+  "path": "/Applications/Python 3.13/Python Launcher.app",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",
@@ -15,9 +15,9 @@
   "sandbox": {
     "sandboxed": "Unknown",
     "sandbox_type": "Unknown",
-    "entitlements_count": "4",
-    "hardened_runtime": "Yes",
-    "library_validation": "Disabled",
+    "entitlements_count": "1",
+    "hardened_runtime": "Unknown",
+    "library_validation": "Enabled",
     "analysis_notes": []
   }
 }
