@@ -1,5 +1,5 @@
 Code Signing Information for IDLE
-Application Path: /Applications/Python 3.13/IDLE.app
+Application Path: /Applications/Python 3.11/IDLE.app
 
 Signature Status: Valid
 Authority: Unknown
