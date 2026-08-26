@@ -1,5 +1,5 @@
 Sandbox Analysis for IDLE
-Application Path: /Applications/Python 3.12/IDLE.app
+Application Path: /Applications/Python 3.13/IDLE.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
