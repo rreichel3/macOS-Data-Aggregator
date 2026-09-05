@@ -74,6 +74,8 @@
     <true />
     <key>com.apple.private.security.storage.MessagesMetaData</key>
     <true />
+    <key>com.apple.private.sharing.paired-contacts</key>
+    <true />
     <key>com.apple.private.suggestions</key>
     <true />
     <key>com.apple.private.suggestions.contacts</key>

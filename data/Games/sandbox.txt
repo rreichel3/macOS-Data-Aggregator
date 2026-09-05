@@ -3,7 +3,7 @@ Application Path: /System/Applications/Games.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 64
+Entitlements Count: 65
 Hardened Runtime: Unknown
 Library Validation: Enabled
 

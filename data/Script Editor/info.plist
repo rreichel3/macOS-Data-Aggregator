@@ -200,7 +200,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>234</string>
+    <string>235</string>
     <key>DTCompiler</key>
     <string>com.apple.compilers.llvm.clang.1_0</string>
     <key>DTPlatformBuild</key>
@@ -208,11 +208,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.5</string>
+    <string>26.6.1</string>
     <key>DTSDKBuild</key>
-    <string>25F63</string>
+    <string>25G74</string>
     <key>DTSDKName</key>
-    <string>macosx26.5.internal</string>
+    <string>macosx26.6.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -224,7 +224,7 @@
     <key>LSHasLocalizedDisplayName</key>
     <true />
     <key>LSMinimumSystemVersion</key>
-    <string>26.5</string>
+    <string>26.6</string>
     <key>NSAppleScriptEnabled</key>
     <string>YES</string>
     <key>NSMainNibFile</key>

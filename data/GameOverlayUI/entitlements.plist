@@ -158,6 +158,10 @@
     <true />
     <key>com.apple.runningboard.trustedtarget</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.servicesintelligenced</string>
+    </array>
     <key>com.apple.security.exception.files.absolute-path.read-write</key>
     <array>
       <string>/private/var/mobile/Library/CallHistoryDB/</string>
