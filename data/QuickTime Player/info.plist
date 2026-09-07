@@ -367,11 +367,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.6.1</string>
+    <string>26.5</string>
     <key>DTSDKBuild</key>
-    <string>25G74</string>
+    <string>25F63</string>
     <key>DTSDKName</key>
-    <string>macosx26.6.internal</string>
+    <string>macosx26.5.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -381,7 +381,7 @@
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.video</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.6</string>
+    <string>26.5</string>
     <key>MGAdditionalURLTypes</key>
     <array>
       <dict>

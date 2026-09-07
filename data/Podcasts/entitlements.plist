@@ -95,11 +95,6 @@
     <true />
     <key>com.apple.private.CoreAuthentication.SPI</key>
     <true />
-    <key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
-    <array>
-      <string>SerialNumber</string>
-      <string>UniqueDeviceID</string>
-    </array>
     <key>com.apple.private.ShazamKit</key>
     <true />
     <key>com.apple.private.accounts.allaccounts</key>
@@ -135,15 +130,6 @@
     <true />
     <key>com.apple.private.corespotlight.internal</key>
     <true />
-    <key>com.apple.private.fairplay.FPDI</key>
-    <dict>
-      <key>capabilities</key>
-      <array>
-        <integer>4014732562</integer>
-      </array>
-      <key>client-identifier</key>
-      <string>com.apple.podcasts</string>
-    </dict>
     <key>com.apple.private.fpsd.client</key>
     <true />
     <key>com.apple.private.hid.client.event-dispatch.internal</key>
@@ -281,7 +267,6 @@
       <string>com.apple.biome.access.system</string>
       <string>com.apple.absd</string>
       <string>com.apple.fairplayd.xpc</string>
-      <string>com.apple.fairplaydeviceidentityd</string>
       <string>com.apple.jetpackassetd.xpc</string>
     </array>
     <key>com.apple.security.exception.shared-preference.read-only</key>
@@ -329,7 +314,6 @@
       <string>com.apple.appstoreagent.xpc</string>
       <string>com.apple.itunescloud.music-subscription-status-service</string>
       <string>com.apple.cache_delete</string>
-      <string>com.apple.fairplaydeviceidentityd</string>
       <string>com.apple.jetpackassetd.xpc</string>
     </array>
     <key>com.apple.security.temporary-exception.sbpl</key>

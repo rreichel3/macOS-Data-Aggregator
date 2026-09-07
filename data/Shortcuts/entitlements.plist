@@ -68,8 +68,6 @@
     <true />
     <key>com.apple.frontboard.launchapplications</key>
     <true />
-    <key>com.apple.generativeexperiences.availabilityService</key>
-    <true />
     <key>com.apple.homekit.private-spi-access</key>
     <true />
     <key>com.apple.intelligenceplatform.InternalBiome</key>
@@ -202,8 +200,6 @@
     </array>
     <key>com.apple.private.security.storage.MobileAssetGenerativeModels</key>
     <true />
-    <key>com.apple.private.security.storage.os_eligibility.readonly</key>
-    <true />
     <key>com.apple.private.security.storage.proactivepredictions</key>
     <true />
     <key>com.apple.private.security.system-application</key>
@@ -304,7 +300,6 @@
       <string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/</string>
       <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_GenerativeModels/</string>
       <string>/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_UAF_FM_Overrides/</string>
-      <string>/private/var/db/eligibilityd/eligibility.plist</string>
       <string>/private/var/mobile/Library/com.apple.modelcatalog/sideload/</string>
     </array>
     <key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
@@ -343,7 +338,6 @@
       <string>com.apple.donotdisturb.service.non-launching</string>
       <string>com.apple.email.maild</string>
       <string>com.apple.feedbackd.centralized-feedback</string>
-      <string>com.apple.generativeexperiences.availabilityService</string>
       <string>com.apple.generativeexperiences.generativeexperiencessession</string>
       <string>com.apple.homed.xpc</string>
       <string>com.apple.intelligenceplatform.InternalBiome</string>
@@ -380,16 +374,13 @@
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-only</key>
     <array>
-      <string>com.apple.CloudSubscriptionFeatures.optIn</string>
       <string>com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation</string>
       <string>com.apple.SpeakSelection</string>
       <string>com.apple.TimeMachine</string>
       <string>com.apple.UnifiedAssetFramework</string>
-      <string>com.apple.gms.availability</string>
       <string>com.apple.modelcatalog.ajax</string>
       <string>com.apple.voiceservices</string>
       <string>com.apple.voicetrigger</string>
-      <string>kCFPreferencesAnyApplication</string>
     </array>
     <key>com.apple.security.temporary-exception.shared-preference.read-write</key>
     <array>
