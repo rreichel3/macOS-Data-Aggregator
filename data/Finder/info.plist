@@ -241,7 +241,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>1828.5.2</string>
+    <string>1828.6.1</string>
     <key>CSResourcesFileMapped</key>
     <true />
     <key>DTCompiler</key>
@@ -251,11 +251,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.5</string>
+    <string>26.6.1</string>
     <key>DTSDKBuild</key>
-    <string>25F63</string>
+    <string>25G74</string>
     <key>DTSDKName</key>
-    <string>macosx26.5.internal</string>
+    <string>macosx26.6.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -280,7 +280,7 @@
     <key>LSLaunchDLabel</key>
     <string>com.apple.Finder</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.5</string>
+    <string>26.6</string>
     <key>LSProcessControlValue</key>
     <string>None</string>
     <key>LSRequiresNativeExecution</key>

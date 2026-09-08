@@ -139,6 +139,10 @@
     </array>
     <key>com.apple.runningboard.jetengine</key>
     <true />
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.apple.servicesintelligenced</string>
+    </array>
     <key>com.apple.security.exception.files.absolute-path.read-only</key>
     <array>
       <string>/private/var/db/os_eligibility/eligibility.plist</string>

@@ -189,7 +189,7 @@
     <key>CFBundleExecutable</key>
     <string>firefox</string>
     <key>CFBundleGetInfoString</key>
-    <string>Firefox 153.0</string>
+    <string>Firefox 154.0.1</string>
     <key>CFBundleIconFile</key>
     <string>firefox.icns</string>
     <key>CFBundleIconName</key>
@@ -203,7 +203,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>153.0</string>
+    <string>154.0.1</string>
     <key>CFBundleSignature</key>
     <string>MOZB</string>
     <key>CFBundleURLTypes</key>
@@ -238,7 +238,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>15326.7.15</string>
+    <string>15426.8.24</string>
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.productivity</string>
     <key>LSEnvironment</key>
@@ -290,6 +290,8 @@
     </array>
     <key>SMPrivilegedExecutables</key>
     <dict>
+      <key>org.mozilla.dmgInstallHelper</key>
+      <string>identifier "org.mozilla.dmgInstallHelper" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = "43AQ936H96"</string>
       <key>org.mozilla.updater</key>
       <string>identifier "org.mozilla.updater" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = "43AQ936H96"</string>
     </dict>

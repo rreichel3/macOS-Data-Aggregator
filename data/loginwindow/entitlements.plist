@@ -65,6 +65,8 @@
     <true />
     <key>com.apple.private.SkyLight.user-accessibility-report</key>
     <true />
+    <key>com.apple.private.admin.writeconfig</key>
+    <true />
     <key>com.apple.private.appleevents.allowedtobesystemprocess</key>
     <true />
     <key>com.apple.private.applefdekeystore.deletepassphrase</key>

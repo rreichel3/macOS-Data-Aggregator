@@ -20,6 +20,8 @@
     </array>
     <key>com.apple.private.hid.client.event-monitor</key>
     <true />
+    <key>com.apple.private.screencapturekit.suppress-screen-indicator</key>
+    <true />
     <key>com.apple.private.skylight.capturegroupmodifier</key>
     <true />
     <key>com.apple.private.skylight.windowmanager</key>
