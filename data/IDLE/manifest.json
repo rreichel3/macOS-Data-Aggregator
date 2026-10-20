@@ -1,6 +1,6 @@
 {
   "name": "IDLE",
-  "path": "/Applications/Python 3.12/IDLE.app",
+  "path": "/Applications/Python 3.11/IDLE.app",
   "sdef_count": 0,
   "has_icon": true,
   "icon_path": "icon.png",
@@ -15,9 +15,9 @@
   "sandbox": {
     "sandboxed": "Unknown",
     "sandbox_type": "Unknown",
-    "entitlements_count": "0",
-    "hardened_runtime": "Unknown",
-    "library_validation": "Unknown",
+    "entitlements_count": "4",
+    "hardened_runtime": "Yes",
+    "library_validation": "Disabled",
     "analysis_notes": []
   }
 }
