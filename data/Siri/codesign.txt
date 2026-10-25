@@ -1,5 +1,5 @@
 Code Signing Information for Siri
-Application Path: /System/Library/CoreServices/Siri.app
+Application Path: /System/Applications/Siri.app
 
 Signature Status: Valid
 Authority: Unknown
