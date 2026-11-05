@@ -63,7 +63,7 @@
       </dict>
     </array>
     <key>CFBundleVersion</key>
-    <string>3976</string>
+    <string>3976.11</string>
     <key>CKSharingSupported</key>
     <true />
     <key>CTIgnoreUserFonts</key>
@@ -75,11 +75,11 @@
     <key>DTPlatformName</key>
     <string>macosx</string>
     <key>DTPlatformVersion</key>
-    <string>26.6.1</string>
+    <string>26.7.2</string>
     <key>DTSDKBuild</key>
-    <string>25G74</string>
+    <string>25G325</string>
     <key>DTSDKName</key>
-    <string>macosx26.6.internal</string>
+    <string>macosx26.7.internal</string>
     <key>DTXcode</key>
     <string>2630</string>
     <key>DTXcodeBuild</key>
@@ -87,7 +87,7 @@
     <key>LSApplicationCategoryType</key>
     <string>public.app-category.productivity</string>
     <key>LSMinimumSystemVersion</key>
-    <string>26.6</string>
+    <string>26.7</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoadsInWebContent</key>
