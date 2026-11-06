@@ -641,7 +641,6 @@ SYS_recvfrom
 SYS_recvfrom_nocancel
 SYS_recvmsg
 SYS_rename
-SYS_renameat
 SYS_renameatx_np
 SYS_rmdir
 SYS_sendmsg

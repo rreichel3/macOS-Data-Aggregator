@@ -9,8 +9,6 @@
     <true />
     <key>com.apple.keystore.device.smart-card</key>
     <true />
-    <key>com.apple.private.securityd.keychain-master-key-extraction</key>
-    <true />
     <key>com.apple.security.smartcard</key>
     <true />
   </dict>

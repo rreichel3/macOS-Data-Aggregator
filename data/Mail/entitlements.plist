@@ -69,8 +69,6 @@
     <true />
     <key>com.apple.modelmanager.inference</key>
     <true />
-    <key>com.apple.passes.add-silently</key>
-    <true />
     <key>com.apple.private.MobileContainerManager.lookup</key>
     <dict>
       <key>appData</key>

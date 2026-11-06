@@ -156,13 +156,9 @@
     <true />
     <key>com.apple.private.security.storage.universalaccess</key>
     <true />
-    <key>com.apple.private.securityd.keychain-master-key-extraction</key>
-    <true />
     <key>com.apple.private.securityd.stash</key>
     <true />
     <key>com.apple.private.sessionagent.sessionowner</key>
-    <true />
-    <key>com.apple.private.sessionagent.spi</key>
     <true />
     <key>com.apple.private.sessionmanager</key>
     <true />

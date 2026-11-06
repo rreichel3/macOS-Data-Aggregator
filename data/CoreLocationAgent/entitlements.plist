@@ -25,8 +25,6 @@
     </array>
     <key>com.apple.private.admin.writeconfig</key>
     <true />
-    <key>com.apple.private.locationd.corelocationagent</key>
-    <true />
     <key>com.apple.private.notificationcenterui.tcc</key>
     <true />
     <key>com.apple.wifi.events.private</key>

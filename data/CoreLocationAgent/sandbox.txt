@@ -3,7 +3,7 @@ Application Path: /System/Library/CoreServices/CoreLocationAgent.app
 
 Sandboxed: Unknown
 Sandbox Type: Unknown
-Entitlements Count: 17
+Entitlements Count: 16
 Hardened Runtime: Unknown
 Library Validation: Enabled
 
