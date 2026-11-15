@@ -1,5 +1,5 @@
 Code Signing Information for Python Launcher
-Application Path: /Applications/Python 3.11/Python Launcher.app
+Application Path: /Applications/Python 3.12/Python Launcher.app
 
 Signature Status: Valid
 Authority: Unknown
